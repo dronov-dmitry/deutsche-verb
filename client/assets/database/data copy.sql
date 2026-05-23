@@ -1,0 +1,5887 @@
+﻿INSERT OR IGNORE INTO verbs (id, infinitive, translation, translation_uk, type, past_participle, preterite, auxiliary_verb, level, example_sentence, example_translation) VALUES
+
+(1, 'machen', 'делать', 'робити', 'regular', 'gemacht', 'machte', 'haben', 'A1', 'Ich mache meine Hausaufgaben.', 'Я делаю домашнее задание.')
+
+(2, 'gehen', 'идти', 'йти', 'irregular', 'gegangen', 'ging', 'sein', 'A1', 'Wir gehen heute ins Kino.', 'Мы сегодня идем в кино.'),
+
+(3, 'sagen', 'сказать', 'сказати', 'regular', 'gesagt', 'sagte', 'haben', 'A1', 'Er sagt die Wahrheit.', 'Он говорит правду.')
+
+(4, 'sehen', 'видеть', 'бачити', 'irregular', 'gesehen', 'sah', 'haben', 'A1', 'Sie sieht den Zug.', 'Она видит поезд.'),
+
+(5, 'sein', 'быть', 'бути', 'irregular', 'gewesen', 'war', 'sein', 'A1', 'Das ist ein Buch.', 'Это книга.'),
+
+(6, 'haben', 'иметь', 'мати', 'irregular', 'gehabt', 'hatte', 'haben', 'A1', 'Ich habe einen Hund.', 'У меня есть собака.'),
+
+(7, 'werden', 'становиться', 'ставати', 'irregular', 'geworden', 'wurde', 'sein', 'A1', 'Es wird kalt.', 'Становится холодно.'),
+
+(8, 'geben', 'давать', 'давати', 'irregular', 'gegeben', 'gab', 'haben', 'A1', 'Kannst du mir das Buch geben?', 'Ты можешь дать мне книгу?'),
+
+(9, 'kommen', 'приходить', 'приходити', 'irregular', 'gekommen', 'kam', 'sein', 'A1', 'Kommst du aus Deutschland?', 'Ты из Германии?'),
+
+(10, 'nehmen', 'брать', 'брати', 'irregular', 'genommen', 'nahm', 'haben', 'A1', 'Nimmst du den Bus?', 'Ты берешь автобус?'),
+
+(11, 'finden', 'находить', 'знаходити', 'irregular', 'gefunden', 'fand', 'haben', 'A1', 'Ich finde meine Schlüssel nicht.', 'Я не нахожу свои ключи.'),
+
+(12, 'sprechen', 'говорить', 'говорити', 'irregular', 'gesprochen', 'sprach', 'haben', 'A1', 'Sprichst du Deutsch?', 'Ты говоришь по-немецки?'),
+
+(13, 'fahren', 'ехать', 'їхати', 'irregular', 'gefahren', 'fuhr', 'sein', 'A1', 'Wir fahren nach Berlin.', 'Мы едем в Берлин.'),
+
+(14, 'essen', 'есть', 'їсти', 'irregular', 'gegessen', 'aß', 'haben', 'A1', 'Isst du gern Pizza?', 'Ты любишь есть пиццу?'),
+
+(15, 'trinken', 'пить', 'пити', 'irregular', 'getrunken', 'trank', 'haben', 'A1', 'Ich trinke Kaffee.', 'Я пью кофе.'),
+
+(16, 'schlafen', 'спать', 'спати', 'irregular', 'geschlafen', 'schlief', 'haben', 'A1', 'Das Kind schläft schon.', 'Ребенок уже спит.'),
+
+(17, 'schreiben', 'писать', 'писати', 'irregular', 'geschrieben', 'schrieb', 'haben', 'A1', 'Ich schreibe einen Brief.', 'Я пишу письмо.'),
+
+(18, 'lesen', 'читать', 'читати', 'irregular', 'gelesen', 'las', 'haben', 'A1', 'Ich lese gern Bücher.', 'Я люблю читать книги.'),
+
+(19, 'arbeiten', 'работать', 'працювати', 'regular', 'gearbeitet', 'arbeitete', 'haben', 'A1', 'Er arbeitet in einer Firma.', 'Он работает в фирме.')
+
+(20, 'heißen', 'называться', 'називатися', 'regular', 'geheißen', 'hieß', 'haben', 'A1', 'Wie heißt du?', 'Как тебя зовут?'),
+
+(21, 'wohnen', 'жить', 'жити', 'regular', 'gewohnt', 'wohnte', 'haben', 'A1', 'Ich wohne in Berlin.', 'Я живу в Берлине.')
+
+(22, 'kaufen', 'покупать', 'купувати', 'regular', 'gekauft', 'kaufte', 'haben', 'A1', 'Ich kaufe Brot im Supermarkt.', 'Я покупаю хлеб в супермаркете.')
+
+(23, 'spielen', 'играть', 'грати', 'regular', 'gespielt', 'spielte', 'haben', 'A1', 'Die Kinder spielen im Park.', 'Дети играют в парке.')
+
+(24, 'lernen', 'учить', 'вчити', 'regular', 'gelernt', 'lernte', 'haben', 'A1', 'Ich lerne Deutsch.', 'Я учу немецкий.')
+
+(25, 'können', 'мочь', 'могти', 'mixed', 'gekonnt', 'konnte', 'haben', 'A1', 'Ich kann gut schwimmen.', 'Я хорошо умею плавать.'),
+
+(26, 'müssen', 'должен', 'мусити', 'mixed', 'gemusst', 'musste', 'haben', 'A1', 'Ich muss jetzt gehen.', 'Я должен сейчас идти.'),
+
+(27, 'wollen', 'хотеть', 'хотіти', 'mixed', 'gewollt', 'wollte', 'haben', 'A1', 'Ich will Deutsch lernen.', 'Я хочу учить немецкий.'),
+
+(28, 'wissen', 'знать', 'знати', 'mixed', 'gewusst', 'wusste', 'haben', 'A1', 'Ich weiß die Antwort.', 'Я знаю ответ.'),
+
+(29, 'bringen', 'приносить', 'приносити', 'mixed', 'gebracht', 'brachte', 'haben', 'A1', 'Bringst du mir Wasser?', 'Ты принесешь мне воды?'),
+
+(30, 'suchen', 'искать', 'шукати', 'regular', 'gesucht', 'suchte', 'haben', 'A1', 'Ich suche meine Brille.', 'Я ищу свои очки.')
+
+(31, 'zeigen', 'показывать', 'показувати', 'regular', 'gezeigt', 'zeigte', 'haben', 'A1', 'Zeig mir den Weg!', 'Покажи мне дорогу!')
+
+(32, 'fragen', 'спрашивать', 'питати', 'regular', 'gefragt', 'fragte', 'haben', 'A1', 'Er fragt nach dem Preis.', 'Он спрашивает о цене.')
+
+(33, 'antworten', 'отвечать', 'відповідати', 'regular', 'angetwortet', 'twortete an', 'haben', 'A1', 'Sie antwortet auf die Frage.', 'Она отвечает на вопрос.')
+
+(34, 'öffnen', 'открывать', 'відкривати', 'regular', 'geöffnet', 'öffnete', 'haben', 'A1', 'Öffne bitte das Fenster!', 'Открой, пожалуйста, окно!')
+
+(35, 'schließen', 'закрывать', 'закривати', 'irregular', 'geschlossen', 'schloss', 'haben', 'A1', 'Schließ bitte die Tür!', 'Закрой, пожалуйста, дверь!'),
+
+(36, 'reisen', 'путешествовать', 'подорожувати', 'regular', 'gereist', 'reiste', 'sein', 'A1', 'Ich reise gern nach Italien.', 'Я люблю путешествовать в Италию.')
+
+(37, 'tanzen', 'танцевать', 'танцювати', 'regular', 'getanzt', 'tanzte', 'haben', 'A1', 'Sie tanzt sehr gut.', 'Она очень хорошо танцует.')
+
+(38, 'singen', 'петь', 'співати', 'irregular', 'gesungen', 'sang', 'haben', 'A1', 'Wir singen ein Lied.', 'Мы поем песню.'),
+
+(39, 'lachen', 'смеяться', 'сміятися', 'regular', 'gelacht', 'lachte', 'haben', 'A1', 'Die Kinder lachen laut.', 'Дети громко смеются.')
+
+(40, 'weinen', 'плакать', 'плакати', 'regular', 'geweint', 'weinte', 'haben', 'A1', 'Das Baby weint.', 'Ребенок плачет.')
+
+(41, 'helfen', 'помогать', 'допомагати', 'irregular', 'geholfen', 'half', 'haben', 'A1', 'Kann ich dir helfen?', 'Я могу тебе помочь?'),
+
+(42, 'danken', 'благодарить', 'дякувати', 'regular', 'dagenkt', 'nkte da', 'haben', 'A1', 'Ich danke dir herzlich.', 'Я сердечно благодарю тебя.')
+
+(43, 'kochen', 'готовить', 'готувати', 'regular', 'gekocht', 'kochte', 'haben', 'A1', 'Sie kocht heute Abend.', 'Она готовит сегодня вечером.')
+
+(44, 'träumen', 'мечтать', 'мріяти', 'regular', 'geträumt', 'träumte', 'haben', 'A1', 'Ich träume von einer Reise.', 'Я мечтаю о путешествии.')
+
+(45, 'lieben', 'любить', '', 'regular', 'geliebt', 'liebte', 'haben', 'A1', 'Ich liebe dich.', 'Я люблю тебя.')
+
+(46, 'dürfen', 'мочь (разрешение)', 'могти (дозвіл)', 'mixed', 'gedurft', 'durfte', 'haben', 'A1', 'Darf ich hier parken?', 'Мне можно здесь парковаться?'),
+
+(47, 'sollen', 'быть должным', 'бути повинним', 'mixed', 'gesollt', 'sollte', 'haben', 'A1', 'Soll ich das Fenster öffnen?', 'Мне открыть окно?'),
+
+(48, 'verstehen', 'понимать', 'розуміти', 'irregular', 'verstanden', 'verstand', 'haben', 'A2', 'Verstehst du die Frage?', 'Ты понимаешь вопрос?'),
+
+(49, 'denken', 'думать', 'думати', 'mixed', 'gedacht', 'dachte', 'haben', 'A2', 'Was denkst du darüber?', 'Что ты об этом думаешь?'),
+
+(50, 'vergessen', 'забывать', 'забувати', 'irregular', 'vergessen', 'vergaß', 'haben', 'A2', 'Ich habe meinen Schlüssel vergessen.', 'Я забыл свой ключ.'),
+
+(51, 'treffen', 'встречать', 'зустрічати', 'irregular', 'getroffen', 'traf', 'haben', 'A2', 'Ich treffe meine Freunde.', 'Я встречаю своих друзей.'),
+
+(52, 'laufen', 'бежать', 'бігти', 'irregular', 'gelaufen', 'lief', 'sein', 'A2', 'Er läuft jeden Morgen.', 'Он бегает каждое утро.'),
+
+(53, 'lassen', 'позволять', 'дозволяти', 'irregular', 'gelassen', 'ließ', 'haben', 'A2', 'Lass mich in Ruhe!', 'Оставь меня в покое!'),
+
+(54, 'halten', 'держать', 'тримати', 'irregular', 'gehalten', 'hielt', 'haben', 'A2', 'Kannst du das bitte halten?', 'Ты можешь это подержать?'),
+
+(55, 'ziehen', 'тянуть', 'тягнути', 'irregular', 'gezogen', 'zog', 'haben', 'A2', 'Der Hund zieht an der Leine.', 'Собака тянет поводок.'),
+
+(56, 'tragen', 'носить', '', 'irregular', 'getragen', 'trug', 'haben', 'A2', 'Sie trägt ein Kleid.', 'Она носит платье.'),
+
+(57, 'fallen', 'падать', 'падати', 'irregular', 'gefallen', 'fiel', 'sein', 'A2', 'Das Blatt fällt vom Baum.', 'Лист падает с дерева.'),
+
+(58, 'fangen', 'ловить', 'ловити', 'irregular', 'gefangen', 'fing', 'haben', 'A2', 'Die Katze fängt eine Maus.', 'Кошка ловит мышь.'),
+
+(59, 'hängen', 'висеть', 'висіти', 'irregular', 'gehangen', 'hing', 'haben', 'A2', 'Das Bild hängt an der Wand.', 'Картина висит на стене.'),
+
+(60, 'werfen', 'бросать', 'кидати', 'irregular', 'geworfen', 'warf', 'haben', 'A2', 'Wirf den Ball!', 'Брось мяч!'),
+
+(61, 'steigen', 'подниматься', 'підніматися', 'irregular', 'gestiegen', 'stieg', 'sein', 'A2', 'Die Preise steigen.', 'Цены растут.'),
+
+(62, 'fliegen', 'летать', 'літати', 'irregular', 'geflogen', 'flog', 'sein', 'A2', 'Wir fliegen nach Spanien.', 'Мы летим в Испанию.'),
+
+(63, 'schwimmen', 'плавать', 'плавати', 'irregular', 'geschwommen', 'schwamm', 'sein', 'A2', 'Er schwimmt im See.', 'Он плавает в озере.'),
+
+(64, 'springen', 'прыгать', 'стрибати', 'irregular', 'gesprungen', 'sprang', 'sein', 'A2', 'Das Kind springt ins Wasser.', 'Ребенок прыгает в воду.'),
+
+(65, 'sitzen', 'сидеть', 'сидіти', 'irregular', 'gesessen', 'saß', 'haben', 'A2', 'Wir sitzen im Park.', 'Мы сидим в парке.'),
+
+(66, 'stehen', 'стоять', 'стояти', 'irregular', 'gestanden', 'stand', 'haben', 'A2', 'Das Glas steht auf dem Regal.', 'Стакан стоит на полке.'),
+
+(67, 'liegen', 'лежать', 'лежати', 'irregular', 'gelegen', 'lag', 'haben', 'A2', 'Das Buch liegt auf dem Tisch.', 'Книга лежит на столе.'),
+
+(68, 'tun', 'делать', 'робити', 'irregular', 'getan', 'tat', 'haben', 'A2', 'Was tust du da?', 'Что ты там делаешь?'),
+
+(69, 'waschen', 'мыть', '', 'irregular', 'gewaschen', 'wusch', 'haben', 'A2', 'Ich wasche meine Hände.', 'Я мою руки.'),
+
+(70, 'anrufen', 'звонить', '', 'irregular', 'angerufen', 'rief an', 'haben', 'A2', 'Ich rufe dich morgen an.', 'Я позвоню тебе завтра.'),
+
+(71, 'einladen', 'приглашать', '', 'irregular', 'eingeladen', 'lud ein', 'haben', 'A2', 'Er lädt mich zur Party ein.', 'Он приглашает меня на вечеринку.'),
+
+(72, 'bezahlen', 'платить', '', 'regular', 'bezahlt', 'bezahlte', 'haben', 'A2', 'Ich bezahle die Rechnung.', 'Я оплачиваю счет.')
+
+(73, 'erklären', 'объяснять', '', 'regular', 'erklärt', 'erklärte', 'haben', 'A2', 'Kannst du das erklären?', 'Ты можешь это объяснить?')
+
+(74, 'erzählen', 'рассказывать', '', 'regular', 'erzählt', 'erzählte', 'haben', 'A2', 'Er erzählt eine Geschichte.', 'Он рассказывает историю.')
+
+(75, 'folgen', 'следовать', '', 'regular', 'gefolgt', 'folgte', 'sein', 'A2', 'Folge mir!', 'Следуй за мной!')
+
+(76, 'interessieren', 'интересовать', '', 'regular', 'interessiert', 'interessierte', 'haben', 'A2', 'Das interessiert mich sehr.', 'Это меня очень интересует.')
+
+(77, 'passieren', 'случаться', '', 'regular', 'passiert', 'passierte', 'sein', 'A2', 'Was ist passiert?', 'Что случилось?')
+
+(78, 'schicken', 'посылать', '', 'regular', 'geschickt', 'schickte', 'haben', 'A2', 'Ich schicke dir eine Nachricht.', 'Я отправляю тебе сообщение.')
+
+(79, 'schmecken', 'быть вкусным', '', 'regular', 'geschmeckt', 'schmeckte', 'haben', 'A2', 'Das Essen schmeckt gut.', 'Еда вкусная.')
+
+(80, 'wünschen', 'желать', '', 'regular', 'gewünscht', 'wünschte', 'haben', 'A2', 'Ich wünsche dir alles Gute!', 'Я желаю тебе всего хорошего!')
+
+(81, 'wiederholen', 'повторять', '', 'regular', 'gewiederholt', 'wiederholte', 'haben', 'A2', 'Wiederhole bitte den Satz.', 'Повтори, пожалуйста, предложение.')
+
+(82, 'zeichnen', 'рисовать', '', 'regular', 'gezeichnet', 'zeichnete', 'haben', 'A2', 'Das Kind zeichnet ein Bild.', 'Ребенок рисует картинку.')
+
+(83, 'putzen', 'чистить', '', 'regular', 'geputzt', 'putzte', 'haben', 'A2', 'Ich putze meine Zähne.', 'Я чищу зубы.')
+
+(84, 'rechnen', 'считать', '', 'regular', 'gerechnet', 'rechnete', 'haben', 'A2', 'Er rechnet schnell.', 'Он быстро считает.')
+
+(85, 'bedeuten', 'означать', '', 'regular', 'bedeutet', 'bedeutete', 'haben', 'A2', 'Was bedeutet dieses Wort?', 'Что означает это слово?')
+
+(86, 'beginnen', 'начинать', '', 'irregular', 'begonnen', 'begann', 'haben', 'A2', 'Der Unterricht beginnt um neun.', 'Урок начинается в девять.'),
+
+(87, 'bekommen', 'получать', '', 'irregular', 'bekommen', 'bekam', 'haben', 'A2', 'Ich bekomme ein Geschenk.', 'Я получаю подарок.'),
+
+(88, 'legen', 'класть', 'класти', 'regular', 'gelegt', 'legte', 'haben', 'B1', 'Ich lege das Buch auf den Tisch.', 'Я кладу книгу на стол.')
+
+(89, 'stellen', 'ставить', 'ставити', 'regular', 'gestellt', 'stellte', 'haben', 'B1', 'Stell die Tassen auf den Tisch!', 'Поставь чашки на стол!')
+
+(90, 'setzen', 'сажать', 'садити', 'regular', 'gesetzt', 'setzte', 'haben', 'B1', 'Sie setzt das Kind auf den Stuhl.', 'Она сажает ребенка на стул.')
+
+(91, 'drücken', 'давить', 'тиснути', 'regular', 'gedrückt', 'drückte', 'haben', 'B1', 'Drücke die Taste!', 'Нажми на кнопку!')
+
+(92, 'biegen', 'гнуть', 'гнути', 'irregular', 'gebogen', 'bog', 'haben', 'B1', 'Der Ast biegt sich im Wind.', 'Ветка гнется на ветру.'),
+
+(93, 'brechen', 'ломать', 'ламати', 'irregular', 'gebrochen', 'brach', 'haben', 'B1', 'Das Glas ist gebrochen.', 'Стакан разбился.'),
+
+(94, 'erfinden', 'изобретать', 'винаходити', 'irregular', 'erfunden', 'erfand', 'haben', 'B1', 'Wer hat das erfunden?', 'Кто это изобрел?'),
+
+(95, 'erlauben', 'разрешать', 'дозволяти', 'regular', 'erlaubt', 'erlaubte', 'haben', 'B1', 'Die Eltern erlauben es.', 'Родители это разрешают.')
+
+(96, 'erscheinen', 'появляться', 'з''''являтися', 'irregular', 'erschienen', 'erschien', 'sein', 'B1', 'Die Sonne erscheint am Horizont.', 'Солнце появляется на горизонте.'),
+
+(97, 'fliehen', 'убегать', 'тікати', 'irregular', 'geflohen', 'floh', 'sein', 'B1', 'Der Täter flieht vom Tatort.', 'Преступник убегает с места преступления.'),
+
+(98, 'fließen', 'течь', 'текти', 'irregular', 'geflossen', 'floss', 'sein', 'B1', 'Der Fluss fließt ins Meer.', 'Река впадает в море.'),
+
+(99, 'frieren', 'мерзнуть', 'мерзнути', 'irregular', 'gefroren', 'fror', 'haben', 'B1', 'Ich friere im Winter.', 'Я мерзну зимой.'),
+
+(100, 'genießen', 'наслаждаться', 'насолоджуватися', 'irregular', 'genossen', 'genoss', 'haben', 'B1', 'Ich genieße das gute Wetter.', 'Я наслаждаюсь хорошей погодой.'),
+
+(101, 'gewinnen', 'выигрывать', 'вигравати', 'irregular', 'gewonnen', 'gewann', 'haben', 'B1', 'Wir haben das Spiel gewonnen.', 'Мы выиграли игру.'),
+
+(102, 'greifen', 'хватать', 'хапати', 'irregular', 'gegriffen', 'griff', 'haben', 'B1', 'Er greift nach dem Glas.', 'Он хватается за стакан.'),
+
+(103, 'kriechen', 'ползти', 'повзти', 'irregular', 'gekrochen', 'kroch', 'sein', 'B1', 'Das Baby kriecht auf dem Boden.', 'Ребенок ползает по полу.'),
+
+(104, 'leiden', 'страдать', 'страждати', 'irregular', 'gelitten', 'litt', 'haben', 'B1', 'Er leidet unter Schmerzen.', 'Он страдает от боли.'),
+
+(105, 'leihen', 'одалживать', 'позичати', 'irregular', 'geliehen', 'lieh', 'haben', 'B1', 'Kannst du mir Geld leihen?', 'Ты можешь одолжить мне деньги?'),
+
+(106, 'lügen', 'лгать', 'брехати', 'irregular', 'gelogen', 'log', 'haben', 'B1', 'Er lügt nie.', 'Он никогда не лжет.'),
+
+(107, 'messen', 'измерять', 'вимірювати', 'irregular', 'gemessen', 'maß', 'haben', 'B1', 'Der Arzt misst den Blutdruck.', 'Врач измеряет давление.'),
+
+(108, 'raten', 'советовать', 'радити', 'irregular', 'geraten', 'riet', 'haben', 'B1', 'Was rätst du mir?', 'Что ты мне советуешь?'),
+
+(109, 'reißen', 'рвать', 'рвати', 'irregular', 'gerissen', 'riss', 'haben', 'B1', 'Das Papier reißt leicht.', 'Бумага легко рвется.'),
+
+(110, 'riechen', 'нюхать', 'нюхати', 'irregular', 'gerochen', 'roch', 'haben', 'B1', 'Die Blume riecht gut.', 'Цветок хорошо пахнет.'),
+
+(111, 'rufen', 'кричать', 'кричати', 'irregular', 'gerufen', 'rief', 'haben', 'B1', 'Er ruft nach Hilfe.', 'Он зовет на помощь.'),
+
+(112, 'schieben', 'толкать', 'штовхати', 'irregular', 'geschoben', 'schob', 'haben', 'B1', 'Schieb den Tisch zur Seite!', 'Отодвинь стол в сторону!'),
+
+(113, 'schießen', 'стрелять', 'стріляти', 'irregular', 'geschossen', 'schoss', 'haben', 'B1', 'Der Jäger schießt nicht.', 'Охотник не стреляет.'),
+
+(114, 'schlagen', 'бить', 'бити', 'irregular', 'geschlagen', 'schlug', 'haben', 'B1', 'Das Herz schlägt schnell.', 'Сердце бьется быстро.'),
+
+(115, 'schneiden', 'резать', 'різати', 'irregular', 'geschnitten', 'schnitt', 'haben', 'B1', 'Schneide das Brot in Scheiben.', 'Нарежь хлеб ломтиками.'),
+
+(116, 'schreien', 'кричать', 'кричати', 'irregular', 'geschrien', 'schrie', 'haben', 'B1', 'Die Kinder schreien vor Freude.', 'Дети кричат от радости.'),
+
+(117, 'schweigen', 'молчать', 'мовчати', 'irregular', 'geschwiegen', 'schwieg', 'haben', 'B1', 'Er schweigt die ganze Zeit.', 'Он молчит все время.'),
+
+(118, 'schwingen', 'качать', 'гойдати', 'irregular', 'geschwungen', 'schwang', 'haben', 'B1', 'Die Tür schwingt im Wind.', 'Дверь качается на ветру.'),
+
+(119, 'sinken', 'тонуть', 'тонути', 'irregular', 'gesunken', 'sank', 'sein', 'B1', 'Das Schiff sinkt langsam.', 'Корабль медленно тонет.'),
+
+(120, 'spinnen', 'прясть', 'прясти', 'irregular', 'gesponnen', 'spann', 'haben', 'B1', 'Die Spinne spinnt ein Netz.', 'Паук плетет паутину.'),
+
+(121, 'stechen', 'колоть', 'колоти', 'irregular', 'gestochen', 'stach', 'haben', 'B1', 'Die Biene sticht.', 'Пчела жалит.'),
+
+(122, 'stehlen', 'воровать', 'красти', 'irregular', 'gestohlen', 'stahl', 'haben', 'B1', 'Jemand hat mein Fahrrad gestohlen.', 'Кто-то украл мой велосипед.'),
+
+(123, 'sterben', 'умирать', 'вмирати', 'irregular', 'gestorben', 'starb', 'sein', 'B1', 'Die Blume stirbt ohne Wasser.', 'Цветок умирает без воды.'),
+
+(124, 'stoßen', 'толкать', 'штовхати', 'irregular', 'gestoßen', 'stieß', 'haben', 'B1', 'Er stößt gegen die Tür.', 'Он ударяется о дверь.'),
+
+(125, 'streichen', 'красить', '', 'irregular', 'gestrichen', 'strich', 'haben', 'B1', 'Wir streichen die Wand weiß.', 'Мы красим стену в белый.'),
+
+(126, 'streiten', 'ссориться', 'сваритися', 'irregular', 'gestritten', 'stritt', 'haben', 'B1', 'Die Kinder streiten sich.', 'Дети ссорятся.'),
+
+(127, 'treiben', 'гнать', 'гнати', 'irregular', 'getrieben', 'trieb', 'haben', 'B1', 'Der Wind treibt die Wolken.', 'Ветер гонит облака.'),
+
+(128, 'treten', 'ступать', 'ступати', 'irregular', 'getreten', 'trat', 'sein', 'B1', 'Tritt nicht auf die Blumen!', 'Не наступай на цветы!'),
+
+(129, 'verderben', 'портить', 'псувати', 'irregular', 'verdorben', 'verdarb', 'haben', 'B1', 'Die Hitze verdirbt das Essen.', 'Жара портит еду.'),
+
+(130, 'verlieren', 'терять', 'губити', 'irregular', 'verloren', 'verlor', 'haben', 'B1', 'Ich habe meine Brieftasche verloren.', 'Я потерял свой бумажник.'),
+
+(131, 'verzeihen', 'прощать', 'прощати', 'irregular', 'verziehen', 'verzieh', 'haben', 'B1', 'Verzeih mir bitte!', 'Прости меня, пожалуйста!'),
+
+(132, 'wachsen', 'расти', 'рости', 'irregular', 'gewachsen', 'wuchs', 'sein', 'B1', 'Die Pflanze wächst schnell.', 'Растение быстро растет.'),
+
+(133, 'wiegen', 'взвешивать', 'зважувати', 'irregular', 'gewogen', 'wog', 'haben', 'B1', 'Sie wiegt das Mehl.', 'Она взвешивает муку.'),
+
+(134, 'zwingen', 'заставлять', 'змушувати', 'irregular', 'gezwungen', 'zwang', 'haben', 'B1', 'Niemand zwingt dich.', 'Никто тебя не заставляет.'),
+
+(135, 'vorbereiten', 'готовить', 'готувати', 'regular', 'vorbereitet', 'bereitete vor', 'haben', 'B1', 'Ich bereite mich auf die Prüfung vor.', 'Я готовлюсь к экзамену.'),
+
+(136, 'verdienen', 'зарабатывать', 'заробляти', 'regular', 'verdient', 'verdiente', 'haben', 'B1', 'Er verdient gut.', 'Он хорошо зарабатывает.')
+
+(137, 'verbringen', 'проводить', 'проводити', 'irregular', 'verbracht', 'verbrachte', 'haben', 'B1', 'Wir verbringen den Urlaub am Meer.', 'Мы проводим отпуск у моря.'),
+
+(138, 'versuchen', 'пытаться', 'намагатися', 'regular', 'versucht', 'versuchte', 'haben', 'B1', 'Ich versuche mein Bestes.', 'Я стараюсь изо всех сил.')
+
+(139, 'vorstellen', 'представлять', 'представляти', 'regular', 'vorgestellt', 'stellte vor', 'haben', 'B1', 'Darf ich mich vorstellen?', 'Разрешите представиться?')
+
+(140, 'bestehen', 'состоять', 'складатися', 'irregular', 'bestanden', 'bestand', 'haben', 'B1', 'Die Prüfung besteht aus drei Teilen.', 'Экзамен состоит из трех частей.'),
+
+(141, 'betrachten', 'рассматривать', 'розглядати', 'regular', 'betrachtet', 'betrachtete', 'haben', 'B1', 'Er betrachtet das Bild genau.', 'Он внимательно рассматривает картину.')
+
+(142, 'bewegen', 'двигать', 'рухати', 'regular', 'bewegt', 'bewegte', 'haben', 'B1', 'Beweg dich nicht!', 'Не двигайся!'),
+
+(143, 'einkaufen', 'покупать', 'купувати', 'regular', 'eingekauft', 'kaufte ein', 'haben', 'B1', 'Ich kaufe morgen ein.', 'Я иду за покупками завтра.')
+
+(144, 'entscheiden', 'решать', 'вирішувати', 'irregular', 'entschieden', 'entschied', 'haben', 'B1', 'Ich muss mich schnell entscheiden.', 'Я должен быстро решиться.'),
+
+(145, 'empfangen', 'принимать', 'приймати', 'irregular', 'empfangen', 'empfing', 'haben', 'B1', 'Wir empfangen Gäste.', 'Мы принимаем гостей.'),
+
+(146, 'empfehlen', 'рекомендовать', 'рекомендувати', 'irregular', 'empfohlen', 'empfahl', 'haben', 'B1', 'Ich empfehle dieses Restaurant.', 'Я рекомендую этот ресторан.'),
+
+(147, 'entdecken', 'обнаруживать', 'виявляти', 'regular', 'entdeckt', 'entdeckte', 'haben', 'B1', 'Kolumbus entdeckte Amerika.', 'Колумб открыл Америку.')
+
+(148, 'enthalten', 'содержать', 'містити', 'irregular', 'enthalten', 'enthielt', 'haben', 'B1', 'Die Flasche enthält Wasser.', 'Бутылка содержит воду.'),
+
+(149, 'entwickeln', 'развивать', 'розвивати', 'regular', 'entwickelt', 'entwickelte', 'haben', 'B1', 'Das Unternehmen entwickelt neue Produkte.', 'Компания разрабатывает новые продукты.')
+
+(150, 'erreichen', 'достигать', 'досягати', 'regular', 'erreicht', 'erreichte', 'haben', 'B1', 'Wir erreichen das Ziel.', 'Мы достигаем цели.')
+
+(151, 'beschreiben', 'описывать', 'описувати', 'irregular', 'beschrieben', 'beschrieb', 'haben', 'B2', 'Kannst du den Weg beschreiben?', 'Ты можешь описать дорогу?'),
+
+(152, 'bieten', 'предлагать', 'пропонувати', 'irregular', 'geboten', 'bot', 'haben', 'B2', 'Die Firma bietet gute Leistungen.', 'Фирма предлагает хорошие услуги.'),
+
+(153, 'genesen', 'выздоравливать', 'одужувати', 'irregular', 'genesen', 'genas', 'sein', 'B2', 'Der Patient genest langsam.', 'Пациент медленно выздоравливает.'),
+
+(154, 'unternehmen', 'предпринимать', 'здійснювати', 'irregular', 'unternommen', 'unternahm', 'haben', 'B2', 'Was möchtest du heute unternehmen?', 'Что ты хочешь предпринять сегодня?'),
+
+(155, 'ausschließen', 'исключать', 'виключати', 'irregular', 'ausgeschlossen', 'schloss aus', 'haben', 'B2', 'Ich schließe das nicht aus.', 'Я этого не исключаю.'),
+
+(156, 'behandeln', 'обрабатывать', 'обробляти', 'regular', 'behandelt', 'behandelte', 'haben', 'B2', 'Der Arzt behandelt den Patienten.', 'Врач лечит пациента.')
+
+(157, 'beschäftigen', 'занимать', 'займати', 'regular', 'beschäftigt', 'beschäftigte', 'haben', 'B2', 'Womit beschäftigst du dich?', 'Чем ты занимаешься?')
+
+(158, 'betreiben', 'заниматься', 'займатися', 'irregular', 'betrieben', 'betrieb', 'haben', 'B2', 'Er betreibt ein Geschäft.', 'Он управляет магазином.'),
+
+(159, 'beurteilen', 'оценивать', 'оцінювати', 'regular', 'beurteilt', 'beurteilte', 'haben', 'B2', 'Ich beurteile die Lage.', 'Я оцениваю ситуацию.')
+
+(160, 'bewerben', 'подавать заявку', 'подавати заявку', 'irregular', 'beworben', 'bewarb', 'haben', 'B2', 'Sie bewirbt sich um die Stelle.', 'Она подает заявку на эту должность.'),
+
+(161, 'beziehen', 'ссылаться', 'посилатися', 'irregular', 'bezogen', 'bezog', 'haben', 'B2', 'Worauf beziehst du dich?', 'На что ты ссылаешься?'),
+
+(162, 'einrichten', 'устраивать', 'влаштовувати', 'regular', 'eingerichtet', 'richtete ein', 'haben', 'B2', 'Wir richten die Wohnung ein.', 'Мы обставляем квартиру.')
+
+(163, 'entsprechen', 'соответствовать', 'відповідати', 'irregular', 'entsprochen', 'entsprach', 'haben', 'B2', 'Das entspricht nicht der Wahrheit.', 'Это не соответствует правде.'),
+
+(164, 'entstehen', 'возникать', 'виникати', 'irregular', 'entstanden', 'entstand', 'sein', 'B2', 'Aus der Idee entsteht ein Projekt.', 'Из идеи возникает проект.'),
+
+(165, 'erheben', 'поднимать', 'піднімати', 'irregular', 'erhoben', 'erhob', 'haben', 'B2', 'Er erhebt sein Glas.', 'Он поднимает свой бокал.'),
+
+(166, 'erkennen', 'узнавать', 'впізнавати', 'mixed', 'erkannt', 'erkannte', 'haben', 'B2', 'Ich erkenne dich nicht wieder.', 'Я тебя не узнаю.'),
+
+(167, 'ernennen', 'назначать', 'призначати', 'mixed', 'ernannt', 'ernannte', 'haben', 'B2', 'Er wird zum Chef ernannt.', 'Его назначают начальником.'),
+
+(168, 'ersetzen', 'заменять', 'замінювати', 'regular', 'ersetzt', 'ersetzte', 'haben', 'B2', 'Kannst du mich ersetzen?', 'Ты можешь меня заменить?')
+
+(169, 'erwähnen', 'упоминать', 'згадувати', 'regular', 'erwähnt', 'erwähnte', 'haben', 'B2', 'Er erwähnte deinen Namen.', 'Он упомянул твое имя.')
+
+(170, 'erwarten', 'ожидать', 'очікувати', 'regular', 'erwartet', 'erwartete', 'haben', 'B2', 'Ich erwarte eine Antwort.', 'Я ожидаю ответ.')
+
+(171, 'erzeugen', 'производить', 'виробляти', 'regular', 'erzeugt', 'erzeugte', 'haben', 'B2', 'Die Maschine erzeugt Strom.', 'Машина производит электричество.')
+
+(172, 'feststellen', 'устанавливать', 'встановлювати', 'regular', 'festgestellt', 'stellte fest', 'haben', 'B2', 'Der Arzt stellt die Diagnose fest.', 'Врач устанавливает диагноз.')
+
+(173, 'herstellen', 'производить', 'виробляти', 'regular', 'hergestellt', 'stellte her', 'haben', 'B2', 'Die Firma stellt Möbel her.', 'Фирма производит мебель.')
+
+(174, 'umgehen', 'обходить', 'обходити', 'irregular', 'umgangen', 'umging', 'haben', 'B2', 'Wir müssen das Problem umgehen.', 'Мы должны обойти эту проблему.'),
+
+(175, 'unterbrechen', 'прерывать', 'переривати', 'irregular', 'unterbrochen', 'unterbrach', 'haben', 'B2', 'Entschuldigung, ich möchte nicht unterbrechen.', 'Извините, я не хочу прерывать.'),
+
+(176, 'unterhalten', 'развлекать', 'розважати', 'irregular', 'unterhalten', 'unterhielt', 'haben', 'B2', 'Wir unterhalten uns über Bücher.', 'Мы беседуем о книгах.'),
+
+(177, 'unterscheiden', 'различать', 'розрізняти', 'irregular', 'unterschieden', 'unterschied', 'haben', 'B2', 'Kannst du die Vögel unterscheiden?', 'Ты можешь различить птиц?'),
+
+(178, 'untersuchen', 'исследовать', 'досліджувати', 'regular', 'geuntersucht', 'untersuchte', 'haben', 'B2', 'Der Arzt untersucht den Patienten.', 'Врач обследует пациента.')
+
+(179, 'verändern', 'изменять', 'змінювати', 'regular', 'verändert', 'veränderte', 'haben', 'B2', 'Das Leben verändert sich ständig.', 'Жизнь постоянно меняется.')
+
+(180, 'verbessern', 'улучшать', 'покращувати', 'regular', 'verbessert', 'verbesserte', 'haben', 'B2', 'Ich möchte mein Deutsch verbessern.', 'Я хочу улучшить свой немецкий.')
+
+(181, 'verbieten', 'запрещать', 'забороняти', 'irregular', 'verboten', 'verbot', 'haben', 'B2', 'Rauchen ist hier verboten.', 'Здесь курить запрещено.'),
+
+(182, 'verbinden', 'соединять', 'з''''єднувати', 'irregular', 'verbunden', 'verband', 'haben', 'B2', 'Diese Straße verbindet zwei Städte.', 'Эта дорога соединяет два города.'),
+
+(183, 'vereinbaren', 'договариваться', 'домовлятися', 'regular', 'vereinbart', 'vereinbarte', 'haben', 'B2', 'Wir vereinbaren einen Termin.', 'Мы договариваемся о встрече.')
+
+(184, 'verfolgen', 'преследовать', 'переслідувати', 'regular', 'verfolgt', 'verfolgte', 'haben', 'B2', 'Die Polizei verfolgt den Täter.', 'Полиция преследует преступника.')
+
+(185, 'verfügen', 'распоряжаться', 'розпоряджатися', 'regular', 'verfügt', 'verfügte', 'haben', 'B2', 'Er verfügt über viel Erfahrung.', 'Он обладает большим опытом.')
+
+(186, 'vergleichen', 'сравнивать', 'порівнювати', 'irregular', 'verglichen', 'verglich', 'haben', 'B2', 'Vergleiche die beiden Texte!', 'Сравни оба текста!'),
+
+(187, 'verhandeln', 'вести переговоры', 'вести переговори', 'regular', 'verhandelt', 'verhandelte', 'haben', 'B2', 'Sie verhandeln über den Preis.', 'Они ведут переговоры о цене.')
+
+(188, 'verkaufen', 'продавать', 'продавати', 'regular', 'verkauft', 'verkaufte', 'haben', 'B2', 'Das Haus wurde verkauft.', 'Дом был продан.')
+
+(189, 'verlangen', 'требовать', 'вимагати', 'regular', 'verlangt', 'verlangte', 'haben', 'B2', 'Ich verlange eine Erklärung.', 'Я требую объяснения.')
+
+(190, 'vermeiden', 'избегать', 'уникати', 'irregular', 'vermieden', 'vermied', 'haben', 'B2', 'Vermeide unnötige Risiken!', 'Избегай ненужных рисков!'),
+
+(191, 'veröffentlichen', 'публиковать', 'публікувати', 'regular', 'veröffentlicht', 'veröffentlichte', 'haben', 'B2', 'Der Artikel wurde veröffentlicht.', 'Статья была опубликована.')
+
+(192, 'verschieben', 'откладывать', 'відкладати', 'irregular', 'verschoben', 'verschob', 'haben', 'B2', 'Wir verschieben das Treffen.', 'Мы переносим встречу.'),
+
+(193, 'versichern', 'страховать', 'страхувати', 'regular', 'versichert', 'versicherte', 'haben', 'B2', 'Ich versichere mein Auto.', 'Я страхую свою машину.')
+
+(194, 'versorgen', 'снабжать', 'постачати', 'regular', 'versorgt', 'versorgte', 'haben', 'B2', 'Die Familie ist gut versorgt.', 'Семья хорошо обеспечена.')
+
+(195, 'verteilen', 'распределять', 'розподіляти', 'regular', 'verteilt', 'verteilte', 'haben', 'B2', 'Der Lehrer verteilt die Blätter.', 'Учитель раздает листы.')
+
+(196, 'vertrauen', 'доверять', 'довіряти', 'regular', 'vertraut', 'vertraute', 'haben', 'B2', 'Ich vertraue dir.', 'Я тебе доверяю.')
+
+(197, 'verwalten', 'управлять', 'керувати', 'regular', 'verwaltet', 'verwaltete', 'haben', 'B2', 'Er verwaltet das Vermögen.', 'Он управляет имуществом.')
+
+(198, 'verwenden', 'использовать', 'використовувати', 'regular', 'verwendet', 'verwendete', 'haben', 'B2', 'Welches Wort verwendet man hier?', 'Какое слово здесь используется?'),
+
+(199, 'verzichten', 'отказываться', 'відмовлятися', 'regular', 'verzichtet', 'verzichtete', 'haben', 'B2', 'Ich verzichte auf Zucker.', 'Я отказываюсь от сахара.')
+
+(200, 'vorwerfen', 'упрекать', 'дорікати', 'irregular', 'vorgeworfen', 'warf vor', 'haben', 'B2', 'Was wirfst du mir vor?', 'В чем ты меня упрекаешь?'),
+
+(201, 'widersprechen', 'возражать', 'заперечувати', 'irregular', 'widersprochen', 'widersprach', 'haben', 'B2', 'Ich widerspreche dir nicht.', 'Я тебе не возражаю.'),
+
+(202, 'zubereiten', 'готовить', 'готувати', 'regular', 'zubereitet', 'bereitete zu', 'haben', 'B2', 'Sie bereitet das Abendessen zu.', 'Она готовит ужин.'),
+
+(203, 'zusammenfassen', 'резюмировать', 'узагальнювати', 'regular', 'zusammengefasst', 'fasste zusammen', 'haben', 'B2', 'Fassen Sie den Text zusammen!', 'Обобщите текст!')
+
+(204, 'abschließen', 'завершать', 'завершувати', 'irregular', 'abgeschlossen', 'schloss ab', 'haben', 'C1', 'Wir schließen das Projekt ab.', 'Мы завершаем проект.'),
+
+(205, 'anerkennen', 'признавать', 'визнавати', 'mixed', 'anerkannt', 'erkannte an', 'haben', 'C1', 'Seine Leistung wurde anerkannt.', 'Его достижение было признано.'),
+
+(206, 'anpassen', 'приспосабливать', 'пристосовувати', 'regular', 'angepasst', 'passte an', 'haben', 'C1', 'Man muss sich den Regeln anpassen.', 'Нужно приспосабливаться к правилам.')
+
+(207, 'aufweisen', 'показывать', 'показувати', 'irregular', 'aufgewiesen', 'wies auf', 'haben', 'C1', 'Das Gerät weist Mängel auf.', 'Прибор показывает недостатки.'),
+
+(208, 'ausüben', 'осуществлять', 'здійснювати', 'regular', 'ausgeübt', 'übte aus', 'haben', 'C1', 'Er übt seinen Beruf mit Leidenschaft aus.', 'Он занимается своей профессией со страстью.')
+
+(209, 'beeinflussen', 'влиять', 'впливати', 'regular', 'beeinflusst', 'beeinflusste', 'haben', 'C1', 'Die Medien beeinflussen die Meinung.', 'СМИ влияют на мнение.')
+
+(210, 'befinden', 'находиться', 'знаходитися', 'irregular', 'befunden', 'befand', 'haben', 'C1', 'Das Museum befindet sich im Zentrum.', 'Музей находится в центре.'),
+
+(211, 'begleiten', 'сопровождать', 'супроводжувати', 'regular', 'begleitet', 'begleitete', 'haben', 'C1', 'Ich begleite dich nach Hause.', 'Я провожу тебя домой.'),
+
+(212, 'bekämpfen', 'бороться', 'боротися', 'regular', 'bekämpft', 'bekämpfte', 'haben', 'C1', 'Wir bekämpfen den Klimawandel.', 'Мы боремся с изменением климата.')
+
+(213, 'benutzen', 'использовать', 'використовувати', 'regular', 'benutzt', 'benutzte', 'haben', 'C1', 'Darf ich dein Telefon benutzen?', 'Можно воспользоваться твоим телефоном?')
+
+(214, 'berücksichtigen', 'учитывать', 'враховувати', 'regular', 'berücksichtigt', 'berücksichtigte', 'haben', 'C1', 'Wir müssen alle Faktoren berücksichtigen.', 'Мы должны учесть все факторы.')
+
+(215, 'beschließen', 'решать', 'вирішувати', 'irregular', 'beschlossen', 'beschloss', 'haben', 'C1', 'Der Vorstand beschließt die neue Strategie.', 'Правление утверждает новую стратегию.'),
+
+(216, 'bestätigen', 'подтверждать', 'підтверджувати', 'regular', 'bestätigt', 'bestätigte', 'haben', 'C1', 'Ich bestätige den Empfang.', 'Я подтверждаю получение.')
+
+(217, 'beteiligen', 'участвовать', 'брати участь', 'regular', 'beteiligt', 'beteiligte', 'haben', 'C1', 'Er beteiligt sich an dem Projekt.', 'Он участвует в проекте.')
+
+(218, 'betonen', 'подчеркивать', 'підкреслювати', 'regular', 'betont', 'betonte', 'haben', 'C1', 'Ich möchte betonen, wie wichtig das ist.', 'Я хочу подчеркнуть, как это важно.')
+
+(219, 'bewerten', 'оценивать', 'оцінювати', 'regular', 'bewertet', 'bewertete', 'haben', 'C1', 'Die Schüler bewerten den Unterricht.', 'Ученики оценивают урок.')
+
+(220, 'bezeichnen', 'обозначать', 'позначати', 'regular', 'bezeichnet', 'bezeichnete', 'haben', 'C1', 'Wie bezeichnet man dieses Phänomen?', 'Как обозначается этот феномен?')
+
+(221, 'einreichen', 'подавать', 'подавати', 'regular', 'eingereicht', 'reichte ein', 'haben', 'C1', 'Ich reiche die Bewerbung ein.', 'Я подаю заявление.')
+
+(222, 'erwerben', 'приобретать', 'придбати', 'irregular', 'erworben', 'erwarb', 'haben', 'C1', 'Er hat ein Haus erworben.', 'Он приобрел дом.'),
+
+(223, 'erziehen', 'воспитывать', 'виховувати', 'irregular', 'erzogen', 'erzog', 'haben', 'C1', 'Eltern erziehen ihre Kinder.', 'Родители воспитывают своих детей.'),
+
+(224, 'gestalten', 'оформлять', 'оформлювати', 'regular', 'gestaltet', 'gestaltete', 'haben', 'C1', 'Wir gestalten den Garten neu.', 'Мы оформляем сад заново.')
+
+(225, 'gewährleisten', 'гарантировать', 'гарантувати', 'regular', 'gewährleistet', 'gewährleistete', 'haben', 'C1', 'Die Qualität wird gewährleistet.', 'Качество гарантируется.')
+
+(226, 'herausfordern', 'вызывать', 'викликати', 'regular', 'herausgefordert', 'forderte heraus', 'haben', 'C1', 'Diese Aufgabe fordert mich heraus.', 'Это задание бросает мне вызов.')
+
+(227, 'nachweisen', 'доказывать', 'доводити', 'irregular', 'nachgewiesen', 'wies nach', 'haben', 'C1', 'Der Forscher weist die Theorie nach.', 'Исследователь доказывает теорию.'),
+
+(228, 'schätzen', 'ценить', 'цінувати', 'regular', 'geschätzt', 'schätzte', 'haben', 'C1', 'Ich schätze deine Hilfe sehr.', 'Я очень ценю твою помощь.')
+
+(229, 'stören', 'мешать', 'заважати', 'regular', 'gestört', 'störte', 'haben', 'C1', 'Die Musik stört mich beim Lernen.', 'Музыка мешает мне учиться.')
+
+(230, 'teilen', 'делить', 'ділити', 'regular', 'geteilt', 'teilte', 'haben', 'C1', 'Teile deine Meinung mit uns!', 'Поделись своим мнением с нами!')
+
+(231, 'überraschen', 'удивлять', 'дивувати', 'regular', 'geüberrascht', 'überraschte', 'haben', 'C1', 'Die Nachricht überrascht mich.', 'Новость меня удивляет.')
+
+(232, 'überzeugen', 'убеждать', 'переконувати', 'regular', 'geüberzeugt', 'überzeugte', 'haben', 'C1', 'Ich bin von deiner Idee überzeugt.', 'Я убежден в твоей идее.')
+
+(233, 'verhalten', 'вести себя', 'поводитися', 'irregular', 'verhalten', 'verhielt', 'haben', 'C1', 'Wie verhält man sich in dieser Situation?', 'Как вести себя в этой ситуации?'),
+
+(234, 'verleihen', 'одалживать', 'позичати', 'irregular', 'verliehen', 'verlieh', 'haben', 'C1', 'Die Universität verleiht den Titel.', 'Университет присваивает звание.'),
+
+(235, 'vermitteln', 'передавать', 'передавати', 'regular', 'vermittelt', 'vermittelte', 'haben', 'C1', 'Der Kurs vermittelt Grundkenntnisse.', 'Курс передает базовые знания.')
+
+(236, 'verschaffen', 'доставать', 'діставати', 'regular', 'verschafft', 'verschaffte', 'haben', 'C1', 'Ich verschaffe uns Eintrittskarten.', 'Я достаю нам входные билеты.'),
+
+(237, 'verstärken', 'усиливать', 'посилювати', 'regular', 'verstärkt', 'verstärkte', 'haben', 'C1', 'Wir verstärken das Team.', 'Мы усиливаем команду.')
+
+(238, 'verteidigen', 'защищать', 'захищати', 'regular', 'verteidigt', 'verteidigte', 'haben', 'C1', 'Der Anwalt verteidigt seinen Mandanten.', 'Адвокат защищает своего клиента.')
+
+(239, 'voraussetzen', 'предполагать', 'припускати', 'regular', 'vorausgesetzt', 'setzte voraus', 'haben', 'C1', 'Das setzt gute Kenntnisse voraus.', 'Это предполагает хорошие знания.')
+
+(240, 'weiterentwickeln', 'развивать', 'розвивати', 'regular', 'weitergeentwickelt', 'entwickelte weiter', 'haben', 'C1', 'Die Technologie wird weiterentwickelt.', 'Технология развивается дальше.')
+
+(241, 'widerlegen', 'опровергать', 'спростовувати', 'regular', 'widergelegt', 'legte wider', 'haben', 'C1', 'Die Theorie wurde widerlegt.', 'Теория была опровергнута.')
+
+(242, 'zumachen', 'закрывать', 'закривати', 'regular', 'zugemacht', 'machte zu', 'haben', 'C1', 'Mach bitte die Tür zu!', 'Закрой, пожалуйста, дверь!')
+
+(243, 'zustimmen', 'соглашаться', '', 'regular', 'zugestimmet', 'stimmete zu', 'haben', 'C1', 'Ich stimme dir vollkommen zu.', 'Я с тобой полностью согласен.')
+
+(244, 'aufräumen', 'убирать', 'прибирати', 'regular', 'aufgeräumt', 'räumte auf', 'haben', 'A1', 'Er möchte aufräumen.', 'Он хочет убирать.')
+
+(245, 'frühstücken', 'завтракать', 'снідати', 'regular', 'gefrühstückt', 'frühstückte', 'haben', 'A1', 'Ich möchte frühstücken.', 'Я хочу завтракать.')
+
+(246, 'abholen', 'забирать', 'забирати', 'regular', 'abgeholt', 'holte ab', 'haben', 'A1', 'Es ist wichtig zu abholen.', 'Важно забирать.')
+
+(247, 'aussteigen', 'выходить (из транспорта)', 'виходити (з транспорту)', 'irregular', 'ausgestiegen', 'stieg aus', 'sein', 'A1', 'Wir können aussteigen.', 'Мы можем выходить (из транспорта).'),
+
+(248, 'einsteigen', 'садиться (в транспорт)', 'сідати (в транспорт)', 'irregular', 'eingestiegen', 'stieg ein', 'sein', 'A1', 'Kannst du einsteigen?', 'Ты можешь садиться (в транспорт)?'),
+
+(249, 'mitkommen', 'идти вместе', 'йти разом', 'irregular', 'mitgekommen', 'kam mit', 'sein', 'A1', 'Wir müssen mitkommen.', 'Мы должны идти вместе.'),
+
+(250, 'aufstehen', 'вставать', 'вставати', 'irregular', 'aufgestanden', 'stand auf', 'sein', 'A1', 'Wir müssen aufstehen.', 'Мы должны вставать.'),
+
+(251, 'fernsehen', 'смотреть телевизор', 'дивитися телевізор', 'irregular', 'ferngesehen', 'sah fern', 'haben', 'A1', 'Du solltest fernsehen.', 'Тебе следует смотреть телевизор.'),
+
+(252, 'nachfragen', 'переспрашивать', 'перепитувати', 'regular', 'nachgefragt', 'fragte nach', 'haben', 'A1', 'Du solltest nachfragen.', 'Тебе следует переспрашивать.')
+
+(253, 'aussehen', 'выглядеть', 'виглядати', 'irregular', 'ausgesehen', 'sah aus', 'haben', 'A1', 'Er möchte aussehen.', 'Он хочет выглядеть.'),
+
+(254, 'anfangen', 'начинать', 'починати', 'irregular', 'angefangen', 'fing an', 'haben', 'A1', 'Wir müssen anfangen.', 'Мы должны начинать.'),
+
+(255, 'aufmachen', 'открывать', 'відчиняти', 'regular', 'aufgemacht', 'machte auf', 'haben', 'A1', 'Es ist wichtig zu aufmachen.', 'Важно открывать.')
+
+(256, 'mitbringen', 'приносить с собой', 'приносити з собою', 'mixed', 'mitgebracht', 'brachte mit', 'haben', 'A1', 'Er möchte mitbringen.', 'Он хочет приносить с собой.'),
+
+(257, 'weiterfahren', 'продолжать путь', 'продовжувати шлях', 'irregular', 'weitergefahren', 'fuhr weiter', 'sein', 'A1', 'Kannst du weiterfahren?', 'Ты можешь продолжать путь?'),
+
+(258, 'mitfahren', 'ехать вместе', 'їхати разом', 'irregular', 'mitgefahren', 'fuhr mit', 'sein', 'A1', 'Sie möchte mitfahren.', 'Она хочет ехать вместе.'),
+
+(259, 'abfahren', 'отправляться', 'відправлятися', 'irregular', 'abgefahren', 'fuhr ab', 'sein', 'A1', 'Du solltest abfahren.', 'Тебе следует отправляться.'),
+
+(260, 'ankommen', 'прибывать', 'прибувати', 'irregular', 'angekommen', 'kam an', 'sein', 'A1', 'Wir müssen ankommen.', 'Мы должны прибывать.'),
+
+(261, 'auspacken', 'распаковывать', 'розпаковувати', 'regular', 'ausgepackt', 'packte aus', 'haben', 'A1', 'Wir können auspacken.', 'Мы можем распаковывать.')
+
+(262, 'einpacken', 'упаковывать', 'пакувати', 'regular', 'eingepackt', 'packte ein', 'haben', 'A1', 'Du solltest einpacken.', 'Тебе следует упаковывать.')
+
+(263, 'mitnehmen', 'брать с собой', 'брати з собою', 'irregular', 'mitgenommen', 'nahm mit', 'haben', 'A1', 'Es ist wichtig zu mitnehmen.', 'Важно брать с собой.'),
+
+(264, 'weitergehen', 'продолжать идти', 'продовжувати йти', 'irregular', 'weitergegangen', 'ging weiter', 'sein', 'A1', 'Sie möchte weitergehen.', 'Она хочет продолжать идти.'),
+
+(265, 'zurückkommen', 'возвращаться', 'повертатися', 'irregular', 'zurückgekommen', 'kam zurück', 'sein', 'A1', 'Wir müssen zurückkommen.', 'Мы должны возвращаться.'),
+
+(266, 'zurückgehen', 'идти обратно', 'йти назад', 'irregular', 'zurückgegangen', 'ging zurück', 'sein', 'A1', 'Kannst du zurückgehen?', 'Ты можешь идти обратно?'),
+
+(267, 'herkommen', 'приходить сюда', 'приходити сюди', 'irregular', 'hergekommen', 'kam her', 'sein', 'A1', 'Ich möchte herkommen.', 'Я хочу приходить сюда.'),
+
+(268, 'hinsetzen', 'садиться', 'сідати', 'regular', 'hingesetzt', 'setzte hin', 'haben', 'A1', 'Sie möchte hinsetzen.', 'Она хочет садиться.')
+
+(269, 'anziehen', 'надевать', 'одягати', 'irregular', 'angezogen', 'zog an', 'haben', 'A1', 'Ich möchte anziehen.', 'Я хочу надевать.'),
+
+(270, 'ausziehen', 'снимать (одежду)', 'знімати (одяг)', 'irregular', 'ausgezogen', 'zog aus', 'haben', 'A1', 'Er möchte ausziehen.', 'Он хочет снимать (одежду).'),
+
+(271, 'anmachen', 'включать', 'вмикати', 'regular', 'angemacht', 'machte an', 'haben', 'A1', 'Sie möchte anmachen.', 'Она хочет включать.')
+
+(272, 'ausmachen', 'выключать', 'вимикати', 'regular', 'ausgemacht', 'machte aus', 'haben', 'A1', 'Wir können ausmachen.', 'Мы можем выключать.')
+
+(273, 'aufpassen', 'быть внимательным', 'бути уважним', 'regular', 'aufgepasst', 'passte auf', 'haben', 'A1', 'Er möchte aufpassen.', 'Он хочет быть внимательным.')
+
+(274, 'einschlafen', 'засыпать', 'засинати', 'irregular', 'eingeschlafen', 'schlief ein', 'sein', 'A1', 'Kannst du einschlafen?', 'Ты можешь засыпать?'),
+
+(275, 'aufwachen', 'просыпаться', 'прокидатися', 'irregular', 'aufgewacht', 'wachte auf', 'sein', 'A1', 'Er möchte aufwachen.', 'Он хочет просыпаться.'),
+
+(276, 'weitermachen', 'продолжать', 'продовжувати', 'regular', 'weitergemacht', 'machte weiter', 'haben', 'A1', 'Er möchte weitermachen.', 'Он хочет продолжать.')
+
+(277, 'kennenlernen', 'знакомиться', 'знайомитися', 'regular', 'kennengelernt', 'lernte kennen', 'haben', 'A1', 'Wir können kennenlernen.', 'Мы можем знакомиться.')
+
+(278, 'passen', 'подходить', 'пасувати', 'regular', 'gepasst', 'passte', 'haben', 'A1', 'Wir können passen.', 'Мы можем подходить.')
+
+(279, 'probieren', 'пробовать', 'пробувати', 'regular', 'probiert', 'probierte', 'haben', 'A1', 'Wir müssen probieren.', 'Мы должны пробовать.')
+
+(280, 'regnen', 'идти (о дожде)', 'йти (про дощ)', 'regular', 'geregnet', 'regnete', 'haben', 'A1', 'Es ist wichtig zu regnen.', 'Важно идти (о дожде).')
+
+(281, 'schneien', 'идти (о снеге)', 'йти (про сніг)', 'regular', 'geschneit', 'schneite', 'haben', 'A1', 'Es ist wichtig zu schneien.', 'Важно идти (о снеге).')
+
+(282, 'scheinen', 'светить', 'світити', 'irregular', 'geschienen', 'schien', 'haben', 'A1', 'Kannst du scheinen?', 'Ты можешь светить?'),
+
+(283, 'wehen', 'дуть (о ветре)', 'віяти', 'regular', 'geweht', 'wehte', 'haben', 'A1', 'Es ist wichtig zu wehen.', 'Важно дуть (о ветре).')
+
+(284, 'feiern', 'праздновать', 'святкувати', 'regular', 'gefeiert', 'feierte', 'haben', 'A1', 'Wir müssen feiern.', 'Мы должны праздновать.')
+
+(285, 'wandern', 'гулять пешком', 'гуляти пішки', 'irregular', 'gewandert', 'wanderte', 'sein', 'A1', 'Sie möchte wandern.', 'Она хочет гулять пешком.'),
+
+(286, 'basteln', 'мастерить', 'майструвати', 'regular', 'gebastelt', 'bastelte', 'haben', 'A1', 'Es ist wichtig zu basteln.', 'Важно мастерить.')
+
+(287, 'malen', 'рисовать красками', 'малювати фарбами', 'regular', 'gemalt', 'malte', 'haben', 'A1', 'Ich möchte malen.', 'Я хочу рисовать красками.')
+
+(288, 'backen', 'печь', 'пекти', 'irregular', 'gebacken', 'buk', 'haben', 'A1', 'Wir müssen backen.', 'Мы должны печь.'),
+
+(289, 'braten', 'жарить', 'смажити', 'irregular', 'gebraten', 'briet', 'haben', 'A1', 'Wir können braten.', 'Мы можем жарить.'),
+
+(290, 'baden', 'купаться', 'купатися', 'regular', 'gebadet', 'badete', 'haben', 'A1', 'Er möchte baden.', 'Он хочет купаться.')
+
+(291, 'duschen', 'принимать душ', 'приймати душ', 'regular', 'geduscht', 'duschte', 'haben', 'A1', 'Es ist wichtig zu duschen.', 'Важно принимать душ.')
+
+(292, 'rasieren', 'бриться', 'голитися', 'regular', 'rasiert', 'rasierte', 'haben', 'A1', 'Kannst du rasieren?', 'Ты можешь бриться?')
+
+(293, 'kämmen', 'причёсывать', 'розчісувати', 'regular', 'gekämmet', 'kämmete', 'haben', 'A1', 'Kannst du kämmen?', 'Ты можешь причёсывать?')
+
+(294, 'schminken', 'краситься', 'фарбуватися', 'regular', 'geschminkt', 'schminkte', 'haben', 'A1', 'Kannst du schminken?', 'Ты можешь краситься?')
+
+(295, 'ausruhen', 'отдыхать', 'відпочивати', 'regular', 'ausgeruht', 'ruhte aus', 'haben', 'A1', 'Es ist wichtig zu ausruhen.', 'Важно отдыхать.')
+
+(296, 'sich freuen', 'радоваться', 'радіти', 'regular', 'sich gefreut', 'freute sich', 'haben', 'A1', 'Es ist wichtig zu sich freuen.', 'Важно радоваться.')
+
+(297, 'sich ärgern', 'сердиться', 'сердитися', 'regular', 'sich geärgert', 'ärgerte sich', 'haben', 'A1', 'Er möchte sich ärgern.', 'Он хочет сердиться.')
+
+(298, 'sich wundern', 'удивляться', 'дивуватися', 'regular', 'sich gewundert', 'wunderte sich', 'haben', 'A1', 'Kannst du sich wundern?', 'Ты можешь удивляться?')
+
+(299, 'sich erinnern', 'вспоминать', 'згадувати', 'regular', 'sich erinnert', 'erinnerte sich', 'haben', 'A1', 'Er möchte sich erinnern.', 'Он хочет вспоминать.')
+
+(300, 'teilnehmen', 'участвовать', 'брати участь', 'irregular', 'teilgenommen', 'nahm teil', 'haben', 'A1', 'Wir müssen teilnehmen.', 'Мы должны участвовать.'),
+
+(301, 'kosten', 'стоить', 'коштувати', 'regular', 'gekostet', 'kostete', 'haben', 'A1', 'Kannst du kosten?', 'Ты можешь стоить?')
+
+(302, 'dauern', 'длиться', 'тривати', 'regular', 'dageuert', 'uerte da', 'haben', 'A1', 'Wir können dauern.', 'Мы можем длиться.')
+
+(303, 'stimmen', 'быть правильным', 'бути правильним', 'regular', 'gestimmet', 'stimmete', 'haben', 'A1', 'Wir müssen stimmen.', 'Мы должны быть правильным.')
+
+(304, 'gehören', 'принадлежать', 'належати', 'regular', 'gehört', 'gehörte', 'haben', 'A1', 'Es ist wichtig zu gehören.', 'Важно принадлежать.')
+
+(305, 'besuchen', 'посещать', 'відвідувати', 'regular', 'besucht', 'besuchte', 'haben', 'A1', 'Es ist wichtig zu besuchen.', 'Важно посещать.')
+
+(306, 'begrüßen', 'приветствовать', 'вітати', 'regular', 'begrüßt', 'begrüßte', 'haben', 'A1', 'Sie möchte begrüßen.', 'Она хочет приветствовать.')
+
+(307, 'sich verabschieden', 'прощаться', 'прощатися', 'regular', 'sich verabschiedet', 'verabschiedete sich', 'haben', 'A1', 'Wir können sich verabschieden.', 'Мы можем прощаться.')
+
+(308, 'sich entschuldigen', 'извиняться', 'вибачатися', 'regular', 'sich entschuldigt', 'entschuldigte sich', 'haben', 'A1', 'Ich möchte sich entschuldigen.', 'Я хочу извиняться.')
+
+(309, 'landen', 'приземляться', 'приземлятися', 'irregular', 'gelandet', 'landete', 'sein', 'A1', 'Wir können landen.', 'Мы можем приземляться.'),
+
+(310, 'starten', 'стартовать', 'стартувати', 'irregular', 'gestartet', 'startete', 'sein', 'A1', 'Kannst du starten?', 'Ты можешь стартовать?'),
+
+(311, 'buchen', 'бронировать', 'бронювати', 'regular', 'gebucht', 'buchte', 'haben', 'A1', 'Er möchte buchen.', 'Он хочет бронировать.')
+
+(312, 'mieten', 'арендовать', 'орендувати', 'regular', 'gemietet', 'mietete', 'haben', 'A1', 'Ich möchte mieten.', 'Я хочу арендовать.')
+
+(313, 'borgen', 'одалживать', 'позичати', 'regular', 'geborgt', 'borgte', 'haben', 'A1', 'Du solltest borgen.', 'Тебе следует одалживать.')
+
+(314, 'schenken', 'дарить', 'дарувати', 'regular', 'geschenkt', 'schenkte', 'haben', 'A1', 'Er möchte schenken.', 'Он хочет дарить.')
+
+(315, 'brauchen', 'нуждаться', 'потребувати', 'regular', 'gebraucht', 'brauchte', 'haben', 'A1', 'Es ist wichtig zu brauchen.', 'Важно нуждаться.')
+
+(316, 'behalten', 'оставлять себе', 'залишати собі', 'irregular', 'behalten', 'behielt', 'haben', 'A1', 'Wir müssen behalten.', 'Мы должны оставлять себе.'),
+
+(317, 'aufheben', 'сохранять', 'зберігати', 'irregular', 'aufgehoben', 'hob auf', 'haben', 'A1', 'Ich möchte aufheben.', 'Я хочу сохранять.'),
+
+(318, 'wegwerfen', 'выбрасывать', 'викидати', 'irregular', 'weggeworfen', 'warf weg', 'haben', 'A1', 'Du solltest wegwerfen.', 'Тебе следует выбрасывать.'),
+
+(319, 'abgeben', 'сдавать', 'здавати', 'irregular', 'abgegeben', 'gab ab', 'haben', 'A1', 'Wir müssen abgeben.', 'Мы должны сдавать.'),
+
+(320, 'aufschließen', 'отпирать', 'відмикати', 'irregular', 'aufgeschlossen', 'schloss auf', 'haben', 'A1', 'Du solltest aufschließen.', 'Тебе следует отпирать.'),
+
+(321, 'einschalten', 'включать (прибор)', 'вмикати (прилад)', 'regular', 'eingeschaltet', 'schaltete ein', 'haben', 'A1', 'Du solltest einschalten.', 'Тебе следует включать (прибор).')
+
+(322, 'ausschalten', 'выключать (прибор)', 'вимикати (прилад)', 'regular', 'ausgeschaltet', 'schaltete aus', 'haben', 'A1', 'Er möchte ausschalten.', 'Он хочет выключать (прибор).')
+
+(323, 'abheben', 'снимать (деньги)', 'знімати (гроші)', 'irregular', 'abgehoben', 'hob ab', 'haben', 'A1', 'Wir können abheben.', 'Мы можем снимать (деньги).'),
+
+(324, 'einzahlen', 'вносить (деньги)', 'вносити (гроші)', 'regular', 'eingezahlt', 'zahlte ein', 'haben', 'A1', 'Wir müssen einzahlen.', 'Мы должны вносить (деньги).')
+
+(325, 'überweisen', 'переводить (деньги)', 'переказувати (гроші)', 'irregular', 'überwiesen', 'überwies', 'haben', 'A1', 'Ich möchte überweisen.', 'Я хочу переводить (деньги).'),
+
+(326, 'unterschreiben', 'подписывать', 'підписувати', 'irregular', 'unterschrieben', 'unterschrieb', 'haben', 'A1', 'Wir müssen unterschreiben.', 'Мы должны подписывать.'),
+
+(327, 'ausfüllen', 'заполнять', 'заповнювати', 'regular', 'ausgefüllt', 'füllte aus', 'haben', 'A1', 'Es ist wichtig zu ausfüllen.', 'Важно заполнять.')
+
+(328, 'sich anmelden', 'регистрироваться', 'реєструватися', 'regular', 'sich angemeldet', 'meldete sich an', 'haben', 'A1', 'Du solltest sich anmelden.', 'Тебе следует регистрироваться.')
+
+(329, 'parken', 'парковаться', 'паркуватися', 'regular', 'geparkt', 'parkte', 'haben', 'A1', 'Er möchte parken.', 'Он хочет парковаться.')
+
+(330, 'rauchen', 'курить', 'курити', 'regular', 'geraucht', 'rauchte', 'haben', 'A1', 'Kannst du rauchen?', 'Ты можешь курить?')
+
+(331, 'lächeln', 'улыбаться', 'посміхатися', 'regular', 'gelächelt', 'lächelte', 'haben', 'A1', 'Er möchte lächeln.', 'Он хочет улыбаться.')
+
+(332, 'tanken', 'заправлять (топливо)', 'заправляти (паливо)', 'regular', 'getankt', 'tankte', 'haben', 'A1', 'Wir müssen tanken.', 'Мы должны заправлять (топливо).')
+
+(333, 'spazieren', 'гулять', 'гуляти', 'irregular', 'spaziert', 'spazierte', 'sein', 'A1', 'Er möchte spazieren.', 'Он хочет гулять.'),
+
+(334, 'sammeln', 'собирать', 'збирати', 'regular', 'gesammelt', 'sammelte', 'haben', 'A1', 'Er möchte sammeln.', 'Он хочет собирать.')
+
+(335, 'klingeln', 'звонить (в дверь)', 'дзвонити (у двері)', 'regular', 'geklingelt', 'klingelte', 'haben', 'A1', 'Ich möchte klingeln.', 'Я хочу звонить (в дверь).')
+
+(336, 'küssen', 'целовать', 'цілувати', 'regular', 'geküsst', 'küsste', 'haben', 'A1', 'Wir können küssen.', 'Мы можем целовать.')
+
+(337, 'umarmen', 'обнимать', 'обіймати', 'regular', 'geumarmt', 'umarmte', 'haben', 'A1', 'Sie möchte umarmen.', 'Она хочет обнимать.')
+
+(338, 'grüßen', 'здороваться', 'вітатися', 'regular', 'gegrüßt', 'grüßte', 'haben', 'A1', 'Wir müssen grüßen.', 'Мы должны здороваться.')
+
+(339, 'decken', 'накрывать (стол)', 'накривати (стіл)', 'regular', 'gedeckt', 'deckte', 'haben', 'A1', 'Wir können decken.', 'Мы можем накрывать (стол).')
+
+(340, 'bügeln', 'гладить (утюгом)', 'прасувати', 'regular', 'gebügelt', 'bügelte', 'haben', 'A1', 'Er möchte bügeln.', 'Он хочет гладить (утюгом).')
+
+(341, 'nähen', 'шить', 'шити', 'regular', 'genäht', 'nähte', 'haben', 'A1', 'Er möchte nähen.', 'Он хочет шить.')
+
+(342, 'reparieren', 'ремонтировать', 'ремонтувати', 'regular', 'repariert', 'reparierte', 'haben', 'A1', 'Sie möchte reparieren.', 'Она хочет ремонтировать.')
+
+(343, 'sich anziehen', 'одеваться', 'одягатися', 'irregular', 'sich angezogen', 'zog sich an', 'haben', 'A1', 'Wir müssen sich anziehen.', 'Мы должны одеваться.'),
+
+(344, 'sich ausziehen', 'раздеваться', 'роздягатися', 'irregular', 'sich ausgezogen', 'zog sich aus', 'haben', 'A1', 'Er möchte sich ausziehen.', 'Он хочет раздеваться.'),
+
+(345, 'abwaschen', 'мыть посуду', 'мити посуд', 'irregular', 'abgewaschen', 'wusch ab', 'haben', 'A1', 'Ich möchte abwaschen.', 'Я хочу мыть посуду.'),
+
+(346, 'bestellen', 'заказывать', 'замовляти', 'regular', 'bestellt', 'bestellte', 'haben', 'A1', 'Du solltest bestellen.', 'Тебе следует заказывать.')
+
+(347, 'zahlen', 'платить', 'платити', 'regular', 'gezahlt', 'zahlte', 'haben', 'A1', 'Kannst du zahlen?', 'Ты можешь платить?')
+
+(348, 'studieren', 'изучать (в вузе)', 'вивчати (у вузі)', 'regular', 'studiert', 'studierte', 'haben', 'A1', 'Wir müssen studieren.', 'Мы должны изучать (в вузе).')
+
+(349, 'unterrichten', 'преподавать', 'викладати', 'regular', 'geunterrichtet', 'unterrichtete', 'haben', 'A1', 'Er möchte unterrichten.', 'Он хочет преподавать.')
+
+(350, 'üben', 'упражняться', 'вправлятися', 'regular', 'geübt', 'übte', 'haben', 'A1', 'Kannst du üben?', 'Ты можешь упражняться?')
+
+(351, 'abtrocknen', 'вытирать', 'витирати', 'regular', 'abgetrocknt', 'trocknte ab', 'haben', 'A1', 'Sie möchte abtrocknen.', 'Она хочет вытирать.')
+
+(352, 'ordnen', 'упорядочивать', 'упорядковувати', 'regular', 'geordnet', 'ordnete', 'haben', 'A1', 'Sie möchte ordnen.', 'Она хочет упорядочивать.')
+
+(353, 'spülen', 'мыть (посуду)', 'мити (посуд)', 'regular', 'gespült', 'spülte', 'haben', 'A1', 'Sie möchte spülen.', 'Она хочет мыть (посуду).')
+
+(354, 'lüften', 'проветривать', 'провітрювати', 'regular', 'gelüftet', 'lüftete', 'haben', 'A1', 'Kannst du lüften?', 'Ты можешь проветривать?')
+
+(355, 'heizen', 'отапливать', 'опалювати', 'regular', 'geheizt', 'heizte', 'haben', 'A1', 'Sie möchte heizen.', 'Она хочет отапливать.')
+
+(356, 'spazieren gehen', 'идти гулять', 'йти гуляти', 'irregular', 'spazieren gegangen', 'ging spazieren', 'sein', 'A1', 'Ich möchte spazieren gehen.', 'Я хочу идти гулять.'),
+
+(357, 'abfliegen', 'улетать', 'відлітати', 'irregular', 'abgeflogen', 'flog ab', 'sein', 'A2', 'Sie möchte abfliegen.', 'Она хочет улетать.'),
+
+(358, 'umsteigen', 'делать пересадку', 'робити пересадку', 'irregular', 'umgestiegen', 'stieg um', 'sein', 'A2', 'Es ist wichtig zu umsteigen.', 'Важно делать пересадку.'),
+
+(359, 'einchecken', 'регистрироваться', 'реєструватися', 'regular', 'eingecheckt', 'checkte ein', 'haben', 'A2', 'Sie möchte einchecken.', 'Она хочет регистрироваться.')
+
+(360, 'reservieren', 'резервировать', 'резервувати', 'regular', 'reserviert', 'reservierte', 'haben', 'A2', 'Du solltest reservieren.', 'Тебе следует резервировать.')
+
+(361, 'verreisen', 'уезжать в путешествие', 'їхати в подорож', 'irregular', 'verreist', 'verreiste', 'sein', 'A2', 'Er möchte verreisen.', 'Он хочет уезжать в путешествие.'),
+
+(362, 'übernachten', 'ночевать', 'ночувати', 'regular', 'geübernachtet', 'übernachtete', 'haben', 'A2', 'Kannst du übernachten?', 'Ты можешь ночевать?')
+
+(363, 'reiten', 'ездить верхом', 'їздити верхи', 'irregular', 'geritten', 'ritt', 'sein', 'A2', 'Kannst du reiten?', 'Ты можешь ездить верхом?'),
+
+(364, 'klettern', 'лазить', 'лазити', 'irregular', 'geklettert', 'kletterte', 'sein', 'A2', 'Er möchte klettern.', 'Он хочет лазить.'),
+
+(365, 'segeln', 'плавать под парусом', 'плавати під вітрилом', 'irregular', 'gesegelt', 'segelte', 'sein', 'A2', 'Wir können segeln.', 'Мы можем плавать под парусом.'),
+
+(366, 'radfahren', 'кататься на велосипеде', 'кататися на велосипеді', 'regular', 'geradfahrt', 'radfahrte', 'sein', 'A2', 'Ich möchte radfahren.', 'Я хочу кататься на велосипеде.')
+
+(367, 'diskutieren', 'обсуждать', 'обговорювати', 'regular', 'diskutiert', 'diskutierte', 'haben', 'A2', 'Kannst du diskutieren?', 'Ты можешь обсуждать?')
+
+(368, 'mitteilen', 'сообщать', 'повідомляти', 'regular', 'mitgeteilt', 'teilte mit', 'sein', 'A2', 'Er möchte mitteilen.', 'Он хочет сообщать.')
+
+(369, 'berichten', 'сообщать', 'повідомляти', 'regular', 'berichtet', 'berichtete', 'haben', 'A2', 'Sie möchte berichten.', 'Она хочет сообщать.')
+
+(370, 'übersetzen', 'переводить', 'перекладати', 'regular', 'geübersetzt', 'übersetzte', 'haben', 'A2', 'Er möchte übersetzen.', 'Он хочет переводить.')
+
+(371, 'ausdrücken', 'выражать', 'виражати', 'regular', 'ausgedrückt', 'drückte aus', 'haben', 'A2', 'Wir können ausdrücken.', 'Мы можем выражать.')
+
+(372, 'nennen', 'называть', 'називати', 'irregular', 'genannt', 'nannte', 'haben', 'A2', 'Er möchte nennen.', 'Он хочет называть.'),
+
+(373, 'bitten', 'просить', 'просити', 'irregular', 'gebeten', 'bat', 'haben', 'A2', 'Wir können bitten.', 'Мы можем просить.'),
+
+(374, 'vorschlagen', 'предлагать', 'пропонувати', 'irregular', 'vorgeschlagen', 'schlug vor', 'haben', 'A2', 'Er möchte vorschlagen.', 'Он хочет предлагать.'),
+
+(375, 'ablehnen', 'отклонять', 'відхиляти', 'regular', 'abgelehnt', 'lehnte ab', 'haben', 'A2', 'Sie möchte ablehnen.', 'Она хочет отклонять.')
+
+(376, 'hassen', 'ненавидеть', 'ненавидіти', 'regular', 'gehasst', 'hasste', 'haben', 'A2', 'Kannst du hassen?', 'Ты можешь ненавидеть?')
+
+(377, 'mögen', 'любить (нравиться)', 'любити (подобатися)', 'mixed', 'gemocht', 'mochte', 'haben', 'A2', 'Ich möchte mögen.', 'Я хочу любить (нравиться).'),
+
+(378, 'bewundern', 'восхищаться', 'захоплюватися', 'regular', 'bewundert', 'bewunderte', 'haben', 'A2', 'Wir können bewundern.', 'Мы можем восхищаться.')
+
+(379, 'fürchten', 'бояться', 'боятися', 'regular', 'gefürchtet', 'fürchtete', 'haben', 'A2', 'Kannst du fürchten?', 'Ты можешь бояться?')
+
+(380, 'erschrecken', 'пугаться', 'лякатися', 'irregular', 'erschrocken', 'erschrak', 'sein', 'A2', 'Er möchte erschrecken.', 'Он хочет пугаться.'),
+
+(381, 'beruhigen', 'успокаивать', 'заспокоювати', 'regular', 'beruhigt', 'beruhigte', 'haben', 'A2', 'Er möchte beruhigen.', 'Он хочет успокаивать.')
+
+(382, 'hoffen', 'надеяться', 'сподіватися', 'regular', 'gehofft', 'hoffte', 'haben', 'A2', 'Wir müssen hoffen.', 'Мы должны надеяться.')
+
+(383, 'zweifeln', 'сомневаться', 'сумніватися', 'regular', 'gezweifelt', 'zweifelte', 'haben', 'A2', 'Wir können zweifeln.', 'Мы можем сомневаться.')
+
+(384, 'vermissen', 'скучать (по кому-то)', 'сумувати (за кимось)', 'regular', 'vermisst', 'vermisste', 'haben', 'A2', 'Wir müssen vermissen.', 'Мы должны скучать (по кому-то).')
+
+(385, 'sich langweilen', 'скучать', 'нудьгувати', 'regular', 'sich gelangweilt', 'langweilte sich', 'sein', 'A2', 'Wir können sich langweilen.', 'Мы можем скучать.')
+
+(386, 'atmen', 'дышать', 'дихати', 'regular', 'geatmet', 'atmete', 'haben', 'A2', 'Er möchte atmen.', 'Он хочет дышать.')
+
+(387, 'husten', 'кашлять', 'кашляти', 'regular', 'gehustet', 'hustete', 'haben', 'A2', 'Wir können husten.', 'Мы можем кашлять.')
+
+(388, 'schlucken', 'глотать', 'ковтати', 'regular', 'geschluckt', 'schluckte', 'haben', 'A2', 'Er möchte schlucken.', 'Он хочет глотать.')
+
+(389, 'beißen', 'кусать', 'кусати', 'irregular', 'gebissen', 'biss', 'haben', 'A2', 'Er möchte beißen.', 'Он хочет кусать.'),
+
+(390, 'verletzen', 'ранить', 'ранити', 'regular', 'verletzt', 'verletzte', 'haben', 'A2', 'Ich möchte verletzen.', 'Я хочу ранить.')
+
+(391, 'heilen', 'лечить', 'лікувати', 'regular', 'geheilt', 'heilte', 'sein', 'A2', 'Es ist wichtig zu heilen.', 'Важно лечить.')
+
+(392, 'operieren', 'оперировать', 'оперувати', 'regular', 'operiert', 'operierte', 'haben', 'A2', 'Wir müssen operieren.', 'Мы должны оперировать.')
+
+(393, 'schwitzen', 'потеть', 'потіти', 'regular', 'geschwitzt', 'schwitzte', 'haben', 'A2', 'Wir können schwitzen.', 'Мы можем потеть.')
+
+(394, 'blitzen', 'сверкать (молния)', 'блискати (блискавка)', 'regular', 'geblitzt', 'blitzte', 'haben', 'A2', 'Wir können blitzen.', 'Мы можем сверкать (молния).')
+
+(395, 'donnern', 'греметь (гром)', 'гриміти (грім)', 'regular', 'gedonnert', 'donnerte', 'haben', 'A2', 'Ich möchte donnern.', 'Я хочу греметь (гром).')
+
+(396, 'blühen', 'цвести', 'цвісти', 'regular', 'geblüht', 'blühte', 'haben', 'A2', 'Wir müssen blühen.', 'Мы должны цвести.')
+
+(397, 'welken', 'вянуть', 'в''янути', 'irregular', 'gewelkt', 'welkte', 'sein', 'A2', 'Es ist wichtig zu welken.', 'Важно вянуть.'),
+
+(398, 'umziehen', 'переезжать', 'переїжджати', 'irregular', 'umgezogen', 'zog um', 'sein', 'A2', 'Sie möchte umziehen.', 'Она хочет переезжать.'),
+
+(399, 'renovieren', 'ремонтировать (квартиру)', 'ремонтувати (квартиру)', 'regular', 'renoviert', 'renovierte', 'haben', 'A2', 'Es ist wichtig zu renovieren.', 'Важно ремонтировать (квартиру).')
+
+(400, 'aufhängen', 'вешать', 'вішати', 'regular', 'aufgehängent', 'hängente auf', 'haben', 'A2', 'Ich möchte aufhängen.', 'Я хочу вешать.'),
+
+(401, 'sortieren', 'сортировать', 'сортувати', 'regular', 'sortiert', 'sortierte', 'haben', 'A2', 'Ich möchte sortieren.', 'Я хочу сортировать.')
+
+(402, 'staubsaugen', 'пылесосить', 'пилососити', 'regular', 'gestaubsaugt', 'staubsaugte', 'haben', 'A2', 'Wir müssen staubsaugen.', 'Мы должны пылесосить.')
+
+(403, 'wischen', 'вытирать (пол)', 'витирати (підлогу)', 'regular', 'gewischt', 'wischte', 'haben', 'A2', 'Es ist wichtig zu wischen.', 'Важно вытирать (пол).')
+
+(404, 'gießen', 'поливать (цветы)', 'поливати (квіти)', 'regular', 'gegießent', 'gießente', 'haben', 'A2', 'Kannst du gießen?', 'Ты можешь поливать (цветы)?'),
+
+(406, 'schälen', 'чистить (овощи)', 'чистити (овочі)', 'regular', 'geschält', 'schälte', 'haben', 'A2', 'Ich möchte schälen.', 'Я хочу чистить (овощи).')
+
+(407, 'reiben', 'тереть', 'терти', 'irregular', 'gerieben', 'rieb', 'haben', 'A2', 'Es ist wichtig zu reiben.', 'Важно тереть.'),
+
+(408, 'rühren', 'мешать', 'мішати', 'regular', 'gerührt', 'rührte', 'haben', 'A2', 'Es ist wichtig zu rühren.', 'Важно мешать.')
+
+(409, 'mischen', 'смешивать', 'змішувати', 'regular', 'gemischt', 'mischte', 'haben', 'A2', 'Sie möchte mischen.', 'Она хочет смешивать.')
+
+(410, 'kneten', 'месить (тесто)', 'місити (тісто)', 'regular', 'geknetet', 'knetete', 'haben', 'A2', 'Kannst du kneten?', 'Ты можешь месить (тесто)?')
+
+(411, 'würzen', 'приправлять', 'приправляти', 'regular', 'gewürzt', 'würzte', 'haben', 'A2', 'Wir müssen würzen.', 'Мы должны приправлять.')
+
+(412, 'einfrieren', 'замораживать', 'заморожувати', 'irregular', 'eingefroren', 'fror ein', 'haben', 'A2', 'Sie möchte einfrieren.', 'Она хочет замораживать.'),
+
+(413, 'auftauen', 'размораживать', 'розморожувати', 'regular', 'aufgetaut', 'taute auf', 'haben', 'A2', 'Du solltest auftauen.', 'Тебе следует размораживать.')
+
+(414, 'grillen', 'жарить на гриле', 'смажити на грилі', 'regular', 'gegrillt', 'grillte', 'haben', 'A2', 'Kannst du grillen?', 'Ты можешь жарить на гриле?')
+
+(415, 'einstellen', 'нанимать', 'наймати', 'regular', 'eingestellt', 'stellte ein', 'haben', 'A2', 'Kannst du einstellen?', 'Ты можешь нанимать?')
+
+(416, 'entlassen', 'увольнять', 'звільняти', 'irregular', 'entlassen', 'entließ', 'haben', 'A2', 'Sie möchte entlassen.', 'Она хочет увольнять.'),
+
+(417, 'kündigen', 'увольняться', 'звільнятися', 'regular', 'gekündigt', 'kündigte', 'haben', 'A2', 'Du solltest kündigen.', 'Тебе следует увольняться.')
+
+(418, 'organisieren', 'организовывать', 'організовувати', 'regular', 'organisiert', 'organisierte', 'haben', 'A2', 'Kannst du organisieren?', 'Ты можешь организовывать?')
+
+(419, 'planen', 'планировать', 'планувати', 'regular', 'geplant', 'plante', 'haben', 'A2', 'Sie möchte planen.', 'Она хочет планировать.')
+
+(420, 'durchführen', 'проводить (мероприятие)', 'проводити (захід)', 'regular', 'durchgeführt', 'führte durch', 'haben', 'A2', 'Wir müssen durchführen.', 'Мы должны проводить (мероприятие).')
+
+(421, 'leiten', 'руководить', 'керувати', 'regular', 'geleitet', 'leitete', 'haben', 'A2', 'Ich möchte leiten.', 'Я хочу руководить.')
+
+(422, 'kopieren', 'копировать', 'копіювати', 'regular', 'kopiert', 'kopierte', 'haben', 'A2', 'Ich möchte kopieren.', 'Я хочу копировать.')
+
+(423, 'drucken', 'печатать', 'друкувати', 'regular', 'gedruckt', 'druckte', 'haben', 'A2', 'Es ist wichtig zu drucken.', 'Важно печатать.')
+
+(424, 'anbieten', 'предлагать', 'пропонувати', 'irregular', 'angeboten', 'bot an', 'haben', 'A2', 'Er möchte anbieten.', 'Он хочет предлагать.'),
+
+(425, 'liefern', 'доставлять', 'доставляти', 'regular', 'geliefert', 'lieferte', 'haben', 'A2', 'Kannst du liefern?', 'Ты можешь доставлять?')
+
+(426, 'umtauschen', 'обменивать', 'обмінювати', 'regular', 'geumtauscht', 'umtauschte', 'haben', 'A2', 'Er möchte umtauschen.', 'Он хочет обменивать.')
+
+(427, 'handeln', 'торговаться', 'торгуватися', 'regular', 'gehandelt', 'handelte', 'haben', 'A2', 'Du solltest handeln.', 'Тебе следует торговаться.')
+
+(428, 'sparen', 'экономить', 'економити', 'regular', 'gespart', 'sparte', 'haben', 'A2', 'Wir müssen sparen.', 'Мы должны экономить.')
+
+(429, 'ausgeben', 'тратить', 'витрачати', 'irregular', 'ausgegeben', 'gab aus', 'haben', 'A2', 'Wir können ausgeben.', 'Мы можем тратить.'),
+
+(430, 'surfen', 'серфить (интернет)', 'серфити (інтернет)', 'regular', 'gesurft', 'surfte', 'haben', 'A2', 'Du solltest surfen.', 'Тебе следует серфить (интернет).')
+
+(431, 'hochladen', 'загружать (файл)', 'завантажувати (файл)', 'irregular', 'hochgeladen', 'lud hoch', 'haben', 'A2', 'Wir müssen hochladen.', 'Мы должны загружать (файл).'),
+
+(432, 'speichern', 'сохранять (файл)', 'зберігати (файл)', 'regular', 'gespeichert', 'speicherte', 'haben', 'A2', 'Kannst du speichern?', 'Ты можешь сохранять (файл)?')
+
+(433, 'löschen', 'удалять (файл)', 'видаляти (файл)', 'regular', 'gelöscht', 'löschte', 'haben', 'A2', 'Sie möchte löschen.', 'Она хочет удалять (файл).')
+
+(434, 'installieren', 'устанавливать (программу)', 'встановлювати (програму)', 'regular', 'installiert', 'installierte', 'haben', 'A2', 'Es ist wichtig zu installieren.', 'Важно устанавливать (программу).')
+
+(435, 'programmieren', 'программировать', 'програмувати', 'regular', 'programmiert', 'programmierte', 'haben', 'A2', 'Es ist wichtig zu programmieren.', 'Важно программировать.')
+
+(436, 'tippen', 'печатать (на клавиатуре)', 'друкувати (на клавіатурі)', 'regular', 'getippt', 'tippte', 'haben', 'A2', 'Ich möchte tippen.', 'Я хочу печатать (на клавиатуре).')
+
+(437, 'trennen', 'отключать (соединение)', 'відключати (з''єднання)', 'regular', 'getrennet', 'trennete', 'sein', 'A2', 'Du solltest trennen.', 'Тебе следует отключать (соединение).')
+
+(438, 'joggen', 'бегать трусцой', 'бігати підтюпцем', 'regular', 'gejoggt', 'joggte', 'haben', 'A2', 'Er möchte joggen.', 'Он хочет бегать трусцой.')
+
+(439, 'trainieren', 'тренироваться', 'тренуватися', 'regular', 'trainiert', 'trainierte', 'haben', 'A2', 'Kannst du trainieren?', 'Ты можешь тренироваться?')
+
+(440, 'boxen', 'заниматься боксом', 'займатися боксом', 'regular', 'geboxt', 'boxte', 'haben', 'A2', 'Ich möchte boxen.', 'Я хочу заниматься боксом.')
+
+(441, 'angeln', 'ловить рыбу', 'вудити рибу', 'regular', 'angegelt', 'gelte an', 'haben', 'A2', 'Ich möchte angeln.', 'Я хочу ловить рыбу.')
+
+(442, 'fotografieren', 'фотографировать', 'фотографувати', 'regular', 'fotografiert', 'fotografierte', 'haben', 'A2', 'Sie möchte fotografieren.', 'Она хочет фотографировать.')
+
+(443, 'töpfern', 'лепить из глины', 'ліпити з глини', 'regular', 'getöpfert', 'töpferte', 'haben', 'A2', 'Er möchte töpfern.', 'Он хочет лепить из глины.')
+
+(444, 'ausgehen', 'выходить (в свет)', 'виходити (в світ)', 'irregular', 'ausgegangen', 'ging aus', 'sein', 'A2', 'Wir können ausgehen.', 'Мы можем выходить (в свет).'),
+
+(445, 'sich amüsieren', 'веселиться', 'веселитися', 'regular', 'sich amüsiert', 'amüsierte sich', 'haben', 'A2', 'Er möchte sich amüsieren.', 'Он хочет веселиться.')
+
+(446, 'reden', 'разговаривать', 'розмовляти', 'regular', 'geredet', 'redete', 'haben', 'A2', 'Es ist wichtig zu reden.', 'Важно разговаривать.')
+
+(447, 'plaudern', 'болтать', 'балакати', 'regular', 'geplaudert', 'plauderte', 'haben', 'A2', 'Es ist wichtig zu plaudern.', 'Важно болтать.')
+
+(448, 'scherzen', 'шутить', 'жартувати', 'regular', 'gescherzt', 'scherzte', 'haben', 'A2', 'Wir können scherzen.', 'Мы можем шутить.')
+
+(449, 'vorhaben', 'намереваться', 'мати намір', 'mixed', 'vorgehabt', 'hatte vor', 'haben', 'A2', 'Wir müssen vorhaben.', 'Мы должны намереваться.'),
+
+(450, 'stattfinden', 'происходить', 'відбуватися', 'irregular', 'stattgefunden', 'fand statt', 'haben', 'A2', 'Ich möchte stattfinden.', 'Я хочу происходить.'),
+
+(452, 'gefallen', 'нравиться', 'подобатися', 'irregular', 'gefallen', 'gefiel', 'haben', 'A2', 'Sie möchte gefallen.', 'Она хочет нравиться.'),
+
+(454, 'zuhören', 'слушать (внимательно)', 'слухати (уважно)', 'regular', 'zugehört', 'hörte zu', 'haben', 'A2', 'Kannst du zuhören?', 'Ты можешь слушать (внимательно)?')
+
+(455, 'glauben', 'верить', 'вірити', 'regular', 'geglaubt', 'glaubte', 'haben', 'A2', 'Es ist wichtig zu glauben.', 'Важно верить.')
+
+(457, 'sich duschen', 'принимать душ', 'приймати душ', 'regular', 'sich geduscht', 'duschte sich', 'haben', 'A2', 'Du solltest sich duschen.', 'Тебе следует принимать душ.')
+
+(458, 'sich kämmen', 'причёсываться', 'зачісуватися', 'regular', 'sich gekämmet', 'kämmete sich', 'haben', 'A2', 'Wir müssen sich kämmen.', 'Мы должны причёсываться.')
+
+(459, 'Mittag essen', 'обедать', 'обідати', 'regular', 'Mittag gegessen', 'Mittag essente', 'haben', 'A2', 'Wir müssen Mittag essen.', 'Мы должны обедать.'),
+
+(460, 'Abend essen', 'ужинать', 'вечеряти', 'regular', 'Abend gegessen', 'Abend essente', 'haben', 'A2', 'Kannst du Abend essen?', 'Ты можешь ужинать?'),
+
+(461, 'impfen', 'вакцинировать', 'вакцинувати', 'regular', 'geimpft', 'impfte', 'haben', 'A2', 'Kannst du impfen?', 'Ты можешь вакцинировать?')
+
+(462, 'fiebern', 'иметь жар', 'мати жар', 'regular', 'gefiebert', 'fieberte', 'haben', 'A2', 'Wir können fiebern.', 'Мы можем иметь жар.')
+
+(463, 'niesen', 'чихать', 'чхати', 'regular', 'geniest', 'nieste', 'haben', 'A2', 'Wir müssen niesen.', 'Мы должны чихать.')
+
+(464, 'gähnen', 'зевать', 'позіхати', 'regular', 'gegähnt', 'gähnte', 'haben', 'A2', 'Er möchte gähnen.', 'Он хочет зевать.')
+
+(465, 'kratzen', 'царапать', 'дряпати', 'regular', 'gekratzt', 'kratzte', 'haben', 'A2', 'Du solltest kratzen.', 'Тебе следует царапать.')
+
+(466, 'abstellen', 'ставить (вещь)', 'ставити (річ)', 'regular', 'abgestellt', 'stellte ab', 'haben', 'A2', 'Sie möchte abstellen.', 'Она хочет ставить (вещь).')
+
+(467, 'wegräumen', 'убирать (вещи)', 'прибирати (речі)', 'regular', 'weggeräumt', 'räumte weg', 'haben', 'A2', 'Du solltest wegräumen.', 'Тебе следует убирать (вещи).')
+
+(468, 'fegen', 'мести', 'мести', 'regular', 'gefegt', 'fegte', 'haben', 'A2', 'Kannst du fegen?', 'Ты можешь мести?')
+
+(469, 'abräumen', 'убирать (со стола)', 'прибирати (зі столу)', 'regular', 'abgeräumt', 'räumte ab', 'haben', 'A2', 'Kannst du abräumen?', 'Ты можешь убирать (со стола)?')
+
+(470, 'düngen', 'удобрять', 'удобрювати', 'regular', 'gedüngt', 'düngte', 'haben', 'A2', 'Es ist wichtig zu düngen.', 'Важно удобрять.')
+
+(471, 'mähen', 'косить (траву)', 'косити (траву)', 'regular', 'gemäht', 'mähte', 'haben', 'A2', 'Es ist wichtig zu mähen.', 'Важно косить (траву).')
+
+(472, 'hacken', 'рубить', 'рубати', 'regular', 'gehackt', 'hackte', 'haben', 'A2', 'Ich möchte hacken.', 'Я хочу рубить.')
+
+(473, 'rollen', 'раскатывать', 'розкачувати', 'regular', 'gerollt', 'rollte', 'haben', 'A2', 'Wir können rollen.', 'Мы можем раскатывать.')
+
+(474, 'füllen', 'наполнять', 'наповнювати', 'regular', 'gefüllt', 'füllte', 'haben', 'A2', 'Wir können füllen.', 'Мы можем наполнять.')
+
+(475, 'abgießen', 'сливать (воду)', 'зливати (воду)', 'regular', 'abgegießent', 'gießente ab', 'haben', 'A2', 'Wir können abgießen.', 'Мы можем сливать (воду).'),
+
+(476, 'salzen', 'солить', 'солити', 'regular', 'gesalzent', 'salzente', 'haben', 'A2', 'Es ist wichtig zu salzen.', 'Важно солить.'),
+
+(477, 'kühlen', 'охлаждать', 'охолоджувати', 'regular', 'gekühlt', 'kühlte', 'haben', 'A2', 'Er möchte kühlen.', 'Он хочет охлаждать.')
+
+(478, 'dämpfen', 'тушить (на пару)', 'тушкувати (на пару)', 'regular', 'gedämpft', 'dämpfte', 'haben', 'A2', 'Ich möchte dämpfen.', 'Я хочу тушить (на пару).')
+
+(479, 'protokollieren', 'протоколировать', 'протоколювати', 'regular', 'protokolliert', 'protokollierte', 'haben', 'A2', 'Wir können protokollieren.', 'Мы можем протоколировать.')
+
+(480, 'archivieren', 'архивировать', 'архівувати', 'regular', 'archiviert', 'archivierte', 'haben', 'A2', 'Wir können archivieren.', 'Мы можем архивировать.')
+
+(481, 'scannen', 'сканировать', 'сканувати', 'regular', 'gescannet', 'scannete', 'haben', 'A2', 'Wir können scannen.', 'Мы можем сканировать.')
+
+(482, 'auszahlen', 'выплачивать', 'виплачувати', 'regular', 'ausgezahlt', 'zahlte aus', 'haben', 'A2', 'Du solltest auszahlen.', 'Тебе следует выплачивать.')
+
+(483, 'reklamieren', 'предъявлять претензию', 'пред''являти претензію', 'regular', 'reklamiert', 'reklamierte', 'haben', 'A2', 'Kannst du reklamieren?', 'Ты можешь предъявлять претензию?')
+
+(484, 'posten', 'публиковать (пост)', 'публікувати (пост)', 'regular', 'gepostet', 'postete', 'haben', 'A2', 'Es ist wichtig zu posten.', 'Важно публиковать (пост).')
+
+(485, 'downloaden', 'скачивать', 'завантажувати', 'regular', 'gedownloadet', 'downloadete', 'haben', 'A2', 'Er möchte downloaden.', 'Он хочет скачивать.')
+
+(486, 'aktualisieren', 'обновлять', 'оновлювати', 'regular', 'aktualisiert', 'aktualisierte', 'haben', 'A2', 'Wir können aktualisieren.', 'Мы можем обновлять.')
+
+(487, 'deinstallieren', 'удалять (программу)', 'видаляти (програму)', 'regular', 'deinstalliert', 'deinstallierte', 'haben', 'A2', 'Wir können deinstallieren.', 'Мы можем удалять (программу).')
+
+(488, 'formatieren', 'форматировать', 'формутувати', 'regular', 'formatiert', 'formatierte', 'haben', 'A2', 'Ich möchte formatieren.', 'Я хочу форматировать.')
+
+(489, 'klicken', 'кликать', 'клікати', 'regular', 'geklickt', 'klickte', 'haben', 'A2', 'Wir können klicken.', 'Мы можем кликать.')
+
+(490, 'turnen', 'заниматься гимнастикой', 'займатися гімнастикою', 'regular', 'geturnt', 'turnte', 'haben', 'A2', 'Es ist wichtig zu turnen.', 'Важно заниматься гимнастикой.')
+
+(491, 'ringen', 'бороться', 'боротися', 'irregular', 'gerungen', 'rang', 'haben', 'A2', 'Wir können ringen.', 'Мы можем бороться.'),
+
+(492, 'jagen', 'охотиться', 'полювати', 'regular', 'gejagt', 'jagte', 'haben', 'A2', 'Es ist wichtig zu jagen.', 'Важно охотиться.')
+
+(493, 'filmen', 'снимать видео', 'знімати відео', 'regular', 'gefilmt', 'filmte', 'haben', 'A2', 'Sie möchte filmen.', 'Она хочет снимать видео.')
+
+(494, 'sich verabreden', 'договариваться о встрече', 'домовлятися про зустріч', 'regular', 'sich verabredet', 'verabredete sich', 'haben', 'A2', 'Es ist wichtig zu sich verabreden.', 'Важно договариваться о встрече.')
+
+(495, 'flirten', 'флиртовать', 'фліртувати', 'regular', 'geflirtet', 'flirtete', 'haben', 'A2', 'Wir können flirten.', 'Мы можем флиртовать.')
+
+(496, 'stornieren', 'отменять (заказ)', 'скасовувати (замовлення)', 'regular', 'storniert', 'stornierte', 'haben', 'A2', 'Er möchte stornieren.', 'Он хочет отменять (заказ).')
+
+(497, 'campen', 'жить в палатке', 'жити в наметі', 'regular', 'gecampt', 'campte', 'haben', 'A2', 'Sie möchte campen.', 'Она хочет жить в палатке.')
+
+(498, 'tauchen', 'нырять', 'пірнати', 'irregular', 'getaucht', 'tauchte', 'sein', 'A2', 'Wir können tauchen.', 'Мы можем нырять.'),
+
+(500, 'aufregen (sich)', 'нервничать', 'нервувати', 'regular', 'aufgeregen (sich)t', 'regen (sich)te auf', 'haben', 'A2', 'Wir können aufregen (sich).', 'Мы можем нервничать.'),
+
+(501, 'sich sehnen', 'тосковать', 'тужити', 'regular', 'sich gesehnt', 'sehnte sich', 'haben', 'A2', 'Er möchte sich sehnen.', 'Он хочет тосковать.')
+
+(503, 'leuchten', 'светить', 'світити', 'regular', 'geleuchtet', 'leuchtete', 'haben', 'A2', 'Kannst du leuchten?', 'Ты можешь светить?')
+
+(504, 'strahlen', 'сиять', 'сяяти', 'regular', 'gestrahlt', 'strahlte', 'haben', 'A2', 'Sie möchte strahlen.', 'Она хочет сиять.')
+
+(505, 'reifen', 'созревать', 'дозрівати', 'irregular', 'gereift', 'reifte', 'sein', 'A2', 'Wir müssen reifen.', 'Мы должны созревать.'),
+
+(506, 'designen', 'разрабатывать дизайн', 'розробляти дизайн', 'regular', 'gedesignet', 'designete', 'haben', 'A2', 'Sie möchte designen.', 'Она хочет разрабатывать дизайн.')
+
+(507, 'abschmecken', 'пробовать (на вкус)', 'пробувати (на смак)', 'regular', 'abgeschmeckt', 'schmeckte ab', 'haben', 'A2', 'Sie möchte abschmecken.', 'Она хочет пробовать (на вкус).')
+
+(508, 'pfeffern', 'перчить', 'перчити', 'regular', 'gepfeffert', 'pfefferte', 'haben', 'A2', 'Er möchte pfeffern.', 'Он хочет перчить.')
+
+(509, 'erhitzen', 'нагревать', 'нагрівати', 'regular', 'erhitzt', 'erhitzte', 'haben', 'A2', 'Du solltest erhitzen.', 'Тебе следует нагревать.')
+
+(510, 'sieden', 'кипятить', 'кип''ятити', 'irregular', 'gesotten', 'sott', 'haben', 'A2', 'Wir können sieden.', 'Мы можем кипятить.'),
+
+(511, 'anbraten', 'обжаривать', 'обсмажувати', 'regular', 'angebratent', 'bratente an', 'haben', 'A2', 'Du solltest anbraten.', 'Тебе следует обжаривать.'),
+
+(512, 'zurückschicken', 'отправлять назад', 'відправляти назад', 'regular', 'zurückgeschickt', 'schickte zurück', 'haben', 'A2', 'Wir können zurückschicken.', 'Мы можем отправлять назад.')
+
+(513, 'feilschen', 'торговаться (разг.)', 'торгуватися (розм.)', 'regular', 'gefeilscht', 'feilschte', 'haben', 'A2', 'Ich möchte feilschen.', 'Я хочу торговаться (разг.).')
+
+(514, 'abbezahlen', 'выплачивать (долг)', 'виплачувати (борг)', 'regular', 'abgebezahlt', 'bezahlte ab', 'haben', 'A2', 'Es ist wichtig zu abbezahlen.', 'Важно выплачивать (долг).')
+
+(515, 'fechten', 'фехтовать', 'фехтувати', 'irregular', 'gefochten', 'focht', 'haben', 'A2', 'Kannst du fechten?', 'Ты можешь фехтовать?'),
+
+(516, 'musizieren', 'заниматься музыкой', 'займатися музикою', 'regular', 'musiziert', 'musizierte', 'haben', 'A2', 'Ich möchte musizieren.', 'Я хочу заниматься музыкой.')
+
+(517, 'schnitzen', 'вырезать по дереву', 'вирізати по дереву', 'regular', 'geschnitzt', 'schnitzte', 'haben', 'A2', 'Sie möchte schnitzen.', 'Она хочет вырезать по дереву.')
+
+(518, 'häkeln', 'вязать крючком', 'в''язати гачком', 'regular', 'gehäkelt', 'häkelte', 'haben', 'A2', 'Er möchte häkeln.', 'Он хочет вязать крючком.')
+
+(519, 'sticken', 'вышивать', 'вишивати', 'regular', 'gestickt', 'stickte', 'haben', 'A2', 'Es ist wichtig zu sticken.', 'Важно вышивать.')
+
+(520, 'einwerfen', 'опускать (монету)', 'опускати (монету)', 'regular', 'eingewerfent', 'werfente ein', 'haben', 'A2', 'Wir können einwerfen.', 'Мы можем опускать (монету).'),
+
+(523, 'anmelden (sich)', 'регистрироваться (записываться)', 'реєструватися (записуватися)', 'regular', 'angemelden (sich)t', 'melden (sich)te an', 'haben', 'A2', 'Es ist wichtig zu anmelden (sich).', 'Важно регистрироваться (записываться).'),
+
+(524, 'abmelden (sich)', 'выписываться', 'виписуватися', 'regular', 'abgemelden (sich)t', 'melden (sich)te ab', 'haben', 'A2', 'Er möchte abmelden (sich).', 'Он хочет выписываться.'),
+
+(525, 'ferien machen', 'быть в отпуске', 'бути у відпустці', 'regular', 'geferien machent', 'ferien machente', 'haben', 'A2', 'Er möchte ferien machen.', 'Он хочет быть в отпуске.'),
+
+(526, 'Urlaub machen', 'быть в отпуске', 'бути у відпустці', 'regular', 'Urlaub gemacht', 'Urlaub machente', 'haben', 'A2', 'Wir müssen Urlaub machen.', 'Мы должны быть в отпуске.'),
+
+(527, 'sich ausruhen', 'отдыхать', 'відпочивати', 'regular', 'sich ausgeruht', 'ruhte sich aus', 'haben', 'A2', 'Sie möchte sich ausruhen.', 'Она хочет отдыхать.')
+
+(531, 'rennen', 'бежать', 'бігти', 'irregular', 'gerannt', 'rannte', 'sein', 'A2', 'Sie möchte rennen.', 'Она хочет бежать.'),
+
+(532, 'befördern', 'продвигать (по службе)', 'просувати (по службі)', 'regular', 'befördert', 'beförderte', 'haben', 'B1', 'Kannst du befördern?', 'Ты можешь продвигать (по службе)?')
+
+(533, 'delegieren', 'делегировать', 'делегувати', 'regular', 'delegiert', 'delegierte', 'haben', 'B1', 'Sie möchte delegieren.', 'Она хочет делегировать.')
+
+(534, 'koordinieren', 'координировать', 'координувати', 'regular', 'koordiniert', 'koordinierte', 'haben', 'B1', 'Wir müssen koordinieren.', 'Мы должны координировать.')
+
+(535, 'abstimmen', 'согласовывать', 'узгоджувати', 'regular', 'abgestimmet', 'stimmete ab', 'haben', 'B1', 'Wir können abstimmen.', 'Мы можем согласовывать.')
+
+(536, 'genehmigen', 'утверждать', 'затверджувати', 'regular', 'genehmigt', 'genehmigte', 'haben', 'B1', 'Er möchte genehmigen.', 'Он хочет утверждать.')
+
+(537, 'beantragen', 'подавать заявку', 'подавати заявку', 'regular', 'beantragent', 'beantragente', 'haben', 'B1', 'Du solltest beantragen.', 'Тебе следует подавать заявку.'),
+
+(538, 'finanzieren', 'финансировать', 'фінансувати', 'regular', 'finanziert', 'finanzierte', 'haben', 'B1', 'Wir müssen finanzieren.', 'Мы должны финансировать.')
+
+(539, 'investieren', 'инвестировать', 'інвестувати', 'regular', 'investiert', 'investierte', 'haben', 'B1', 'Ich möchte investieren.', 'Я хочу инвестировать.')
+
+(540, 'kalkulieren', 'калькулировать', 'калькулювати', 'regular', 'kalkuliert', 'kalkulierte', 'haben', 'B1', 'Es ist wichtig zu kalkulieren.', 'Важно калькулировать.')
+
+(541, 'prüfen', 'проверять (аудит)', 'перевіряти (аудит)', 'regular', 'geprüft', 'prüfte', 'haben', 'B1', 'Kannst du prüfen?', 'Ты можешь проверять (аудит)?')
+
+(542, 'kontrollieren', 'контролировать', 'контролювати', 'regular', 'kontrolliert', 'kontrollierte', 'haben', 'B1', 'Er möchte kontrollieren.', 'Он хочет контролировать.')
+
+(543, 'überwachen', 'наблюдать (за процессом)', 'спостерігати (за процесом)', 'regular', 'geüberwacht', 'überwachte', 'haben', 'B1', 'Wir können überwachen.', 'Мы можем наблюдать (за процессом).')
+
+(544, 'schulen', 'обучать (персонал)', 'навчати (персонал)', 'regular', 'geschult', 'schulte', 'haben', 'B1', 'Wir müssen schulen.', 'Мы должны обучать (персонал).')
+
+(545, 'vertreten', 'замещать', 'заміщати', 'irregular', 'vertreten', 'vertrat', 'haben', 'B1', 'Du solltest vertreten.', 'Тебе следует замещать.'),
+
+(546, 'repräsentieren', 'представлять (компанию)', 'представляти (компанію)', 'regular', 'repräsentiert', 'repräsentierte', 'haben', 'B1', 'Er möchte repräsentieren.', 'Он хочет представлять (компанию).')
+
+(547, 'argumentieren', 'аргументировать', 'аргументувати', 'regular', 'argumentiert', 'argumentierte', 'haben', 'B1', 'Du solltest argumentieren.', 'Тебе следует аргументировать.')
+
+(548, 'hinweisen', 'указывать (на что-то)', 'вказувати (на щось)', 'irregular', 'hingewiesen', 'wies hin', 'haben', 'B1', 'Sie möchte hinweisen.', 'Она хочет указывать (на что-то).'),
+
+(549, 'andeuten', 'намекать', 'натякати', 'regular', 'angedeutet', 'deutete an', 'haben', 'B1', 'Wir können andeuten.', 'Мы можем намекать.')
+
+(550, 'ausführen', 'разъяснять (подробно)', 'роз''яснювати (докладно)', 'regular', 'ausgeführt', 'führte aus', 'haben', 'B1', 'Es ist wichtig zu ausführen.', 'Важно разъяснять (подробно).')
+
+(551, 'erläutern', 'пояснять (детально)', 'пояснювати (детально)', 'regular', 'erläutert', 'erläuterte', 'haben', 'B1', 'Sie möchte erläutern.', 'Она хочет пояснять (детально).')
+
+(552, 'hervorheben', 'выделять (акцентировать)', 'виділяти (акцентувати)', 'irregular', 'hervorgehoben', 'hob hervor', 'haben', 'B1', 'Es ist wichtig zu hervorheben.', 'Важно выделять (акцентировать).'),
+
+(553, 'unterstreichen', 'подчёркивать', 'підкреслювати', 'irregular', 'unterstrichen', 'unterstrich', 'haben', 'B1', 'Wir können unterstreichen.', 'Мы можем подчёркивать.'),
+
+(554, 'definieren', 'определять', 'визначати', 'regular', 'definiert', 'definierte', 'haben', 'B1', 'Ich möchte definieren.', 'Я хочу определять.')
+
+(555, 'pauken', 'зубрить', 'зубрити', 'regular', 'gepaukt', 'paukte', 'haben', 'B1', 'Wir können pauken.', 'Мы можем зубрить.')
+
+(556, 'recherchieren', 'исследовать', 'досліджувати', 'regular', 'recherchiert', 'recherchierte', 'haben', 'B1', 'Kannst du recherchieren?', 'Ты можешь исследовать?')
+
+(557, 'analysieren', 'анализировать', 'аналізувати', 'regular', 'analysiert', 'analysierte', 'haben', 'B1', 'Er möchte analysieren.', 'Он хочет анализировать.')
+
+(558, 'bestehen (Prüfung)', 'сдавать (экзамен)', 'складати (іспит)', 'irregular', 'bestanden', 'bestand', 'haben', 'B1', 'Wir müssen bestehen (Prüfung).', 'Мы должны сдавать (экзамен).'),
+
+(559, 'durchfallen', 'проваливаться (на экзамене)', 'провалюватися (на іспиті)', 'irregular', 'durchgefallen', 'fiel durch', 'sein', 'B1', 'Kannst du durchfallen?', 'Ты можешь проваливаться (на экзамене)?'),
+
+(560, 'absolvieren', 'оканчивать (курс)', 'закінчувати (курс)', 'regular', 'absolviert', 'absolvierte', 'haben', 'B1', 'Wir können absolvieren.', 'Мы можем оканчивать (курс).')
+
+(561, 'forschen', 'исследовать (научно)', 'досліджувати (науково)', 'regular', 'geforscht', 'forschte', 'haben', 'B1', 'Wir können forschen.', 'Мы можем исследовать (научно).')
+
+(562, 'experimentieren', 'экспериментировать', 'експериментувати', 'regular', 'experimentiert', 'experimentierte', 'haben', 'B1', 'Ich möchte experimentieren.', 'Я хочу экспериментировать.')
+
+(563, 'präsentieren', 'презентовать', 'презентувати', 'regular', 'präsentiert', 'präsentierte', 'haben', 'B1', 'Ich möchte präsentieren.', 'Я хочу презентовать.')
+
+(564, 'wählen', 'выбирать (голосовать)', 'обирати (голосувати)', 'regular', 'gewählt', 'wählte', 'haben', 'B1', 'Er möchte wählen.', 'Он хочет выбирать (голосовать).')
+
+(565, 'demonstrieren', 'участвовать в демонстрации', 'брати участь у демонстрації', 'regular', 'demonstriert', 'demonstrierte', 'haben', 'B1', 'Sie möchte demonstrieren.', 'Она хочет участвовать в демонстрации.')
+
+(566, 'protestieren', 'протестовать', 'протестувати', 'regular', 'protestiert', 'protestierte', 'haben', 'B1', 'Es ist wichtig zu protestieren.', 'Важно протестовать.')
+
+(567, 'streiken', 'бастовать', 'страйкувати', 'regular', 'gestreikt', 'streikte', 'haben', 'B1', 'Wir müssen streiken.', 'Мы должны бастовать.')
+
+(568, 'gründen', 'основывать', 'основувати', 'regular', 'gegründet', 'gründete', 'haben', 'B1', 'Du solltest gründen.', 'Тебе следует основывать.')
+
+(569, 'spenden', 'жертвовать (деньги)', 'жертвувати (гроші)', 'regular', 'gespendet', 'spendete', 'haben', 'B1', 'Wir können spenden.', 'Мы можем жертвовать (деньги).')
+
+(570, 'unterstützen', 'поддерживать', 'підтримувати', 'regular', 'geunterstützt', 'unterstützte', 'haben', 'B1', 'Wir müssen unterstützen.', 'Мы должны поддерживать.')
+
+(571, 'fördern', 'способствовать (развитию)', 'сприяти (розвитку)', 'regular', 'gefördert', 'förderte', 'haben', 'B1', 'Wir müssen fördern.', 'Мы должны способствовать (развитию).')
+
+(572, 'integrieren', 'интегрировать', 'інтегрувати', 'regular', 'integriert', 'integrierte', 'haben', 'B1', 'Es ist wichtig zu integrieren.', 'Важно интегрировать.')
+
+(573, 'heiraten', 'жениться / выходить замуж', 'одружуватися', 'regular', 'geheiratet', 'heiratete', 'haben', 'B1', 'Er möchte heiraten.', 'Он хочет жениться / выходить замуж.')
+
+(574, 'sich scheiden lassen', 'разводиться', 'розлучатися', 'regular', 'sich scheiden lassen', 'ließ sich scheiden', 'haben', 'B1', 'Er möchte sich scheiden lassen.', 'Он хочет разводиться.')
+
+(575, 'sich verloben', 'обручаться', 'заручатися', 'regular', 'sich verlobt', 'verlobte sich', 'haben', 'B1', 'Du solltest sich verloben.', 'Тебе следует обручаться.')
+
+(576, 'gebären', 'рожать', 'народжувати', 'irregular', 'geboren', 'gebar', 'haben', 'B1', 'Wir können gebären.', 'Мы можем рожать.'),
+
+(577, 'pflegen', 'ухаживать (за кем-то)', 'доглядати (за кимось)', 'regular', 'gepflegt', 'pflegte', 'haben', 'B1', 'Ich möchte pflegen.', 'Я хочу ухаживать (за кем-то).')
+
+(578, 'betreuen', 'заботиться (о ком-то)', 'піклуватися (про когось)', 'regular', 'betreut', 'betreute', 'haben', 'B1', 'Er möchte betreuen.', 'Он хочет заботиться (о ком-то).')
+
+(579, 'sich kümmern', 'заботиться', 'піклуватися', 'regular', 'sich gekümmert', 'kümmerte sich', 'haben', 'B1', 'Wir müssen sich kümmern.', 'Мы должны заботиться.')
+
+(580, 'sich versöhnen', 'мириться', 'миритися', 'regular', 'sich versöhnt', 'versöhnte sich', 'haben', 'B1', 'Du solltest sich versöhnen.', 'Тебе следует мириться.')
+
+(581, 'erkranken', 'заболеть', 'захворіти', 'irregular', 'erkrankt', 'erkrankte', 'sein', 'B1', 'Es ist wichtig zu erkranken.', 'Важно заболеть.'),
+
+(582, 'verschreiben', 'выписывать (рецепт)', 'виписувати (рецепт)', 'irregular', 'verschrieben', 'verschrieb', 'haben', 'B1', 'Ich möchte verschreiben.', 'Я хочу выписывать (рецепт).'),
+
+(583, 'diagnostizieren', 'диагностировать', 'діагностувати', 'regular', 'diagnostiziert', 'diagnostizierte', 'haben', 'B1', 'Kannst du diagnostizieren?', 'Ты можешь диагностировать?')
+
+(584, 'massieren', 'массировать', 'масажувати', 'regular', 'massiert', 'massierte', 'haben', 'B1', 'Kannst du massieren?', 'Ты можешь массировать?')
+
+(585, 'vorbeugen', 'предотвращать (болезнь)', 'запобігати (хворобі)', 'regular', 'vorgebeugt', 'beugte vor', 'haben', 'B1', 'Du solltest vorbeugen.', 'Тебе следует предотвращать (болезнь).')
+
+(586, 'schützen', 'защищать (окружающую среду)', 'захищати (довкілля)', 'regular', 'geschützt', 'schützte', 'haben', 'B1', 'Es ist wichtig zu schützen.', 'Важно защищать (окружающую среду).')
+
+(587, 'bewahren', 'сохранять', 'зберігати', 'regular', 'bewahrt', 'bewahrte', 'haben', 'B1', 'Es ist wichtig zu bewahren.', 'Важно сохранять.')
+
+(588, 'erhalten', 'сохранять (поддерживать)', 'зберігати (підтримувати)', 'irregular', 'erhalten', 'erhielt', 'haben', 'B1', 'Du solltest erhalten.', 'Тебе следует сохранять (поддерживать).'),
+
+(589, 'recyceln', 'перерабатывать (отходы)', 'переробляти (відходи)', 'regular', 'gerecycelt', 'recycelte', 'haben', 'B1', 'Du solltest recyceln.', 'Тебе следует перерабатывать (отходы).')
+
+(590, 'reinigen', 'очищать', 'очищати', 'regular', 'gereinigt', 'reinigte', 'haben', 'B1', 'Es ist wichtig zu reinigen.', 'Важно очищать.')
+
+(591, 'verschmutzen', 'загрязнять', 'забруднювати', 'regular', 'verschmutzt', 'verschmutzte', 'haben', 'B1', 'Wir müssen verschmutzen.', 'Мы должны загрязнять.')
+
+(592, 'ernten', 'собирать урожай', 'збирати врожай', 'regular', 'erntet', 'erntete', 'haben', 'B1', 'Wir können ernten.', 'Мы можем собирать урожай.')
+
+(593, 'pflanzen', 'сажать (растения)', 'садити (рослини)', 'regular', 'gepflanzt', 'pflanzte', 'haben', 'B1', 'Sie möchte pflanzen.', 'Она хочет сажать (растения).')
+
+(594, 'konstruieren', 'конструировать', 'конструювати', 'regular', 'konstruiert', 'konstruierte', 'haben', 'B1', 'Ich möchte konstruieren.', 'Я хочу конструировать.')
+
+(595, 'entwerfen', 'разрабатывать (проект)', 'розробляти (проект)', 'irregular', 'entworfen', 'entwarf', 'haben', 'B1', 'Wir müssen entwerfen.', 'Мы должны разрабатывать (проект).'),
+
+(596, 'berechnen', 'рассчитывать (технически)', 'розраховувати (технічно)', 'regular', 'berechnet', 'berechnete', 'haben', 'B1', 'Ich möchte berechnen.', 'Я хочу рассчитывать (технически).')
+
+(597, 'simulieren', 'моделировать', 'моделювати', 'regular', 'simuliert', 'simulierte', 'haben', 'B1', 'Kannst du simulieren?', 'Ты можешь моделировать?')
+
+(598, 'warten', 'обслуживать (технику)', 'обслуговувати (техніку)', 'regular', 'gewartet', 'wartete', 'haben', 'B1', 'Wir können warten.', 'Мы можем обслуживать (технику).')
+
+(599, 'montieren', 'монтировать', 'монтувати', 'regular', 'montiert', 'montierte', 'haben', 'B1', 'Du solltest montieren.', 'Тебе следует монтировать.')
+
+(601, 'löten', 'паять', 'паяти', 'regular', 'gelötet', 'lötete', 'haben', 'B1', 'Ich möchte löten.', 'Я хочу паять.')
+
+(602, 'schweißen', 'сваривать', 'зварювати', 'regular', 'geschweißt', 'schweißte', 'haben', 'B1', 'Du solltest schweißen.', 'Тебе следует сваривать.')
+
+(603, 'bohren', 'сверлить', 'свердлити', 'regular', 'gebohrt', 'bohrte', 'haben', 'B1', 'Er möchte bohren.', 'Он хочет сверлить.')
+
+(604, 'ausstellen', 'выставлять (произведения)', 'виставляти (твори)', 'regular', 'ausgestellt', 'stellte aus', 'haben', 'B1', 'Wir müssen ausstellen.', 'Мы должны выставлять (произведения).')
+
+(605, 'aufführen', 'исполнять (пьесу)', 'виконувати (п''єсу)', 'regular', 'aufgeführt', 'führte auf', 'haben', 'B1', 'Ich möchte aufführen.', 'Я хочу исполнять (пьесу).')
+
+(606, 'inszenieren', 'ставить (спектакль)', 'ставити (виставу)', 'regular', 'inszeniert', 'inszenierte', 'haben', 'B1', 'Es ist wichtig zu inszenieren.', 'Важно ставить (спектакль).')
+
+(607, 'proben', 'репетировать', 'репетирувати', 'regular', 'geprobt', 'probte', 'haben', 'B1', 'Du solltest proben.', 'Тебе следует репетировать.')
+
+(608, 'auftreten', 'выступать (на сцене)', 'виступати (на сцені)', 'irregular', 'aufgetreten', 'trat auf', 'sein', 'B1', 'Er möchte auftreten.', 'Он хочет выступать (на сцене).'),
+
+(609, 'redigieren', 'редактировать', 'редагувати', 'regular', 'redigiert', 'redigierte', 'haben', 'B1', 'Sie möchte redigieren.', 'Она хочет редактировать.')
+
+(610, 'kommentieren', 'комментировать', 'коментувати', 'regular', 'kommentiert', 'kommentierte', 'haben', 'B1', 'Ich möchte kommentieren.', 'Я хочу комментировать.')
+
+(611, 'kritisieren', 'критиковать', 'критикувати', 'regular', 'kritisiert', 'kritisierte', 'haben', 'B1', 'Wir müssen kritisieren.', 'Мы должны критиковать.')
+
+(612, 'begeistern', 'вдохновлять', 'надихати', 'regular', 'begeistert', 'begeisterte', 'haben', 'B1', 'Kannst du begeistern?', 'Ты можешь вдохновлять?')
+
+(613, 'motivieren', 'мотивировать', 'мотивувати', 'regular', 'motiviert', 'motivierte', 'haben', 'B1', 'Ich möchte motivieren.', 'Я хочу мотивировать.')
+
+(614, 'anleiten', 'инструктировать', 'інструктувати', 'regular', 'angeleitet', 'leitete an', 'haben', 'B1', 'Du solltest anleiten.', 'Тебе следует инструктировать.')
+
+(615, 'weiterbilden', 'повышать квалификацию', 'підвищувати кваліфікацію', 'regular', 'weitergebildet', 'bildete weiter', 'haben', 'B1', 'Wir müssen weiterbilden.', 'Мы должны повышать квалификацию.')
+
+(616, 'dementieren', 'опровергать (официально)', 'спростовувати (офіційно)', 'regular', 'dementiert', 'dementierte', 'haben', 'B1', 'Sie möchte dementieren.', 'Она хочет опровергать (официально).')
+
+(617, 'schildern', 'описывать (подробно)', 'описувати (докладно)', 'regular', 'geschildert', 'schilderte', 'haben', 'B1', 'Wir können schildern.', 'Мы можем описывать (подробно).')
+
+(618, 'verdeutlichen', 'прояснять', 'прояснювати', 'regular', 'verdeutlicht', 'verdeutlichte', 'haben', 'B1', 'Du solltest verdeutlichen.', 'Тебе следует прояснять.')
+
+(619, 'charakterisieren', 'характеризовать', 'характеризувати', 'regular', 'charakterisiert', 'charakterisierte', 'haben', 'B1', 'Ich möchte charakterisieren.', 'Я хочу характеризовать.')
+
+(620, 'klassifizieren', 'классифицировать', 'класифікувати', 'regular', 'klassifiziert', 'klassifizierte', 'haben', 'B1', 'Sie möchte klassifizieren.', 'Она хочет классифицировать.')
+
+(622, 'büffeln', 'зубрить (разг.)', 'зубрити (розм.)', 'regular', 'gebüffelt', 'büffelte', 'haben', 'B1', 'Ich möchte büffeln.', 'Я хочу зубрить (разг.).')
+
+(623, 'testen', 'тестировать', 'тестувати', 'regular', 'getestet', 'testete', 'haben', 'B1', 'Kannst du testen?', 'Ты можешь тестировать?')
+
+(624, 'einschreiben (sich)', 'записываться (на курс)', 'записуватися (на курс)', 'regular', 'eingeschreiben (sich)t', 'schreiben (sich)te ein', 'haben', 'B1', 'Ich möchte einschreiben (sich).', 'Я хочу записываться (на курс).'),
+
+(625, 'promovieren', 'защищать диссертацию', 'захищати дисертацію', 'regular', 'promoviert', 'promovierte', 'haben', 'B1', 'Du solltest promovieren.', 'Тебе следует защищать диссертацию.')
+
+(627, 'referieren', 'реферировать', 'реферувати', 'regular', 'referiert', 'referierte', 'haben', 'B1', 'Wir können referieren.', 'Мы можем реферировать.')
+
+(628, 'debattieren', 'дебатировать', 'дебатувати', 'regular', 'debattiert', 'debattierte', 'haben', 'B1', 'Sie möchte debattieren.', 'Она хочет дебатировать.')
+
+(632, 'stiften', 'учреждать', 'засновувати', 'regular', 'gestiftet', 'stiftete', 'haben', 'B1', 'Wir müssen stiften.', 'Мы должны учреждать.')
+
+(633, 'engagieren (sich)', 'заниматься (общественной работой)', 'займатися (громадською роботою)', 'regular', 'geengagieren (sich)t', 'engagieren (sich)te', 'haben', 'B1', 'Er möchte engagieren (sich).', 'Он хочет заниматься (общественной работой).'),
+
+(635, 'sich scheiden', 'разводиться', 'розлучатися', 'regular', 'sich geschieden', 'schied sich', 'haben', 'B1', 'Ich möchte sich scheiden.', 'Я хочу разводиться.')
+
+(642, 'sich vertragen', 'ладить (друг с другом)', 'ладити (один з одним)', 'irregular', 'sich vertragen', 'vertrug sich', 'haben', 'B1', 'Es ist wichtig zu sich vertragen.', 'Важно ладить (друг с другом).'),
+
+(655, 'beschneiden', 'обрезать (растения)', 'обрізати (рослини)', 'regular', 'beschneident', 'beschneidente', 'haben', 'B1', 'Sie möchte beschneiden.', 'Она хочет обрезать (растения).'),
+
+(656, 'bewässern', 'орошать', 'зрошувати', 'regular', 'bewässert', 'bewässerte', 'haben', 'B1', 'Wir können bewässern.', 'Мы можем орошать.')
+
+(657, 'aufforsten', 'высаживать лес', 'висаджувати ліс', 'regular', 'aufgeforstet', 'forstete auf', 'haben', 'B1', 'Er möchte aufforsten.', 'Он хочет высаживать лес.')
+
+(675, 'managen', 'управлять', 'керувати', 'regular', 'gemanagt', 'managte', 'haben', 'B2', 'Du solltest managen.', 'Тебе следует управлять.')
+
+(680, 'optimieren', 'оптимизировать', 'оптимізувати', 'regular', 'optimiert', 'optimierte', 'haben', 'B2', 'Wir müssen optimieren.', 'Мы должны оптимизировать.')
+
+(681, 'automatisieren', 'автоматизировать', 'автоматизувати', 'regular', 'automatisiert', 'automatisierte', 'haben', 'B2', 'Du solltest automatisieren.', 'Тебе следует автоматизировать.')
+
+(682, 'modernisieren', 'модернизировать', 'модернізувати', 'regular', 'modernisiert', 'modernisierte', 'haben', 'B2', 'Er möchte modernisieren.', 'Он хочет модернизировать.')
+
+(683, 'expandieren', 'расширяться (о бизнесе)', 'розширюватися (про бізнес)', 'regular', 'expandiert', 'expandierte', 'haben', 'B2', 'Sie möchte expandieren.', 'Она хочет расширяться (о бизнесе).')
+
+(685, 'abschreiben', 'списывать (активы)', 'списувати (активи)', 'irregular', 'abgeschrieben', 'schrieb ab', 'haben', 'B2', 'Wir können abschreiben.', 'Мы можем списывать (активы).'),
+
+(686, 'einnehmen', 'получать (доход)', 'отримувати (дохід)', 'irregular', 'eingenommen', 'nahm ein', 'haben', 'B2', 'Wir müssen einnehmen.', 'Мы должны получать (доход).'),
+
+(688, 'anlegen', 'вкладывать (инвестиции)', 'вкладати (інвестиції)', 'regular', 'angelegt', 'legte an', 'haben', 'B2', 'Es ist wichtig zu anlegen.', 'Важно вкладывать (инвестиции).')
+
+(689, 'tilgen', 'погашать (долг)', 'погашати (борг)', 'regular', 'getilgt', 'tilgte', 'haben', 'B2', 'Er möchte tilgen.', 'Он хочет погашать (долг).')
+
+(690, 'begleichen', 'уплачивать (счет)', 'сплачувати (рахунок)', 'irregular', 'beglichen', 'beglich', 'haben', 'B2', 'Wir müssen begleichen.', 'Мы должны уплачивать (счет).'),
+
+(691, 'verklagen', 'подавать в суд', 'подавати до суду', 'regular', 'verklagt', 'verklagte', 'haben', 'B2', 'Du solltest verklagen.', 'Тебе следует подавать в суд.')
+
+(692, 'verurteilen', 'осуждать (приговор)', 'засуджувати (вирок)', 'regular', 'verurteilt', 'verurteilte', 'sein', 'B2', 'Ich möchte verurteilen.', 'Я хочу осуждать (приговор).')
+
+(693, 'freisprechen', 'оправдывать', 'виправдовувати', 'irregular', 'freigesprochen', 'sprach frei', 'haben', 'B2', 'Er möchte freisprechen.', 'Он хочет оправдывать.'),
+
+(694, 'urteilen', 'выносить приговор', 'виносити вирок', 'regular', 'geurteilt', 'urteilte', 'sein', 'B2', 'Er möchte urteilen.', 'Он хочет выносить приговор.')
+
+(695, 'sich berufen', 'обжаловать (апеллировать)', 'оскаржувати (апелювати)', 'irregular', 'sich berufen', 'berief sich', 'haben', 'B2', 'Kannst du sich berufen?', 'Ты можешь обжаловать (апеллировать)?'),
+
+(696, 'entschädigen', 'компенсировать (ущерб)', 'компенсувати (збиток)', 'regular', 'entschädigt', 'entschädigte', 'haben', 'B2', 'Sie möchte entschädigen.', 'Она хочет компенсировать (ущерб).')
+
+(697, 'haften', 'нести ответственность', 'нести відповідальність', 'regular', 'gehaftet', 'haftete', 'haben', 'B2', 'Er möchte haften.', 'Он хочет нести ответственность.')
+
+(698, 'registrieren', 'регистрировать (официально)', 'реєструвати (офіційно)', 'regular', 'registriert', 'registrierte', 'haben', 'B2', 'Ich möchte registrieren.', 'Я хочу регистрировать (официально).')
+
+(699, 'regieren', 'править (управлять государством)', 'правити (керувати державою)', 'regular', 'regiert', 'regierte', 'haben', 'B2', 'Sie möchte regieren.', 'Она хочет править (управлять государством).')
+
+(700, 'erlassen', 'издавать (закон)', 'видавати (закон)', 'irregular', 'erlassen', 'erließ', 'haben', 'B2', 'Er möchte erlassen.', 'Он хочет издавать (закон).'),
+
+(701, 'ratifizieren', 'ратифицировать', 'ратифікувати', 'regular', 'ratifiziert', 'ratifizierte', 'haben', 'B2', 'Kannst du ratifizieren?', 'Ты можешь ратифицировать?')
+
+(702, 'verhaften', 'арестовывать', 'арештовувати', 'regular', 'verhaftet', 'verhaftete', 'haben', 'B2', 'Kannst du verhaften?', 'Ты можешь арестовывать?')
+
+(703, 'festnehmen', 'задерживать (полицией)', 'затримувати (поліцією)', 'irregular', 'festgenommen', 'nahm fest', 'haben', 'B2', 'Kannst du festnehmen?', 'Ты можешь задерживать (полицией)?'),
+
+(704, 'ausweisen', 'высылать (из страны)', 'висилати (з країни)', 'regular', 'ausgeweisent', 'weisente aus', 'haben', 'B2', 'Wir müssen ausweisen.', 'Мы должны высылать (из страны).'),
+
+(705, 'akzeptieren', 'принимать (ситуацию)', 'приймати (ситуацію)', 'regular', 'akzeptiert', 'akzeptierte', 'haben', 'B2', 'Ich möchte akzeptieren.', 'Я хочу принимать (ситуацию).')
+
+(706, 'verarbeiten', 'перерабатывать (впечатления)', 'переробляти (враження)', 'regular', 'verarbeitet', 'verarbeitete', 'haben', 'B2', 'Er möchte verarbeiten.', 'Он хочет перерабатывать (впечатления).')
+
+(707, 'überwinden', 'преодолевать (себя)', 'долати (себе)', 'irregular', 'überwunden', 'überwand', 'haben', 'B2', 'Es ist wichtig zu überwinden.', 'Важно преодолевать (себя).'),
+
+(708, 'vergeben', 'прощать (обиду)', 'прощати (образу)', 'irregular', 'vergeben', 'vergab', 'haben', 'B2', 'Es ist wichtig zu vergeben.', 'Важно прощать (обиду).'),
+
+(709, 'bedauern', 'сожалеть', 'шкодувати', 'regular', 'bedauert', 'bedauerte', 'haben', 'B2', 'Er möchte bedauern.', 'Он хочет сожалеть.')
+
+(710, 'respektieren', 'уважать', 'поважати', 'regular', 'respektiert', 'respektierte', 'haben', 'B2', 'Ich möchte respektieren.', 'Я хочу уважать.')
+
+(711, 'verehren', 'почитать (боготворить)', 'почитати (боготворити)', 'regular', 'verehrt', 'verehrte', 'haben', 'B2', 'Wir können verehren.', 'Мы можем почитать (боготворить).')
+
+(712, 'nachdenken', 'размышлять', 'розмірковувати', 'mixed', 'nachgedacht', 'dachte nach', 'haben', 'B2', 'Kannst du nachdenken?', 'Ты можешь размышлять?'),
+
+(713, 'reflektieren', 'размышлять (анализировать)', 'розмірковувати (аналізувати)', 'regular', 'reflektiert', 'reflektierte', 'haben', 'B2', 'Wir müssen reflektieren.', 'Мы должны размышлять (анализировать).')
+
+(714, 'abwägen', 'взвешивать (аргументы)', 'зважувати (аргументи)', 'irregular', 'abgewogen', 'wog ab', 'haben', 'B2', 'Kannst du abwägen?', 'Ты можешь взвешивать (аргументы)?'),
+
+(715, 'vermuten', 'предполагать', 'припускати', 'regular', 'vermutet', 'vermutete', 'haben', 'B2', 'Sie möchte vermuten.', 'Она хочет предполагать.')
+
+(716, 'annehmen', 'предполагать (допускать)', 'припускати (допускати)', 'irregular', 'angenommen', 'nahm an', 'haben', 'B2', 'Sie möchte annehmen.', 'Она хочет предполагать (допускать).'),
+
+(717, 'garantieren', 'гарантировать', 'гарантувати', 'regular', 'garantiert', 'garantierte', 'haben', 'B2', 'Ich möchte garantieren.', 'Я хочу гарантировать.')
+
+(718, 'beschwören', 'клясться', 'клястися', 'irregular', 'beschworen', 'beschwor', 'haben', 'B2', 'Wir können beschwören.', 'Мы можем клясться.'),
+
+(719, 'drohen', 'угрожать', 'загрожувати', 'regular', 'gedroht', 'drohte', 'haben', 'B2', 'Wir können drohen.', 'Мы можем угрожать.')
+
+(720, 'riskieren', 'рисковать', 'ризикувати', 'regular', 'riskiert', 'riskierte', 'haben', 'B2', 'Wir müssen riskieren.', 'Мы должны рисковать.')
+
+(721, 'zögern', 'колебаться', 'вагатися', 'regular', 'gezögert', 'zögerte', 'haben', 'B2', 'Du solltest zögern.', 'Тебе следует колебаться.')
+
+(722, 'aufschieben', 'откладывать (на потом)', 'відкладати (на потім)', 'irregular', 'aufgeschoben', 'schob auf', 'haben', 'B2', 'Sie möchte aufschieben.', 'Она хочет откладывать (на потом).'),
+
+(723, 'verlängern', 'продлевать (срок)', 'продовжувати (термін)', 'regular', 'verlängert', 'verlängerte', 'haben', 'B2', 'Es ist wichtig zu verlängern.', 'Важно продлевать (срок).')
+
+(724, 'sich verspäten', 'опаздывать', 'запізнюватися', 'irregular', 'sich verspätet', 'verspätete sich', 'sein', 'B2', 'Wir müssen sich verspäten.', 'Мы должны опаздывать.'),
+
+(725, 'abstrahieren', 'абстрагировать', 'абстрагувати', 'regular', 'abstrahiert', 'abstrahierte', 'haben', 'C1', 'Kannst du abstrahieren?', 'Ты можешь абстрагировать?')
+
+(726, 'konkretisieren', 'конкретизировать', 'конкретизувати', 'regular', 'konkretisiert', 'konkretisierte', 'haben', 'C1', 'Wir müssen konkretisieren.', 'Мы должны конкретизировать.')
+
+(727, 'quantifizieren', 'квантифицировать', 'квантифікувати', 'regular', 'quantifiziert', 'quantifizierte', 'haben', 'C1', 'Kannst du quantifizieren?', 'Ты можешь квантифицировать?')
+
+(728, 'differenzieren', 'дифференцировать', 'диференціювати', 'regular', 'differenziert', 'differenzierte', 'haben', 'C1', 'Er möchte differenzieren.', 'Он хочет дифференцировать.')
+
+(730, 'interpretieren', 'интерпретировать', 'інтерпретувати', 'regular', 'interpretiert', 'interpretierte', 'haben', 'C1', 'Du solltest interpretieren.', 'Тебе следует интерпретировать.')
+
+(731, 'korrelieren', 'коррелировать', 'корелювати', 'regular', 'korreliert', 'korrelierte', 'haben', 'C1', 'Wir müssen korrelieren.', 'Мы должны коррелировать.')
+
+(732, 'kategorisieren', 'категоризировать', 'категоризувати', 'regular', 'kategorisiert', 'kategorisierte', 'haben', 'C1', 'Sie möchte kategorisieren.', 'Она хочет категоризировать.')
+
+(733, 'systematisieren', 'систематизировать', 'систематизувати', 'regular', 'systematisiert', 'systematisierte', 'haben', 'C1', 'Wir müssen systematisieren.', 'Мы должны систематизировать.')
+
+(734, 'strukturieren', 'структурировать', 'структурувати', 'regular', 'strukturiert', 'strukturierte', 'haben', 'C1', 'Er möchte strukturieren.', 'Он хочет структурировать.')
+
+(735, 'konzipieren', 'концептуализировать', 'концептуалізувати', 'regular', 'konzipiert', 'konzipierte', 'haben', 'C1', 'Er möchte konzipieren.', 'Он хочет концептуализировать.')
+
+(736, 'theoretisieren', 'теоретизировать', 'теоретизувати', 'regular', 'theoretisiert', 'theoretisierte', 'haben', 'C1', 'Sie möchte theoretisieren.', 'Она хочет теоретизировать.')
+
+(737, 'postulieren', 'постулировать', 'постулювати', 'regular', 'postuliert', 'postulierte', 'haben', 'C1', 'Er möchte postulieren.', 'Он хочет постулировать.')
+
+(738, 'plädieren', 'выступать (за/против)', 'виступати (за/проти)', 'regular', 'plädiert', 'plädierte', 'haben', 'C1', 'Wir müssen plädieren.', 'Мы должны выступать (за/против).')
+
+(739, 'privatisieren', 'приватизировать', 'приватизувати', 'regular', 'privatisiert', 'privatisierte', 'haben', 'C1', 'Wir müssen privatisieren.', 'Мы должны приватизировать.')
+
+(740, 'verstaatlichen', 'национализировать', 'націоналізувати', 'regular', 'verstaatlicht', 'verstaatlichte', 'haben', 'C1', 'Wir können verstaatlichen.', 'Мы можем национализировать.')
+
+(741, 'subventionieren', 'субсидировать', 'субсидувати', 'regular', 'subventioniert', 'subventionierte', 'haben', 'C1', 'Sie möchte subventionieren.', 'Она хочет субсидировать.')
+
+(742, 'konsolidieren', 'консолидировать (долг)', 'консолідувати (борг)', 'regular', 'konsolidiert', 'konsolidierte', 'haben', 'C1', 'Kannst du konsolidieren?', 'Ты можешь консолидировать (долг)?')
+
+(743, 'liquidieren', 'ликвидировать (компанию)', 'ліквідовувати (компанію)', 'regular', 'liquidiert', 'liquidierte', 'haben', 'C1', 'Wir müssen liquidieren.', 'Мы должны ликвидировать (компанию).')
+
+(744, 'sanieren', 'санировать (оздоравливать)', 'санувати (оздоровлювати)', 'regular', 'saniert', 'sanierte', 'haben', 'C1', 'Er möchte sanieren.', 'Он хочет санировать (оздоравливать).')
+
+(745, 'transformieren', 'трансформировать', 'трансформувати', 'regular', 'transformiert', 'transformierte', 'haben', 'C1', 'Kannst du transformieren?', 'Ты можешь трансформировать?')
+
+(746, 'begnadigen', 'помиловать', 'помилувати', 'regular', 'begnadigt', 'begnadigte', 'haben', 'C1', 'Wir können begnadigen.', 'Мы можем помиловать.')
+
+(747, 'enteignen', 'экспроприировать', 'експропріювати', 'regular', 'enteignet', 'enteignete', 'haben', 'C1', 'Er möchte enteignen.', 'Он хочет экспроприировать.')
+
+(748, 'beschlagnahmen', 'конфисковать', 'конфісковувати', 'regular', 'beschlagnahmt', 'beschlagnahmte', 'haben', 'C1', 'Wir müssen beschlagnahmen.', 'Мы должны конфисковать.')
+
+(749, 'legalisieren', 'легализовать', 'легалізувати', 'regular', 'legalisiert', 'legalisierte', 'haben', 'C1', 'Du solltest legalisieren.', 'Тебе следует легализовать.')
+
+(750, 'legitimieren', 'легитимировать', 'легітимізувати', 'regular', 'legitimiert', 'legitimierte', 'haben', 'C1', 'Wir müssen legitimieren.', 'Мы должны легитимировать.')
+
+(752, 'therapieren', 'проводить терапию', 'проводити терапію', 'regular', 'therapiert', 'therapierte', 'haben', 'C1', 'Ich möchte therapieren.', 'Я хочу проводить терапию.')
+
+(753, 'transplantieren', 'трансплантировать (орган)', 'трансплантувати (орган)', 'regular', 'transplantiert', 'transplantierte', 'haben', 'C1', 'Du solltest transplantieren.', 'Тебе следует трансплантировать (орган).')
+
+(754, 'implantieren', 'имплантировать', 'імплантувати', 'regular', 'implantiert', 'implantierte', 'haben', 'C1', 'Wir müssen implantieren.', 'Мы должны имплантировать.')
+
+(755, 'reanimieren', 'реанимировать', 'реанімувати', 'regular', 'reanimiert', 'reanimierte', 'haben', 'C1', 'Ich möchte reanimieren.', 'Я хочу реанимировать.')
+
+(756, 'evaluieren', 'оценивать (результаты)', 'оцінювати (результати)', 'regular', 'evaluiert', 'evaluierte', 'haben', 'C1', 'Du solltest evaluieren.', 'Тебе следует оценивать (результаты).')
+
+(757, 'restrukturieren', 'реструктурировать', 'реструктуризувати', 'regular', 'restrukturiert', 'restrukturierte', 'haben', 'C1', 'Sie möchte restrukturieren.', 'Она хочет реструктурировать.')
+
+(758, 'bewältigen', 'преодолевать (трудности)', 'долати (труднощі)', 'regular', 'bewältigt', 'bewältigte', 'haben', 'C1', 'Wir können bewältigen.', 'Мы можем преодолевать (трудности).')
+
+(760, 'verkraften', 'справляться (с нагрузкой)', 'справлятися (з навантаженням)', 'regular', 'verkraftet', 'verkraftete', 'haben', 'C1', 'Es ist wichtig zu verkraften.', 'Важно справляться (с нагрузкой).')
+
+(761, 'bereuen', 'раскаиваться', 'каяття', 'regular', 'bereut', 'bereute', 'haben', 'C1', 'Sie möchte bereuen.', 'Она хочет раскаиваться.')
+
+(762, 'mitfühlen', 'сочувствовать', 'співчувати', 'regular', 'mitgefühlt', 'fühlte mit', 'haben', 'C1', 'Wir müssen mitfühlen.', 'Мы должны сочувствовать.')
+
+(763, 'misstrauen', 'не доверять', 'не довіряти', 'regular', 'misstraut', 'misstraute', 'haben', 'C1', 'Kannst du misstrauen?', 'Ты можешь не доверять?')
+
+(764, 'anbeten', 'обожать', 'обожнювати', 'regular', 'angebetet', 'betete an', 'haben', 'C1', 'Wir können anbeten.', 'Мы можем обожать.')
+
+(765, 'grübeln', 'размышлять (углубленно)', 'розмірковувати (поглиблено)', 'regular', 'gegrübelt', 'grübelte', 'haben', 'C1', 'Ich möchte grübeln.', 'Я хочу размышлять (углубленно).')
+
+(766, 'meditieren', 'медитировать', 'медитувати', 'regular', 'meditiert', 'meditierte', 'haben', 'C1', 'Sie möchte meditieren.', 'Она хочет медитировать.')
+
+(767, 'voraussagen', 'предсказывать', 'передбачати', 'regular', 'vorausgesagt', 'sagte voraus', 'haben', 'C1', 'Wir können voraussagen.', 'Мы можем предсказывать.')
+
+(768, 'prophezeien', 'пророчить', 'пророкувати', 'regular', 'geprophezeit', 'prophezeite', 'haben', 'C1', 'Wir können prophezeien.', 'Мы можем пророчить.')
+
+(769, 'ahnen', 'предчувствовать', 'передчувати', 'regular', 'geahnt', 'ahnte', 'haben', 'C1', 'Du solltest ahnen.', 'Тебе следует предчувствовать.')
+
+(770, 'sicherstellen', 'обеспечивать (гарантировать)', 'забезпечувати (гарантувати)', 'regular', 'sichergestellt', 'stellte sicher', 'haben', 'C1', 'Du solltest sicherstellen.', 'Тебе следует обеспечивать (гарантировать).')
+
+(771, 'bürgen', 'ручаться (гарантировать)', 'ручатися (гарантувати)', 'regular', 'gebürgt', 'bürgte', 'haben', 'C1', 'Du solltest bürgen.', 'Тебе следует ручаться (гарантировать).')
+
+(772, 'beteuern', 'заверять (клятвенно)', 'запевняти (клятвенно)', 'regular', 'beteuert', 'beteuerte', 'haben', 'C1', 'Kannst du beteuern?', 'Ты можешь заверять (клятвенно)?')
+
+(773, 'schwören', 'давать клятву', 'давати клятву', 'irregular', 'geschworen', 'schwor', 'haben', 'C1', 'Er möchte schwören.', 'Он хочет давать клятву.'),
+
+(774, 'bedrohen', 'угрожать (опасностью)', 'загрожувати (небезпекою)', 'regular', 'bedroht', 'bedrohte', 'haben', 'C1', 'Sie möchte bedrohen.', 'Она хочет угрожать (опасностью).')
+
+(775, 'gefährden', 'подвергать опасности', 'піддавати небезпеці', 'regular', 'gefährdet', 'gefährdete', 'haben', 'C1', 'Sie möchte gefährden.', 'Она хочет подвергать опасности.')
+
+(776, 'wagen', 'осмеливаться', 'наважуватися', 'regular', 'gewagt', 'wagte', 'haben', 'C1', 'Es ist wichtig zu wagen.', 'Важно осмеливаться.')
+
+(777, 'zaudern', 'медлить (колебаться)', 'зволікати (вагатися)', 'regular', 'gezaudert', 'zauderte', 'haben', 'C1', 'Es ist wichtig zu zaudern.', 'Важно медлить (колебаться).')
+
+(778, 'verzögern', 'задерживать (откладывать)', 'затримувати (відкладати)', 'regular', 'verzögert', 'verzögerte', 'haben', 'C1', 'Kannst du verzögern?', 'Ты можешь задерживать (откладывать)?')
+
+(779, 'verkürzen', 'сокращать (время)', 'скорочувати (час)', 'regular', 'verkürzt', 'verkürzte', 'haben', 'C1', 'Du solltest verkürzen.', 'Тебе следует сокращать (время).')
+
+(782, 'extrapolieren', 'экстраполировать (данные)', 'екстраполювати (дані)', 'regular', 'extrapoliert', 'extrapolierte', 'haben', 'C1', 'Sie möchte extrapolieren.', 'Она хочет экстраполировать (данные).')
+
+(783, 'spezifizieren', 'специфицировать', 'специфікувати', 'regular', 'spezifiziert', 'spezifizierte', 'haben', 'C1', 'Ich möchte spezifizieren.', 'Я хочу специфицировать.')
+
+(784, 'operationalisieren', 'операционализировать', 'операціоналізувати', 'regular', 'operationalisiert', 'operationalisierte', 'haben', 'C1', 'Wir können operationalisieren.', 'Мы можем операционализировать.')
+
+(785, 'kontextualisieren', 'контекстуализировать', 'контекстуалізувати', 'regular', 'kontextualisiert', 'kontextualisierte', 'haben', 'C1', 'Kannst du kontextualisieren?', 'Ты можешь контекстуализировать?')
+
+(786, 'hypothetisieren', 'строить гипотезу', 'будувати гіпотезу', 'regular', 'hypothetisiert', 'hypothetisierte', 'haben', 'C1', 'Wir müssen hypothetisieren.', 'Мы должны строить гипотезу.')
+
+(787, 'deduzieren', 'дедуцировать', 'дедукувати', 'regular', 'deduziert', 'deduzierte', 'haben', 'C1', 'Du solltest deduzieren.', 'Тебе следует дедуцировать.')
+
+(788, 'induzieren', 'индуцировать', 'індукувати', 'regular', 'induziert', 'induzierte', 'haben', 'C1', 'Du solltest induzieren.', 'Тебе следует индуцировать.')
+
+(792, 'refinanzieren', 'рефинансировать', 'рефінансувати', 'regular', 'refinanziert', 'refinanzierte', 'haben', 'C1', 'Ich möchte refinanzieren.', 'Я хочу рефинансировать.')
+
+(794, 'innovieren', 'внедрять инновации', 'впроваджувати інновації', 'regular', 'innoviert', 'innovierte', 'haben', 'C1', 'Wir müssen innovieren.', 'Мы должны внедрять инновации.')
+
+(801, 'synthetisieren', 'синтезировать', 'синтезувати', 'regular', 'synthetisiert', 'synthetisierte', 'haben', 'C1', 'Kannst du synthetisieren?', 'Ты можешь синтезировать?')
+
+(802, 'volkswirtschaften', 'заниматься макроэкономикой', 'займатися макроекономікою', 'regular', 'gevolkswirtschaftet', 'volkswirtschaftete', 'haben', 'C1', 'Er möchte volkswirtschaften.', 'Он хочет заниматься макроэкономикой.')
+
+(803, 'marktwirtschaften', 'регулировать рыночную экономику', 'регулювати ринкову економіку', 'regular', 'gemarktwirtschaftet', 'marktwirtschaftete', 'haben', 'C1', 'Ich möchte marktwirtschaften.', 'Я хочу регулировать рыночную экономику.')
+
+(806, 'untermauern', 'подкреплять (аргументы)', 'підкріплювати (аргументи)', 'regular', 'geuntermauert', 'untermauerte', 'haben', 'C1', 'Er möchte untermauern.', 'Я хочу подкреплять (аргументы).')
+
+(807, 'bekräftigen', 'подтверждать (усиливать)', 'підтверджувати (посилювати)', 'regular', 'bekräftigt', 'bekräftigte', 'haben', 'C1', 'Sie möchte bekräftigen.', 'Я хочу подтверждать (усиливать).')
+
+(808, 'entkräften', 'опровергать (ослаблять)', 'спростовувати (послаблювати)', 'regular', 'entkräftet', 'entkräftete', 'haben', 'C1', 'Wir können entkräften.', 'Я хочу опровергать (ослаблять).')
+
+(809, 'präzisieren', 'уточнять', 'уточнювати', 'regular', 'präzisiert', 'präzisierte', 'haben', 'C1', 'Ich möchte präzisieren.', 'Я хочу уточнять.')
+
+(810, 'relativieren', 'относить (сравнивать)', 'відносити (порівнювати)', 'regular', 'relativiert', 'relativierte', 'haben', 'C1', 'Kannst du relativieren?', 'Я хочу относить (сравнивать).')
+
+(811, 'verallgemeinern', 'обобщать', 'узагальнювати', 'regular', 'verallgemeinert', 'verallgemeinerte', 'haben', 'C1', 'Du solltest verallgemeinern.', 'Я хочу обобщать.')
+
+(812, 'differieren', 'различаться', 'відрізнятися', 'regular', 'differiert', 'differierte', 'haben', 'C1', 'Er möchte differieren.', 'Я хочу различаться.')
+
+(813, 'divergieren', 'расходиться (мнения)', 'розходитися (думки)', 'regular', 'divergiert', 'divergierte', 'haben', 'C1', 'Wir müssen divergieren.', 'Я хочу расходиться (мнения).')
+
+(814, 'konvergieren', 'сходиться (мнения)', 'сходитися (думки)', 'regular', 'konvergiert', 'konvergierte', 'haben', 'C1', 'Kannst du konvergieren?', 'Я хочу сходиться (мнения).')
+
+(815, 'diversifizieren', 'диверсифицировать', 'диверсифікувати', 'regular', 'diversifiziert', 'diversifizierte', 'haben', 'C1', 'Wir können diversifizieren.', 'Я хочу диверсифицировать.')
+
+(816, 'rationalisieren', 'рационализировать', 'раціоналізувати', 'regular', 'rationalisiert', 'rationalisierte', 'haben', 'C1', 'Wir müssen rationalisieren.', 'Я хочу рационализировать.')
+
+(817, 'standardisieren', 'стандартизировать', 'стандартизувати', 'regular', 'standardisiert', 'standardisierte', 'haben', 'C1', 'Ich möchte standardisieren.', 'Я хочу стандартизировать.')
+
+(818, 'globalisieren', 'глобализировать', 'глобалізувати', 'regular', 'globalisiert', 'globalisierte', 'haben', 'C1', 'Ich möchte globalisieren.', 'Я хочу глобализировать.')
+
+(819, 'liberalisieren', 'либерализовать', 'лібералізувати', 'regular', 'liberalisiert', 'liberalisierte', 'haben', 'C1', 'Er möchte liberalisieren.', 'Я хочу либерализовать.')
+
+(820, 'monopolisieren', 'монополизировать', 'монополізувати', 'regular', 'monopolisiert', 'monopolisierte', 'haben', 'C1', 'Kannst du monopolisieren?', 'Я хочу монополизировать.')
+
+(821, 'effizient machen', 'делать эффективным', 'робити ефективним', 'regular', 'geeffizient machent', 'effizient machente', 'haben', 'C1', 'Sie möchte effizient machen.', 'Я хочу делать эффективным.'),
+
+(822, 'outsourcen', 'передавать на аутсорсинг', 'передавати на аутсорсинг', 'regular', 'geoutsourct', 'outsourcte', 'haben', 'C1', 'Wir müssen outsourcen.', 'Я хочу передавать на аутсорсинг.')
+
+(823, 'fusionieren', 'сливаться (о компаниях)', 'зливатися (про компанії)', 'regular', 'fusioniert', 'fusionierte', 'haben', 'C1', 'Wir müssen fusionieren.', 'Я хочу сливаться (о компаниях).')
+
+(824, 'florieren', 'процветать', 'процвітати', 'regular', 'floriert', 'florierte', 'haben', 'C1', 'Wir müssen florieren.', 'Я хочу процветать.')
+
+(825, 'boomen', 'переживать бум', 'переживати бум', 'regular', 'geboomt', 'boomte', 'haben', 'C1', 'Kannst du boomen?', 'Я хочу переживать бум.')
+
+(826, 'kursieren', 'циркулировать (о деньгах)', 'циркулювати (про гроші)', 'regular', 'kursiert', 'kursierte', 'haben', 'C1', 'Sie möchte kursieren.', 'Я хочу циркулировать (о деньгах).')
+
+(827, 'spekulieren', 'спекулировать', 'спекулювати', 'regular', 'spekuliert', 'spekulierte', 'haben', 'C1', 'Sie möchte spekulieren.', 'Я хочу спекулировать.')
+
+(828, 'bilanzieren', 'составлять баланс', 'складати баланс', 'regular', 'bilanziert', 'bilanzierte', 'haben', 'C1', 'Wir können bilanzieren.', 'Я хочу составлять баланс.')
+
+(829, 'abzahlen', 'выплачивать (частями)', 'виплачувати (частинами)', 'regular', 'abgezahlt', 'zahlte ab', 'haben', 'C1', 'Du solltest abzahlen.', 'Я хочу выплачивать (частями).')
+
+(830, 'amortisieren', 'амортизировать', 'амортизувати', 'regular', 'amortisiert', 'amortisierte', 'haben', 'C1', 'Es ist wichtig zu amortisieren.', 'Я хочу амортизировать.')
+
+(831, 'anwaltlich vertreten', 'представлять (адвокатом)', 'представляти (адвокатом)', 'regular', 'anwaltlich vertretent', 'waltlich vertretente an', 'sein', 'C1', 'Es ist wichtig zu anwaltlich vertreten.', 'Я хочу представлять (адвокатом).'),
+
+(832, 'schadenersatz leisten', 'возмещать ущерб', 'відшкодовувати збиток', 'regular', 'geschadenersatz leistent', 'schadenersatz leistente', 'haben', 'C1', 'Wir müssen schadenersatz leisten.', 'Я хочу возмещать ущерб.'),
+
+(833, 'einklagen', 'взыскивать через суд', 'стягувати через суд', 'regular', 'eingeklagt', 'klagte ein', 'haben', 'C1', 'Kannst du einklagen?', 'Я хочу взыскивать через суд.')
+
+(834, 'klagen', 'жаловаться (подавать иск)', 'скаржитися (подавати позов)', 'regular', 'geklagt', 'klagte', 'haben', 'C1', 'Du solltest klagen.', 'Я хочу жаловаться (подавать иск).')
+
+(835, 'schlichten', 'урегулировать (спор)', 'врегульовувати (спір)', 'regular', 'geschlichtet', 'schlichtete', 'haben', 'C1', 'Er möchte schlichten.', 'Я хочу урегулировать (спор).')
+
+(836, 'mediate', 'медиатировать', 'медіювати', 'regular', 'gemediatet', 'mediatete', 'haben', 'C1', 'Ich möchte mediate.', 'Я хочу медиатировать.')
+
+(837, 'beglaubigen', 'заверять (нотариально)', 'завіряти (нотаріально)', 'regular', 'beglaubigt', 'beglaubigte', 'haben', 'C1', 'Er möchte beglaubigen.', 'Я хочу заверять (нотариально).')
+
+(838, 'notariell beurkunden', 'удостоверять нотариально', 'посвідчувати нотаріально', 'regular', 'genotariell beurkundent', 'notariell beurkundente', 'haben', 'C1', 'Sie möchte notariell beurkunden.', 'Я хочу удостоверять нотариально.'),
+
+(839, 'abschieben', 'депортировать', 'депортувати', 'irregular', 'abgeschoben', 'schob ab', 'haben', 'C1', 'Wir müssen abschieben.', 'Я хочу депортировать.'),
+
+(840, 'einbürgern', 'натурализовать', 'натуралізувати', 'regular', 'eingebürgert', 'bürgerte ein', 'haben', 'C1', 'Wir müssen einbürgern.', 'Я хочу натурализовать.')
+
+(841, 'ausbürgern', 'лишать гражданства', 'позбавляти громадянства', 'regular', 'ausgebürgert', 'bürgerte aus', 'haben', 'C1', 'Wir müssen ausbürgern.', 'Я хочу лишать гражданства.')
+
+(842, 'kandidieren', 'баллотироваться', 'балотуватися', 'regular', 'kandidiert', 'kandidierte', 'haben', 'C1', 'Kannst du kandidieren?', 'Я хочу баллотироваться.')
+
+(843, 'widerrufen', 'отзывать (кандидатуру)', 'відкликати (кандидатуру)', 'irregular', 'widerrufen', 'widerrief', 'haben', 'C1', 'Er möchte widerrufen.', 'Я хочу отзывать (кандидатуру).'),
+
+(844, 'zurücktreten', 'уходить в отставку', 'йти у відставку', 'irregular', 'zurückgetreten', 'trat zurück', 'sein', 'C1', 'Wir können zurücktreten.', 'Я хочу уходить в отставку.'),
+
+(845, 'einsetzen', 'назначать (на должность)', 'призначати (на посаду)', 'regular', 'eingesetzt', 'setzte ein', 'haben', 'C1', 'Ich möchte einsetzen.', 'Я хочу назначать (на должность).')
+
+(846, 'abdanken', 'отрекаться (от престола)', 'зрікатися (престолу)', 'regular', 'abgedankt', 'dankte ab', 'haben', 'C1', 'Sie möchte abdanken.', 'Я хочу отрекаться (от престола).')
+
+(847, 'thronen', 'восседать на троне', 'сидіти на троні', 'regular', 'gethront', 'thronte', 'haben', 'C1', 'Kannst du thronen?', 'Я хочу восседать на троне.')
+
+(848, 'herrschen', 'властвовать', 'панувати', 'regular', 'hergerscht', 'rschte her', 'haben', 'C1', 'Sie möchte herrschen.', 'Я хочу властвовать.')
+
+(849, 'beherrschen', 'господствовать (над)', 'панувати (над)', 'regular', 'beherrscht', 'beherrschte', 'haben', 'C1', 'Er möchte beherrschen.', 'Я хочу господствовать (над).')
+
+(850, 'unterdrücken', 'подавлять (угнетать)', 'пригнічувати (гнобити)', 'regular', 'geunterdrückt', 'unterdrückte', 'haben', 'C1', 'Du solltest unterdrücken.', 'Я хочу подавлять (угнетать).')
+
+(851, 'versklaven', 'порабощать', 'поневолювати', 'regular', 'versklavt', 'versklavte', 'haben', 'C1', 'Kannst du versklaven?', 'Я хочу порабощать.')
+
+(852, 'emanzipieren', 'эмансипировать', 'емансипувати', 'regular', 'emanzipiert', 'emanzipierte', 'haben', 'C1', 'Es ist wichtig zu emanzipieren.', 'Я хочу эмансипировать.')
+
+(853, 'demokratisieren', 'демократизировать', 'демократизувати', 'regular', 'demokratisiert', 'demokratisierte', 'haben', 'C1', 'Ich möchte demokratisieren.', 'Я хочу демократизировать.')
+
+(854, 'amputieren', 'ампутировать', 'ампутувати', 'regular', 'amputiert', 'amputierte', 'haben', 'C1', 'Kannst du amputieren?', 'Я хочу ампутировать.')
+
+(855, 'narkotisieren', 'наркотизировать', 'наркотизувати', 'regular', 'narkotisiert', 'narkotisierte', 'haben', 'C1', 'Sie möchte narkotisieren.', 'Я хочу наркотизировать.')
+
+(856, 'sedieren', 'седировать', 'седувати', 'regular', 'sediert', 'sedierte', 'haben', 'C1', 'Es ist wichtig zu sedieren.', 'Я хочу седировать.')
+
+(857, 'bestrahlen', 'облучать (радиацией)', 'опромінювати (радіацією)', 'regular', 'bestrahlt', 'bestrahlte', 'haben', 'C1', 'Kannst du bestrahlen?', 'Я хочу облучать (радиацией).')
+
+(858, 'chemotherapieren', 'проводить химиотерапию', 'проводити хіміотерапію', 'regular', 'chemotherapiert', 'chemotherapierte', 'haben', 'C1', 'Sie möchte chemotherapieren.', 'Я хочу проводить химиотерапию.')
+
+(859, 'rehabilitieren', 'реабилитировать', 'реабілітувати', 'regular', 'rehabilitiert', 'rehabilitierte', 'haben', 'C1', 'Er möchte rehabilitieren.', 'Я хочу реабилитировать.')
+
+(860, 'rezidivieren', 'рецидивировать', 'рецидивувати', 'regular', 'rezidiviert', 'rezidivierte', 'haben', 'C1', 'Es ist wichtig zu rezidivieren.', 'Я хочу рецидивировать.')
+
+(861, 'metastasieren', 'метастазировать', 'метастазувати', 'regular', 'metastasiert', 'metastasierte', 'haben', 'C1', 'Ich möchte metastasieren.', 'Я хочу метастазировать.')
+
+(862, 'sezieren', 'препарировать (вскрывать)', 'препарувати (розтинати)', 'regular', 'seziert', 'sezierte', 'haben', 'C1', 'Du solltest sezieren.', 'Я хочу препарировать (вскрывать).')
+
+(863, 'obduzieren', 'вскрывать (труп)', 'розтинати (труп)', 'regular', 'obduziert', 'obduzierte', 'haben', 'C1', 'Es ist wichtig zu obduzieren.', 'Я хочу вскрывать (труп).')
+
+(864, 'inzidieren', 'делать надрез', 'робити надріз', 'regular', 'inzidiert', 'inzidierte', 'haben', 'C1', 'Wir müssen inzidieren.', 'Я хочу делать надрез.')
+
+(865, 'punktieren', 'пунктировать', 'пунктувати', 'regular', 'punktiert', 'punktierte', 'haben', 'C1', 'Wir müssen punktieren.', 'Я хочу пунктировать.')
+
+(866, 'intubieren', 'интубировать', 'інтубувати', 'regular', 'intubiert', 'intubierte', 'haben', 'C1', 'Es ist wichtig zu intubieren.', 'Я хочу интубировать.')
+
+(867, 'beatmen', 'вентилировать легкие', 'вентилювати легені', 'regular', 'beatmet', 'beatmete', 'haben', 'C1', 'Ich möchte beatmen.', 'Я хочу вентилировать легкие.')
+
+(868, 'rezeptieren', 'выписывать рецепт', 'виписувати рецепт', 'regular', 'rezeptiert', 'rezeptierte', 'haben', 'C1', 'Du solltest rezeptieren.', 'Я хочу выписывать рецепт.')
+
+(869, 'dosieren', 'дозировать', 'дозувати', 'regular', 'dosiert', 'dosierte', 'haben', 'C1', 'Du solltest dosieren.', 'Я хочу дозировать.')
+
+(870, 'verabreichen', 'вводить (лекарство)', 'вводити (ліки)', 'regular', 'verabreicht', 'verabreichte', 'haben', 'C1', 'Ich möchte verabreichen.', 'Я хочу вводить (лекарство).')
+
+(871, 'codieren', 'кодировать', 'кодувати', 'regular', 'codiert', 'codierte', 'haben', 'C1', 'Ich möchte codieren.', 'Я хочу кодировать.')
+
+(872, 'decodieren', 'декодировать', 'декодувати', 'regular', 'decodiert', 'decodierte', 'haben', 'C1', 'Sie möchte decodieren.', 'Я хочу декодировать.')
+
+(873, 'verschlüsseln', 'шифровать', 'шифрувати', 'regular', 'verschlüsselt', 'verschlüsselte', 'haben', 'C1', 'Wir müssen verschlüsseln.', 'Я хочу шифровать.')
+
+(874, 'entschlüsseln', 'расшифровывать', 'розшифровувати', 'regular', 'entschlüsselt', 'entschlüsselte', 'haben', 'C1', 'Wir können entschlüsseln.', 'Я хочу расшифровывать.')
+
+(875, 'kompilieren', 'компилировать', 'компілювати', 'regular', 'kompiliert', 'kompilierte', 'haben', 'C1', 'Ich möchte kompilieren.', 'Я хочу компилировать.')
+
+(876, 'debuggen', 'отлаживать (программу)', 'налагоджувати (програму)', 'regular', 'gedebuggt', 'debuggte', 'haben', 'C1', 'Es ist wichtig zu debuggen.', 'Я хочу отлаживать (программу).')
+
+(877, 'validieren', 'валидировать', 'валідувати', 'regular', 'validiert', 'validierte', 'haben', 'C1', 'Wir können validieren.', 'Я хочу валидировать.')
+
+(878, 'verifizieren', 'верифицировать', 'верифікувати', 'regular', 'verifiziert', 'verifizierte', 'haben', 'C1', 'Wir müssen verifizieren.', 'Я хочу верифицировать.')
+
+(879, 'zertifizieren', 'сертифицировать', 'сертифікувати', 'regular', 'zertifiziert', 'zertifizierte', 'haben', 'C1', 'Kannst du zertifizieren?', 'Я хочу сертифицировать.')
+
+(880, 'implementieren', 'внедрять (программу)', 'впроваджувати (програму)', 'regular', 'implementiert', 'implementierte', 'haben', 'C1', 'Ich möchte implementieren.', 'Я хочу внедрять (программу).')
+
+(881, 'migrieren', 'мигрировать (данные)', 'мігрувати (дані)', 'regular', 'migriert', 'migrierte', 'haben', 'C1', 'Wir können migrieren.', 'Я хочу мигрировать (данные).')
+
+(882, 'updaten', 'обновлять (данные)', 'оновлювати (дані)', 'regular', 'geupdatet', 'updatete', 'haben', 'C1', 'Er möchte updaten.', 'Я хочу обновлять (данные).')
+
+(883, 'upgraden', 'модернизировать (оборудование)', 'модернізувати (обладнання)', 'regular', 'geupgradet', 'upgradete', 'haben', 'C1', 'Ich möchte upgraden.', 'Я хочу модернизировать (оборудование).')
+
+(884, 'virtualisieren', 'виртуализировать', 'віртуалізувати', 'regular', 'virtualisiert', 'virtualisierte', 'haben', 'C1', 'Er möchte virtualisieren.', 'Я хочу виртуализировать.')
+
+(885, 'prototypen', 'создавать прототип', 'створювати прототип', 'regular', 'geprototypt', 'prototypte', 'haben', 'C1', 'Kannst du prototypen?', 'Я хочу создавать прототип.')
+
+(886, 'patentieren', 'патентовать', 'патентувати', 'regular', 'patentiert', 'patentierte', 'haben', 'C1', 'Er möchte patentieren.', 'Я хочу патентовать.')
+
+(887, 'konfigurieren', 'конфигурировать', 'конфігурувати', 'regular', 'konfiguriert', 'konfigurierte', 'haben', 'C1', 'Es ist wichtig zu konfigurieren.', 'Я хочу конфигурировать.')
+
+(888, 'parametrisieren', 'параметризировать', 'параметризувати', 'regular', 'parametrisiert', 'parametrisierte', 'haben', 'C1', 'Es ist wichtig zu parametrisieren.', 'Я хочу параметризировать.')
+
+(889, 'vergöttern', 'обожествлять', 'обожнювати', 'regular', 'vergöttert', 'vergötterte', 'haben', 'C1', 'Ich möchte vergöttern.', 'Я хочу обожествлять.')
+
+(890, 'idealisieren', 'идеализировать', 'ідеалізувати', 'regular', 'idealisiert', 'idealisierte', 'haben', 'C1', 'Kannst du idealisieren?', 'Я хочу идеализировать.')
+
+(891, 'romantisieren', 'романтизировать', 'романтизувати', 'regular', 'romantisiert', 'romantisierte', 'haben', 'C1', 'Es ist wichtig zu romantisieren.', 'Я хочу романтизировать.')
+
+(892, 'verklären', 'романтизировать (идеализировать)', 'романтизувати (ідеалізувати)', 'regular', 'verklärt', 'verklärte', 'haben', 'C1', 'Ich möchte verklären.', 'Я хочу романтизировать (идеализировать).')
+
+(893, 'ertragen', 'выносить (терпеть)', 'виносити (терпіти)', 'irregular', 'ertragen', 'ertrug', 'haben', 'C1', 'Wir müssen ertragen.', 'Я хочу выносить (терпеть).'),
+
+(894, 'aushalten', 'выдерживать', 'витримувати', 'irregular', 'ausgehalten', 'hielt aus', 'haben', 'C1', 'Kannst du aushalten?', 'Я хочу выдерживать.'),
+
+(895, 'reumütig sein', 'быть раскаявшимся', 'бути тим, хто кається', 'regular', 'gereumütig seint', 'reumütig seinte', 'haben', 'C1', 'Wir können reumütig sein.', 'Я хочу быть раскаявшимся.'),
+
+(896, 'empathisieren', 'проявлять эмпатию', 'проявляти емпатію', 'regular', 'empathisiert', 'empathisierte', 'haben', 'C1', 'Er möchte empathisieren.', 'Я хочу проявлять эмпатию.')
+
+(897, 'hineinversetzen (sich)', 'вживаться (в чужую ситуацию)', 'вживатися (в чужу ситуацію)', 'regular', 'hineinversetzen (sich)t', 'einversetzen (sich)te hin', 'haben', 'C1', 'Wir müssen hineinversetzen (sich).', 'Я хочу вживаться (в чужую ситуацию).'),
+
+(898, 'identifizieren (sich)', 'идентифицировать себя', 'ідентифікувати себе', 'regular', 'geidentifizieren (sich)t', 'identifizieren (sich)te', 'haben', 'C1', 'Ich möchte identifizieren (sich).', 'Я хочу идентифицировать себя.'),
+
+(899, 'solidarisieren (sich)', 'солидаризироваться', 'солідаризуватися', 'regular', 'gesolidarisieren (sich)t', 'solidarisieren (sich)te', 'haben', 'C1', 'Du solltest solidarisieren (sich).', 'Я хочу солидаризироваться.'),
+
+(900, 'erahnen', 'догадываться (предчувствовать)', 'здогадуватися (передчувати)', 'regular', 'erahnt', 'erahnte', 'haben', 'C1', 'Wir können erahnen.', 'Я хочу догадываться (предчувствовать).')
+
+(901, 'wähnen', 'воображать (ошибочно)', 'уявляти (помилково)', 'regular', 'gewähnt', 'wähnte', 'haben', 'C1', 'Es ist wichtig zu wähnen.', 'Я хочу воображать (ошибочно).')
+
+(902, 'wahrnehmen', 'воспринимать', 'сприймати', 'irregular', 'wahrgenommen', 'nahm wahr', 'haben', 'C1', 'Sie möchte wahrnehmen.', 'Я хочу воспринимать.'),
+
+(903, 'begreifen', 'понимать (осознавать)', 'розуміти (усвідомлювати)', 'irregular', 'begriffen', 'begriff', 'haben', 'C1', 'Du solltest begreifen.', 'Я хочу понимать (осознавать).'),
+
+(904, 'durchschauen', 'понимать (разбираться)', 'розуміти (розбиратися)', 'regular', 'durchgeschaut', 'schaute durch', 'haben', 'C1', 'Du solltest durchschauen.', 'Я хочу понимать (разбираться).')
+
+(905, 'kapieren', 'понимать (разг.)', 'розуміти (розм.)', 'regular', 'kapiert', 'kapierte', 'haben', 'C1', 'Sie möchte kapieren.', 'Я хочу понимать (разг.).')
+
+(906, 'schnallen', 'понимать (сленг)', 'розуміти (сленг)', 'regular', 'geschnallt', 'schnallte', 'haben', 'C1', 'Ich möchte schnallen.', 'Я хочу понимать (сленг).')
+
+(907, 'raffen', 'понимать (схватывать)', 'розуміти (схоплювати)', 'regular', 'gerafft', 'raffte', 'haben', 'C1', 'Ich möchte raffen.', 'Я хочу понимать (схватывать).')
+
+(908, 'formulieren', 'формулировать', 'формулювати', 'regular', 'formuliert', 'formulierte', 'haben', 'C1', 'Sie möchte formulieren.', 'Я хочу формулировать.')
+
+(909, 'artikulieren', 'артикулировать (выражать)', 'артикулювати (виражати)', 'regular', 'artikuliert', 'artikulierte', 'haben', 'C1', 'Es ist wichtig zu artikulieren.', 'Я хочу артикулировать (выражать).')
+
+(910, 'eloquent sein', 'быть красноречивым', 'бути красномовним', 'regular', 'geeloquent seint', 'eloquent seinte', 'haben', 'C1', 'Er möchte eloquent sein.', 'Я хочу быть красноречивым.'),
+
+(911, 'deklamieren', 'декламировать', 'декламувати', 'regular', 'deklamiert', 'deklamierte', 'haben', 'C1', 'Wir können deklamieren.', 'Я хочу декламировать.')
+
+(912, 'rezitieren', 'декламировать (стихи)', 'декламувати (вірші)', 'regular', 'rezitiert', 'rezitierte', 'haben', 'C1', 'Er möchte rezitieren.', 'Я хочу декламировать (стихи).')
+
+(913, 'zitieren', 'цитировать', 'цитувати', 'regular', 'zitiert', 'zitierte', 'haben', 'C1', 'Wir müssen zitieren.', 'Я хочу цитировать.')
+
+(914, 'paraphrasieren', 'перефразировать', 'перефразовувати', 'regular', 'paraphrasiert', 'paraphrasierte', 'haben', 'C1', 'Er möchte paraphrasieren.', 'Я хочу перефразировать.')
+
+(915, 'umschreiben', 'перефразировать (описывать)', 'перефразовувати (описувати)', 'irregular', 'umschrieben', 'umschrieb', 'haben', 'C1', 'Ich möchte umschreiben.', 'Я хочу перефразировать (описывать).'),
+
+(916, 'skizzieren', 'набрасывать (план)', 'накидати (план)', 'regular', 'skizziert', 'skizzierte', 'haben', 'C1', 'Sie möchte skizzieren.', 'Я хочу набрасывать (план).')
+
+(917, 'exzerpieren', 'делать выписки', 'робити виписки', 'regular', 'exzerpiert', 'exzerpierte', 'haben', 'C1', 'Ich möchte exzerpieren.', 'Я хочу делать выписки.')
+
+(918, 'dokumentieren', 'документировать', 'документувати', 'regular', 'dokumentiert', 'dokumentierte', 'haben', 'C1', 'Du solltest dokumentieren.', 'Я хочу документировать.')
+
+(919, 'publizieren', 'публиковать', 'публікувати', 'regular', 'publiziert', 'publizierte', 'haben', 'C1', 'Kannst du publizieren?', 'Я хочу публиковать.')
+
+(920, 'lektoren', 'редактировать (книгу)', 'редагувати (книгу)', 'regular', 'gelektort', 'lektorte', 'haben', 'C1', 'Kannst du lektoren?', 'Я хочу редактировать (книгу).')
+
+(921, 'korrekturlesen', 'вычитывать (корректуру)', 'вичитувати (коректуру)', 'irregular', 'korrekturgelesen', 'las Korrektur', 'haben', 'C1', 'Wir müssen korrekturlesen.', 'Я хочу вычитывать (корректуру).'),
+
+(922, 'verlegen', 'издавать (книгу)', 'видавати (книгу)', 'regular', 'verlegt', 'verlegte', 'haben', 'C1', 'Ich möchte verlegen.', 'Я хочу издавать (книгу).')
+
+(923, 'komponieren', 'сочинять музыку', 'складати музику', 'regular', 'komponiert', 'komponierte', 'haben', 'C1', 'Kannst du komponieren?', 'Я хочу сочинять музыку.')
+
+(924, 'dirigieren', 'дирижировать', 'диригувати', 'regular', 'dirigiert', 'dirigierte', 'haben', 'C1', 'Wir können dirigieren.', 'Я хочу дирижировать.')
+
+(925, 'improvisieren', 'импровизировать', 'імпровізувати', 'regular', 'improvisiert', 'improvisierte', 'haben', 'C1', 'Ich möchte improvisieren.', 'Я хочу импровизировать.')
+
+(926, 'jammen', 'играть джем-сейшн', 'грати джем-сейшн', 'regular', 'gejammet', 'jammete', 'haben', 'C1', 'Sie möchte jammen.', 'Я хочу играть джем-сейшн.')
+
+(927, 'skulptieren', 'ваяти (скульптуру)', 'ваяти (скульптуру)', 'regular', 'skulptiert', 'skulptierte', 'haben', 'C1', 'Du solltest skulptieren.', 'Я хочу ваяти (скульптуру).')
+
+(928, 'modellieren', 'лепить (моделировать)', 'ліпити (моделювати)', 'regular', 'modelliert', 'modellierte', 'haben', 'C1', 'Es ist wichtig zu modellieren.', 'Я хочу лепить (моделировать).')
+
+(929, 'kulissen bauen', 'строить декорации', 'будувати декорації', 'regular', 'gekulissen bauent', 'kulissen bauente', 'haben', 'C1', 'Ich möchte kulissen bauen.', 'Я хочу строить декорации.'),
+
+(930, 'vernissagen', 'открывать выставку', 'відкривати виставку', 'regular', 'vernissagt', 'vernissagte', 'haben', 'C1', 'Ich möchte vernissagen.', 'Я хочу открывать выставку.')
+
+(931, 'kuratieren', 'курировать (выставку)', 'курувати (виставку)', 'regular', 'kuratiert', 'kuratierte', 'haben', 'C1', 'Sie möchte kuratieren.', 'Я хочу курировать (выставку).')
+
+(932, 'restaurieren', 'реставрировать', 'реставрувати', 'regular', 'restauriert', 'restaurierte', 'haben', 'C1', 'Wir müssen restaurieren.', 'Я хочу реставрировать.')
+
+(933, 'konservieren', 'консервировать (искусство)', 'консервувати (мистецтво)', 'regular', 'konserviert', 'konservierte', 'haben', 'C1', 'Es ist wichtig zu konservieren.', 'Я хочу консервировать (искусство).')
+
+(934, 'philosophieren', 'философствовать', 'філософувати', 'regular', 'philosophiert', 'philosophierte', 'haben', 'C1', 'Du solltest philosophieren.', 'Я хочу философствовать.')
+
+(935, 'logisch folgern', 'делать логический вывод', 'робити логічний висновок', 'regular', 'gelogisch folgernt', 'logisch folgernte', 'haben', 'C1', 'Wir können logisch folgern.', 'Я хочу делать логический вывод.'),
+
+(936, 'schlussfolgern', 'делать заключение', 'робити висновок', 'regular', 'geschlussfolgert', 'schlussfolgerte', 'haben', 'C1', 'Es ist wichtig zu schlussfolgern.', 'Я хочу делать заключение.')
+
+(937, 'moralisieren', 'морализировать', 'моралізувати', 'regular', 'moralisiert', 'moralisierte', 'haben', 'C1', 'Du solltest moralisieren.', 'Я хочу морализировать.')
+
+(938, 'rechtfertigen', 'оправдывать (обосновывать)', 'виправдовувати (обґрунтовувати)', 'regular', 'gerechtfertigt', 'rechtfertigte', 'haben', 'C1', 'Kannst du rechtfertigen?', 'Я хочу оправдывать (обосновывать).')
+
+(939, 'hinterfragen', 'ставить под вопрос', 'ставити під сумнів', 'regular', 'hingeterfragt', 'terfragte hin', 'haben', 'C1', 'Kannst du hinterfragen?', 'Я хочу ставить под вопрос.')
+
+(940, 'bezweifeln', 'подвергать сомнению', 'піддавати сумніву', 'regular', 'bezweifelt', 'bezweifelte', 'haben', 'C1', 'Wir können bezweifeln.', 'Я хочу подвергать сомнению.')
+
+(941, 'anzweifeln', 'подвергать сомнению', 'піддавати сумніву', 'regular', 'angezweifelt', 'zweifelte an', 'haben', 'C1', 'Sie möchte anzweifeln.', 'Я хочу подвергать сомнению.')
+
+(942, 'infrage stellen', 'ставить под вопрос', 'ставити під питання', 'regular', 'geinfrage stellent', 'infrage stellente', 'haben', 'C1', 'Sie möchte infrage stellen.', 'Я хочу ставить под вопрос.'),
+
+(943, 'bestreiten', 'оспаривать', 'оспорювати', 'irregular', 'bestritten', 'bestritt', 'haben', 'C1', 'Es ist wichtig zu bestreiten.', 'Я хочу оспаривать.'),
+
+(944, 'behaupten', 'утверждать', 'стверджувати', 'regular', 'behauptet', 'behauptete', 'haben', 'C1', 'Wir müssen behaupten.', 'Я хочу утверждать.')
+
+(945, 'geloben', 'торжественно обещать', 'урочисто обіцяти', 'regular', 'gelobt', 'gelobte', 'haben', 'C1', 'Du solltest geloben.', 'Я хочу торжественно обещать.')
+
+(946, 'versprechen', 'обещать (торжественно)', 'обіцяти (урочисто)', 'irregular', 'versprochen', 'versprach', 'haben', 'C1', 'Ich möchte versprechen.', 'Я хочу обещать (торжественно).'),
+
+(947, 'nachschlagen', 'справляться (в словаре)', 'довідуватися (у словнику)', 'irregular', 'nachgeschlagen', 'schlug nach', 'haben', 'B1', 'Kannst du nachschlagen?', 'Я хочу справляться (в словаре).'),
+
+(948, 'durchblättern', 'пролистывать', 'гортати', 'regular', 'durchgeblättert', 'blätterte durch', 'haben', 'B1', 'Wir müssen durchblättern.', 'Я хочу пролистывать.')
+
+(949, 'überfliegen', 'просматривать (текст)', 'переглядати (текст)', 'irregular', 'überflogen', 'überflog', 'haben', 'B1', 'Kannst du überfliegen?', 'Я хочу просматривать (текст).'),
+
+(950, 'mitschreiben', 'записывать (лекцию)', 'записувати (лекцію)', 'irregular', 'mitgeschrieben', 'schrieb mit', 'haben', 'B1', 'Es ist wichtig zu mitschreiben.', 'Я хочу записывать (лекцию).'),
+
+(951, 'vortragen', 'докладывать (устно)', 'доповідати (усно)', 'irregular', 'vorgetragen', 'trug vor', 'haben', 'B1', 'Er möchte vortragen.', 'Я хочу докладывать (устно).'),
+
+(952, 'brainstormen', 'проводить мозговой штурм', 'проводити мозковий штурм', 'regular', 'gebrainstormt', 'brainstormte', 'haben', 'B1', 'Sie möchte brainstormen.', 'Я хочу проводить мозговой штурм.')
+
+(953, 'bereisen', 'путешествовать (по)', 'подорожувати (по)', 'regular', 'bereist', 'bereiste', 'sein', 'B1', 'Es ist wichtig zu bereisen.', 'Я хочу путешествовать (по).')
+
+(954, 'rundreisen', 'совершать кругосветку', 'здійснювати кругосвітку', 'regular', 'gerundreist', 'rundreiste', 'sein', 'B1', 'Wir können rundreisen.', 'Я хочу совершать кругосветку.')
+
+(955, 'wanderreisen', 'путешествовать пешком', 'подорожувати пішки', 'regular', 'gewanderreist', 'wanderreiste', 'sein', 'B1', 'Ich möchte wanderreisen.', 'Я хочу путешествовать пешком.')
+
+(956, 'zelten', 'жить в палатке', 'жити в наметі', 'regular', 'gezeltet', 'zeltete', 'haben', 'B1', 'Ich möchte zelten.', 'Я хочу жить в палатке.')
+
+(957, 'auschecken', 'выезжать (из отеля)', 'виїжджати (з готелю)', 'regular', 'ausgecheckt', 'checkte aus', 'haben', 'B1', 'Er möchte auschecken.', 'Я хочу выезжать (из отеля).')
+
+(958, 'abnehmen', 'принимать (работу)', 'приймати (роботу)', 'irregular', 'abgenommen', 'nahm ab', 'haben', 'B1', 'Er möchte abnehmen.', 'Я хочу принимать (работу).'),
+
+(959, 'sich erkälten', 'простужаться', 'застуджуватися', 'regular', 'sich erkältet', 'erkältete sich', 'haben', 'B1', 'Du solltest sich erkälten.', 'Я хочу простужаться.')
+
+(960, 'leiden (an)', 'страдать (от болезни)', 'страждати (від хвороби)', 'irregular', 'gelitten', 'litt', 'haben', 'B1', 'Wir müssen leiden (an).', 'Я хочу страдать (от болезни).'),
+
+(961, 'zunehmen', 'поправляться (набирать вес)', 'поправлятися (набирати вагу)', 'irregular', 'zugenommen', 'nahm zu', 'haben', 'B1', 'Du solltest zunehmen.', 'Я хочу поправляться (набирать вес).'),
+
+(962, 'fitness machen', 'заниматься фитнесом', 'займатися фітнесом', 'regular', 'gefitness machent', 'fitness machente', 'haben', 'B1', 'Ich möchte fitness machen.', 'Я хочу заниматься фитнесом.'),
+
+(963, 'gymnastizieren', 'заниматься гимнастикой', 'займатися гімнастикою', 'regular', 'gymnastiziert', 'gymnastizierte', 'haben', 'B1', 'Du solltest gymnastizieren.', 'Я хочу заниматься гимнастикой.')
+
+(964, 'yoga machen', 'заниматься йогой', 'займатися йогою', 'regular', 'geyoga machent', 'yoga machente', 'haben', 'B1', 'Sie möchte yoga machen.', 'Я хочу заниматься йогой.'),
+
+(965, 'kompostieren', 'компостировать', 'компостувати', 'regular', 'kompostiert', 'kompostierte', 'haben', 'B1', 'Kannst du kompostieren?', 'Я хочу компостировать.')
+
+(966, 'nachhaltig leben', 'жить устойчиво (экологично)', 'жити стійко (екологічно)', 'regular', 'nachhaltig lebent', 'haltig lebente nach', 'haben', 'B1', 'Wir müssen nachhaltig leben.', 'Я хочу жить устойчиво (экологично).'),
+
+(967, 'führen', 'руководить (коллективом)', 'керувати (колективом)', 'regular', 'geführt', 'führte', 'haben', 'B2', 'Kannst du führen?', 'Я хочу руководить (коллективом).')
+
+(968, 'berufen (sich)', 'апеллировать (ссылаться)', 'апелювати (посилатися)', 'irregular', 'sich berufen', 'berief sich', 'haben', 'B2', 'Du solltest berufen (sich).', 'Я хочу апеллировать (ссылаться).'),
+
+(969, 'vernehmen', 'допрашивать (свидетеля)', 'допитувати (свідка)', 'irregular', 'vernommen', 'vernahm', 'haben', 'B2', 'Ich möchte vernehmen.', 'Я хочу допрашивать (свидетеля).'),
+
+(970, 'beneiden', 'завидовать (успеху)', 'заздрити (успіху)', 'regular', 'beneidet', 'beneidete', 'haben', 'B2', 'Wir können beneiden.', 'Я хочу завидовать (успеху).')
+
+(971, 'nachdenken (über)', 'размышлять (о чем-то)', 'розмірковувати (про щось)', 'mixed', 'nachgedacht', 'dachte nach', 'haben', 'B2', 'Er möchte nachdenken (über).', 'Я хочу размышлять (о чем-то).'),
+
+(972, 'absetzen', 'отнимать (от цены)', 'віднімати (від ціни)', 'regular', 'abgesetzt', 'setzte ab', 'haben', 'B1', 'Kannst du absetzen?', 'Я хочу отнимать (от цены).')
+
+(973, 'anfertigen', 'изготавливать', 'виготовляти', 'regular', 'angefertigt', 'fertigte an', 'haben', 'B1', 'Er moechte anfertigen.', 'Я хочу изготавливать.')
+
+(974, 'anstreben', 'стремиться', 'прагнути', 'regular', 'angestrebt', 'strebte an', 'haben', 'B1', 'Sie moechte anstreben.', 'Я хочу стремиться.')
+
+(975, 'aufstocken', 'увеличивать (штат)', 'збільшувати (штат)', 'regular', 'aufgestockt', 'stockte auf', 'haben', 'B1', 'Du solltest aufstocken.', 'Я хочу увеличивать (штат).')
+
+(976, 'ausschreiben', 'объявлять (тендер)', 'оголошувати (тендер)', 'irregular', 'ausgeschrieben', 'schrieb aus', 'haben', 'B1', 'Er moechte ausschreiben.', 'Я хочу объявлять (тендер).'),
+
+(977, 'bearbeiten', 'обрабатывать (заявку)', 'обробляти (заявку)', 'regular', 'bearbeitet', 'bearbeitete', 'haben', 'B1', 'Kannst du bearbeiten?', 'Я хочу обрабатывать (заявку).')
+
+(978, 'befristen', 'устанавливать срок', 'встановлювати термін', 'regular', 'befristet', 'befristete', 'haben', 'B1', 'Kannst du befristen?', 'Я хочу устанавливать срок.')
+
+(979, 'beitreten', 'вступать (в организацию)', 'вступати (в організацію)', 'irregular', 'beigetreten', 'trat bei', 'sein', 'B1', 'Wir muessen beitreten.', 'Я хочу вступать (в организацию).'),
+
+(980, 'beraten', 'консультировать', 'консультувати', 'irregular', 'beraten', 'beriet', 'haben', 'B1', 'Es ist wichtig zu beraten.', 'Я хочу консультировать.'),
+
+(981, 'besetzen', 'занимать (должность)', 'займати (посаду)', 'regular', 'besetzt', 'besetzte', 'haben', 'B1', 'Wir koennen besetzen.', 'Я хочу занимать (должность).')
+
+(982, 'einarbeiten (sich)', 'внедряться (в работу)', 'впроваджуватися (в роботу)', 'regular', 'einarbeiten (sich)t', 'arbeiten (sich)te ein', 'haben', 'B1', 'Es ist wichtig zu einarbeiten (sich).', 'Я хочу внедряться (в работу).'),
+
+(983, 'einleiten', 'начинать (процедуру)', 'починати (процедуру)', 'regular', 'eingeleitet', 'leitete ein', 'haben', 'B1', 'Er moechte einleiten.', 'Я хочу начинать (процедуру).')
+
+(984, 'einsparen', 'экономить (сокращать)', 'економити (скорочувати)', 'regular', 'eingespart', 'sparte ein', 'haben', 'B1', 'Sie moechte einsparen.', 'Я хочу экономить (сокращать).')
+
+(985, 'einstufen', 'классифицировать', 'класифікувати', 'regular', 'eingestuft', 'stufte ein', 'haben', 'B1', 'Er moechte einstufen.', 'Я хочу классифицировать.')
+
+(986, 'entlohnen', 'вознаграждать (оплачивать)', 'винагороджувати (оплачувати)', 'regular', 'entlohnt', 'entlohnte', 'haben', 'B1', 'Sie moechte entlohnen.', 'Я хочу вознаграждать (оплачивать).')
+
+(987, 'erstatten', 'возмещать (расходы)', 'відшкодовувати (витрати)', 'regular', 'erstattet', 'erstattete', 'haben', 'B1', 'Kannst du erstatten?', 'Я хочу возмещать (расходы).')
+
+(988, 'ablegen', 'сдавать (экзамен)', 'складати (іспит)', 'regular', 'abgelegt', 'legte ab', 'haben', 'B1', 'Du solltest ablegen.', 'Я хочу сдавать (экзамен).')
+
+(989, 'auffrischen', 'освежать (знания)', 'освіжати (знання)', 'regular', 'aufgefrischt', 'frischte auf', 'haben', 'B1', 'Sie moechte auffrischen.', 'Я хочу освежать (знания).')
+
+(990, 'ausbilden', 'обучать (готовить)', 'навчати (готувати)', 'regular', 'ausgebildet', 'bildete aus', 'haben', 'B1', 'Du solltest ausbilden.', 'Я хочу обучать (готовить).')
+
+(991, 'beibringen', 'обучать (кого-то чему-то)', 'навчати (когось чогось)', 'regular', 'beibringent', 'beibringente', 'haben', 'B1', 'Du solltest beibringen.', 'Я хочу обучать (кого-то чему-то).'),
+
+(992, 'bilden', 'образовывать (формировать)', 'утворювати (формувати)', 'regular', 'gebildet', 'bildete', 'haben', 'B1', 'Wir muessen bilden.', 'Я хочу образовывать (формировать).')
+
+(993, 'erlernen', 'изучать (овладевать)', 'вивчати (оволодівати)', 'regular', 'erlernt', 'erlernte', 'haben', 'B1', 'Du solltest erlernen.', 'Я хочу изучать (овладевать).')
+
+(994, 'fortbilden (sich)', 'повышать квалификацию', 'підвищувати кваліфікацію', 'regular', 'gefortbilden (sich)t', 'fortbilden (sich)te', 'haben', 'B1', 'Wir koennen fortbilden (sich).', 'Я хочу повышать квалификацию.'),
+
+(995, 'nachholen', 'наверстывать (упущенное)', 'надолужувати (втрачене)', 'regular', 'nachgeholt', 'holte nach', 'haben', 'B1', 'Es ist wichtig zu nachholen.', 'Я хочу наверстывать (упущенное).')
+
+(996, 'pruefen', 'проверять (экзаменовать)', 'перевіряти (екзаменувати)', 'regular', 'geprueft', 'pruefte', 'haben', 'B1', 'Er moechte pruefen.', 'Я хочу проверять (экзаменовать).')
+
+(997, 'vertiefen', 'углублять (знания)', 'поглиблювати (знання)', 'regular', 'vertieft', 'vertiefte', 'haben', 'B1', 'Er moechte vertiefen.', 'Я хочу углублять (знания).')
+
+(998, 'weiterbilden (sich)', 'повышать квалификацию', 'підвищувати кваліфікацію', 'regular', 'weiterbilden (sich)t', 'bilden (sich)te weiter', 'haben', 'B1', 'Wir koennen weiterbilden (sich).', 'Я хочу повышать квалификацию.'),
+
+(999, 'anschwellen', 'опухать', 'набухати', 'irregular', 'angeschwollen', 'schwoll an', 'sein', 'B1', 'Kannst du anschwellen?', 'Я хочу опухать.'),
+
+(1000, 'aufwecken', 'будить (пробуждать)', 'будити (пробуджувати)', 'regular', 'aufgeweckt', 'weckte auf', 'haben', 'B1', 'Kannst du aufwecken?', 'Я хочу будить (пробуждать).')
+
+(1001, 'auskurieren', 'вылечивать (до конца)', 'виліковувати (до кінця)', 'regular', 'auskuriert', 'auskurierte', 'haben', 'B1', 'Er moechte auskurieren.', 'Я хочу вылечивать (до конца).')
+
+(1002, 'bluten', 'кровоточить', 'кровоточити', 'regular', 'geblutet', 'blutete', 'haben', 'B1', 'Ich moechte bluten.', 'Я хочу кровоточить.')
+
+(1003, 'entgiften', 'детоксифицировать', 'детоксикувати', 'regular', 'entgiftet', 'entgiftete', 'haben', 'B1', 'Er moechte entgiften.', 'Я хочу детоксифицировать.')
+
+(1004, 'entzuenden (sich)', 'воспаляться', 'запалюватися', 'regular', 'entzuenden (sich)t', 'entzuenden (sich)te', 'haben', 'B1', 'Er moechte entzuenden (sich).', 'Я хочу воспаляться.'),
+
+(1005, 'erkaelten (sich)', 'простужаться', 'застуджуватися', 'regular', 'erkaelten (sich)t', 'erkaelten (sich)te', 'haben', 'B1', 'Du solltest erkaelten (sich).', 'Я хочу простужаться.'),
+
+(1006, 'ermueden', 'утомлять(ся)', 'втомлювати(ся)', 'regular', 'ermuedet', 'ermuedete', 'haben', 'B1', 'Kannst du ermueden?', 'Я хочу утомлять(ся).')
+
+(1007, 'gurgeln', 'полоскать (горло)', 'полоскати (горло)', 'regular', 'gegurgelt', 'gurgelte', 'haben', 'B1', 'Wir muessen gurgeln.', 'Я хочу полоскать (горло).')
+
+(1008, 'inhalieren', 'дышать (ингаляцией)', 'дихати (інгаляцією)', 'regular', 'inhaliert', 'inhalierte', 'haben', 'B1', 'Sie moechte inhalieren.', 'Я хочу дышать (ингаляцией).')
+
+(1009, 'jucken', 'чесаться (зудеть)', 'свербіти (чесатися)', 'regular', 'gejuckt', 'juckte', 'haben', 'B1', 'Wir koennen jucken.', 'Я хочу чесаться (зудеть).')
+
+(1010, 'krankschreiben', 'выписывать больничный', 'виписувати лікарняний', 'irregular', 'krankgeschrieben', 'schrieb krank', 'haben', 'B1', 'Er moechte krankschreiben.', 'Я хочу выписывать больничный.'),
+
+(1011, 'pulsieren', 'пульсировать', 'пульсувати', 'regular', 'pulsiert', 'pulsierte', 'haben', 'B1', 'Sie moechte pulsieren.', 'Я хочу пульсировать.')
+
+(1012, 'spritzen', 'делать укол (инъекцию)', 'робити укол (ін''єкцію)', 'regular', 'gespritzt', 'spritzte', 'haben', 'B1', 'Es ist wichtig zu spritzen.', 'Я хочу делать укол (инъекцию).')
+
+(1013, 'stottern', 'заикаться', 'заїкатися', 'regular', 'gestottert', 'stotterte', 'haben', 'B1', 'Wir muessen stottern.', 'Я хочу заикаться.')
+
+(1014, 'uebergeben (sich)', 'рвать (тошнить)', 'рвати (нудити)', 'irregular', 'sich uebergeben', 'uebergab sich', 'haben', 'B1', 'Kannst du uebergeben (sich)?', 'Я хочу рвать (тошнить).'),
+
+(1015, 'verarzten', 'оказывать первую помощь', 'надавати першу допомогу', 'regular', 'verarztet', 'verarztete', 'haben', 'B1', 'Sie moechte verarzten.', 'Я хочу оказывать первую помощь.')
+
+(1016, 'verordnen', 'прописывать (лечение)', 'прописувати (лікування)', 'regular', 'verordnet', 'verordnete', 'haben', 'B1', 'Es ist wichtig zu verordnen.', 'Я хочу прописывать (лечение).')
+
+(1017, 'abholzen', 'вырубать (лес)', 'вирубувати (ліс)', 'regular', 'abgeholzt', 'holzte ab', 'haben', 'B1', 'Wir muessen abholzen.', 'Я хочу вырубать (лес).')
+
+(1018, 'aussterben', 'вымирать', 'вимирати', 'irregular', 'ausgestorben', 'starb aus', 'sein', 'B1', 'Es ist wichtig zu aussterben.', 'Я хочу вымирать.'),
+
+(1019, 'bewaessern', 'орошать (поливать)', 'зрошувати (поливати)', 'regular', 'bewaessert', 'bewaesserte', 'haben', 'B1', 'Sie moechte bewaessern.', 'Я хочу орошать (поливать).')
+
+(1020, 'bluehen', 'цвести', 'цвісти', 'regular', 'geblueht', 'bluehte', 'haben', 'B1', 'Er moechte bluehen.', 'Я хочу цвести.')
+
+(1021, 'duengen', 'удобрять (почву)', 'удобрювати (ґрунт)', 'regular', 'geduengt', 'duengte', 'haben', 'B1', 'Wir muessen duengen.', 'Я хочу удобрять (почву).')
+
+(1022, 'eindringen', 'проникать (вторгаться)', 'проникати (вторгатися)', 'irregular', 'eingedrungen', 'drang ein', 'sein', 'B1', 'Es ist wichtig zu eindringen.', 'Я хочу проникать (вторгаться).'),
+
+(1023, 'entsorgen', 'утилизировать (отходы)', 'утилізувати (відходи)', 'regular', 'entsorgt', 'entsorgte', 'haben', 'B1', 'Kannst du entsorgen?', 'Я хочу утилизировать (отходы).')
+
+(1024, 'giften', 'отравлять (ядовитыми веществами)', 'отруювати (отруйними речовинами)', 'regular', 'gegiftet', 'giftete', 'haben', 'B1', 'Kannst du giften?', 'Я хочу отравлять (ядовитыми веществами).')
+
+(1025, 'gruenen', 'зеленеть', 'зеленіти', 'regular', 'gegruent', 'gruente', 'haben', 'B1', 'Kannst du gruenen?', 'Я хочу зеленеть.')
+
+(1026, 'nachwachsen', 'отрастать (заново)', 'відростати (заново)', 'irregular', 'nachgewachsen', 'wuchs nach', 'sein', 'B1', 'Er moechte nachwachsen.', 'Я хочу отрастать (заново).'),
+
+(1027, 'schimmeln', 'плесневеть', 'пліснявіти', 'regular', 'geschimmelt', 'schimmelte', 'haben', 'B1', 'Es ist wichtig zu schimmeln.', 'Я хочу плесневеть.')
+
+(1028, 'schuetzen', 'защищать (окружающую среду)', 'захищати (довкілля)', 'regular', 'geschuetzt', 'schuetzte', 'haben', 'B1', 'Sie moechte schuetzen.', 'Я хочу защищать (окружающую среду).')
+
+(1029, 'schrumpfen', 'сокращаться (уменьшаться)', 'скорочуватися (зменшуватися)', 'regular', 'geschrumpft', 'schrumpfte', 'haben', 'B1', 'Du solltest schrumpfen.', 'Я хочу сокращаться (уменьшаться).')
+
+(1030, 'spriessen', 'прорастать', 'проростати', 'regular', 'gespriesst', 'spriesste', 'haben', 'B1', 'Sie moechte spriessen.', 'Я хочу прорастать.')
+
+(1031, 'tauen', 'таять (снег/лёд)', 'танути (сніг/лід)', 'regular', 'getaut', 'taute', 'haben', 'B1', 'Es ist wichtig zu tauen.', 'Я хочу таять (снег/лёд).')
+
+(1032, 'umweltbewusst leben', 'жить экологично', 'жити екологічно', 'regular', 'umweltbewusst lebent', 'weltbewusst lebente um', 'haben', 'B1', 'Wir koennen umweltbewusst leben.', 'Я хочу жить экологично.'),
+
+(1033, 'verbluehen', 'отцветать', 'відцвітати', 'regular', 'verblueht', 'verbluehte', 'haben', 'B1', 'Kannst du verbluehen?', 'Я хочу отцветать.')
+
+(1034, 'verdorren', 'засыхать (растения)', 'засихати (рослини)', 'regular', 'verdorrt', 'verdorrte', 'haben', 'B1', 'Es ist wichtig zu verdorren.', 'Я хочу засыхать (растения).')
+
+(1035, 'verfaulen', 'гнить (разлагаться)', 'гнити (розкладатися)', 'regular', 'verfault', 'verfaulte', 'haben', 'B1', 'Ich moechte verfaulen.', 'Я хочу гнить (разлагаться).')
+
+(1036, 'verrotten', 'гнить (загнивать)', 'гнити (загнивати)', 'regular', 'verrottet', 'verrottete', 'haben', 'B1', 'Er moechte verrotten.', 'Я хочу гнить (загнивать).')
+
+(1037, 'verwelken', 'увядать', 'в''янути', 'regular', 'verwelkt', 'verwelkte', 'haben', 'B1', 'Sie moechte verwelken.', 'Я хочу увядать.')
+
+(1038, 'waessern', 'поливать (растения)', 'поливати (рослини)', 'regular', 'gewaessert', 'waesserte', 'haben', 'B1', 'Du solltest waessern.', 'Я хочу поливать (растения).')
+
+(1039, 'anbinden', 'привязывать (лошадь)', 'прив''язувати (коня)', 'irregular', 'angebunden', 'band an', 'haben', 'B1', 'Wir koennen anbinden.', 'Я хочу привязывать (лошадь).'),
+
+(1040, 'anhalten', 'останавливать (машину)', 'зупиняти (машину)', 'irregular', 'angehalten', 'hielt an', 'haben', 'B1', 'Du solltest anhalten.', 'Я хочу останавливать (машину).'),
+
+(1041, 'anschnallen (sich)', 'пристёгиваться (ремнём)', 'пристібатися (ременем)', 'regular', 'anschnallen (sich)t', 'schnallen (sich)te an', 'haben', 'B1', 'Sie moechte anschnallen (sich).', 'Я хочу пристёгиваться (ремнём).'),
+
+(1042, 'ausbuchen', 'полностью забронировать', 'повністю забронювати', 'regular', 'ausgebucht', 'buchte aus', 'haben', 'B1', 'Wir muessen ausbuchen.', 'Я хочу полностью забронировать.')
+
+(1043, 'befoerdern', 'перевозить (грузы)', 'перевозити (вантажі)', 'regular', 'befoerdert', 'befoerderte', 'haben', 'B1', 'Kannst du befoerdern?', 'Я хочу перевозить (грузы).')
+
+(1044, 'durchfahren', 'проезжать (транзитом)', 'проїжджати (транзитом)', 'irregular', 'durchgefahren', 'fuhr durch', 'sein', 'B1', 'Kannst du durchfahren?', 'Я хочу проезжать (транзитом).'),
+
+(1045, 'einreisen', 'въезжать (в страну)', 'в''їжджати (в країну)', 'regular', 'eingereist', 'reiste ein', 'sein', 'B1', 'Es ist wichtig zu einreisen.', 'Я хочу въезжать (в страну).')
+
+(1046, 'eisenbahnfahren', 'ездить на поезде', 'їздити поїздом', 'irregular', 'eisenbahngefahren', 'fuhr Eisenbahn', 'sein', 'B1', 'Es ist wichtig zu eisenbahnfahren.', 'Я хочу ездить на поезде.'),
+
+(1047, 'entgleisen', 'сходить с рельсов', 'сходити з рейок', 'regular', 'entgleist', 'entgleiste', 'haben', 'B1', 'Wir muessen entgleisen.', 'Я хочу сходить с рельсов.')
+
+(1048, 'erholen (sich)', 'отдыхать (восстанавливаться)', 'відпочивати (відновлюватися)', 'regular', 'erholen (sich)t', 'erholen (sich)te', 'haben', 'B1', 'Kannst du erholen (sich)?', 'Я хочу отдыхать (восстанавливаться).'),
+
+(1049, 'expedieren', 'экспедировать (отправлять)', 'експедирувати (відправляти)', 'regular', 'expediert', 'expedierte', 'haben', 'B1', 'Du solltest expedieren.', 'Я хочу экспедировать (отправлять).')
+
+(1050, 'giessen', 'лить (наливать)', 'лити (наливати)', 'irregular', 'gegossen', 'goss', 'haben', 'B1', 'Wir muessen giessen.', 'Я хочу лить (наливать).'),
+
+(1051, 'hinlegen', 'класть (положить)', 'класти (покласти)', 'regular', 'hingelegt', 'legte hin', 'haben', 'B1', 'Kannst du hinlegen?', 'Я хочу класть (положить).')
+
+(1052, 'kuendigen', 'расторгать (договор/билет)', 'розривати (договір/квиток)', 'regular', 'gekuendigt', 'kuendigte', 'haben', 'B1', 'Wir muessen kuendigen.', 'Я хочу расторгать (договор/билет).')
+
+(1053, 'losfahren', 'отправляться (уезжать)', 'відправлятися (їхати)', 'irregular', 'losgefahren', 'fuhr los', 'sein', 'B1', 'Du solltest losfahren.', 'Я хочу отправляться (уезжать).'),
+
+(1054, 'pausieren', 'делать паузу (остановку)', 'робити паузу (зупинку)', 'regular', 'pausiert', 'pausierte', 'haben', 'B1', 'Du solltest pausieren.', 'Я хочу делать паузу (остановку).')
+
+(1055, 'rudern', 'грести (на лодке)', 'гребти (на човні)', 'regular', 'gerudert', 'ruderte', 'haben', 'B1', 'Kannst du rudern?', 'Я хочу грести (на лодке).')
+
+(1056, 'steuern', 'управлять (машиной/лодкой)', 'керувати (машиною/човном)', 'regular', 'gesteuert', 'steuerte', 'haben', 'B1', 'Er moechte steuern.', 'Я хочу управлять (машиной/лодкой).')
+
+(1057, 'stoppen', 'останавливать (машину)', 'зупиняти (машину)', 'regular', 'gestoppt', 'stoppte', 'haben', 'B1', 'Kannst du stoppen?', 'Я хочу останавливать (машину).')
+
+(1058, 'transitieren', 'проходить транзитом', 'проходити транзитом', 'regular', 'transitiert', 'transitierte', 'haben', 'B1', 'Es ist wichtig zu transitieren.', 'Я хочу проходить транзитом.')
+
+(1059, 'ueberholen', 'обгонять (на дороге)', 'обганяти (на дорозі)', 'regular', 'geueberholt', 'ueberholte', 'haben', 'B1', 'Er moechte ueberholen.', 'Я хочу обгонять (на дороге).')
+
+(1060, 'ueberqueren', 'пересекать (улицу/границу)', 'перетинати (вулицю/кордон)', 'regular', 'geueberquert', 'ueberquerte', 'haben', 'B1', 'Er moechte ueberqueren.', 'Я хочу пересекать (улицу/границу).')
+
+(1061, 'unterkommen', 'находить жильё (размещаться)', 'знаходити житло (розміщуватися)', 'irregular', 'untergekommen', 'kam unter', 'sein', 'B1', 'Ich moechte unterkommen.', 'Я хочу находить жильё (размещаться).'),
+
+(1062, 'verkehren', 'курсировать (о транспорте)', 'курсувати (про транспорт)', 'regular', 'verkehrt', 'verkehrte', 'haben', 'B1', 'Er moechte verkehren.', 'Я хочу курсировать (о транспорте).')
+
+(1063, 'verspaeten (sich)', 'опаздывать (поезд/человек)', 'запізнюватися (поїзд/людина)', 'regular', 'verspaeten (sich)t', 'verspaeten (sich)te', 'haben', 'B1', 'Kannst du verspaeten (sich)?', 'Я хочу опаздывать (поезд/человек).'),
+
+(1064, 'zollfrei einkaufen', 'делать покупки беспошлинно', 'робити покупки безмитно', 'regular', 'gezollfrei einkaufent', 'zollfrei einkaufente', 'haben', 'B1', 'Wir muessen zollfrei einkaufen.', 'Я хочу делать покупки беспошлинно.'),
+
+(1065, 'zurueckfahren', 'возвращаться (на транспорте)', 'повертатися (на транспорті)', 'irregular', 'zurueckgefahren', 'fuhr zurueck', 'sein', 'B1', 'Wir koennen zurueckfahren.', 'Я хочу возвращаться (на транспорте).'),
+
+(1066, 'zurueckfliegen', 'возвращаться (самолётом)', 'повертатися (літаком)', 'irregular', 'zurueckgeflogen', 'flog zurueck', 'sein', 'B1', 'Wir koennen zurueckfliegen.', 'Я хочу возвращаться (самолётом).'),
+
+(1067, 'zusteigen', 'садиться (в поезд/автобус)', 'сідати (в поїзд/автобус)', 'irregular', 'zugestiegen', 'stieg zu', 'sein', 'B1', 'Es ist wichtig zu zusteigen.', 'Я хочу садиться (в поезд/автобус).'),
+
+(1068, 'akquirieren', 'привлекать (клиентов/капитал)', 'залучати (клієнтів/капітал)', 'regular', 'akquiriert', 'akquirierte', 'haben', 'B2', 'Er moechte akquirieren.', 'Я хочу привлекать (клиентов/капитал).')
+
+(1069, 'allokieren', 'распределять (ресурсы)', 'розподіляти (ресурси)', 'regular', 'allokiert', 'allokierte', 'haben', 'B2', 'Sie moechte allokieren.', 'Я хочу распределять (ресурсы).')
+
+(1070, 'auditieren', 'проводить аудит', 'проводити аудит', 'regular', 'auditiert', 'auditierte', 'haben', 'B2', 'Du solltest auditieren.', 'Я хочу проводить аудит.')
+
+(1071, 'auslagern', 'передавать на аутсорсинг', 'передавати на аутсорсинг', 'regular', 'ausgelagert', 'lagerte aus', 'haben', 'B2', 'Er moechte auslagern.', 'Я хочу передавать на аутсорсинг.')
+
+(1072, 'beaufsichtigen', 'надзирать (контролировать)', 'наглядати (контролювати)', 'regular', 'beaufsichtigt', 'beaufsichtigte', 'haben', 'B2', 'Er moechte beaufsichtigen.', 'Я хочу надзирать (контролировать).')
+
+(1073, 'beleuchten', 'освещать (проливать свет)', 'освітлювати (проливати світло)', 'regular', 'beleuchtet', 'beleuchtete', 'haben', 'B2', 'Kannst du beleuchten?', 'Я хочу освещать (проливать свет).')
+
+(1074, 'beschaffen', 'обеспечивать (доставать)', 'забезпечувати (діставати)', 'regular', 'beschaffent', 'beschaffente', 'haben', 'B2', 'Er moechte beschaffen.', 'Я хочу обеспечивать (доставать).'),
+
+(1075, 'bescheinigen', 'удостоверять (подтверждать)', 'посвідчувати (підтверджувати)', 'regular', 'bescheinigt', 'bescheinigte', 'haben', 'B2', 'Es ist wichtig zu bescheinigen.', 'Я хочу удостоверять (подтверждать).')
+
+(1076, 'bestreiken', 'бастовать (против)', 'страйкувати (проти)', 'regular', 'bestreikt', 'bestreikte', 'haben', 'B2', 'Wir muessen bestreiken.', 'Я хочу бастовать (против).')
+
+(1077, 'bewilligen', 'выделять (средства/кредит)', 'виділяти (кошти/кредит)', 'regular', 'bewilligt', 'bewilligte', 'haben', 'B2', 'Es ist wichtig zu bewilligen.', 'Я хочу выделять (средства/кредит).')
+
+(1078, 'bezuschussen', 'субсидировать (дотировать)', 'субсидувати (дотувати)', 'regular', 'bezuschusst', 'bezuschusste', 'haben', 'B2', 'Du solltest bezuschussen.', 'Я хочу субсидировать (дотировать).')
+
+(1079, 'buchfuehren', 'вести бухгалтерию', 'вести бухгалтерію', 'regular', 'gebuchfuehrt', 'buchfuehrte', 'haben', 'B2', 'Ich moechte buchfuehren.', 'Я хочу вести бухгалтерию.')
+
+(1080, 'budgetieren', 'составлять бюджет', 'складати бюджет', 'regular', 'budgetiert', 'budgetierte', 'haben', 'B2', 'Kannst du budgetieren?', 'Я хочу составлять бюджет.')
+
+(1081, 'dividieren', 'делить (математика)', 'ділити (математика)', 'regular', 'dividiert', 'dividierte', 'haben', 'B2', 'Du solltest dividieren.', 'Я хочу делить (математика).')
+
+(1082, 'durchfuehren', 'проводить (исследование/анализ)', 'проводити (дослідження/аналіз)', 'regular', 'durchgefuehrt', 'fuehrte durch', 'haben', 'B2', 'Du solltest durchfuehren.', 'Я хочу проводить (исследование/анализ).')
+
+(1083, 'effektivieren', 'делать эффективным', 'робити ефективним', 'regular', 'effektiviert', 'effektivierte', 'haben', 'B2', 'Wir muessen effektivieren.', 'Я хочу делать эффективным.')
+
+(1084, 'eintragen', 'регистрировать (вносить)', 'реєструвати (вносити)', 'irregular', 'eingetragen', 'trug ein', 'haben', 'B2', 'Wir koennen eintragen.', 'Я хочу регистрировать (вносить).'),
+
+(1085, 'entbuesseitigen', 'избавляться (от)', 'позбуватися (від)', 'regular', 'entbuesseitigt', 'entbuesseitigte', 'haben', 'B2', 'Wir koennen entbuesseitigen.', 'Я хочу избавляться (от).')
+
+(1086, 'entschaedigen', 'компенсировать (убытки)', 'компенсувати (збитки)', 'regular', 'entschaedigt', 'entschaedigte', 'haben', 'B2', 'Wir muessen entschaedigen.', 'Я хочу компенсировать (убытки).')
+
+(1087, 'erstattten', 'возмещать (деньги/расходы)', 'відшкодовувати (гроші/витрати)', 'regular', 'erstatttet', 'erstatttete', 'haben', 'B2', 'Du solltest erstattten.', 'Я хочу возмещать (деньги/расходы).')
+
+(1088, 'exportieren', 'экспортировать (вывозить)', 'експортувати (вивозити)', 'regular', 'exportiert', 'exportierte', 'haben', 'B2', 'Sie moechte exportieren.', 'Я хочу экспортировать (вывозить).')
+
+(1089, 'generieren', 'генерировать (создавать)', 'генерувати (створювати)', 'regular', 'generiert', 'generierte', 'haben', 'B2', 'Sie moechte generieren.', 'Я хочу генерировать (создавать).')
+
+(1090, 'grossziehen', 'выращивать (воспитывать)', 'вирощувати (виховувати)', 'irregular', 'grossgezogen', 'zog gross', 'haben', 'B2', 'Wir muessen grossziehen.', 'Я хочу выращивать (воспитывать).'),
+
+(1091, 'gruenden', 'основывать (компанию)', 'засновувати (компанію)', 'regular', 'gegruendet', 'gruendete', 'haben', 'B2', 'Sie moechte gruenden.', 'Я хочу основывать (компанию).')
+
+(1092, 'herausgeben', 'издавать (книгу/журнал)', 'видавати (книгу/журнал)', 'irregular', 'herausgegeben', 'gab heraus', 'haben', 'B2', 'Du solltest herausgeben.', 'Я хочу издавать (книгу/журнал).'),
+
+(1093, 'importieren', 'импортировать (ввозить)', 'імпортувати (ввозити)', 'regular', 'importiert', 'importierte', 'haben', 'B2', 'Sie moechte importieren.', 'Я хочу импортировать (ввозить).')
+
+(1094, 'indizieren', 'индексировать (данные)', 'індексувати (дані)', 'regular', 'indiziert', 'indizierte', 'haben', 'B2', 'Sie moechte indizieren.', 'Я хочу индексировать (данные).')
+
+(1095, 'inserieren', 'давать объявление (рекламу)', 'давати оголошення (рекламу)', 'regular', 'inseriert', 'inserierte', 'haben', 'B2', 'Es ist wichtig zu inserieren.', 'Я хочу давать объявление (рекламу).')
+
+(1096, 'leasen', 'брать в лизинг (аренду)', 'брати в лізинг (оренду)', 'regular', 'geleast', 'leaste', 'haben', 'B2', 'Er moechte leasen.', 'Я хочу брать в лизинг (аренду).')
+
+(1097, 'loggen', 'регистрировать (записывать данные)', 'реєструвати (записувати дані)', 'regular', 'geloggt', 'loggte', 'haben', 'B2', 'Du solltest loggen.', 'Я хочу регистрировать (записывать данные).')
+
+(1098, 'marginalisieren', 'маргинализировать', 'маргіналізувати', 'regular', 'marginalisiert', 'marginalisierte', 'haben', 'B2', 'Sie moechte marginalisieren.', 'Я хочу маргинализировать.')
+
+(1099, 'markieren', 'маркировать (отмечать)', 'маркувати (позначати)', 'regular', 'markiert', 'markierte', 'haben', 'B2', 'Sie moechte markieren.', 'Я хочу маркировать (отмечать).')
+
+(1100, 'multiplizieren', 'умножать (математика)', 'множити (математика)', 'regular', 'multipliziert', 'multiplizierte', 'haben', 'B2', 'Sie moechte multiplizieren.', 'Я хочу умножать (математика).')
+
+(1101, 'normieren', 'нормировать (стандартизировать)', 'нормувати (стандартизувати)', 'regular', 'normiert', 'normierte', 'haben', 'B2', 'Wir koennen normieren.', 'Я хочу нормировать (стандартизировать).')
+
+(1102, 'notieren', 'записывать (котировать)', 'записувати (котирувати)', 'regular', 'notiert', 'notierte', 'haben', 'B2', 'Wir muessen notieren.', 'Я хочу записывать (котировать).')
+
+(1103, 'produzieren', 'производить (товары)', 'виробляти (товари)', 'regular', 'produziert', 'produzierte', 'haben', 'B2', 'Er moechte produzieren.', 'Я хочу производить (товары).')
+
+(1104, 'promoten', 'продвигать (продукт/идею)', 'просувати (продукт/ідею)', 'regular', 'gepromotet', 'promotete', 'haben', 'B2', 'Er moechte promoten.', 'Я хочу продвигать (продукт/идею).')
+
+(1105, 'pruendeln', 'брать (деньги/капитал)', 'брати (гроші/капітал)', 'regular', 'gepruendelt', 'pruendelte', 'haben', 'B2', 'Er moechte pruendeln.', 'Я хочу брать (деньги/капитал).')
+
+(1106, 'reorganisieren', 'реорганизовывать (структуру)', 'реорганізовувати (структуру)', 'regular', 'reorganisiert', 'reorganisierte', 'haben', 'B2', 'Es ist wichtig zu reorganisieren.', 'Я хочу реорганизовывать (структуру).')
+
+(1107, 'revidieren', 'пересматривать (планы/решение)', 'переглядати (плани/рішення)', 'regular', 'revidiert', 'revidierte', 'haben', 'B2', 'Ich moechte revidieren.', 'Я хочу пересматривать (планы/решение).')
+
+(1108, 'revolutionieren', 'революционизировать (изменять)', 'революціонізувати (змінювати)', 'regular', 'revolutioniert', 'revolutionierte', 'haben', 'B2', 'Sie moechte revolutionieren.', 'Я хочу революционизировать (изменять).')
+
+(1109, 'scheitern', 'терпеть неудачу (провалиться)', 'зазнавати невдачі (провалитися)', 'regular', 'gescheitert', 'scheiterte', 'haben', 'B2', 'Er moechte scheitern.', 'Я хочу терпеть неудачу (провалиться).')
+
+(1110, 'segmentieren', 'сегментировать (рынок)', 'сегментувати (ринок)', 'regular', 'segmentiert', 'segmentierte', 'haben', 'B2', 'Du solltest segmentieren.', 'Я хочу сегментировать (рынок).')
+
+(1111, 'spezialisieren (sich)', 'специализироваться (на)', 'спеціалізуватися (на)', 'regular', 'gespezialisieren (sich)t', 'spezialisieren (sich)te', 'haben', 'B2', 'Du solltest spezialisieren (sich).', 'Я хочу специализироваться (на).'),
+
+(1112, 'steigern', 'повышать (увеличивать)', 'підвищувати (збільшувати)', 'regular', 'gesteigert', 'steigerte', 'haben', 'B2', 'Sie moechte steigern.', 'Я хочу повышать (увеличивать).')
+
+(1113, 'stimulieren', 'стимулировать (активизировать)', 'стимулювати (активізувати)', 'regular', 'stimuliert', 'stimulierte', 'haben', 'B2', 'Es ist wichtig zu stimulieren.', 'Я хочу стимулировать (активизировать).')
+
+(1114, 'summarisch darstellen', 'представлять суммарно', 'представляти сумарно', 'regular', 'gesummarisch darstellent', 'summarisch darstellente', 'haben', 'B2', 'Wir koennen summarisch darstellen.', 'Я хочу представлять суммарно.'),
+
+(1115, 'appellieren', 'апеллировать (призывать)', 'апелювати (закликати)', 'regular', 'appelliert', 'appellierte', 'haben', 'B2', 'Es ist wichtig zu appellieren.', 'Я хочу апеллировать (призывать).')
+
+(1116, 'begruenden', 'обосновывать (аргументировать)', 'обґрунтовувати (аргументувати)', 'regular', 'begruendet', 'begruendete', 'haben', 'B2', 'Sie moechte begruenden.', 'Я хочу обосновывать (аргументировать).')
+
+(1117, 'beschwichtigen', 'успокаивать (умиротворять)', 'заспокоювати (умиротворяти)', 'regular', 'beschwichtigt', 'beschwichtigte', 'haben', 'B2', 'Wir koennen beschwichtigen.', 'Я хочу успокаивать (умиротворять).')
+
+(1118, 'darlegen', 'излагать (объяснять)', 'викладати (пояснювати)', 'regular', 'dagerlegt', 'rlegte da', 'haben', 'B2', 'Er moechte darlegen.', 'Я хочу излагать (объяснять).')
+
+(1119, 'diskreditieren', 'дискредитировать (порочить)', 'дискредитувати (порочити)', 'regular', 'diskreditiert', 'diskreditierte', 'haben', 'B2', 'Sie moechte diskreditieren.', 'Я хочу дискредитировать (порочить).')
+
+(1120, 'einlenken', 'уступать (смягчать позицию)', 'поступатися (пом''якшувати позицію)', 'regular', 'eingelenkt', 'lenkte ein', 'haben', 'B2', 'Er moechte einlenken.', 'Я хочу уступать (смягчать позицию).')
+
+(1121, 'einraumen', 'признавать (соглашаться)', 'визнавати (погоджуватися)', 'regular', 'eingeraumt', 'raumte ein', 'haben', 'B2', 'Es ist wichtig zu einraumen.', 'Я хочу признавать (соглашаться).')
+
+(1122, 'entkraeften', 'опровергать (ослаблять)', 'спростовувати (послаблювати)', 'regular', 'entkraeftet', 'entkraeftete', 'haben', 'B2', 'Sie moechte entkraeften.', 'Я хочу опровергать (ослаблять).')
+
+(1123, 'entstellen', 'искажать (факты/смысл)', 'спотворювати (факти/сенс)', 'regular', 'entstellt', 'entstellte', 'haben', 'B2', 'Du solltest entstellen.', 'Я хочу искажать (факты/смысл).')
+
+(1124, 'erklaeren', 'объяснять (пояснять)', 'пояснювати (роз''яснювати)', 'regular', 'erklaert', 'erklaerte', 'haben', 'B2', 'Kannst du erklaeren?', 'Я хочу объяснять (пояснять).')
+
+(1125, 'erlaetern', 'разъяснять (подробно объяснять)', 'роз''яснювати (детально пояснювати)', 'regular', 'erlaetert', 'erlaeterte', 'haben', 'B2', 'Wir koennen erlaetern.', 'Я хочу разъяснять (подробно объяснять).')
+
+(1126, 'fluestern', 'шептать (говорить шёпотом)', 'шепотіти (говорити пошепки)', 'regular', 'gefluestert', 'fluesterte', 'haben', 'B2', 'Er moechte fluestern.', 'Я хочу шептать (говорить шёпотом).')
+
+(1127, 'gruessen', 'приветствовать (здороваться)', 'вітати (здороватися)', 'regular', 'gegruesst', 'gruesste', 'haben', 'B2', 'Er moechte gruessen.', 'Я хочу приветствовать (здороваться).')
+
+(1128, 'gutschreiben', 'зачислять (средства на счёт)', 'зараховувати (кошти на рахунок)', 'irregular', 'gutgeschrieben', 'schrieb gut', 'haben', 'B2', 'Er moechte gutschreiben.', 'Я хочу зачислять (средства на счёт).'),
+
+(1129, 'kuerzen', 'сокращать (текст/время)', 'скорочувати (текст/час)', 'regular', 'gekuerzt', 'kuerzte', 'haben', 'B2', 'Wir koennen kuerzen.', 'Я хочу сокращать (текст/время).')
+
+(1130, 'laestern', 'злословить (сплетничать)', 'злословити (пліткувати)', 'regular', 'gelaestert', 'laesterte', 'haben', 'B2', 'Wir muessen laestern.', 'Я хочу злословить (сплетничать).')
+
+(1131, 'locken', 'привлекать (заманивать)', 'приваблювати (заманювати)', 'regular', 'gelockt', 'lockte', 'haben', 'B2', 'Sie moechte locken.', 'Я хочу привлекать (заманивать).')
+
+(1132, 'missverstehen', 'неправильно понимать', 'неправильно розуміти', 'irregular', 'missverstanden', 'missverstand', 'haben', 'B2', 'Es ist wichtig zu missverstehen.', 'Я хочу неправильно понимать.'),
+
+(1133, 'niederschreiben', 'записывать (излагать письменно)', 'записувати (викладати письмово)', 'irregular', 'niedergeschrieben', 'schrieb nieder', 'haben', 'B2', 'Wir muessen niederschreiben.', 'Я хочу записывать (излагать письменно).'),
+
+(1134, 'plausibel machen', 'делать правдоподобным', 'робити правдоподібним', 'regular', 'geplausibel machent', 'plausibel machente', 'haben', 'B2', 'Sie moechte plausibel machen.', 'Я хочу делать правдоподобным.'),
+
+(1135, 'pointieren', 'заострять (выделять главное)', 'загострювати (виділяти головне)', 'regular', 'pointiert', 'pointierte', 'haben', 'B2', 'Er moechte pointieren.', 'Я хочу заострять (выделять главное).')
+
+(1136, 'polemisieren', 'полемизировать (вести спор)', 'полемізувати (вести спір)', 'regular', 'polemisiert', 'polemisierte', 'haben', 'B2', 'Er moechte polemisieren.', 'Я хочу полемизировать (вести спор).')
+
+(1137, 'preisgeben', 'разглашать (раскрывать тайну)', 'розголошувати (розкривати таємницю)', 'irregular', 'preisgegeben', 'gab preis', 'haben', 'B2', 'Wir koennen preisgeben.', 'Я хочу разглашать (раскрывать тайну).'),
+
+(1138, 'provozieren', 'провоцировать (вызывать)', 'провокувати (викликати)', 'regular', 'provoziert', 'provozierte', 'haben', 'B2', 'Sie moechte provozieren.', 'Я хочу провоцировать (вызывать).')
+
+(1139, 'schimpfen', 'ругаться (браниться)', 'лаятися (сваритися)', 'regular', 'geschimpft', 'schimpfte', 'haben', 'B2', 'Wir koennen schimpfen.', 'Я хочу ругаться (браниться).')
+
+(1140, 'schmeicheln', 'льстить (делать комплименты)', 'лестити (робити компліменти)', 'regular', 'geschmeichelt', 'schmeichelte', 'haben', 'B2', 'Kannst du schmeicheln?', 'Я хочу льстить (делать комплименты).')
+
+(1141, 'schmunzeln', 'ухмыляться (усмехаться)', 'усміхатися (посміхатися)', 'regular', 'geschmunzelt', 'schmunzelte', 'haben', 'B2', 'Du solltest schmunzeln.', 'Я хочу ухмыляться (усмехаться).')
+
+(1142, 'spotten', 'насмехаться (высмеивать)', 'насміхатися (висміювати)', 'regular', 'gespottet', 'spottete', 'haben', 'B2', 'Kannst du spotten?', 'Я хочу насмехаться (высмеивать).')
+
+(1143, 'sticheln', 'подкалывать (подшучивать)', 'підколювати (піджартовувати)', 'regular', 'gestichelt', 'stichelte', 'haben', 'B2', 'Sie moechte sticheln.', 'Я хочу подкалывать (подшучивать).')
+
+(1144, 'ueberreden', 'уговаривать (убеждать)', 'умовляти (переконувати)', 'regular', 'geueberredet', 'ueberredete', 'haben', 'B2', 'Sie moechte ueberreden.', 'Я хочу уговаривать (убеждать).')
+
+(1145, 'ueberzeugen', 'убеждать (доказывать)', 'переконувати (доводити)', 'regular', 'geueberzeugt', 'ueberzeugte', 'haben', 'B2', 'Er moechte ueberzeugen.', 'Я хочу убеждать (доказывать).')
+
+(1146, 'umformulieren', 'переформулировать', 'переформулювати', 'regular', 'umformuliert', 'umformulierte', 'haben', 'B2', 'Er moechte umformulieren.', 'Я хочу переформулировать.')
+
+(1147, 'unterbreiten', 'предлагать (вносить предложение)', 'пропонувати (вносити пропозицію)', 'regular', 'geunterbreitet', 'unterbreitete', 'sein', 'B2', 'Er moechte unterbreiten.', 'Я хочу предлагать (вносить предложение).')
+
+(1148, 'unterhalten (sich)', 'беседовать (разговаривать)', 'бесідувати (розмовляти)', 'irregular', 'sich unterhalten', 'unterhielt sich', 'haben', 'B2', 'Ich moechte unterhalten (sich).', 'Я хочу беседовать (разговаривать).'),
+
+(1149, 'verfechten', 'отстаивать (защищать позицию)', 'відстоювати (захищати позицію)', 'irregular', 'verfochten', 'verfocht', 'haben', 'B2', 'Er moechte verfechten.', 'Я хочу отстаивать (защищать позицию).'),
+
+(1150, 'verknuupfen', 'связывать (сочетать)', 'пов''язувати (поєднувати)', 'regular', 'verknuupft', 'verknuupfte', 'haben', 'B2', 'Ich moechte verknuupfen.', 'Я хочу связывать (сочетать).')
+
+(1151, 'verspotten', 'высмеивать (осмеивать)', 'висміювати (осміювати)', 'regular', 'verspottet', 'verspottete', 'haben', 'B2', 'Wir muessen verspotten.', 'Я хочу высмеивать (осмеивать).')
+
+(1152, 'verstaendigen', 'уведомлять (информировать)', 'повідомляти (інформувати)', 'regular', 'verstaendigt', 'verstaendigte', 'haben', 'B2', 'Ich moechte verstaendigen.', 'Я хочу уведомлять (информировать).')
+
+(1153, 'verstoeren', 'смущать (приводить в замешательство)', 'бентежити (приводити в замішання)', 'regular', 'verstoert', 'verstoerte', 'haben', 'B2', 'Du solltest verstoeren.', 'Я хочу смущать (приводить в замешательство).')
+
+(1154, 'verweisen', 'ссылаться (на источник)', 'посилатися (на джерело)', 'irregular', 'verwiesen', 'verwies', 'haben', 'B2', 'Es ist wichtig zu verweisen.', 'Я хочу ссылаться (на источник).'),
+
+(1155, 'zutexten', 'засыпать текстом (разг.)', 'засипати текстом (розм.)', 'regular', 'zugetextet', 'textete zu', 'haben', 'B2', 'Wir muessen zutexten.', 'Я хочу засыпать текстом (разг.).')
+
+(1156, 'zuwiderhandeln', 'действовать вопреки', 'діяти всупереч', 'regular', 'zugewiderhandelt', 'widerhandelte zu', 'haben', 'B2', 'Wir koennen zuwiderhandeln.', 'Я хочу действовать вопреки.')
+
+(1157, 'anfreunden (sich)', 'подружиться (с кем-то)', 'подружитися (з кимось)', 'regular', 'anfreunden (sich)t', 'freunden (sich)te an', 'haben', 'B2', 'Sie moechte anfreunden (sich).', 'Я хочу подружиться (с кем-то).'),
+
+(1158, 'anhaengen', 'быть преданным (привязываться)', 'бути відданим (прив''язуватися)', 'regular', 'angehaengt', 'haengte an', 'haben', 'B2', 'Ich moechte anhaengen.', 'Я хочу быть преданным (привязываться).')
+
+(1159, 'ausschliessen', 'исключать (не допускать)', 'виключати (не допускати)', 'irregular', 'ausgeschlossen', 'schloss aus', 'haben', 'B2', 'Es ist wichtig zu ausschliessen.', 'Я хочу исключать (не допускать).'),
+
+(1160, 'ausweichen', 'уклоняться (избегать)', 'ухилятися (уникати)', 'irregular', 'ausgewichen', 'wich aus', 'sein', 'B2', 'Es ist wichtig zu ausweichen.', 'Я хочу уклоняться (избегать).'),
+
+(1161, 'bemitleiden', 'жалеть (сострадать)', 'жаліти (співчувати)', 'regular', 'bemitleident', 'bemitleidente', 'haben', 'B2', 'Es ist wichtig zu bemitleiden.', 'Я хочу жалеть (сострадать).'),
+
+(1162, 'beschamen', 'стыдить (приводить в стыд)', 'соромити (приводити в сором)', 'regular', 'beschamt', 'beschamte', 'haben', 'B2', 'Kannst du beschamen?', 'Я хочу стыдить (приводить в стыд).')
+
+(1163, 'beschimpfen', 'оскорблять (ругать)', 'ображати (лаяти)', 'regular', 'beschimpft', 'beschimpfte', 'haben', 'B2', 'Wir muessen beschimpfen.', 'Я хочу оскорблять (ругать).')
+
+(1164, 'bestaerken', 'укреплять (уверенность)', 'зміцнювати (впевненість)', 'regular', 'bestaerkt', 'bestaerkte', 'haben', 'B2', 'Du solltest bestaerken.', 'Я хочу укреплять (уверенность).')
+
+(1165, 'bestrafen', 'наказывать', 'карати', 'regular', 'bestraft', 'bestrafte', 'haben', 'B2', 'Kannst du bestrafen?', 'Я хочу наказывать.')
+
+(1166, 'betrueben', 'печалить (огорить)', 'печалити (засмучувати)', 'regular', 'betruebt', 'betruebte', 'haben', 'B2', 'Er moechte betrueben.', 'Я хочу печалить (огорить).')
+
+(1167, 'betruegen', 'обманывать (мошенничать)', 'обманювати (шахраювати)', 'irregular', 'betrogen', 'betrog', 'haben', 'B2', 'Es ist wichtig zu betruegen.', 'Я хочу обманывать (мошенничать).'),
+
+(1168, 'beunruhigen', 'беспокоить (тревожить)', 'турбувати (тривожити)', 'regular', 'beunruhigt', 'beunruhigte', 'haben', 'B2', 'Ich moechte beunruhigen.', 'Я хочу беспокоить (тревожить).')
+
+(1169, 'blamieren', 'опозорить (скомпрометировать)', 'ганьбити (скомпрометувати)', 'regular', 'blamiert', 'blamierte', 'haben', 'B2', 'Du solltest blamieren.', 'Я хочу опозорить (скомпрометировать).')
+
+(1170, 'demuetigen', 'унижать (оскорблять)', 'принижувати (ображати)', 'regular', 'gedemuetigt', 'demuetigte', 'haben', 'B2', 'Es ist wichtig zu demuetigen.', 'Я хочу унижать (оскорблять).')
+
+(1171, 'dulden', 'терпеть (мириться)', 'терпіти (миритися)', 'regular', 'geduldet', 'duldete', 'haben', 'B2', 'Wir koennen dulden.', 'Я хочу терпеть (мириться).')
+
+(1172, 'ehren', 'чтить (уважать)', 'шанувати (поважати)', 'regular', 'geehrt', 'ehrte', 'haben', 'B2', 'Sie moechte ehren.', 'Я хочу чтить (уважать).')
+
+(1173, 'einschuechtern', 'запугивать (устрашать)', 'залякувати (устрашати)', 'regular', 'eingeschuechtert', 'schuechterte ein', 'haben', 'B2', 'Kannst du einschuechtern?', 'Я хочу запугивать (устрашать).')
+
+(1174, 'entmutigen', 'обескураживать (отбивать охоту)', 'знеохочувати (відбивати бажання)', 'regular', 'entmutigt', 'entmutigte', 'haben', 'B2', 'Ich moechte entmutigen.', 'Я хочу обескураживать (отбивать охоту).')
+
+(1175, 'entschuldigen (sich)', 'извиняться (просить прощения)', 'вибачатися (просити вибачення)', 'regular', 'entschuldigen (sich)t', 'entschuldigen (sich)te', 'haben', 'B2', 'Du solltest entschuldigen (sich).', 'Я хочу извиняться (просить прощения).'),
+
+(1176, 'enttaeuschen', 'разочаровывать (обманывать ожидания)', 'розчаровувати (обманювати сподівання)', 'regular', 'enttaeuscht', 'enttaeuschte', 'haben', 'B2', 'Es ist wichtig zu enttaeuschen.', 'Я хочу разочаровывать (обманывать ожидания).')
+
+(1177, 'erbosen', 'сердить (злить)', 'сердити (злити)', 'regular', 'erbost', 'erboste', 'haben', 'B2', 'Wir muessen erbosen.', 'Я хочу сердить (злить).')
+
+(1178, 'erfreuen', 'радовать (доставлять радость)', 'радувати (доставляти радість)', 'regular', 'erfreut', 'erfreute', 'haben', 'B2', 'Kannst du erfreuen?', 'Я хочу радовать (доставлять радость).')
+
+(1179, 'ermahnen', 'увещевать (предупреждать)', 'умовляти (попереджати)', 'regular', 'ermahnt', 'ermahnte', 'haben', 'B2', 'Kannst du ermahnen?', 'Я хочу увещевать (предупреждать).')
+
+(1180, 'ermutigen', 'ободрять (поощрять)', 'підбадьорювати (заохочувати)', 'regular', 'ermutigt', 'ermutigte', 'haben', 'B2', 'Wir muessen ermutigen.', 'Я хочу ободрять (поощрять).')
+
+(1181, 'ermoeglichen', 'делать возможным (облегчать)', 'робити можливим (полегшувати)', 'regular', 'ermoeglicht', 'ermoeglichte', 'haben', 'B2', 'Sie moechte ermoeglichen.', 'Я хочу делать возможным (облегчать).')
+
+(1182, 'erstaunen', 'удивлять (изумлять)', 'дивувати (вражати)', 'regular', 'erstaunt', 'erstaunte', 'haben', 'B2', 'Kannst du erstaunen?', 'Я хочу удивлять (изумлять).')
+
+(1183, 'foerdern', 'поддерживать (стимулировать)', 'підтримувати (стимулювати)', 'regular', 'gefoerdert', 'foerderte', 'haben', 'B2', 'Wir koennen foerdern.', 'Я хочу поддерживать (стимулировать).')
+
+(1184, 'freuen (sich)', 'радоваться (быть радостным)', 'радіти (бути радісним)', 'regular', 'gefreuen (sich)t', 'freuen (sich)te', 'haben', 'B2', 'Kannst du freuen (sich)?', 'Я хочу радоваться (быть радостным).'),
+
+(1185, 'fuerchten (sich)', 'бояться (опасаться)', 'боятися (побоюватися)', 'regular', 'gefuerchten (sich)t', 'fuerchten (sich)te', 'haben', 'B2', 'Du solltest fuerchten (sich).', 'Я хочу бояться (опасаться).'),
+
+(1186, 'gnaden', 'миловать (проявлять милость)', 'милувати (проявляти милість)', 'regular', 'gegnadet', 'gnadete', 'haben', 'B2', 'Ich moechte gnaden.', 'Я хочу миловать (проявлять милость).')
+
+(1187, 'grausen', 'страшиться (испытывать ужас)', 'страхатися (відчувати жах)', 'regular', 'gegraust', 'grauste', 'haben', 'B2', 'Es ist wichtig zu grausen.', 'Я хочу страшиться (испытывать ужас).')
+
+(1188, 'guete zeigen', 'проявлять доброту', 'проявляти доброту', 'regular', 'geguete zeigent', 'guete zeigente', 'haben', 'B2', 'Es ist wichtig zu guete zeigen.', 'Я хочу проявлять доброту.'),
+
+(1189, 'hegen', 'лелеять (заботиться о чувствах)', 'плекати (дбати про почуття)', 'regular', 'gehegt', 'hegte', 'haben', 'B2', 'Wir koennen hegen.', 'Я хочу лелеять (заботиться о чувствах).')
+
+(1190, 'humor haben', 'обладать чувством юмора', 'мати почуття гумору', 'regular', 'gehumor habent', 'humor habente', 'haben', 'B2', 'Wir muessen humor haben.', 'Я хочу обладать чувством юмора.'),
+
+(1191, 'lieb gewinnen', 'полюбить (привязаться)', 'полюбити (прив''язатися)', 'irregular', 'lieb gewonnen', 'gewann lieb', 'haben', 'B2', 'Wir muessen lieb gewinnen.', 'Я хочу полюбить (привязаться).'),
+
+(1192, 'liebhaben', 'любить (испытывать нежность)', 'любити (відчувати ніжність)', 'mixed', 'liebgehabt', 'hatte lieb', 'haben', 'B2', 'Wir muessen liebhaben.', 'Я хочу любить (испытывать нежность).'),
+
+(1193, 'loben', 'хвалить (похвалить)', 'хвалити (похвалити)', 'regular', 'gelobt', 'lobte', 'haben', 'B2', 'Du solltest loben.', 'Я хочу хвалить (похвалить).')
+
+(1194, 'missbrauchen', 'злоупотреблять (использовать)', 'зловживати (використовувати)', 'regular', 'missbraucht', 'missbrauchte', 'haben', 'B2', 'Es ist wichtig zu missbrauchen.', 'Я хочу злоупотреблять (использовать).')
+
+(1195, 'misshandeln', 'плохо обращаться (жестоко)', 'погано поводитися (жорстоко)', 'regular', 'misshandelt', 'misshandelte', 'haben', 'B2', 'Wir muessen misshandeln.', 'Я хочу плохо обращаться (жестоко).')
+
+(1196, 'nachgeben', 'уступать (поддаваться)', 'поступатися (піддаватися)', 'irregular', 'nachgegeben', 'gab nach', 'haben', 'B2', 'Wir koennen nachgeben.', 'Я хочу уступать (поддаваться).'),
+
+(1197, 'nachsehen', 'смотреть вслед (понимать)', 'дивитися вслід (розуміти)', 'irregular', 'nachgesehen', 'sah nach', 'haben', 'B2', 'Sie moechte nachsehen.', 'Я хочу смотреть вслед (понимать).'),
+
+(1198, 'nerven', 'нервировать (раздражать)', 'нервувати (дратувати)', 'regular', 'genervt', 'nervte', 'haben', 'B2', 'Sie moechte nerven.', 'Я хочу нервировать (раздражать).')
+
+(1199, 'peinigen', 'мучить (терзать)', 'мучити (терзати)', 'regular', 'gepeinigt', 'peinigte', 'haben', 'B2', 'Er moechte peinigen.', 'Я хочу мучить (терзать).')
+
+(1200, 'quaelen', 'мучить (причинять боль)', 'мучити (завдавати болю)', 'regular', 'gequaelt', 'quaelte', 'haben', 'B2', 'Wir muessen quaelen.', 'Я хочу мучить (причинять боль).')
+
+(1201, 'rosten', 'ржаветь (подвергаться коррозии)', 'іржавіти (піддаватися корозії)', 'regular', 'gerostet', 'rostete', 'haben', 'B2', 'Sie moechte rosten.', 'Я хочу ржаветь (подвергаться коррозии).')
+
+(1202, 'schaden', 'вредить (наносить вред)', 'шкодити (наносити шкоду)', 'regular', 'geschadet', 'schadete', 'haben', 'B2', 'Du solltest schaden.', 'Я хочу вредить (наносить вред).')
+
+(1203, 'schaetzen', 'ценить (высоко ставить)', 'цінувати (високо ставити)', 'regular', 'geschaetzt', 'schaetzte', 'haben', 'B2', 'Wir koennen schaetzen.', 'Я хочу ценить (высоко ставить).')
+
+(1204, 'schonen', 'беречь (щадить)', 'берегти (щадити)', 'regular', 'geschont', 'schonte', 'haben', 'B2', 'Ich moechte schonen.', 'Я хочу беречь (щадить).')
+
+(1205, 'schulden', 'быть должным (задолжать)', 'бути повинним (заборгувати)', 'regular', 'geschuldet', 'schuldete', 'haben', 'B2', 'Kannst du schulden?', 'Я хочу быть должным (задолжать).')
+
+(1206, 'segnen', 'благословлять', 'благословляти', 'regular', 'gesegnet', 'segnete', 'haben', 'B2', 'Du solltest segnen.', 'Я хочу благословлять.')
+
+(1207, 'sorgen (sich)', 'беспокоиться (волноваться)', 'турбуватися (хвилюватися)', 'regular', 'gesorgen (sich)t', 'sorgen (sich)te', 'haben', 'B2', 'Es ist wichtig zu sorgen (sich).', 'Я хочу беспокоиться (волноваться).'),
+
+(1208, 'straucheln', 'спотыкаться (ошибаться)', 'спотикатися (помилятися)', 'regular', 'gestrauchelt', 'strauchelte', 'haben', 'B2', 'Er moechte straucheln.', 'Я хочу спотыкаться (ошибаться).')
+
+(1209, 'strotzen', 'изобиловать (быть полным)', 'рясніти (бути повним)', 'regular', 'gestrotzt', 'strotzte', 'haben', 'B2', 'Kannst du strotzen?', 'Я хочу изобиловать (быть полным).')
+
+(1210, 'stutzen', 'изумляться (останавливаться в недоумении)', 'дивуватися (зупинятися в нерозумінні)', 'regular', 'gestutzt', 'stutzte', 'haben', 'B2', 'Es ist wichtig zu stutzen.', 'Я хочу изумляться (останавливаться в недоумении).')
+
+(1211, 'sympathisieren', 'симпатизировать (относиться с симпатией)', 'симпатизувати (ставитися з симпатією)', 'regular', 'sympathisiert', 'sympathisierte', 'haben', 'B2', 'Wir muessen sympathisieren.', 'Я хочу симпатизировать (относиться с симпатией).')
+
+(1212, 'tadeln', 'порицать (упрекать)', 'дорікати (докоряти)', 'regular', 'getadelt', 'tadelte', 'haben', 'B2', 'Du solltest tadeln.', 'Я хочу порицать (упрекать).')
+
+(1213, 'tolerieren', 'терпеть (мириться с)', 'терпіти (миритися з)', 'regular', 'toleriert', 'tolerierte', 'haben', 'B2', 'Sie moechte tolerieren.', 'Я хочу терпеть (мириться с).')
+
+(1214, 'trauern', 'скорбеть (горевать)', 'скорбіти (горювати)', 'regular', 'getrauert', 'trauerte', 'haben', 'B2', 'Du solltest trauern.', 'Я хочу скорбеть (горевать).')
+
+(1215, 'trösten', 'утешать', 'втішати', 'regular', 'getröstet', 'tröstete', 'haben', 'B2', 'Ich moechte trösten.', 'Я хочу утешать.')
+
+(1216, 'ubertreiben', 'преувеличивать', 'перебільшувати', 'irregular', 'ubetrieben', 'uberteib', 'haben', 'B2', 'Wir muessen ubertreiben.', 'Я хочу преувеличивать.'),
+
+(1217, 'ubergehen (sich)', 'пропускать (игнорировать)', 'пропускати (ігнорувати)', 'regular', 'geubergehen (sich)t', 'ubergehen (sich)te', 'haben', 'B2', 'Kannst du ubergehen (sich)?', 'Я хочу пропускать (игнорировать).'),
+
+(1218, 'uberlegen (sich)', 'обдумывать (взвешивать)', 'обдумувати (зважувати)', 'regular', 'geuberlegen (sich)t', 'uberlegen (sich)te', 'haben', 'B2', 'Ich moechte uberlegen (sich).', 'Я хочу обдумывать (взвешивать).'),
+
+(1219, 'verachten', 'презирать (гнушаться)', 'зневажати (гордувати)', 'regular', 'verachtet', 'verachtete', 'haben', 'B2', 'Es ist wichtig zu verachten.', 'Я хочу презирать (гнушаться).')
+
+(1220, 'verargumentieren', 'обосновывать (доказывать)', 'обґрунтовувати (доводити)', 'regular', 'verargumentiert', 'verargumentierte', 'haben', 'B2', 'Er moechte verargumentieren.', 'Я хочу обосновывать (доказывать).')
+
+(1221, 'verblüffen', 'ошеломлять (изумлять)', 'приголомшувати (вражати)', 'regular', 'verblüfft', 'verblüffte', 'haben', 'B2', 'Wir muessen verblüffen.', 'Я хочу ошеломлять (изумлять).')
+
+(1222, 'verdrängen', 'вытеснять (подавлять)', 'витісняти (пригнічувати)', 'regular', 'verdrängt', 'verdrängte', 'haben', 'B2', 'Ich moechte verdrängen.', 'Я хочу вытеснять (подавлять).')
+
+(1223, 'verhätscheln', 'баловать (нежить)', 'балувати (пестити)', 'regular', 'verhätschelt', 'verhätschelte', 'haben', 'B2', 'Kannst du verhätscheln?', 'Я хочу баловать (нежить).')
+
+(1224, 'verhöhnen', 'высмеивать (глумиться)', 'висміювати (глумитися)', 'regular', 'verhöhnt', 'verhöhnte', 'haben', 'B2', 'Ich moechte verhöhnen.', 'Я хочу высмеивать (глумиться).')
+
+(1225, 'verleumden', 'клеветать (оговорить)', 'наклепничати (обмовити)', 'regular', 'verleumdet', 'verleumdete', 'haben', 'B2', 'Wir muessen verleumden.', 'Я хочу клеветать (оговорить).')
+
+(1226, 'verlieben (sich)', 'влюбляться (в кого-то)', 'закохуватися (в когось)', 'regular', 'verlieben (sich)t', 'verlieben (sich)te', 'haben', 'B2', 'Ich moechte verlieben (sich).', 'Я хочу влюбляться (в кого-то).'),
+
+(1227, 'vernachlässigen', 'пренебрегать (запускать)', 'нехтувати (запускати)', 'regular', 'vernachlässigt', 'vernachlässigte', 'haben', 'B2', 'Sie moechte vernachlässigen.', 'Я хочу пренебрегать (запускать).')
+
+(1228, 'verraten', 'предавать (выдавать тайну)', 'зраджувати (видавати таємницю)', 'irregular', 'verraten', 'verriet', 'haben', 'B2', 'Wir muessen verraten.', 'Я хочу предавать (выдавать тайну).'),
+
+(1229, 'verscheuchen', 'отгонять (прогонять)', 'відганяти (проганяти)', 'regular', 'verscheucht', 'verscheuchte', 'haben', 'B2', 'Sie moechte verscheuchen.', 'Я хочу отгонять (прогонять).')
+
+(1230, 'verstossen', 'отвергать (изгонять)', 'відкидати (виганяти)', 'irregular', 'verstossen', 'verstiess', 'haben', 'B2', 'Ich moechte verstossen.', 'Я хочу отвергать (изгонять).'),
+
+(1231, 'vertragen', 'выносить (терпеть)', 'виносити (терпіти)', 'irregular', 'vertragen', 'vertrug', 'haben', 'B2', 'Ich moechte vertragen.', 'Я хочу выносить (терпеть).'),
+
+(1232, 'verwöhnen', 'баловать (портить)', 'балувати (псувати)', 'regular', 'verwöhnt', 'verwöhnte', 'haben', 'B2', 'Du solltest verwöhnen.', 'Я хочу баловать (портить).')
+
+(1233, 'vollenden', 'завершать (доводить до конца)', 'завершувати (доводити до кінця)', 'regular', 'gevollendet', 'vollendete', 'haben', 'B2', 'Kannst du vollenden?', 'Я хочу завершать (доводить до конца).')
+
+(1234, 'vorlesen', 'читать вслух', 'читати вголос', 'irregular', 'vorgelesen', 'las vor', 'haben', 'B2', 'Wir koennen vorlesen.', 'Я хочу читать вслух.'),
+
+(1235, 'vorsorgen', 'принимать меры предосторожности', 'вживати заходів обережності', 'regular', 'vorgesorgt', 'sorgte vor', 'haben', 'B2', 'Ich moechte vorsorgen.', 'Я хочу принимать меры предосторожности.')
+
+(1236, 'warnen', 'предупреждать (предостерегать)', 'попереджати (застерігати)', 'regular', 'gewarnt', 'warnte', 'haben', 'B2', 'Er moechte warnen.', 'Я хочу предупреждать (предостерегать).')
+
+(1237, 'wehren (sich)', 'обороняться (защищаться)', 'оборонятися (захищатися)', 'regular', 'gewehren (sich)t', 'wehren (sich)te', 'haben', 'B2', 'Du solltest wehren (sich).', 'Я хочу обороняться (защищаться).'),
+
+(1238, 'würdigen', 'ценить (отдавать должное)', 'цінувати (відавати належне)', 'regular', 'gewürdigt', 'würdigte', 'haben', 'B2', 'Sie moechte würdigen.', 'Я хочу ценить (отдавать должное).')
+
+(1239, 'zürnen', 'гневаться (сердиться)', 'гніватися (сердитися)', 'regular', 'gezürnt', 'zürnte', 'haben', 'B2', 'Wir muessen zürnen.', 'Я хочу гневаться (сердиться).')
+
+(1240, 'ausmalen', 'раскрашивать (рисовать)', 'розфарбовувати (малювати)', 'regular', 'ausgemalt', 'malte aus', 'haben', 'B1', 'Wir muessen ausmalen.', 'Я хочу раскрашивать (рисовать).')
+
+(1241, 'illustrieren', 'иллюстрировать (рисовать)', 'ілюструвати (малювати)', 'regular', 'illustriert', 'illustrierte', 'haben', 'B1', 'Wir muessen illustrieren.', 'Я хочу иллюстрировать (рисовать).')
+
+(1242, 'kritzeln', 'рисовать (каракули/наброски)', 'малювати (каракулі/начерки)', 'regular', 'gekritzelt', 'kritzelte', 'haben', 'B1', 'Er moechte kritzeln.', 'Я хочу рисовать (каракули/наброски).')
+
+(1243, 'aufkochen', 'вскипятить (доводить до кипения)', 'скип''ятити (доводити до кипіння)', 'regular', 'aufgekocht', 'kochte auf', 'haben', 'B1', 'Es ist wichtig zu aufkochen.', 'Я хочу вскипятить (доводить до кипения).')
+
+(1244, 'ausrollen', 'раскатывать (тесто)', 'розкачувати (тісто)', 'regular', 'ausgerollt', 'rollte aus', 'haben', 'B1', 'Sie moechte ausrollen.', 'Я хочу раскатывать (тесто).')
+
+(1245, 'bestreichen', 'намазывать (маслом)', 'намащувати (маслом)', 'irregular', 'bestrichen', 'bestrich', 'haben', 'B1', 'Kannst du bestreichen?', 'Я хочу намазывать (маслом).'),
+
+(1246, 'brauen', 'варить (пиво/напиток)', 'варити (пиво/напій)', 'regular', 'gebraut', 'braute', 'haben', 'B1', 'Wir muessen brauen.', 'Я хочу варить (пиво/напиток).')
+
+(1247, 'einkochen', 'консервировать (варить варенье)', 'консервувати (варити варення)', 'regular', 'eingekocht', 'kochte ein', 'haben', 'B1', 'Kannst du einkochen?', 'Я хочу консервировать (варить варенье).')
+
+(1248, 'einlegen', 'мариновать (засаливать)', 'маринувати (засолювати)', 'regular', 'eingelegt', 'legte ein', 'haben', 'B1', 'Kannst du einlegen?', 'Я хочу мариновать (засаливать).')
+
+(1249, 'entkernen', 'удалять косточки (семена)', 'видаляти кісточки (насіння)', 'regular', 'entkernt', 'entkernte', 'haben', 'B1', 'Wir muessen entkernen.', 'Я хочу удалять косточки (семена).')
+
+(1250, 'filetieren', 'филировать (разделывать рыбу)', 'філіювати (розбирати рибу)', 'regular', 'filetiert', 'filetierte', 'haben', 'B1', 'Er moechte filetieren.', 'Я хочу филировать (разделывать рыбу).')
+
+(1251, 'flambieren', 'фламбировать', 'фламбувати', 'regular', 'flambiert', 'flambierte', 'haben', 'B1', 'Ich moechte flambieren.', 'Я хочу фламбировать.')
+
+(1252, 'garen', 'готовить (доводить до готовности)', 'готувати (доводити до готовності)', 'regular', 'gegart', 'garte', 'haben', 'B1', 'Ich moechte garen.', 'Я хочу готовить (доводить до готовности).')
+
+(1253, 'garnieren', 'гарнировать (украшать блюдо)', 'гарнірувати (прикрашати страву)', 'regular', 'garniert', 'garnierte', 'haben', 'B1', 'Er moechte garnieren.', 'Я хочу гарнировать (украшать блюдо).')
+
+(1254, 'hefeteig zubereiten', 'готовить дрожжевое тесто', 'готувати дріжджове тісто', 'regular', 'gehefeteig zubereitent', 'hefeteig zubereitente', 'sein', 'B1', 'Wir muessen hefeteig zubereiten.', 'Я хочу готовить дрожжевое тесто.'),
+
+(1255, 'marinieren', 'мариновать', 'маринувати', 'regular', 'mariniert', 'marinierte', 'haben', 'B1', 'Wir koennen marinieren.', 'Я хочу мариновать.')
+
+(1256, 'pellen', 'чистить (яйцо/картофель)', 'чистити (яйце/картоплю)', 'regular', 'gepellt', 'pellte', 'haben', 'B1', 'Wir koennen pellen.', 'Я хочу чистить (яйцо/картофель).')
+
+(1257, 'pürieren', 'пюрировать (измельчать)', 'пюрувати (подрібнювати)', 'regular', 'püriert', 'pürierte', 'haben', 'B1', 'Sie moechte pürieren.', 'Я хочу пюрировать (измельчать).')
+
+(1258, 'schmoren', 'тушить (мясо/овощи)', 'тушити (м''ясо/овочі)', 'regular', 'geschmort', 'schmorte', 'haben', 'B1', 'Du solltest schmoren.', 'Я хочу тушить (мясо/овощи).')
+
+(1259, 'servieren', 'подавать (блюдо на стол)', 'подавати (страву на стіл)', 'regular', 'serviert', 'servierte', 'haben', 'B1', 'Es ist wichtig zu servieren.', 'Я хочу подавать (блюдо на стол).')
+
+(1260, 'sieben', 'просеивать (муку)', 'просіювати (борошно)', 'regular', 'gesiebt', 'siebte', 'haben', 'B1', 'Er moechte sieben.', 'Я хочу просеивать (муку).')
+
+(1261, 'stampfen', 'толочь (пюре)', 'товкти (пюре)', 'regular', 'gestampft', 'stampfte', 'haben', 'B1', 'Du solltest stampfen.', 'Я хочу толочь (пюре).')
+
+(1262, 'toasten', 'поджаривать (тост/хлеб)', 'підсмажувати (тост/хліб)', 'regular', 'getoastet', 'toastete', 'haben', 'B1', 'Er moechte toasten.', 'Я хочу поджаривать (тост/хлеб).')
+
+(1263, 'umrühren', 'перемешивать (помешивать)', 'перемішувати (помішувати)', 'regular', 'geumrührt', 'umrührte', 'haben', 'B1', 'Du solltest umrühren.', 'Я хочу перемешивать (помешивать).')
+
+(1264, 'verquirlen', 'взбивать (венчиком)', 'збивати (віничком)', 'regular', 'verquirlt', 'verquirlte', 'haben', 'B1', 'Kannst du verquirlen?', 'Я хочу взбивать (венчиком).')
+
+(1265, 'vorheizen', 'разогревать (духовку)', 'розігрівати (духовку)', 'regular', 'vorgeheizt', 'heizte vor', 'haben', 'B1', 'Er moechte vorheizen.', 'Я хочу разогревать (духовку).')
+
+(1266, 'zerkleinern', 'измельчать (крошить)', 'подрібнювати (кришити)', 'regular', 'zerkleinert', 'zerkleinerte', 'haben', 'B1', 'Wir muessen zerkleinern.', 'Я хочу измельчать (крошить).')
+
+(1267, 'zuckern', 'сахарить (посыпать сахаром)', 'цукрувати (посипати цукром)', 'regular', 'zugeckert', 'ckerte zu', 'haben', 'B1', 'Es ist wichtig zu zuckern.', 'Я хочу сахарить (посыпать сахаром).')
+
+(1268, 'zudecken', 'накрывать (крышкой/одеялом)', 'накривати (кришкою/ковдрою)', 'regular', 'zugedeckt', 'deckte zu', 'haben', 'B1', 'Es ist wichtig zu zudecken.', 'Я хочу накрывать (крышкой/одеялом).')
+
+(1269, 'abschneiden', 'отрезать', 'відрізати', 'irregular', 'abgeschnitten', 'schnitt ab', 'haben', 'A2', 'Er moechte abschneiden.', 'Я хочу отрезать.'),
+
+(1270, 'anlehnen', 'прислонять(ся)', 'притуляти(ся)', 'regular', 'angelehnt', 'lehnte an', 'haben', 'A2', 'Sie moechte anlehnen.', 'Я хочу прислонять(ся).')
+
+(1271, 'anschauen', 'смотреть (на)', 'дивитися (на)', 'regular', 'angeschaut', 'schaute an', 'haben', 'A2', 'Es ist wichtig zu anschauen.', 'Я хочу смотреть (на).')
+
+(1272, 'auskennen (sich)', 'разбираться (в)', 'розбиратися (в)', 'mixed', 'ausgekannt', 'kannte aus', 'haben', 'A2', 'Ich moechte auskennen (sich).', 'Я хочу разбираться (в).'),
+
+(1273, 'bedienen', 'обслуживать', 'обслуговувати', 'regular', 'bedient', 'bediente', 'haben', 'A2', 'Ich moechte bedienen.', 'Я хочу обслуживать.')
+
+(1274, 'befinden (sich)', 'находиться', 'знаходитися', 'irregular', 'befunden', 'befand', 'haben', 'A2', 'Er moechte befinden (sich).', 'Я хочу находиться.'),
+
+(1275, 'begegnen', 'встречать (случайно)', 'зустрічати (випадково)', 'regular', 'begegnet', 'begegnete', 'haben', 'A2', 'Wir muessen begegnen.', 'Я хочу встречать (случайно).')
+
+(1276, 'benehmen (sich)', 'вести себя', 'поводитися', 'irregular', 'benommen', 'benahm', 'haben', 'A2', 'Wir muessen benehmen (sich).', 'Я хочу вести себя.'),
+
+(1277, 'beschaeftigen', 'занимать (работой)', 'займати (роботою)', 'regular', 'beschaeftigt', 'beschaeftigte', 'haben', 'A2', 'Es ist wichtig zu beschaeftigen.', 'Я хочу занимать (работой).')
+
+(1278, 'beschweren (sich)', 'жаловаться', 'скаржитися', 'regular', 'beschweren (sich)t', 'beschweren (sich)te', 'haben', 'A2', 'Wir koennen beschweren (sich).', 'Я хочу жаловаться.'),
+
+(1279, 'einigen (sich)', 'договариваться (соглашаться)', 'домовлятися (погоджуватися)', 'regular', 'einigen (sich)t', 'igen (sich)te ein', 'haben', 'A2', 'Sie moechte einigen (sich).', 'Я хочу договариваться (соглашаться).'),
+
+(1280, 'erinnern (sich)', 'помнить (вспоминать)', 'пам''ятати (згадувати)', 'regular', 'erinnern (sich)t', 'erinnern (sich)te', 'haben', 'A2', 'Er moechte erinnern (sich).', 'Я хочу помнить (вспоминать).'),
+
+(1281, 'ersetzt', 'заменять', 'замінювати', 'regular', 'ersetztet', 'ersetztete', 'haben', 'A2', 'Kannst du ersetzt?', 'Я хочу заменять.')
+
+(1282, 'fortsetzen', 'продолжать', 'продовжувати', 'regular', 'fortgesetzt', 'setzte fort', 'haben', 'A2', 'Wir muessen fortsetzen.', 'Я хочу продолжать.')
+
+(1283, 'geniessen', 'наслаждаться', 'насолоджуватися', 'irregular', 'genossen', 'genoss', 'haben', 'A2', 'Es ist wichtig zu geniessen.', 'Я хочу наслаждаться.'),
+
+(1284, 'hinzufuegen', 'добавлять', 'додавати', 'regular', 'hingezufuegt', 'zufuegte hin', 'haben', 'A2', 'Wir muessen hinzufuegen.', 'Я хочу добавлять.')
+
+(1285, 'kuemmern (sich)', 'заботиться (о)', 'піклуватися (про)', 'regular', 'gekuemmern (sich)t', 'kuemmern (sich)te', 'haben', 'A2', 'Ich moechte kuemmern (sich).', 'Я хочу заботиться (о).'),
+
+(1286, 'loesen', 'решать (проблему)', 'вирішувати (проблему)', 'regular', 'geloest', 'loeste', 'haben', 'A2', 'Es ist wichtig zu loesen.', 'Я хочу решать (проблему).')
+
+(1287, 'schaffen', 'создавать (творить)', 'створювати (творити)', 'irregular', 'geschaffen', 'schuf', 'haben', 'A2', 'Kannst du schaffen?', 'Я хочу создавать (творить).'),
+
+(1288, 'schliessen', 'закрывать', 'закривати', 'irregular', 'geschlossen', 'schloss', 'haben', 'A2', 'Du solltest schliessen.', 'Я хочу закрывать.'),
+
+(1289, 'wenden (sich)', 'обращаться (к)', 'звертатися (до)', 'regular', 'gewenden (sich)t', 'wenden (sich)te', 'haben', 'A2', 'Es ist wichtig zu wenden (sich).', 'Я хочу обращаться (к).'),
+
+(1290, 'abbauen', 'сокращать (демонтировать)', 'скорочувати (демонтувати)', 'regular', 'abgebaut', 'baute ab', 'haben', 'B1', 'Sie moechte abbauen.', 'Я хочу сокращать (демонтировать).')
+
+(1291, 'ablenken', 'отвлекать (внимание)', 'відволікати (увагу)', 'regular', 'abgelenkt', 'lenkte ab', 'haben', 'B1', 'Wir koennen ablenken.', 'Я хочу отвлекать (внимание).')
+
+(1292, 'abschliessen', 'завершать (заканчивать)', 'завершувати (закінчувати)', 'irregular', 'abgeschlossen', 'schloss ab', 'haben', 'B1', 'Sie moechte abschliessen.', 'Я хочу завершать (заканчивать).'),
+
+(1293, 'abwechseln', 'чередовать(ся)', 'чергувати(ся)', 'regular', 'abgewechselt', 'wechselte ab', 'haben', 'B1', 'Sie moechte abwechseln.', 'Я хочу чередовать(ся).')
+
+(1294, 'abwickeln', 'осуществлять (проводить)', 'здійснювати (проводити)', 'regular', 'abgewickelt', 'wickelte ab', 'haben', 'B1', 'Sie moechte abwickeln.', 'Я хочу осуществлять (проводить).')
+
+(1295, 'anbauen', 'выращивать (культивировать)', 'вирощувати (культивувати)', 'regular', 'angebaut', 'baute an', 'haben', 'B1', 'Wir muessen anbauen.', 'Я хочу выращивать (культивировать).')
+
+(1296, 'anfuehren', 'возглавлять (руководить)', 'очолювати (керувати)', 'regular', 'angefuehrt', 'fuehrte an', 'haben', 'B1', 'Kannst du anfuehren?', 'Я хочу возглавлять (руководить).')
+
+(1297, 'angehen', 'касаться (относиться)', 'стосуватися (відноситися)', 'irregular', 'angegangen', 'ging an', 'sein', 'B1', 'Ich moechte angehen.', 'Я хочу касаться (относиться).'),
+
+(1298, 'angreifen', 'нападать (атаковать)', 'нападати (атакувати)', 'irregular', 'angegriffen', 'griff an', 'haben', 'B1', 'Er moechte angreifen.', 'Я хочу нападать (атаковать).'),
+
+(1299, 'anklagen', 'обвинять (предъявлять обвинение)', 'обвинувачувати (пред''являти обвинувачення)', 'regular', 'angeklagt', 'klagte an', 'haben', 'B1', 'Es ist wichtig zu anklagen.', 'Я хочу обвинять (предъявлять обвинение).')
+
+(1300, 'ankreiden', 'ставить в вину (упрекать)', 'ставити в вину (дорікати)', 'regular', 'angekreidet', 'kreidete an', 'haben', 'B1', 'Du solltest ankreiden.', 'Я хочу ставить в вину (упрекать).')
+
+(1301, 'anmelden', 'регистрировать (заявлять)', 'реєструвати (заявляти)', 'regular', 'angemeldet', 'meldete an', 'haben', 'B1', 'Er moechte anmelden.', 'Я хочу регистрировать (заявлять).')
+
+(1302, 'annaehern (sich)', 'приближаться (сближаться)', 'наближатися (зближуватися)', 'regular', 'annaehern (sich)t', 'naehern (sich)te an', 'haben', 'B1', 'Ich moechte annaehern (sich).', 'Я хочу приближаться (сближаться).'),
+
+(1303, 'anordnen', 'распоряжаться (приказывать)', 'розпоряджатися (наказувати)', 'regular', 'angeordnet', 'ordnete an', 'haben', 'B1', 'Es ist wichtig zu anordnen.', 'Я хочу распоряжаться (приказывать).')
+
+(1304, 'anschliessen', 'подключать(ся) (присоединять)', 'підключати(ся) (приєднувати)', 'irregular', 'angeschlossen', 'schloss an', 'haben', 'B1', 'Er moechte anschliessen.', 'Я хочу подключать(ся) (присоединять).'),
+
+(1305, 'ansprechen', 'обращаться (заговаривать)', 'звертатися (заговорювати)', 'irregular', 'angesprochen', 'sprach an', 'haben', 'B1', 'Er moechte ansprechen.', 'Я хочу обращаться (заговаривать).'),
+
+(1306, 'anstecken', 'заражать(ся)', 'заражати(ся)', 'regular', 'ansteckent', 'steckente an', 'haben', 'B1', 'Wir muessen anstecken.', 'Я хочу заражать(ся).'),
+
+(1307, 'anstrengen (sich)', 'напрягаться (стараться)', 'напружуватися (намагатися)', 'regular', 'anstrengen (sich)t', 'strengen (sich)te an', 'haben', 'B1', 'Ich moechte anstrengen (sich).', 'Я хочу напрягаться (стараться).'),
+
+(1308, 'anwenden', 'применять (использовать)', 'застосовувати (використовувати)', 'regular', 'anwendent', 'wendente an', 'haben', 'B1', 'Du solltest anwenden.', 'Я хочу применять (использовать).'),
+
+(1309, 'aufbewahren', 'хранить (сберегать)', 'зберігати (заощаджувати)', 'regular', 'aufgebewahrt', 'bewahrte auf', 'haben', 'B1', 'Wir koennen aufbewahren.', 'Я хочу хранить (сберегать).')
+
+(1310, 'aufdecken', 'раскрывать (обнаруживать)', 'розкривати (виявляти)', 'regular', 'aufgedeckt', 'deckte auf', 'haben', 'B1', 'Du solltest aufdecken.', 'Я хочу раскрывать (обнаруживать).')
+
+(1311, 'auferlegen', 'налагать (обязывать)', 'накладати (зобов''язувати)', 'regular', 'aufgeerlegt', 'erlegte auf', 'haben', 'B1', 'Er moechte auferlegen.', 'Я хочу налагать (обязывать).')
+
+(1312, 'auffallen', 'бросаться в глаза (заметным)', 'кидатися в очі (помітним)', 'irregular', 'aufgefallen', 'fiel auf', 'sein', 'B1', 'Sie moechte auffallen.', 'Я хочу бросаться в глаза (заметным).'),
+
+(1313, 'auffordern', 'призывать (требовать)', 'закликати (вимагати)', 'regular', 'aufgefordert', 'forderte auf', 'haben', 'B1', 'Sie moechte auffordern.', 'Я хочу призывать (требовать).')
+
+(1314, 'aufgeben', 'сдаваться (отказываться)', 'здаватися (відмовлятися)', 'irregular', 'aufgegeben', 'gab auf', 'haben', 'B1', 'Sie moechte aufgeben.', 'Я хочу сдаваться (отказываться).'),
+
+(1315, 'aufgehen', 'восходить (подниматься)', 'сходити (підніматися)', 'irregular', 'aufgegangen', 'ging auf', 'sein', 'B1', 'Er moechte aufgehen.', 'Я хочу восходить (подниматься).'),
+
+(1316, 'aufhalten', 'задерживать(ся) (останавливать)', 'затримувати(ся) (зупиняти)', 'irregular', 'aufgehalten', 'hielt auf', 'haben', 'B1', 'Wir muessen aufhalten.', 'Я хочу задерживать(ся) (останавливать).'),
+
+(1317, 'aufklaeren', 'разъяснять (просвещать)', 'роз''яснювати (просвіщати)', 'regular', 'aufgeklaert', 'klaerte auf', 'haben', 'B1', 'Er moechte aufklaeren.', 'Я хочу разъяснять (просвещать).')
+
+(1318, 'aufladen', 'загружать (заряжать)', 'завантажувати (заряджати)', 'irregular', 'aufgeladen', 'lud auf', 'haben', 'B1', 'Ich moechte aufladen.', 'Я хочу загружать (заряжать).'),
+
+(1319, 'aufloesen', 'растворять(ся) (распускать)', 'розчиняти(ся) (розпускати)', 'regular', 'aufgeloest', 'loeste auf', 'haben', 'B1', 'Sie moechte aufloesen.', 'Я хочу растворять(ся) (распускать).')
+
+(1320, 'aufnehmen', 'принимать (записывать)', 'приймати (записувати)', 'irregular', 'aufgenommen', 'nahm auf', 'haben', 'B1', 'Du solltest aufnehmen.', 'Я хочу принимать (записывать).'),
+
+(1321, 'aufrichten', 'поднимать (восстанавливать)', 'піднімати (відновлювати)', 'regular', 'aufgerichtet', 'richtete auf', 'haben', 'B1', 'Es ist wichtig zu aufrichten.', 'Я хочу поднимать (восстанавливать).')
+
+(1322, 'aufrufen', 'призывать (вызывать)', 'закликати (викликати)', 'irregular', 'aufgerufen', 'rief auf', 'haben', 'B1', 'Ich moechte aufrufen.', 'Я хочу призывать (вызывать).'),
+
+(1323, 'aufschlieben', 'откладывать (отсрочивать)', 'відкладати (відстрочувати)', 'irregular', 'aufgeschoben', 'schob auf', 'haben', 'B1', 'Wir koennen aufschlieben.', 'Я хочу откладывать (отсрочивать).'),
+
+(1324, 'aufspringen', 'вскакивать (запрыгивать)', 'вскакувати (застрибувати)', 'irregular', 'aufgesprungen', 'sprang auf', 'sein', 'B1', 'Wir koennen aufspringen.', 'Я хочу вскакивать (запрыгивать).'),
+
+(1325, 'aufstellen', 'устанавливать (составлять)', 'встановлювати (складати)', 'regular', 'aufgestellt', 'stellte auf', 'haben', 'B1', 'Wir muessen aufstellen.', 'Я хочу устанавливать (составлять).')
+
+(1326, 'auftauchen', 'всплывать (появляться)', 'спливати (з''являтися)', 'regular', 'aufgetaucht', 'tauchte auf', 'sein', 'B1', 'Er moechte auftauchen.', 'Я хочу всплывать (появляться).')
+
+(1327, 'auftragen', 'наносить (поручать)', 'наносити (доручати)', 'irregular', 'aufgetragen', 'trug auf', 'haben', 'B1', 'Er moechte auftragen.', 'Я хочу наносить (поручать).'),
+
+(1328, 'aufwachsen', 'вырастать (взрослеть)', 'виростати (дорослішати)', 'irregular', 'aufgewachsen', 'wuchs auf', 'sein', 'B1', 'Du solltest aufwachsen.', 'Я хочу вырастать (взрослеть).'),
+
+(1329, 'aufzaehlen', 'перечислять (называть)', 'перераховувати (називати)', 'regular', 'aufgezaehlt', 'zaehlte auf', 'haben', 'B1', 'Ich moechte aufzaehlen.', 'Я хочу перечислять (называть).')
+
+(1330, 'ausbleiben', 'отсутствовать (не наступать)', 'бути відсутнім (не наставати)', 'irregular', 'ausgeblieben', 'blieb aus', 'sein', 'B1', 'Wir koennen ausbleiben.', 'Я хочу отсутствовать (не наступать).'),
+
+(1331, 'ausbreiten', 'распространять(ся) (расширять)', 'поширювати(ся) (розширювати)', 'regular', 'ausgebreitet', 'breitete aus', 'sein', 'B1', 'Wir koennen ausbreiten.', 'Я хочу распространять(ся) (расширять).')
+
+(1332, 'ausdauern', 'выдерживать (терпеть)', 'витримувати (терпіти)', 'regular', 'ausgedauert', 'dauerte aus', 'haben', 'B1', 'Kannst du ausdauern?', 'Я хочу выдерживать (терпеть).')
+
+(1333, 'ausdehnen', 'расширять(ся) (протягивать)', 'розширювати(ся) (простягати)', 'regular', 'ausgedehnt', 'dehnte aus', 'haben', 'B1', 'Wir koennen ausdehnen.', 'Я хочу расширять(ся) (протягивать).')
+
+(1334, 'auseinandersetzen', 'анализировать (обсуждать)', 'аналізувати (обговорювати)', 'regular', 'ausgeeinandersetzt', 'einandersetzte aus', 'haben', 'B1', 'Es ist wichtig zu auseinandersetzen.', 'Я хочу анализировать (обсуждать).')
+
+(1335, 'ausfallen', 'выпадать (отменяться)', 'випадати (скасовуватися)', 'irregular', 'ausgefallen', 'fiel aus', 'sein', 'B1', 'Du solltest ausfallen.', 'Я хочу выпадать (отменяться).'),
+
+(1336, 'ausfragen', 'расспрашивать (выведывать)', 'розпитувати (вивідувати)', 'regular', 'ausgefragt', 'fragte aus', 'haben', 'B1', 'Wir muessen ausfragen.', 'Я хочу расспрашивать (выведывать).')
+
+(1337, 'ausgleichen', 'уравнивать (компенсировать)', 'зрівнювати (компенсувати)', 'irregular', 'ausgeglichen', 'glich aus', 'haben', 'B1', 'Wir koennen ausgleichen.', 'Я хочу уравнивать (компенсировать).'),
+
+(1338, 'aushelfen', 'выручать (помогать)', 'виручати (допомагати)', 'irregular', 'ausgeholfen', 'half aus', 'haben', 'B1', 'Wir koennen aushelfen.', 'Я хочу выручать (помогать).'),
+
+(1339, 'auskommen', 'обходиться (общаться)', 'обходитися (спілкуватися)', 'irregular', 'ausgekommen', 'kam aus', 'sein', 'B1', 'Du solltest auskommen.', 'Я хочу обходиться (общаться).'),
+
+(1340, 'auslaufen', 'вытекать (заканчиваться)', 'витікати (закінчуватися)', 'irregular', 'ausgelaufen', 'lief aus', 'sein', 'B1', 'Wir koennen auslaufen.', 'Я хочу вытекать (заканчиваться).'),
+
+(1341, 'auslegen', 'выкладывать (толковать)', 'викладати (тлумачити)', 'regular', 'ausgelegt', 'legte aus', 'haben', 'B1', 'Es ist wichtig zu auslegen.', 'Я хочу выкладывать (толковать).')
+
+(1342, 'ausliefern', 'доставлять (выдавать)', 'доставляти (видавати)', 'regular', 'ausgeliefert', 'lieferte aus', 'haben', 'B1', 'Wir koennen ausliefern.', 'Я хочу доставлять (выдавать).')
+
+(1343, 'ausnutzen', 'использовать (злоупотреблять)', 'використовувати (зловживати)', 'regular', 'ausgenutzt', 'nutzte aus', 'haben', 'B1', 'Ich moechte ausnutzen.', 'Я хочу использовать (злоупотреблять).')
+
+(1344, 'ausreichen', 'быть достаточным (хватать)', 'бути достатнім (вистачати)', 'regular', 'ausgereicht', 'reichte aus', 'haben', 'B1', 'Wir koennen ausreichen.', 'Я хочу быть достаточным (хватать).')
+
+(1345, 'ausreisen', 'выезжать (эмигрировать)', 'виїжджати (емігрувати)', 'regular', 'ausgereist', 'reiste aus', 'sein', 'B1', 'Es ist wichtig zu ausreisen.', 'Я хочу выезжать (эмигрировать).')
+
+(1346, 'ausrotten', 'искоренять (уничтожать)', 'викорінювати (знищувати)', 'regular', 'ausgerottet', 'rottete aus', 'haben', 'B1', 'Er moechte ausrotten.', 'Я хочу искоренять (уничтожать).')
+
+(1347, 'ausrufen', 'восклицать (провозглашать)', 'вигукувати (проголошувати)', 'irregular', 'ausgerufen', 'rief aus', 'haben', 'B1', 'Er moechte ausrufen.', 'Я хочу восклицать (провозглашать).'),
+
+(1348, 'ausschneiden', 'вырезать (выкраивать)', 'вирізати (викроювати)', 'irregular', 'ausgeschnitten', 'schnitt aus', 'haben', 'B1', 'Ich moechte ausschneiden.', 'Я хочу вырезать (выкраивать).'),
+
+(1349, 'aussetzen', 'выставлять (подвергать)', 'виставляти (піддавати)', 'regular', 'ausgesetzt', 'setzte aus', 'haben', 'B1', 'Wir koennen aussetzen.', 'Я хочу выставлять (подвергать).')
+
+(1350, 'aussuchen', 'выбирать (искать)', 'вибирати (шукати)', 'regular', 'ausgesucht', 'suchte aus', 'haben', 'B1', 'Ich moechte aussuchen.', 'Я хочу выбирать (искать).')
+
+(1351, 'austauschen', 'обменивать(ся)', 'обмінювати(ся)', 'regular', 'ausgetauscht', 'tauschte aus', 'haben', 'B1', 'Er moechte austauschen.', 'Я хочу обменивать(ся).')
+
+(1352, 'ausueben', 'заниматься (исполнять)', 'займатися (виконувати)', 'regular', 'ausgeuebt', 'uebte aus', 'haben', 'B1', 'Er moechte ausueben.', 'Я хочу заниматься (исполнять).')
+
+(1353, 'auswaehlen', 'выбирать (отбирать)', 'вибирати (відбирати)', 'regular', 'ausgewaehlt', 'waehlte aus', 'haben', 'B1', 'Ich moechte auswaehlen.', 'Я хочу выбирать (отбирать).')
+
+(1354, 'auswandern', 'эмигрировать (переселяться)', 'емігрувати (переселятися)', 'regular', 'ausgewandert', 'wanderte aus', 'sein', 'B1', 'Du solltest auswandern.', 'Я хочу эмигрировать (переселяться).')
+
+(1355, 'auszeichnen', 'награждать (отмечать)', 'нагороджувати (відзначати)', 'regular', 'ausgezeichnet', 'zeichnete aus', 'haben', 'B1', 'Er moechte auszeichnen.', 'Я хочу награждать (отмечать).')
+
+(1356, 'bauen', 'строить (сооружать)', 'будувати (споруджувати)', 'regular', 'gebaut', 'baute', 'haben', 'B1', 'Wir koennen bauen.', 'Я хочу строить (сооружать).')
+
+(1357, 'beabsichtigen', 'намереваться (планировать)', 'мати намір (планувати)', 'regular', 'beabsichtigt', 'beabsichtigte', 'haben', 'B1', 'Sie moechte beabsichtigen.', 'Я хочу намереваться (планировать).')
+
+(1358, 'beanspruchen', 'требовать (претендовать)', 'вимагати (претендувати)', 'regular', 'beansprucht', 'beanspruchte', 'haben', 'B1', 'Er moechte beanspruchen.', 'Я хочу требовать (претендовать).')
+
+(1359, 'bedecken', 'покрывать (накрывать)', 'покривати (накривати)', 'regular', 'bedeckt', 'bedeckte', 'haben', 'B1', 'Ich moechte bedecken.', 'Я хочу покрывать (накрывать).')
+
+(1360, 'beeilen (sich)', 'торопиться (спешить)', 'поспішати (квапитися)', 'regular', 'beeilen (sich)t', 'beeilen (sich)te', 'haben', 'B1', 'Sie moechte beeilen (sich).', 'Я хочу торопиться (спешить).'),
+
+(1361, 'beeindrucken', 'впечатлять (поражать)', 'вражати (приголомшувати)', 'regular', 'beeindruckt', 'beeindruckte', 'haben', 'B1', 'Kannst du beeindrucken?', 'Я хочу впечатлять (поражать).')
+
+(1362, 'befehlen', 'приказывать (командовать)', 'наказувати (командувати)', 'irregular', 'befohlen', 'befahl', 'haben', 'B1', 'Er moechte befehlen.', 'Я хочу приказывать (командовать).'),
+
+(1363, 'befreien', 'освобождать (избавлять)', 'звільняти (позбавляти)', 'regular', 'befreit', 'befreite', 'haben', 'B1', 'Es ist wichtig zu befreien.', 'Я хочу освобождать (избавлять).')
+
+(1364, 'begeistert sein', 'быть в восторге', 'бути в захваті', 'regular', 'begeistert seint', 'begeistert seinte', 'haben', 'B1', 'Kannst du begeistert sein?', 'Я хочу быть в восторге.'),
+
+(1365, 'begrenzen', 'ограничивать (ограждать)', 'обмежувати (відгороджувати)', 'regular', 'begrenzt', 'begrenzte', 'haben', 'B1', 'Kannst du begrenzen?', 'Я хочу ограничивать (ограждать).')
+
+(1366, 'beitragen', 'вносить вклад (способствовать)', 'робити внесок (сприяти)', 'irregular', 'beigetragen', 'trug bei', 'haben', 'B1', 'Ich moechte beitragen.', 'Я хочу вносить вклад (способствовать).'),
+
+(1367, 'bekanntmachen', 'объявлять (сообщать)', 'оголошувати (повідомляти)', 'regular', 'bekanntmacht', 'bekanntmachte', 'haben', 'B1', 'Er moechte bekanntmachen.', 'Я хочу объявлять (сообщать).')
+
+(1368, 'beklagen', 'жаловаться (оплакивать)', 'скаржитися (оплакувати)', 'regular', 'beklagt', 'beklagte', 'haben', 'B1', 'Sie moechte beklagen.', 'Я хочу жаловаться (оплакивать).')
+
+(1369, 'bekleben', 'наклеивать (обклеивать)', 'наклеювати (обклеювати)', 'regular', 'beklebt', 'beklebte', 'haben', 'B1', 'Kannst du bekleben?', 'Я хочу наклеивать (обклеивать).')
+
+(1370, 'belaestigen', 'беспокоить (докучать)', 'турбувати (набридати)', 'regular', 'belaestigt', 'belaestigte', 'haben', 'B1', 'Es ist wichtig zu belaestigen.', 'Я хочу беспокоить (докучать).')
+
+(1371, 'beleidigen', 'оскорблять (обижать)', 'ображати (кривдити)', 'regular', 'beleidigt', 'beleidigte', 'haben', 'B1', 'Ich moechte beleidigen.', 'Я хочу оскорблять (обижать).')
+
+(1372, 'beliefern', 'снабжать (поставлять)', 'постачати (доставляти)', 'regular', 'beliefert', 'belieferte', 'haben', 'B1', 'Du solltest beliefern.', 'Я хочу снабжать (поставлять).')
+
+(1373, 'bemerkbar machen (sich)', 'проявляться (давать знать)', 'проявлятися (давати знати)', 'regular', 'bemerkbar machen (sich)t', 'bemerkbar machen (sich)te', 'haben', 'B1', 'Wir koennen bemerkbar machen (sich).', 'Я хочу проявляться (давать знать).'),
+
+(1374, 'bemerken', 'замечать (отмечать)', 'помічати (відмічати)', 'regular', 'bemerkt', 'bemerkte', 'haben', 'B1', 'Er moechte bemerken.', 'Я хочу замечать (отмечать).')
+
+(1375, 'bemuhen (sich)', 'стараться (прилагать усилия)', 'намагатися (докладати зусиль)', 'regular', 'bemuhen (sich)t', 'bemuhen (sich)te', 'haben', 'B1', 'Wir muessen bemuhen (sich).', 'Я хочу стараться (прилагать усилия).'),
+
+(1376, 'bereichern', 'обогащать (обогащаться)', 'збагачувати (збагачуватися)', 'regular', 'bereichert', 'bereicherte', 'haben', 'B1', 'Er moechte bereichern.', 'Я хочу обогащать (обогащаться).')
+
+(1377, 'bereitstellen', 'предоставлять (подготавливать)', 'надавати (підготовлювати)', 'regular', 'bereitstellt', 'bereitstellte', 'haben', 'B1', 'Ich moechte bereitstellen.', 'Я хочу предоставлять (подготавливать).')
+
+(1378, 'bergen', 'спасать (укрывать)', 'рятувати (укривати)', 'irregular', 'geborgen', 'barg', 'haben', 'B1', 'Ich moechte bergen.', 'Я хочу спасать (укрывать).'),
+
+(1379, 'beruecksichtigen', 'учитывать (принимать во внимание)', 'враховувати (брати до уваги)', 'regular', 'beruecksichtigt', 'beruecksichtigte', 'haben', 'B1', 'Es ist wichtig zu beruecksichtigen.', 'Я хочу учитывать (принимать во внимание).')
+
+(1380, 'beruehren', 'касаться (трогать)', 'торкатися (доторкатися)', 'regular', 'beruehrt', 'beruehrte', 'haben', 'B1', 'Er moechte beruehren.', 'Я хочу касаться (трогать).')
+
+(1381, 'beschaeftigen (sich)', 'заниматься (работать над)', 'займатися (працювати над)', 'regular', 'beschaeftigen (sich)t', 'beschaeftigen (sich)te', 'haben', 'B1', 'Wir koennen beschaeftigen (sich).', 'Я хочу заниматься (работать над).'),
+
+(1382, 'beschleunigen', 'ускорять (убыстрять)', 'прискорювати (підвищувати швидкість)', 'regular', 'beschleunigt', 'beschleunigte', 'haben', 'B1', 'Du solltest beschleunigen.', 'Я хочу ускорять (убыстрять).')
+
+(1383, 'beschraenken', 'ограничивать (сужать)', 'обмежувати (звужувати)', 'regular', 'beschraenkt', 'beschraenkte', 'haben', 'B1', 'Es ist wichtig zu beschraenken.', 'Я хочу ограничивать (сужать).')
+
+(1384, 'bestaetigen', 'подтверждать (утверждать)', 'підтверджувати (стверджувати)', 'regular', 'bestaetigt', 'bestaetigte', 'haben', 'B1', 'Ich moechte bestaetigen.', 'Я хочу подтверждать (утверждать).')
+
+(1385, 'bestehen (aus)', 'состоять (из)', 'складатися (з)', 'irregular', 'bestanden', 'bestand', 'haben', 'B1', 'Er moechte bestehen (aus).', 'Я хочу состоять (из).'),
+
+(1386, 'bestehen (auf)', 'настаивать (на)', 'наполягати (на)', 'irregular', 'bestanden', 'bestand', 'haben', 'B1', 'Ich moechte bestehen (auf).', 'Я хочу настаивать (на).'),
+
+(1387, 'beteiligen (sich)', 'участвовать (принимать участие)', 'брати участь (приймати участь)', 'regular', 'beteiligen (sich)t', 'beteiligen (sich)te', 'haben', 'B1', 'Ich moechte beteiligen (sich).', 'Я хочу участвовать (принимать участие).'),
+
+(1388, 'bewaehren (sich)', 'оправдывать доверие', 'виправдовувати довіру', 'regular', 'bewaehren (sich)t', 'bewaehren (sich)te', 'haben', 'B1', 'Wir muessen bewaehren (sich).', 'Я хочу оправдывать доверие.'),
+
+(1389, 'bewailtigen', 'справляться (преодолевать)', 'справлятися (долати)', 'regular', 'bewailtigt', 'bewailtigte', 'haben', 'B1', 'Du solltest bewailtigen.', 'Я хочу справляться (преодолевать).')
+
+(1390, 'beweisen', 'доказывать (подтверждать)', 'доводити (підтверджувати)', 'irregular', 'bewiesen', 'bewies', 'haben', 'B1', 'Sie moechte beweisen.', 'Я хочу доказывать (подтверждать).'),
+
+(1391, 'bewerben (sich)', 'подавать заявку (конкурс)', 'подавати заявку (конкурс)', 'irregular', 'beworben', 'bewarb', 'haben', 'B1', 'Kannst du bewerben (sich)?', 'Я хочу подавать заявку (конкурс).'),
+
+(1392, 'beziehen (sich)', 'ссылаться (относиться)', 'посилатися (відноситися)', 'irregular', 'bezogen', 'bezog', 'haben', 'B1', 'Er moechte beziehen (sich).', 'Я хочу ссылаться (относиться).'),
+
+(1393, 'billigen', 'одобрять (утверждать)', 'схвалювати (затверджувати)', 'regular', 'gebilligt', 'billigte', 'haben', 'B1', 'Wir muessen billigen.', 'Я хочу одобрять (утверждать).')
+
+(1394, 'blenden', 'ослеплять (ослепить)', 'засліплювати (осліпити)', 'regular', 'geblendet', 'blendete', 'haben', 'B1', 'Ich moechte blenden.', 'Я хочу ослеплять (ослепить).')
+
+(1395, 'blicken', 'взглянуть (посмотреть)', 'глянути (подивитися)', 'regular', 'geblickt', 'blickte', 'haben', 'B1', 'Wir koennen blicken.', 'Я хочу взглянуть (посмотреть).')
+
+(1396, 'boersennotiert sein', 'быть котируемым на бирже', 'бути котированим на біржі', 'regular', 'geboersennotiert seint', 'boersennotiert seinte', 'haben', 'B1', 'Es ist wichtig zu boersennotiert sein.', 'Я хочу быть котируемым на бирже.'),
+
+(1397, 'brennen', 'гореть (жечь)', 'горіти (палити)', 'mixed', 'gebrannt', 'brannte', 'haben', 'B1', 'Wir koennen brennen.', 'Я хочу гореть (жечь).'),
+
+(1398, 'buegeln', 'гладить (утюгом)', 'прасувати (праскою)', 'regular', 'gebuegelt', 'buegelte', 'haben', 'B1', 'Sie moechte buegeln.', 'Я хочу гладить (утюгом).')
+
+(1399, 'abfinden (sich)', 'примиряться (мириться)', 'миритися (примирятися)', 'irregular', 'abgefunden', 'fand ab', 'haben', 'B2', 'Ich moechte abfinden (sich).', 'Я хочу примиряться (мириться).'),
+
+(1400, 'abgrenzen', 'разграничивать (отграничивать)', 'розмежовувати (відмежовувати)', 'regular', 'abgegrenzt', 'grenzte ab', 'haben', 'B2', 'Er moechte abgrenzen.', 'Я хочу разграничивать (отграничивать).')
+
+(1401, 'abhalten', 'удерживать (препятствовать)', 'утримувати (перешкоджати)', 'irregular', 'abgehalten', 'hielt ab', 'haben', 'B2', 'Sie moechte abhalten.', 'Я хочу удерживать (препятствовать).'),
+
+(1402, 'abkommen', 'отклоняться (сбиваться)', 'відхилятися (збиватися)', 'irregular', 'abgekommen', 'kam ab', 'sein', 'B2', 'Ich moechte abkommen.', 'Я хочу отклоняться (сбиваться).'),
+
+(1403, 'ablaufen', 'истекать (проходить)', 'закінчуватися (проходити)', 'irregular', 'abgelaufen', 'lief ab', 'sein', 'B2', 'Kannst du ablaufen?', 'Я хочу истекать (проходить).'),
+
+(1404, 'ableiten', 'происходить (выводить)', 'походити (виводити)', 'regular', 'abgeleitet', 'leitete ab', 'haben', 'B2', 'Ich moechte ableiten.', 'Я хочу происходить (выводить).')
+
+(1405, 'abonnieren', 'подписываться (оформить подписку)', 'підписуватися (оформити підписку)', 'regular', 'abonniert', 'abonnierte', 'haben', 'B2', 'Wir muessen abonnieren.', 'Я хочу подписываться (оформить подписку).')
+
+(1406, 'abschrecken', 'отпугивать (устрашать)', 'відлякувати (страшити)', 'regular', 'abgeschreckt', 'schreckte ab', 'haben', 'B2', 'Ich moechte abschrecken.', 'Я хочу отпугивать (устрашать).')
+
+(1408, 'absichern', 'обеспечивать (страховать)', 'забезпечувати (страхувати)', 'regular', 'abgesichert', 'sicherte ab', 'haben', 'B2', 'Er moechte absichern.', 'Я хочу обеспечивать (страховать).')
+
+(1409, 'abspielen', 'проигрывать (воспроизводить)', 'програвати (відтворювати)', 'regular', 'abgespielt', 'spielte ab', 'haben', 'B2', 'Sie moechte abspielen.', 'Я хочу проигрывать (воспроизводить).')
+
+(1410, 'abwarten', 'выжидать (подождать)', 'вичікувати (почекати)', 'regular', 'abgewartet', 'wartete ab', 'haben', 'B2', 'Wir koennen abwarten.', 'Я хочу выжидать (подождать).')
+
+(1411, 'abzielen', 'нацеливаться (метить)', 'націлюватися (цілити)', 'regular', 'abgezielt', 'zielte ab', 'haben', 'B2', 'Sie moechte abzielen.', 'Я хочу нацеливаться (метить).')
+
+(1412, 'aehnlich sein', 'быть похожим (напоминать)', 'бути схожим (нагадувати)', 'regular', 'geaehnlich seint', 'aehnlich seinte', 'haben', 'B2', 'Du solltest aehnlich sein.', 'Я хочу быть похожим (напоминать).'),
+
+(1413, 'aendern', 'изменять(ся) (менять)', 'змінювати(ся) (міняти)', 'regular', 'geaendert', 'aenderte', 'haben', 'B2', 'Wir muessen aendern.', 'Я хочу изменять(ся) (менять).')
+
+(1414, 'anberaumen', 'назначать (срок)', 'призначати (термін)', 'regular', 'angeberaumt', 'beraumte an', 'haben', 'B2', 'Sie moechte anberaumen.', 'Я хочу назначать (срок).')
+
+(1415, 'andauern', 'продолжаться (длиться)', 'продовжуватися (тривати)', 'regular', 'angedauert', 'dauerte an', 'haben', 'B2', 'Ich moechte andauern.', 'Я хочу продолжаться (длиться).')
+
+(1416, 'anfachen', 'раздувать (пламя/страсти)', 'роздмухувати (полум''я/пристрасті)', 'regular', 'angefacht', 'fachte an', 'haben', 'B2', 'Du solltest anfachen.', 'Я хочу раздувать (пламя/страсти).')
+
+(1417, 'anfragen', 'запрашивать (осведомляться)', 'запитувати (освідомлюватися)', 'regular', 'angefragt', 'fragte an', 'haben', 'B2', 'Er moechte anfragen.', 'Я хочу запрашивать (осведомляться).')
+
+(1418, 'anknuepfen', 'устанавливать контакт (налаживать)', 'встановлювати контакт (налагоджувати)', 'regular', 'angeknuepft', 'knuepfte an', 'haben', 'B2', 'Wir muessen anknuepfen.', 'Я хочу устанавливать контакт (налаживать).')
+
+(1419, 'anlocken', 'привлекать (заманивать)', 'приваблювати (заманювати)', 'regular', 'angelockt', 'lockte an', 'haben', 'B2', 'Du solltest anlocken.', 'Я хочу привлекать (заманивать).')
+
+(1420, 'anpeilen', 'нацеливаться (стремиться)', 'націлюватися (прагнути)', 'regular', 'angepeilt', 'peilte an', 'sein', 'B2', 'Sie moechte anpeilen.', 'Я хочу нацеливаться (стремиться).')
+
+(1421, 'anregen', 'стимулировать (побуждать)', 'стимулювати (спонукати)', 'regular', 'angeregt', 'regte an', 'haben', 'B2', 'Sie moechte anregen.', 'Я хочу стимулировать (побуждать).')
+
+(1422, 'anreichern', 'обогащать (накапливать)', 'збагачувати (накопичувати)', 'regular', 'angereichert', 'reicherte an', 'haben', 'B2', 'Kannst du anreichern?', 'Я хочу обогащать (накапливать).')
+
+(1423, 'ansammeln', 'накапливать(ся)', 'накопичувати(ся)', 'regular', 'angesammelt', 'sammelte an', 'haben', 'B2', 'Wir muessen ansammeln.', 'Я хочу накапливать(ся).')
+
+(1424, 'anschaffen', 'приобретать (покупать)', 'придбавати (купувати)', 'regular', 'anschaffent', 'schaffente an', 'haben', 'B2', 'Ich moechte anschaffen.', 'Я хочу приобретать (покупать).'),
+
+(1425, 'ansehen', 'смотреть (рассматривать)', 'дивитися (розглядати)', 'irregular', 'angesehen', 'sah an', 'haben', 'B2', 'Sie moechte ansehen.', 'Я хочу смотреть (рассматривать).'),
+
+(1426, 'ansetzen', 'назначать (устанавливать)', 'призначати (встановлювати)', 'regular', 'angesetzt', 'setzte an', 'haben', 'B2', 'Du solltest ansetzen.', 'Я хочу назначать (устанавливать).')
+
+(1427, 'ansteigen', 'повышаться (возрастать)', 'підвищуватися (зростати)', 'irregular', 'angestiegen', 'stieg an', 'sein', 'B2', 'Wir koennen ansteigen.', 'Я хочу повышаться (возрастать).'),
+
+(1428, 'anstellen (sich)', 'становиться в очередь', 'ставати в чергу', 'regular', 'anstellen (sich)t', 'stellen (sich)te an', 'haben', 'B2', 'Wir koennen anstellen (sich).', 'Я хочу становиться в очередь.'),
+
+(1429, 'anwachsen', 'возрастать (увеличиваться)', 'зростати (збільшуватися)', 'irregular', 'angewachsen', 'wuchs an', 'sein', 'B2', 'Wir muessen anwachsen.', 'Я хочу возрастать (увеличиваться).'),
+
+(1430, 'anzeigen', 'показывать (индицировать)', 'показувати (індикувати)', 'regular', 'angezeigt', 'zeigte an', 'haben', 'B2', 'Wir muessen anzeigen.', 'Я хочу показывать (индицировать).')
+
+(1431, 'anzetteln', 'затевать (замышлять)', 'затівати (замишляти)', 'regular', 'angezettelt', 'zettelte an', 'haben', 'B2', 'Sie moechte anzetteln.', 'Я хочу затевать (замышлять).')
+
+(1432, 'argwoehnen', 'подозревать (не доверять)', 'підозрювати (не довіряти)', 'regular', 'geargwoehnt', 'argwoehnte', 'haben', 'B2', 'Sie moechte argwoehnen.', 'Я хочу подозревать (не доверять).')
+
+(1433, 'aufbauschen', 'раздувать (преувеличивать)', 'роздувати (перебільшувати)', 'regular', 'aufgebauscht', 'bauschte auf', 'haben', 'B2', 'Ich moechte aufbauschen.', 'Я хочу раздувать (преувеличивать).')
+
+(1434, 'aufbrauchen', 'израсходовать (использовать)', 'витрачати (використовувати)', 'regular', 'aufgebraucht', 'brauchte auf', 'haben', 'B2', 'Es ist wichtig zu aufbrauchen.', 'Я хочу израсходовать (использовать).')
+
+(1435, 'aufdrehen', 'откручивать (включать)', 'відкручувати (вмикати)', 'regular', 'aufgedreht', 'drehte auf', 'haben', 'B2', 'Kannst du aufdrehen?', 'Я хочу откручивать (включать).')
+
+(1436, 'aufeinanderprallen', 'сталкиваться (друг с другом)', 'стикатися (один з одним)', 'regular', 'aufgeeinanderprallt', 'einanderprallte auf', 'haben', 'B2', 'Kannst du aufeinanderprallen?', 'Я хочу сталкиваться (друг с другом).')
+
+(1437, 'auffaellen', 'быть заметным (выделяться)', 'бути помітним (виділятися)', 'irregular', 'aufgefallen', 'fiel auf', 'sein', 'B2', 'Es ist wichtig zu auffaellen.', 'Я хочу быть заметным (выделяться).'),
+
+(1438, 'auffuehren', 'исполнять (ставить)', 'виконувати (ставити)', 'regular', 'aufgefuehrt', 'fuehrte auf', 'haben', 'B2', 'Du solltest auffuehren.', 'Я хочу исполнять (ставить).')
+
+(1439, 'aufgreifen', 'подхватывать (тему/идею)', 'підхоплювати (тему/ідею)', 'irregular', 'aufgegriffen', 'griff auf', 'haben', 'B2', 'Ich moechte aufgreifen.', 'Я хочу подхватывать (тему/идею).'),
+
+(1440, 'aufhaeufen', 'нагромождать (накапливать)', 'нагромаджувати (накопичувати)', 'regular', 'aufgehaeuft', 'haeufte auf', 'haben', 'B2', 'Wir koennen aufhaeufen.', 'Я хочу нагромождать (накапливать).')
+
+(1441, 'aufkommen', 'возникать (возмещать)', 'виникати (відшкодовувати)', 'irregular', 'aufgekommen', 'kam auf', 'sein', 'B2', 'Wir muessen aufkommen.', 'Я хочу возникать (возмещать).'),
+
+(1442, 'auflauern', 'подкарауливать (подстерегать)', 'підкараулювати (підстерігати)', 'regular', 'aufgelauert', 'lauerte auf', 'haben', 'B2', 'Ich moechte auflauern.', 'Я хочу подкарауливать (подстерегать).')
+
+(1443, 'absolut setzen', 'абсолютизировать', 'абсолютизувати', 'regular', 'absolut setzent', 'solut setzente ab', 'haben', 'C1', 'Es ist wichtig zu absolut setzen.', 'Я хочу абсолютизировать.'),
+
+(1444, 'achtgeben', 'обращать внимание (следить)', 'звертати увагу (стежити)', 'irregular', 'achtgegeben', 'gab acht', 'haben', 'C1', 'Wir koennen achtgeben.', 'Я хочу обращать внимание (следить).'),
+
+(1445, 'akkreditieren', 'аккредитовать', 'акредитувати', 'regular', 'akkreditiert', 'akkreditierte', 'haben', 'C1', 'Wir muessen akkreditieren.', 'Я хочу аккредитовать.')
+
+(1446, 'alterieren', 'изменять (менять)', 'змінювати (міняти)', 'regular', 'alteriert', 'alterierte', 'haben', 'C1', 'Wir koennen alterieren.', 'Я хочу изменять (менять).')
+
+(1447, 'amplifizieren', 'усиливать (амплифицировать)', 'підсилювати (ампліфікувати)', 'regular', 'amplifiziert', 'amplifizierte', 'haben', 'C1', 'Du solltest amplifizieren.', 'Я хочу усиливать (амплифицировать).')
+
+(1448, 'animieren', 'воодушевлять (анимировать)', 'надихати (анімувати)', 'regular', 'animiert', 'animierte', 'haben', 'C1', 'Du solltest animieren.', 'Я хочу воодушевлять (анимировать).')
+
+(1449, 'annotieren', 'аннотировать', 'анотувати', 'regular', 'annotiert', 'annotierte', 'haben', 'C1', 'Wir koennen annotieren.', 'Я хочу аннотировать.')
+
+(1450, 'applaudieren', 'аплодировать', 'аплодувати', 'regular', 'applaudiert', 'applaudierte', 'haben', 'C1', 'Wir muessen applaudieren.', 'Я хочу аплодировать.')
+
+(1451, 'approbieren', 'одобрять (утверждать)', 'схвалювати (затверджувати)', 'regular', 'approbiert', 'approbierte', 'haben', 'C1', 'Wir muessen approbieren.', 'Я хочу одобрять (утверждать).')
+
+(1452, 'assimilieren', 'ассимилировать(ся)', 'асимілювати(ся)', 'regular', 'assimiliert', 'assimilierte', 'haben', 'C1', 'Er moechte assimilieren.', 'Я хочу ассимилировать(ся).')
+
+(1453, 'assoziieren', 'ассоциировать(ся)', 'асоціювати(ся)', 'regular', 'assoziiert', 'assoziierte', 'haben', 'C1', 'Kannst du assoziieren?', 'Я хочу ассоциировать(ся).')
+
+(1454, 'attestieren', 'свидетельствовать (удостоверять)', 'свідчити (посвідчувати)', 'regular', 'attestiert', 'attestierte', 'haben', 'C1', 'Kannst du attestieren?', 'Я хочу свидетельствовать (удостоверять).')
+
+(1455, 'ausmerzen', 'искоренять (уничтожать)', 'викорінювати (знищувати)', 'regular', 'ausgemerzt', 'merzte aus', 'haben', 'C1', 'Du solltest ausmerzen.', 'Я хочу искоренять (уничтожать).')
+
+(1456, 'avancieren', 'продвигаться (по службе)', 'просуватися (по службі)', 'regular', 'avanciert', 'avancierte', 'haben', 'C1', 'Wir muessen avancieren.', 'Я хочу продвигаться (по службе).')
+
+(1457, 'avisiert sein', 'быть запланированным (намеченным)', 'бути запланованим (наміченим)', 'regular', 'geavisiert seint', 'avisiert seinte', 'haben', 'C1', 'Wir koennen avisiert sein.', 'Я хочу быть запланированным (намеченным).'),
+
+(1458, 'bekunden', 'заявлять (выражать)', 'заявляти (виражати)', 'regular', 'bekundet', 'bekundete', 'haben', 'C1', 'Er moechte bekunden.', 'Я хочу заявлять (выражать).')
+
+(1459, 'bemaengeln', 'критиковать (осуждать)', 'критикувати (осуджувати)', 'regular', 'bemaengelt', 'bemaengelte', 'haben', 'C1', 'Ich moechte bemaengeln.', 'Я хочу критиковать (осуждать).')
+
+(1460, 'benachteiligen', 'ущемлять (дискриминировать)', 'ущемляти (дискримінувати)', 'regular', 'benachteiligt', 'benachteiligte', 'haben', 'C1', 'Du solltest benachteiligen.', 'Я хочу ущемлять (дискриминировать).')
+
+(1461, 'bestechen', 'подкупать (взяткой)', 'підкуповувати (хабаром)', 'irregular', 'bestochen', 'bestach', 'haben', 'C1', 'Ich moechte bestechen.', 'Я хочу подкупать (взяткой).'),
+
+(1462, 'bevoelken (sich)', 'облачно (становиться облачным)', 'хмарно (ставати хмарним)', 'regular', 'bevoelken (sich)t', 'bevoelken (sich)te', 'haben', 'C1', 'Er moechte bevoelken (sich).', 'Я хочу облачно (становиться облачным).'),
+
+(1463, 'bevollmaechtigen', 'уполномочивать (давать полномочия)', 'уповноважувати (давати повноваження)', 'regular', 'bevollmaechtigt', 'bevollmaechtigte', 'haben', 'C1', 'Ich moechte bevollmaechtigen.', 'Я хочу уполномочивать (давать полномочия).')
+
+(1464, 'bewerkstelligen', 'осуществлять (выполнять)', 'здійснювати (виконувати)', 'regular', 'bewerkstelligt', 'bewerkstelligte', 'haben', 'C1', 'Wir muessen bewerkstelligen.', 'Я хочу осуществлять (выполнять).')
+
+(1465, 'bezichtigen', 'обвинять (инкриминировать)', 'обвинувачувати (інкримінувати)', 'regular', 'bezichtigt', 'bezichtigte', 'haben', 'C1', 'Wir koennen bezichtigen.', 'Я хочу обвинять (инкриминировать).')
+
+(1466, 'beziffern', 'исчислять (оценивать)', 'обчислювати (оцінювати)', 'regular', 'beziffert', 'bezifferte', 'haben', 'C1', 'Wir koennen beziffern.', 'Я хочу исчислять (оценивать).')
+
+(1467, 'boykottieren', 'бойкотировать', 'бойкотувати', 'regular', 'boykottiert', 'boykottierte', 'haben', 'C1', 'Es ist wichtig zu boykottieren.', 'Я хочу бойкотировать.')
+
+(1468, 'brandmarken', 'клеймить (осуждение)', 'таврувати (осудження)', 'regular', 'gebrandmarkt', 'brandmarkte', 'haben', 'C1', 'Er moechte brandmarken.', 'Я хочу клеймить (осуждение).')
+
+(1469, 'brillieren', 'блистать (выделяться)', 'блищати (виділятися)', 'regular', 'brilliert', 'brillierte', 'haben', 'C1', 'Wir muessen brillieren.', 'Я хочу блистать (выделяться).')
+
+(1470, 'beiholen', 'брать/забирать (с bei)', 'брати/забирати (з bei)', 'regular', 'holt', 'holte', 'haben', 'B1', 'Er moechte beiholen.', 'Я хочу брать/забирать (с bei).')
+
+(1471, 'vorholen', 'брать/забирать (с vor)', 'брати/забирати (з vor)', 'regular', 'vorgeholt', 'holte vor', 'haben', 'B1', 'Er moechte vorholen.', 'Я хочу брать/забирать (с vor).')
+
+(1472, 'zuholen', 'брать/забирать (с zu)', 'брати/забирати (з zu)', 'regular', 'zugeholt', 'holte zu', 'haben', 'B1', 'Wir muessen zuholen.', 'Я хочу брать/забирать (с zu).')
+
+(1473, 'durchholen', 'брать/забирать (с durch)', 'брати/забирати (з durch)', 'regular', 'durchgeholt', 'holte durch', 'haben', 'B1', 'Wir koennen durchholen.', 'Я хочу брать/забирать (с durch).')
+
+(1474, 'umholen', 'брать/забирать (с um)', 'брати/забирати (з um)', 'regular', 'geumholt', 'umholte', 'haben', 'B1', 'Er moechte umholen.', 'Я хочу брать/забирать (с um).')
+
+(1475, 'wegholen', 'брать/забирать (с weg)', 'брати/забирати (з weg)', 'regular', 'weggeholt', 'holte weg', 'haben', 'B1', 'Du solltest wegholen.', 'Я хочу брать/забирать (с weg).')
+
+(1476, 'weiterholen', 'брать/забирать (с weiter)', 'брати/забирати (з weiter)', 'regular', 'weitergeholt', 'holte weiter', 'haben', 'B1', 'Es ist wichtig zu weiterholen.', 'Я хочу брать/забирать (с weiter).')
+
+(1477, 'herholen', 'брать/забирать (с her)', 'брати/забирати (з her)', 'regular', 'hergeholt', 'holte her', 'haben', 'B1', 'Er moechte herholen.', 'Я хочу брать/забирать (с her).')
+
+(1478, 'hinholen', 'брать/забирать (с hin)', 'брати/забирати (з hin)', 'regular', 'hingeholt', 'holte hin', 'haben', 'B1', 'Wir muessen hinholen.', 'Я хочу брать/забирать (с hin).')
+
+(1479, 'daholen', 'брать/забирать (с da)', 'брати/забирати (з da)', 'regular', 'dageholt', 'holte da', 'haben', 'B1', 'Er moechte daholen.', 'Я хочу брать/забирать (с da).')
+
+(1480, 'emporholen', 'брать/забирать (с empor)', 'брати/забирати (з empor)', 'regular', 'holt', 'holte', 'haben', 'B1', 'Du solltest emporholen.', 'Я хочу брать/забирать (с empor).')
+
+(1481, 'entlangholen', 'брать/забирать (с entlang)', 'брати/забирати (з entlang)', 'regular', 'holt', 'holte', 'haben', 'B1', 'Er moechte entlangholen.', 'Я хочу брать/забирать (с entlang).')
+
+(1482, 'entgegenholen', 'брать/забирать (с entgegen)', 'брати/забирати (з entgegen)', 'regular', 'holt', 'holte', 'haben', 'B1', 'Wir koennen entgegenholen.', 'Я хочу брать/забирать (с entgegen).')
+
+(1483, 'gegenholen', 'брать/забирать (с gegen)', 'брати/забирати (з gegen)', 'regular', 'gegenholt', 'gegenholte', 'haben', 'B1', 'Kannst du gegenholen?', 'Я хочу брать/забирать (с gegen).')
+
+(1484, 'herunterholen', 'брать/забирать (с herunter)', 'брати/забирати (з herunter)', 'regular', 'heruntergeholt', 'holte herunter', 'haben', 'B1', 'Wir koennen herunterholen.', 'Я хочу брать/забирать (с herunter).')
+
+(1485, 'hinunterholen', 'брать/забирать (с hinunter)', 'брати/забирати (з hinunter)', 'regular', 'hinuntergeholt', 'holte hinunter', 'haben', 'B1', 'Wir koennen hinunterholen.', 'Я хочу брать/забирать (с hinunter).')
+
+(1486, 'hinzuholen', 'брать/забирать (с hinzu)', 'брати/забирати (з hinzu)', 'regular', 'hingezuholt', 'zuholte hin', 'haben', 'B1', 'Wir muessen hinzuholen.', 'Я хочу брать/забирать (с hinzu).')
+
+(1487, 'festholen', 'брать/забирать (с fest)', 'брати/забирати (з fest)', 'regular', 'festgeholt', 'holte fest', 'haben', 'B1', 'Sie moechte festholen.', 'Я хочу брать/забирать (с fest).')
+
+(1488, 'fortholen', 'брать/забирать (с fort)', 'брати/забирати (з fort)', 'regular', 'fortgeholt', 'holte fort', 'haben', 'B1', 'Du solltest fortholen.', 'Я хочу брать/забирать (с fort).')
+
+(1489, 'gegenueberholen', 'брать/забирать (с gegenueber)', 'брати/забирати (з gegenueber)', 'regular', 'gegenueberholt', 'gegenueberholte', 'haben', 'B1', 'Sie moechte gegenueberholen.', 'Я хочу брать/забирать (с gegenueber).')
+
+(1490, 'losholen', 'брать/забирать (с los)', 'брати/забирати (з los)', 'regular', 'losgeholt', 'holte los', 'haben', 'B1', 'Wir muessen losholen.', 'Я хочу брать/забирать (с los).')
+
+(1491, 'niederholen', 'брать/забирать (с nieder)', 'брати/забирати (з nieder)', 'regular', 'niedergeholt', 'holte nieder', 'haben', 'B1', 'Er moechte niederholen.', 'Я хочу брать/забирать (с nieder).')
+
+(1492, 'ranholen', 'брать/забирать (с ran)', 'брати/забирати (з ran)', 'regular', 'rangeholt', 'holte ran', 'haben', 'B1', 'Du solltest ranholen.', 'Я хочу брать/забирать (с ran).')
+
+(1493, 'voranholen', 'брать/забирать (с voran)', 'брати/забирати (з voran)', 'regular', 'vorangeholt', 'holte voran', 'haben', 'B1', 'Wir koennen voranholen.', 'Я хочу брать/забирать (с voran).')
+
+(1494, 'vorausholen', 'брать/забирать (с voraus)', 'брати/забирати (з voraus)', 'regular', 'vorausgeholt', 'holte voraus', 'haben', 'B1', 'Wir muessen vorausholen.', 'Я хочу брать/забирать (с voraus).')
+
+(1495, 'vorbeiholen', 'брать/забирать (с vorbei)', 'брати/забирати (з vorbei)', 'regular', 'vorbeigeholt', 'holte vorbei', 'haben', 'B1', 'Kannst du vorbeiholen?', 'Я хочу брать/забирать (с vorbei).')
+
+(1496, 'vorherholen', 'брать/забирать (с vorher)', 'брати/забирати (з vorher)', 'regular', 'vorhergeholt', 'holte vorher', 'haben', 'B1', 'Es ist wichtig zu vorherholen.', 'Я хочу брать/забирать (с vorher).')
+
+(1497, 'vorwaertsholen', 'брать/забирать (с vorwaerts)', 'брати/забирати (з vorwaerts)', 'regular', 'vorgewaertsholt', 'waertsholte vor', 'haben', 'B1', 'Sie moechte vorwaertsholen.', 'Я хочу брать/забирать (с vorwaerts).')
+
+(1498, 'zurechtholen', 'брать/забирать (с zurecht)', 'брати/забирати (з zurecht)', 'regular', 'zurechtgeholt', 'holte zurecht', 'haben', 'B1', 'Es ist wichtig zu zurechtholen.', 'Я хочу брать/забирать (с zurecht).')
+
+(1499, 'zurueckholen', 'брать/забирать (с zurueck)', 'брати/забирати (з zurueck)', 'regular', 'zugerueckholt', 'rueckholte zu', 'haben', 'B1', 'Wir muessen zurueckholen.', 'Я хочу брать/забирать (с zurueck).')
+
+(1500, 'zusammenholen', 'брать/забирать (с zusammen)', 'брати/забирати (з zusammen)', 'regular', 'zusammengeholt', 'holte zusammen', 'haben', 'B1', 'Du solltest zusammenholen.', 'Я хочу брать/забирать (с zusammen).')
+
+(1501, 'anholen', 'брать/забирать (с an)', 'брати/забирати (з an)', 'regular', 'angeholt', 'holte an', 'haben', 'B2', 'Es ist wichtig zu anholen.', 'Я хочу брать/забирать (с an).')
+
+(1502, 'aufholen', 'брать/забирать (с auf)', 'брати/забирати (з auf)', 'regular', 'aufgeholt', 'holte auf', 'haben', 'B2', 'Du solltest aufholen.', 'Я хочу брать/забирать (с auf).')
+
+(1503, 'ausholen', 'брать/забирать (с aus)', 'брати/забирати (з aus)', 'regular', 'ausgeholt', 'holte aus', 'haben', 'B2', 'Wir muessen ausholen.', 'Я хочу брать/забирать (с aus).')
+
+(1504, 'einholen', 'брать/забирать (с ein)', 'брати/забирати (з ein)', 'regular', 'eingeholt', 'holte ein', 'haben', 'B2', 'Ich moechte einholen.', 'Я хочу брать/забирать (с ein).')
+
+(1505, 'mitholen', 'брать/забирать (с mit)', 'брати/забирати (з mit)', 'regular', 'mitgeholt', 'holte mit', 'haben', 'B2', 'Er moechte mitholen.', 'Я хочу брать/забирать (с mit).')
+
+(1506, 'hinterholen', 'брать/забирать (с hinter)', 'брати/забирати (з hinter)', 'regular', 'hingeterholt', 'terholte hin', 'haben', 'C1', 'Wir koennen hinterholen.', 'Я хочу брать/забирать (с hinter).')
+
+(1507, 'unterholen', 'брать/забирать (с unter)', 'брати/забирати (з unter)', 'regular', 'geunterholt', 'unterholte', 'haben', 'C1', 'Ich moechte unterholen.', 'Я хочу брать/забирать (с unter).')
+
+(1508, 'widerholen', 'брать/забирать (с wider)', 'брати/забирати (з wider)', 'regular', 'widergeholt', 'holte wider', 'haben', 'C1', 'Sie moechte widerholen.', 'Я хочу брать/забирать (с wider).')
+
+(1509, 'beistellen', 'ставить (с bei)', 'ставити (з bei)', 'regular', 'stellt', 'stellte', 'haben', 'B1', 'Wir muessen beistellen.', 'Я хочу ставить (с bei).')
+
+(1510, 'nachstellen', 'ставить (с nach)', 'ставити (з nach)', 'regular', 'nachgestellt', 'stellte nach', 'haben', 'B1', 'Es ist wichtig zu nachstellen.', 'Я хочу ставить (с nach).')
+
+(1511, 'zustellen', 'ставить (с zu)', 'ставити (з zu)', 'regular', 'zugestellt', 'stellte zu', 'haben', 'B1', 'Ich moechte zustellen.', 'Я хочу ставить (с zu).')
+
+(1512, 'durchstellen', 'ставить (с durch)', 'ставити (з durch)', 'regular', 'durchgestellt', 'stellte durch', 'haben', 'B1', 'Kannst du durchstellen?', 'Я хочу ставить (с durch).')
+
+(1513, 'umstellen', 'ставить (с um)', 'ставити (з um)', 'regular', 'geumstellt', 'umstellte', 'haben', 'B1', 'Ich moechte umstellen.', 'Я хочу ставить (с um).')
+
+(1514, 'wegstellen', 'ставить (с weg)', 'ставити (з weg)', 'regular', 'weggestellt', 'stellte weg', 'haben', 'B1', 'Ich moechte wegstellen.', 'Я хочу ставить (с weg).')
+
+(1515, 'weiterstellen', 'ставить (с weiter)', 'ставити (з weiter)', 'regular', 'weitergestellt', 'stellte weiter', 'haben', 'B1', 'Er moechte weiterstellen.', 'Я хочу ставить (с weiter).')
+
+(1516, 'hinstellen', 'ставить (с hin)', 'ставити (з hin)', 'regular', 'hingestellt', 'stellte hin', 'haben', 'B1', 'Es ist wichtig zu hinstellen.', 'Я хочу ставить (с hin).')
+
+(1517, 'dastellen', 'ставить (с da)', 'ставити (з da)', 'regular', 'dagestellt', 'stellte da', 'haben', 'B1', 'Es ist wichtig zu dastellen.', 'Я хочу ставить (с da).')
+
+(1518, 'emporstellen', 'ставить (с empor)', 'ставити (з empor)', 'regular', 'stellt', 'stellte', 'haben', 'B1', 'Wir muessen emporstellen.', 'Я хочу ставить (с empor).')
+
+(1519, 'entlangstellen', 'ставить (с entlang)', 'ставити (з entlang)', 'regular', 'stellt', 'stellte', 'haben', 'B1', 'Wir muessen entlangstellen.', 'Я хочу ставить (с entlang).')
+
+(1520, 'entgegenstellen', 'ставить (с entgegen)', 'ставити (з entgegen)', 'regular', 'stellt', 'stellte', 'haben', 'B1', 'Du solltest entgegenstellen.', 'Я хочу ставить (с entgegen).')
+
+(1521, 'gegenstellen', 'ставить (с gegen)', 'ставити (з gegen)', 'regular', 'gegenstellt', 'gegenstellte', 'haben', 'B1', 'Du solltest gegenstellen.', 'Я хочу ставить (с gegen).')
+
+(1522, 'herunterstellen', 'ставить (с herunter)', 'ставити (з herunter)', 'regular', 'heruntergestellt', 'stellte herunter', 'haben', 'B1', 'Wir koennen herunterstellen.', 'Я хочу ставить (с herunter).')
+
+(1523, 'hinunterstellen', 'ставить (с hinunter)', 'ставити (з hinunter)', 'regular', 'hinuntergestellt', 'stellte hinunter', 'haben', 'B1', 'Du solltest hinunterstellen.', 'Я хочу ставить (с hinunter).')
+
+(1524, 'hinzustellen', 'ставить (с hinzu)', 'ставити (з hinzu)', 'regular', 'hingezustellt', 'zustellte hin', 'haben', 'B1', 'Sie moechte hinzustellen.', 'Я хочу ставить (с hinzu).')
+
+(1525, 'fortstellen', 'ставить (с fort)', 'ставити (з fort)', 'regular', 'fortgestellt', 'stellte fort', 'haben', 'B1', 'Kannst du fortstellen?', 'Я хочу ставить (с fort).')
+
+(1526, 'gegenueberstellen', 'ставить (с gegenueber)', 'ставити (з gegenueber)', 'regular', 'gegenueberstellt', 'gegenueberstellte', 'haben', 'B1', 'Es ist wichtig zu gegenueberstellen.', 'Я хочу ставить (с gegenueber).')
+
+(1527, 'losstellen', 'ставить (с los)', 'ставити (з los)', 'regular', 'losgestellt', 'stellte los', 'haben', 'B1', 'Es ist wichtig zu losstellen.', 'Я хочу ставить (с los).')
+
+(1528, 'niederstellen', 'ставить (с nieder)', 'ставити (з nieder)', 'regular', 'niedergestellt', 'stellte nieder', 'haben', 'B1', 'Sie moechte niederstellen.', 'Я хочу ставить (с nieder).')
+
+(1529, 'ranstellen', 'ставить (с ran)', 'ставити (з ran)', 'regular', 'rangestellt', 'stellte ran', 'haben', 'B1', 'Er moechte ranstellen.', 'Я хочу ставить (с ran).')
+
+(1530, 'voranstellen', 'ставить (с voran)', 'ставити (з voran)', 'regular', 'vorangestellt', 'stellte voran', 'haben', 'B1', 'Kannst du voranstellen?', 'Я хочу ставить (с voran).')
+
+(1531, 'vorausstellen', 'ставить (с voraus)', 'ставити (з voraus)', 'regular', 'vorausgestellt', 'stellte voraus', 'haben', 'B1', 'Es ist wichtig zu vorausstellen.', 'Я хочу ставить (с voraus).')
+
+(1532, 'vorbeistellen', 'ставить (с vorbei)', 'ставити (з vorbei)', 'regular', 'vorbeigestellt', 'stellte vorbei', 'haben', 'B1', 'Kannst du vorbeistellen?', 'Я хочу ставить (с vorbei).')
+
+(1533, 'vorherstellen', 'ставить (с vorher)', 'ставити (з vorher)', 'regular', 'vorhergestellt', 'stellte vorher', 'haben', 'B1', 'Wir koennen vorherstellen.', 'Я хочу ставить (с vorher).')
+
+(1534, 'vorwaertsstellen', 'ставить (с vorwaerts)', 'ставити (з vorwaerts)', 'regular', 'vorgewaertsstellt', 'waertsstellte vor', 'haben', 'B1', 'Es ist wichtig zu vorwaertsstellen.', 'Я хочу ставить (с vorwaerts).')
+
+(1535, 'zurechtstellen', 'ставить (с zurecht)', 'ставити (з zurecht)', 'regular', 'zurechtgestellt', 'stellte zurecht', 'haben', 'B1', 'Du solltest zurechtstellen.', 'Я хочу ставить (с zurecht).')
+
+(1536, 'zurueckstellen', 'ставить (с zurueck)', 'ставити (з zurueck)', 'regular', 'zugerueckstellt', 'rueckstellte zu', 'haben', 'B1', 'Du solltest zurueckstellen.', 'Я хочу ставить (с zurueck).')
+
+(1537, 'zusammenstellen', 'ставить (с zusammen)', 'ставити (з zusammen)', 'regular', 'zusammengestellt', 'stellte zusammen', 'haben', 'B1', 'Es ist wichtig zu zusammenstellen.', 'Я хочу ставить (с zusammen).')
+
+(1538, 'anstellen', 'ставить (с an)', 'ставити (з an)', 'regular', 'angestellt', 'stellte an', 'haben', 'B2', 'Wir koennen anstellen.', 'Я хочу ставить (с an).')
+
+(1539, 'mitstellen', 'ставить (с mit)', 'ставити (з mit)', 'regular', 'mitgestellt', 'stellte mit', 'haben', 'B2', 'Er moechte mitstellen.', 'Я хочу ставить (с mit).')
+
+(1540, 'hinterstellen', 'ставить (с hinter)', 'ставити (з hinter)', 'regular', 'hingeterstellt', 'terstellte hin', 'haben', 'C1', 'Du solltest hinterstellen.', 'Я хочу ставить (с hinter).')
+
+(1541, 'ueberstellen', 'ставить (с ueber)', 'ставити (з ueber)', 'regular', 'geueberstellt', 'ueberstellte', 'haben', 'C1', 'Sie moechte ueberstellen.', 'Я хочу ставить (с ueber).')
+
+(1542, 'unterstellen', 'ставить (с unter)', 'ставити (з unter)', 'regular', 'geunterstellt', 'unterstellte', 'haben', 'C1', 'Ich moechte unterstellen.', 'Я хочу ставить (с unter).')
+
+(1543, 'widerstellen', 'ставить (с wider)', 'ставити (з wider)', 'regular', 'widergestellt', 'stellte wider', 'haben', 'C1', 'Wir muessen widerstellen.', 'Я хочу ставить (с wider).')
+
+(1544, 'beisetzen', 'ставить/сажать (с bei)', 'ставити/садити (з bei)', 'regular', 'setzt', 'setzte', 'haben', 'B1', 'Du solltest beisetzen.', 'Я хочу ставить/сажать (с bei).')
+
+(1545, 'nachsetzen', 'ставить/сажать (с nach)', 'ставити/садити (з nach)', 'regular', 'nachgesetzt', 'setzte nach', 'haben', 'B1', 'Kannst du nachsetzen?', 'Я хочу ставить/сажать (с nach).')
+
+(1546, 'vorsetzen', 'ставить/сажать (с vor)', 'ставити/садити (з vor)', 'regular', 'vorgesetzt', 'setzte vor', 'haben', 'B1', 'Du solltest vorsetzen.', 'Я хочу ставить/сажать (с vor).')
+
+(1547, 'zusetzen', 'ставить/сажать (с zu)', 'ставити/садити (з zu)', 'regular', 'zugesetzt', 'setzte zu', 'haben', 'B1', 'Sie moechte zusetzen.', 'Я хочу ставить/сажать (с zu).')
+
+(1548, 'durchsetzen', 'ставить/сажать (с durch)', 'ставити/садити (з durch)', 'regular', 'durchgesetzt', 'setzte durch', 'haben', 'B1', 'Es ist wichtig zu durchsetzen.', 'Я хочу ставить/сажать (с durch).')
+
+(1549, 'umsetzen', 'ставить/сажать (с um)', 'ставити/садити (з um)', 'regular', 'geumsetzt', 'umsetzte', 'haben', 'B1', 'Wir muessen umsetzen.', 'Я хочу ставить/сажать (с um).')
+
+(1550, 'wegsetzen', 'ставить/сажать (с weg)', 'ставити/садити (з weg)', 'regular', 'weggesetzt', 'setzte weg', 'haben', 'B1', 'Sie moechte wegsetzen.', 'Я хочу ставить/сажать (с weg).')
+
+(1551, 'weitersetzen', 'ставить/сажать (с weiter)', 'ставити/садити (з weiter)', 'regular', 'weitergesetzt', 'setzte weiter', 'haben', 'B1', 'Kannst du weitersetzen?', 'Я хочу ставить/сажать (с weiter).')
+
+(1552, 'hersetzen', 'ставить/сажать (с her)', 'ставити/садити (з her)', 'regular', 'hergesetzt', 'setzte her', 'haben', 'B1', 'Wir koennen hersetzen.', 'Я хочу ставить/сажать (с her).')
+
+(1553, 'dasetzen', 'ставить/сажать (с da)', 'ставити/садити (з da)', 'regular', 'dagesetzt', 'setzte da', 'haben', 'B1', 'Du solltest dasetzen.', 'Я хочу ставить/сажать (с da).')
+
+(1554, 'emporsetzen', 'ставить/сажать (с empor)', 'ставити/садити (з empor)', 'regular', 'setzt', 'setzte', 'haben', 'B1', 'Er moechte emporsetzen.', 'Я хочу ставить/сажать (с empor).')
+
+(1555, 'entlangsetzen', 'ставить/сажать (с entlang)', 'ставити/садити (з entlang)', 'regular', 'setzt', 'setzte', 'haben', 'B1', 'Wir muessen entlangsetzen.', 'Я хочу ставить/сажать (с entlang).')
+
+(1556, 'entgegensetzen', 'ставить/сажать (с entgegen)', 'ставити/садити (з entgegen)', 'regular', 'setzt', 'setzte', 'haben', 'B1', 'Du solltest entgegensetzen.', 'Я хочу ставить/сажать (с entgegen).')
+
+(1557, 'gegensetzen', 'ставить/сажать (с gegen)', 'ставити/садити (з gegen)', 'regular', 'gegensetzt', 'gegensetzte', 'haben', 'B1', 'Es ist wichtig zu gegensetzen.', 'Я хочу ставить/сажать (с gegen).')
+
+(1558, 'heruntersetzen', 'ставить/сажать (с herunter)', 'ставити/садити (з herunter)', 'regular', 'heruntergesetzt', 'setzte herunter', 'haben', 'B1', 'Es ist wichtig zu heruntersetzen.', 'Я хочу ставить/сажать (с herunter).')
+
+(1559, 'hinuntersetzen', 'ставить/сажать (с hinunter)', 'ставити/садити (з hinunter)', 'regular', 'hinuntergesetzt', 'setzte hinunter', 'haben', 'B1', 'Ich moechte hinuntersetzen.', 'Я хочу ставить/сажать (с hinunter).')
+
+(1560, 'hinzusetzen', 'ставить/сажать (с hinzu)', 'ставити/садити (з hinzu)', 'regular', 'hingezusetzt', 'zusetzte hin', 'haben', 'B1', 'Ich moechte hinzusetzen.', 'Я хочу ставить/сажать (с hinzu).')
+
+(1561, 'festsetzen', 'ставить/сажать (с fest)', 'ставити/садити (з fest)', 'regular', 'festgesetzt', 'setzte fest', 'haben', 'B1', 'Sie moechte festsetzen.', 'Я хочу ставить/сажать (с fest).')
+
+(1562, 'gegenuebersetzen', 'ставить/сажать (с gegenueber)', 'ставити/садити (з gegenueber)', 'regular', 'gegenuebersetzt', 'gegenuebersetzte', 'haben', 'B1', 'Ich moechte gegenuebersetzen.', 'Я хочу ставить/сажать (с gegenueber).')
+
+(1563, 'lossetzen', 'ставить/сажать (с los)', 'ставити/садити (з los)', 'regular', 'losgesetzt', 'setzte los', 'haben', 'B1', 'Er moechte lossetzen.', 'Я хочу ставить/сажать (с los).')
+
+(1564, 'niedersetzen', 'ставить/сажать (с nieder)', 'ставити/садити (з nieder)', 'regular', 'niedergesetzt', 'setzte nieder', 'haben', 'B1', 'Wir muessen niedersetzen.', 'Я хочу ставить/сажать (с nieder).')
+
+(1565, 'ransetzen', 'ставить/сажать (с ran)', 'ставити/садити (з ran)', 'regular', 'rangesetzt', 'setzte ran', 'haben', 'B1', 'Kannst du ransetzen?', 'Я хочу ставить/сажать (с ran).')
+
+(1566, 'voransetzen', 'ставить/сажать (с voran)', 'ставити/садити (з voran)', 'regular', 'vorangesetzt', 'setzte voran', 'haben', 'B1', 'Sie moechte voransetzen.', 'Я хочу ставить/сажать (с voran).')
+
+(1567, 'vorbeisetzen', 'ставить/сажать (с vorbei)', 'ставити/садити (з vorbei)', 'regular', 'vorbeigesetzt', 'setzte vorbei', 'haben', 'B1', 'Wir muessen vorbeisetzen.', 'Я хочу ставить/сажать (с vorbei).')
+
+(1568, 'vorhersetzen', 'ставить/сажать (с vorher)', 'ставити/садити (з vorher)', 'regular', 'vorhergesetzt', 'setzte vorher', 'haben', 'B1', 'Ich moechte vorhersetzen.', 'Я хочу ставить/сажать (с vorher).')
+
+(1569, 'vorwaertssetzen', 'ставить/сажать (с vorwaerts)', 'ставити/садити (з vorwaerts)', 'regular', 'vorgewaertssetzt', 'waertssetzte vor', 'haben', 'B1', 'Kannst du vorwaertssetzen?', 'Я хочу ставить/сажать (с vorwaerts).')
+
+(1570, 'zurechtsetzen', 'ставить/сажать (с zurecht)', 'ставити/садити (з zurecht)', 'regular', 'zurechtgesetzt', 'setzte zurecht', 'haben', 'B1', 'Ich moechte zurechtsetzen.', 'Я хочу ставить/сажать (с zurecht).')
+
+(1571, 'zuruecksetzen', 'ставить/сажать (с zurueck)', 'ставити/садити (з zurueck)', 'regular', 'zugeruecksetzt', 'ruecksetzte zu', 'haben', 'B1', 'Ich moechte zuruecksetzen.', 'Я хочу ставить/сажать (с zurueck).')
+
+(1572, 'zusammensetzen', 'ставить/сажать (с zusammen)', 'ставити/садити (з zusammen)', 'regular', 'zusammengesetzt', 'setzte zusammen', 'haben', 'B1', 'Wir koennen zusammensetzen.', 'Я хочу ставить/сажать (с zusammen).')
+
+(1573, 'aufsetzen', 'ставить/сажать (с auf)', 'ставити/садити (з auf)', 'regular', 'aufgesetzt', 'setzte auf', 'haben', 'B2', 'Wir muessen aufsetzen.', 'Я хочу ставить/сажать (с auf).')
+
+(1574, 'mitsetzen', 'ставить/сажать (с mit)', 'ставити/садити (з mit)', 'regular', 'mitgesetzt', 'setzte mit', 'haben', 'B2', 'Wir muessen mitsetzen.', 'Я хочу ставить/сажать (с mit).')
+
+(1575, 'hintersetzen', 'ставить/сажать (с hinter)', 'ставити/садити (з hinter)', 'regular', 'hingetersetzt', 'tersetzte hin', 'haben', 'C1', 'Es ist wichtig zu hintersetzen.', 'Я хочу ставить/сажать (с hinter).')
+
+(1576, 'uebersetzen', 'ставить/сажать (с ueber)', 'ставити/садити (з ueber)', 'regular', 'geuebersetzt', 'uebersetzte', 'haben', 'C1', 'Sie moechte uebersetzen.', 'Я хочу ставить/сажать (с ueber).')
+
+(1577, 'untersetzen', 'ставить/сажать (с unter)', 'ставити/садити (з unter)', 'regular', 'geuntersetzt', 'untersetzte', 'haben', 'C1', 'Er moechte untersetzen.', 'Я хочу ставить/сажать (с unter).')
+
+(1578, 'widersetzen', 'ставить/сажать (с wider)', 'ставити/садити (з wider)', 'regular', 'widergesetzt', 'setzte wider', 'haben', 'C1', 'Wir koennen widersetzen.', 'Я хочу ставить/сажать (с wider).')
+
+(1579, 'beilegen', 'класть (с bei)', 'класти (з bei)', 'regular', 'legt', 'legte', 'haben', 'B1', 'Es ist wichtig zu beilegen.', 'Я хочу класть (с bei).')
+
+(1580, 'nachlegen', 'класть (с nach)', 'класти (з nach)', 'regular', 'nachgelegt', 'legte nach', 'haben', 'B1', 'Sie moechte nachlegen.', 'Я хочу класть (с nach).')
+
+(1581, 'vorlegen', 'класть (с vor)', 'класти (з vor)', 'regular', 'vorgelegt', 'legte vor', 'haben', 'B1', 'Er moechte vorlegen.', 'Я хочу класть (с vor).')
+
+(1582, 'zulegen', 'класть (с zu)', 'класти (з zu)', 'regular', 'zugelegt', 'legte zu', 'haben', 'B1', 'Es ist wichtig zu zulegen.', 'Я хочу класть (с zu).')
+
+(1583, 'durchlegen', 'класть (с durch)', 'класти (з durch)', 'regular', 'durchgelegt', 'legte durch', 'haben', 'B1', 'Es ist wichtig zu durchlegen.', 'Я хочу класть (с durch).')
+
+(1584, 'umlegen', 'класть (с um)', 'класти (з um)', 'regular', 'geumlegt', 'umlegte', 'haben', 'B1', 'Du solltest umlegen.', 'Я хочу класть (с um).')
+
+(1585, 'weglegen', 'класть (с weg)', 'класти (з weg)', 'regular', 'weggelegt', 'legte weg', 'haben', 'B1', 'Er moechte weglegen.', 'Я хочу класть (с weg).')
+
+(1586, 'weiterlegen', 'класть (с weiter)', 'класти (з weiter)', 'regular', 'weitergelegt', 'legte weiter', 'haben', 'B1', 'Sie moechte weiterlegen.', 'Я хочу класть (с weiter).')
+
+(1587, 'herlegen', 'класть (с her)', 'класти (з her)', 'regular', 'hergelegt', 'legte her', 'haben', 'B1', 'Kannst du herlegen?', 'Я хочу класть (с her).')
+
+(1588, 'dalegen', 'класть (с da)', 'класти (з da)', 'regular', 'dagelegt', 'legte da', 'haben', 'B1', 'Er moechte dalegen.', 'Я хочу класть (с da).')
+
+(1589, 'emporlegen', 'класть (с empor)', 'класти (з empor)', 'regular', 'legt', 'legte', 'haben', 'B1', 'Er moechte emporlegen.', 'Я хочу класть (с empor).')
+
+(1590, 'entlanglegen', 'класть (с entlang)', 'класти (з entlang)', 'regular', 'legt', 'legte', 'haben', 'B1', 'Er moechte entlanglegen.', 'Я хочу класть (с entlang).')
+
+(1591, 'entgegenlegen', 'класть (с entgegen)', 'класти (з entgegen)', 'regular', 'legt', 'legte', 'haben', 'B1', 'Du solltest entgegenlegen.', 'Я хочу класть (с entgegen).')
+
+(1592, 'gegenlegen', 'класть (с gegen)', 'класти (з gegen)', 'regular', 'gegenlegt', 'gegenlegte', 'haben', 'B1', 'Wir koennen gegenlegen.', 'Я хочу класть (с gegen).')
+
+(1593, 'herunterlegen', 'класть (с herunter)', 'класти (з herunter)', 'regular', 'heruntergelegt', 'legte herunter', 'haben', 'B1', 'Wir koennen herunterlegen.', 'Я хочу класть (с herunter).')
+
+(1594, 'hinunterlegen', 'класть (с hinunter)', 'класти (з hinunter)', 'regular', 'hinuntergelegt', 'legte hinunter', 'haben', 'B1', 'Wir muessen hinunterlegen.', 'Я хочу класть (с hinunter).')
+
+(1595, 'hinzulegen', 'класть (с hinzu)', 'класти (з hinzu)', 'regular', 'hingezulegt', 'zulegte hin', 'haben', 'B1', 'Es ist wichtig zu hinzulegen.', 'Я хочу класть (с hinzu).')
+
+(1596, 'festlegen', 'класть (с fest)', 'класти (з fest)', 'regular', 'festgelegt', 'legte fest', 'haben', 'B1', 'Sie moechte festlegen.', 'Я хочу класть (с fest).')
+
+(1597, 'fortlegen', 'класть (с fort)', 'класти (з fort)', 'regular', 'fortgelegt', 'legte fort', 'haben', 'B1', 'Wir koennen fortlegen.', 'Я хочу класть (с fort).')
+
+(1598, 'gegenueberlegen', 'класть (с gegenueber)', 'класти (з gegenueber)', 'regular', 'gegenueberlegt', 'gegenueberlegte', 'haben', 'B1', 'Er moechte gegenueberlegen.', 'Я хочу класть (с gegenueber).')
+
+(1599, 'loslegen', 'класть (с los)', 'класти (з los)', 'regular', 'losgelegt', 'legte los', 'haben', 'B1', 'Du solltest loslegen.', 'Я хочу класть (с los).')
+
+(1600, 'niederlegen', 'класть (с nieder)', 'класти (з nieder)', 'regular', 'niedergelegt', 'legte nieder', 'haben', 'B1', 'Kannst du niederlegen?', 'Я хочу класть (с nieder).')
+
+(1601, 'ranlegen', 'класть (с ran)', 'класти (з ran)', 'regular', 'rangelegt', 'legte ran', 'haben', 'B1', 'Wir koennen ranlegen.', 'Я хочу класть (с ran).')
+
+(1602, 'voranlegen', 'класть (с voran)', 'класти (з voran)', 'regular', 'vorangelegt', 'legte voran', 'haben', 'B1', 'Du solltest voranlegen.', 'Я хочу класть (с voran).')
+
+(1603, 'vorauslegen', 'класть (с voraus)', 'класти (з voraus)', 'regular', 'vorausgelegt', 'legte voraus', 'haben', 'B1', 'Kannst du vorauslegen?', 'Я хочу класть (с voraus).')
+
+(1604, 'vorbeilegen', 'класть (с vorbei)', 'класти (з vorbei)', 'regular', 'vorbeigelegt', 'legte vorbei', 'haben', 'B1', 'Ich moechte vorbeilegen.', 'Я хочу класть (с vorbei).')
+
+(1605, 'vorherlegen', 'класть (с vorher)', 'класти (з vorher)', 'regular', 'vorhergelegt', 'legte vorher', 'haben', 'B1', 'Er moechte vorherlegen.', 'Я хочу класть (с vorher).')
+
+(1606, 'vorwaertslegen', 'класть (с vorwaerts)', 'класти (з vorwaerts)', 'regular', 'vorgewaertslegt', 'waertslegte vor', 'haben', 'B1', 'Er moechte vorwaertslegen.', 'Я хочу класть (с vorwaerts).')
+
+(1607, 'zurechtlegen', 'класть (с zurecht)', 'класти (з zurecht)', 'regular', 'zurechtgelegt', 'legte zurecht', 'haben', 'B1', 'Ich moechte zurechtlegen.', 'Я хочу класть (с zurecht).')
+
+(1608, 'zuruecklegen', 'класть (с zurueck)', 'класти (з zurueck)', 'regular', 'zugeruecklegt', 'ruecklegte zu', 'haben', 'B1', 'Wir muessen zuruecklegen.', 'Я хочу класть (с zurueck).')
+
+(1609, 'zusammenlegen', 'класть (с zusammen)', 'класти (з zusammen)', 'regular', 'zusammengelegt', 'legte zusammen', 'haben', 'B1', 'Es ist wichtig zu zusammenlegen.', 'Я хочу класть (с zusammen).')
+
+(1610, 'auflegen', 'класть (с auf)', 'класти (з auf)', 'regular', 'aufgelegt', 'legte auf', 'haben', 'B2', 'Kannst du auflegen?', 'Я хочу класть (с auf).')
+
+(1611, 'mitlegen', 'класть (с mit)', 'класти (з mit)', 'regular', 'mitgelegt', 'legte mit', 'haben', 'B2', 'Kannst du mitlegen?', 'Я хочу класть (с mit).')
+
+(1612, 'hinterlegen', 'класть (с hinter)', 'класти (з hinter)', 'regular', 'hingeterlegt', 'terlegte hin', 'haben', 'C1', 'Sie moechte hinterlegen.', 'Я хочу класть (с hinter).')
+
+(1613, 'ueberlegen', 'класть (с ueber)', 'класти (з ueber)', 'regular', 'geueberlegt', 'ueberlegte', 'haben', 'C1', 'Er moechte ueberlegen.', 'Я хочу класть (с ueber).')
+
+(1614, 'unterlegen', 'класть (с unter)', 'класти (з unter)', 'regular', 'geunterlegt', 'unterlegte', 'haben', 'C1', 'Ich moechte unterlegen.', 'Я хочу класть (с unter).')
+
+(1615, 'beidecken', 'покрывать (с bei)', 'покривати (з bei)', 'regular', 'deckt', 'deckte', 'haben', 'B1', 'Du solltest beidecken.', 'Я хочу покрывать (с bei).')
+
+(1616, 'nachdecken', 'покрывать (с nach)', 'покривати (з nach)', 'regular', 'nachgedeckt', 'deckte nach', 'haben', 'B1', 'Du solltest nachdecken.', 'Я хочу покрывать (с nach).')
+
+(1617, 'vordecken', 'покрывать (с vor)', 'покривати (з vor)', 'regular', 'vorgedeckt', 'deckte vor', 'haben', 'B1', 'Ich moechte vordecken.', 'Я хочу покрывать (с vor).')
+
+(1618, 'durchdecken', 'покрывать (с durch)', 'покривати (з durch)', 'regular', 'durchgedeckt', 'deckte durch', 'haben', 'B1', 'Sie moechte durchdecken.', 'Я хочу покрывать (с durch).')
+
+(1619, 'umdecken', 'покрывать (с um)', 'покривати (з um)', 'regular', 'geumdeckt', 'umdeckte', 'haben', 'B1', 'Kannst du umdecken?', 'Я хочу покрывать (с um).')
+
+(1620, 'wegdecken', 'покрывать (с weg)', 'покривати (з weg)', 'regular', 'weggedeckt', 'deckte weg', 'haben', 'B1', 'Sie moechte wegdecken.', 'Я хочу покрывать (с weg).')
+
+(1621, 'weiterdecken', 'покрывать (с weiter)', 'покривати (з weiter)', 'regular', 'weitergedeckt', 'deckte weiter', 'haben', 'B1', 'Er moechte weiterdecken.', 'Я хочу покрывать (с weiter).')
+
+(1622, 'herdecken', 'покрывать (с her)', 'покривати (з her)', 'regular', 'hergedeckt', 'deckte her', 'haben', 'B1', 'Kannst du herdecken?', 'Я хочу покрывать (с her).')
+
+(1623, 'hindecken', 'покрывать (с hin)', 'покривати (з hin)', 'regular', 'hingedeckt', 'deckte hin', 'haben', 'B1', 'Sie moechte hindecken.', 'Я хочу покрывать (с hin).')
+
+(1624, 'dadecken', 'покрывать (с da)', 'покривати (з da)', 'regular', 'dagedeckt', 'deckte da', 'haben', 'B1', 'Wir muessen dadecken.', 'Я хочу покрывать (с da).')
+
+(1625, 'empordecken', 'покрывать (с empor)', 'покривати (з empor)', 'regular', 'deckt', 'deckte', 'haben', 'B1', 'Kannst du empordecken?', 'Я хочу покрывать (с empor).')
+
+(1626, 'entlangdecken', 'покрывать (с entlang)', 'покривати (з entlang)', 'regular', 'deckt', 'deckte', 'haben', 'B1', 'Sie moechte entlangdecken.', 'Я хочу покрывать (с entlang).')
+
+(1627, 'entgegendecken', 'покрывать (с entgegen)', 'покривати (з entgegen)', 'regular', 'deckt', 'deckte', 'haben', 'B1', 'Wir muessen entgegendecken.', 'Я хочу покрывать (с entgegen).')
+
+(1628, 'gegendecken', 'покрывать (с gegen)', 'покривати (з gegen)', 'regular', 'gegendeckt', 'gegendeckte', 'haben', 'B1', 'Kannst du gegendecken?', 'Я хочу покрывать (с gegen).')
+
+(1629, 'herunterdecken', 'покрывать (с herunter)', 'покривати (з herunter)', 'regular', 'heruntergedeckt', 'deckte herunter', 'haben', 'B1', 'Kannst du herunterdecken?', 'Я хочу покрывать (с herunter).')
+
+(1630, 'hinunterdecken', 'покрывать (с hinunter)', 'покривати (з hinunter)', 'regular', 'hinuntergedeckt', 'deckte hinunter', 'haben', 'B1', 'Sie moechte hinunterdecken.', 'Я хочу покрывать (с hinunter).')
+
+(1631, 'hinzudecken', 'покрывать (с hinzu)', 'покривати (з hinzu)', 'regular', 'hingezudeckt', 'zudeckte hin', 'haben', 'B1', 'Es ist wichtig zu hinzudecken.', 'Я хочу покрывать (с hinzu).')
+
+(1632, 'festdecken', 'покрывать (с fest)', 'покривати (з fest)', 'regular', 'festgedeckt', 'deckte fest', 'haben', 'B1', 'Sie moechte festdecken.', 'Я хочу покрывать (с fest).')
+
+(1633, 'fortdecken', 'покрывать (с fort)', 'покривати (з fort)', 'regular', 'fortgedeckt', 'deckte fort', 'haben', 'B1', 'Du solltest fortdecken.', 'Я хочу покрывать (с fort).')
+
+(1634, 'gegenueberdecken', 'покрывать (с gegenueber)', 'покривати (з gegenueber)', 'regular', 'gegenueberdeckt', 'gegenueberdeckte', 'haben', 'B1', 'Wir koennen gegenueberdecken.', 'Я хочу покрывать (с gegenueber).')
+
+(1635, 'losdecken', 'покрывать (с los)', 'покривати (з los)', 'regular', 'losgedeckt', 'deckte los', 'haben', 'B1', 'Wir koennen losdecken.', 'Я хочу покрывать (с los).')
+
+(1636, 'niederdecken', 'покрывать (с nieder)', 'покривати (з nieder)', 'regular', 'niedergedeckt', 'deckte nieder', 'haben', 'B1', 'Wir koennen niederdecken.', 'Я хочу покрывать (с nieder).')
+
+(1637, 'randecken', 'покрывать (с ran)', 'покривати (з ran)', 'regular', 'rangedeckt', 'deckte ran', 'haben', 'B1', 'Er moechte randecken.', 'Я хочу покрывать (с ran).')
+
+(1638, 'vorandecken', 'покрывать (с voran)', 'покривати (з voran)', 'regular', 'vorangedeckt', 'deckte voran', 'haben', 'B1', 'Es ist wichtig zu vorandecken.', 'Я хочу покрывать (с voran).')
+
+(1639, 'vorausdecken', 'покрывать (с voraus)', 'покривати (з voraus)', 'regular', 'vorausgedeckt', 'deckte voraus', 'haben', 'B1', 'Wir koennen vorausdecken.', 'Я хочу покрывать (с voraus).')
+
+(1640, 'vorbeidecken', 'покрывать (с vorbei)', 'покривати (з vorbei)', 'regular', 'vorbeigedeckt', 'deckte vorbei', 'haben', 'B1', 'Kannst du vorbeidecken?', 'Я хочу покрывать (с vorbei).')
+
+(1641, 'vorherdecken', 'покрывать (с vorher)', 'покривати (з vorher)', 'regular', 'vorhergedeckt', 'deckte vorher', 'haben', 'B1', 'Du solltest vorherdecken.', 'Я хочу покрывать (с vorher).')
+
+(1642, 'vorwaertsdecken', 'покрывать (с vorwaerts)', 'покривати (з vorwaerts)', 'regular', 'vorgewaertsdeckt', 'waertsdeckte vor', 'haben', 'B1', 'Wir koennen vorwaertsdecken.', 'Я хочу покрывать (с vorwaerts).')
+
+(1643, 'zurechtdecken', 'покрывать (с zurecht)', 'покривати (з zurecht)', 'regular', 'zurechtgedeckt', 'deckte zurecht', 'haben', 'B1', 'Wir muessen zurechtdecken.', 'Я хочу покрывать (с zurecht).')
+
+(1644, 'zurueckdecken', 'покрывать (с zurueck)', 'покривати (з zurueck)', 'regular', 'zugerueckdeckt', 'rueckdeckte zu', 'haben', 'B1', 'Ich moechte zurueckdecken.', 'Я хочу покрывать (с zurueck).')
+
+(1645, 'zusammendecken', 'покрывать (с zusammen)', 'покривати (з zusammen)', 'regular', 'zusammengedeckt', 'deckte zusammen', 'haben', 'B1', 'Es ist wichtig zu zusammendecken.', 'Я хочу покрывать (с zusammen).')
+
+(1646, 'abdecken', 'покрывать (с ab)', 'покривати (з ab)', 'regular', 'abgedeckt', 'deckte ab', 'haben', 'B2', 'Du solltest abdecken.', 'Я хочу покрывать (с ab).')
+
+(1647, 'andecken', 'покрывать (с an)', 'покривати (з an)', 'regular', 'angedeckt', 'deckte an', 'haben', 'B2', 'Du solltest andecken.', 'Я хочу покрывать (с an).')
+
+(1648, 'ausdecken', 'покрывать (с aus)', 'покривати (з aus)', 'regular', 'ausgedeckt', 'deckte aus', 'haben', 'B2', 'Kannst du ausdecken?', 'Я хочу покрывать (с aus).')
+
+(1649, 'eindecken', 'покрывать (с ein)', 'покривати (з ein)', 'regular', 'eingedeckt', 'deckte ein', 'haben', 'B2', 'Kannst du eindecken?', 'Я хочу покрывать (с ein).')
+
+(1650, 'mitdecken', 'покрывать (с mit)', 'покривати (з mit)', 'regular', 'mitgedeckt', 'deckte mit', 'haben', 'B2', 'Sie moechte mitdecken.', 'Я хочу покрывать (с mit).')
+
+(1651, 'hinterdecken', 'покрывать (с hinter)', 'покривати (з hinter)', 'regular', 'hingeterdeckt', 'terdeckte hin', 'haben', 'C1', 'Es ist wichtig zu hinterdecken.', 'Я хочу покрывать (с hinter).')
+
+(1652, 'ueberdecken', 'покрывать (с ueber)', 'покривати (з ueber)', 'regular', 'geueberdeckt', 'ueberdeckte', 'haben', 'C1', 'Es ist wichtig zu ueberdecken.', 'Я хочу покрывать (с ueber).')
+
+(1653, 'unterdecken', 'покрывать (с unter)', 'покривати (з unter)', 'regular', 'geunterdeckt', 'unterdeckte', 'haben', 'C1', 'Sie moechte unterdecken.', 'Я хочу покрывать (с unter).')
+
+(1654, 'widerdecken', 'покрывать (с wider)', 'покривати (з wider)', 'regular', 'widergedeckt', 'deckte wider', 'haben', 'C1', 'Er moechte widerdecken.', 'Я хочу покрывать (с wider).')
+
+(1655, 'beidrucken', 'печатать (с bei)', 'друкувати (з bei)', 'regular', 'druckt', 'druckte', 'haben', 'B1', 'Kannst du beidrucken?', 'Я хочу печатать (с bei).')
+
+(1656, 'nachdrucken', 'печатать (с nach)', 'друкувати (з nach)', 'regular', 'nachgedruckt', 'druckte nach', 'haben', 'B1', 'Wir muessen nachdrucken.', 'Я хочу печатать (с nach).')
+
+(1657, 'vordrucken', 'печатать (с vor)', 'друкувати (з vor)', 'regular', 'vorgedruckt', 'druckte vor', 'haben', 'B1', 'Wir muessen vordrucken.', 'Я хочу печатать (с vor).')
+
+(1658, 'zudrucken', 'печатать (с zu)', 'друкувати (з zu)', 'regular', 'zugedruckt', 'druckte zu', 'haben', 'B1', 'Es ist wichtig zu zudrucken.', 'Я хочу печатать (с zu).')
+
+(1659, 'durchdrucken', 'печатать (с durch)', 'друкувати (з durch)', 'regular', 'durchgedruckt', 'druckte durch', 'haben', 'B1', 'Er moechte durchdrucken.', 'Я хочу печатать (с durch).')
+
+(1660, 'umdrucken', 'печатать (с um)', 'друкувати (з um)', 'regular', 'geumdruckt', 'umdruckte', 'haben', 'B1', 'Kannst du umdrucken?', 'Я хочу печатать (с um).')
+
+(1661, 'wegdrucken', 'печатать (с weg)', 'друкувати (з weg)', 'regular', 'weggedruckt', 'druckte weg', 'haben', 'B1', 'Du solltest wegdrucken.', 'Я хочу печатать (с weg).')
+
+(1662, 'weiterdrucken', 'печатать (с weiter)', 'друкувати (з weiter)', 'regular', 'weitergedruckt', 'druckte weiter', 'haben', 'B1', 'Ich moechte weiterdrucken.', 'Я хочу печатать (с weiter).')
+
+(1663, 'herdrucken', 'печатать (с her)', 'друкувати (з her)', 'regular', 'hergedruckt', 'druckte her', 'haben', 'B1', 'Ich moechte herdrucken.', 'Я хочу печатать (с her).')
+
+(1664, 'hindrucken', 'печатать (с hin)', 'друкувати (з hin)', 'regular', 'hingedruckt', 'druckte hin', 'haben', 'B1', 'Sie moechte hindrucken.', 'Я хочу печатать (с hin).')
+
+(1665, 'dadrucken', 'печатать (с da)', 'друкувати (з da)', 'regular', 'dagedruckt', 'druckte da', 'haben', 'B1', 'Wir koennen dadrucken.', 'Я хочу печатать (с da).')
+
+(1666, 'empordrucken', 'печатать (с empor)', 'друкувати (з empor)', 'regular', 'druckt', 'druckte', 'haben', 'B1', 'Ich moechte empordrucken.', 'Я хочу печатать (с empor).')
+
+(1667, 'entlangdrucken', 'печатать (с entlang)', 'друкувати (з entlang)', 'regular', 'druckt', 'druckte', 'haben', 'B1', 'Ich moechte entlangdrucken.', 'Я хочу печатать (с entlang).')
+
+(1668, 'entgegendrucken', 'печатать (с entgegen)', 'друкувати (з entgegen)', 'regular', 'druckt', 'druckte', 'haben', 'B1', 'Sie moechte entgegendrucken.', 'Я хочу печатать (с entgegen).')
+
+(1669, 'gegendrucken', 'печатать (с gegen)', 'друкувати (з gegen)', 'regular', 'gegendruckt', 'gegendruckte', 'haben', 'B1', 'Du solltest gegendrucken.', 'Я хочу печатать (с gegen).')
+
+(1670, 'herunterdrucken', 'печатать (с herunter)', 'друкувати (з herunter)', 'regular', 'heruntergedruckt', 'druckte herunter', 'haben', 'B1', 'Kannst du herunterdrucken?', 'Я хочу печатать (с herunter).')
+
+(1671, 'hinunterdrucken', 'печатать (с hinunter)', 'друкувати (з hinunter)', 'regular', 'hinuntergedruckt', 'druckte hinunter', 'haben', 'B1', 'Sie moechte hinunterdrucken.', 'Я хочу печатать (с hinunter).')
+
+(1672, 'hinzudrucken', 'печатать (с hinzu)', 'друкувати (з hinzu)', 'regular', 'hingezudruckt', 'zudruckte hin', 'haben', 'B1', 'Du solltest hinzudrucken.', 'Я хочу печатать (с hinzu).')
+
+(1673, 'festdrucken', 'печатать (с fest)', 'друкувати (з fest)', 'regular', 'festgedruckt', 'druckte fest', 'haben', 'B1', 'Wir koennen festdrucken.', 'Я хочу печатать (с fest).')
+
+(1674, 'fortdrucken', 'печатать (с fort)', 'друкувати (з fort)', 'regular', 'fortgedruckt', 'druckte fort', 'haben', 'B1', 'Er moechte fortdrucken.', 'Я хочу печатать (с fort).')
+
+(1675, 'gegenueberdrucken', 'печатать (с gegenueber)', 'друкувати (з gegenueber)', 'regular', 'gegenueberdruckt', 'gegenueberdruckte', 'haben', 'B1', 'Wir muessen gegenueberdrucken.', 'Я хочу печатать (с gegenueber).')
+
+(1676, 'losdrucken', 'печатать (с los)', 'друкувати (з los)', 'regular', 'losgedruckt', 'druckte los', 'haben', 'B1', 'Es ist wichtig zu losdrucken.', 'Я хочу печатать (с los).')
+
+(1677, 'niederdrucken', 'печатать (с nieder)', 'друкувати (з nieder)', 'regular', 'niedergedruckt', 'druckte nieder', 'haben', 'B1', 'Es ist wichtig zu niederdrucken.', 'Я хочу печатать (с nieder).')
+
+(1678, 'randrucken', 'печатать (с ran)', 'друкувати (з ran)', 'regular', 'rangedruckt', 'druckte ran', 'haben', 'B1', 'Wir koennen randrucken.', 'Я хочу печатать (с ran).')
+
+(1679, 'vorandrucken', 'печатать (с voran)', 'друкувати (з voran)', 'regular', 'vorangedruckt', 'druckte voran', 'haben', 'B1', 'Du solltest vorandrucken.', 'Я хочу печатать (с voran).')
+
+(1680, 'vorausdrucken', 'печатать (с voraus)', 'друкувати (з voraus)', 'regular', 'vorausgedruckt', 'druckte voraus', 'haben', 'B1', 'Du solltest vorausdrucken.', 'Я хочу печатать (с voraus).')
+
+(1681, 'vorbeidrucken', 'печатать (с vorbei)', 'друкувати (з vorbei)', 'regular', 'vorbeigedruckt', 'druckte vorbei', 'haben', 'B1', 'Du solltest vorbeidrucken.', 'Я хочу печатать (с vorbei).')
+
+(1682, 'vorherdrucken', 'печатать (с vorher)', 'друкувати (з vorher)', 'regular', 'vorhergedruckt', 'druckte vorher', 'haben', 'B1', 'Wir muessen vorherdrucken.', 'Я хочу печатать (с vorher).')
+
+(1683, 'vorwaertsdrucken', 'печатать (с vorwaerts)', 'друкувати (з vorwaerts)', 'regular', 'vorgewaertsdruckt', 'waertsdruckte vor', 'haben', 'B1', 'Wir koennen vorwaertsdrucken.', 'Я хочу печатать (с vorwaerts).')
+
+(1684, 'zurechtdrucken', 'печатать (с zurecht)', 'друкувати (з zurecht)', 'regular', 'zurechtgedruckt', 'druckte zurecht', 'haben', 'B1', 'Du solltest zurechtdrucken.', 'Я хочу печатать (с zurecht).')
+
+(1685, 'zurueckdrucken', 'печатать (с zurueck)', 'друкувати (з zurueck)', 'regular', 'zugerueckdruckt', 'rueckdruckte zu', 'haben', 'B1', 'Kannst du zurueckdrucken?', 'Я хочу печатать (с zurueck).')
+
+(1686, 'zusammendrucken', 'печатать (с zusammen)', 'друкувати (з zusammen)', 'regular', 'zusammengedruckt', 'druckte zusammen', 'haben', 'B1', 'Wir koennen zusammendrucken.', 'Я хочу печатать (с zusammen).')
+
+(1687, 'abdrucken', 'печатать (с ab)', 'друкувати (з ab)', 'regular', 'abgedruckt', 'druckte ab', 'haben', 'B2', 'Es ist wichtig zu abdrucken.', 'Я хочу печатать (с ab).')
+
+(1688, 'andrucken', 'печатать (с an)', 'друкувати (з an)', 'regular', 'angedruckt', 'druckte an', 'haben', 'B2', 'Ich moechte andrucken.', 'Я хочу печатать (с an).')
+
+(1689, 'aufdrucken', 'печатать (с auf)', 'друкувати (з auf)', 'regular', 'aufgedruckt', 'druckte auf', 'haben', 'B2', 'Wir muessen aufdrucken.', 'Я хочу печатать (с auf).')
+
+(1690, 'ausdrucken', 'печатать (с aus)', 'друкувати (з aus)', 'regular', 'ausgedruckt', 'druckte aus', 'haben', 'B2', 'Ich moechte ausdrucken.', 'Я хочу печатать (с aus).')
+
+(1691, 'eindrucken', 'печатать (с ein)', 'друкувати (з ein)', 'regular', 'eingedruckt', 'druckte ein', 'haben', 'B2', 'Kannst du eindrucken?', 'Я хочу печатать (с ein).')
+
+(1692, 'mitdrucken', 'печатать (с mit)', 'друкувати (з mit)', 'regular', 'mitgedruckt', 'druckte mit', 'haben', 'B2', 'Kannst du mitdrucken?', 'Я хочу печатать (с mit).')
+
+(1693, 'hinterdrucken', 'печатать (с hinter)', 'друкувати (з hinter)', 'regular', 'hingeterdruckt', 'terdruckte hin', 'haben', 'C1', 'Sie moechte hinterdrucken.', 'Я хочу печатать (с hinter).')
+
+(1694, 'ueberdrucken', 'печатать (с ueber)', 'друкувати (з ueber)', 'regular', 'geueberdruckt', 'ueberdruckte', 'haben', 'C1', 'Wir muessen ueberdrucken.', 'Я хочу печатать (с ueber).')
+
+(1695, 'unterdrucken', 'печатать (с unter)', 'друкувати (з unter)', 'regular', 'geunterdruckt', 'unterdruckte', 'haben', 'C1', 'Wir koennen unterdrucken.', 'Я хочу печатать (с unter).')
+
+(1696, 'widerdrucken', 'печатать (с wider)', 'друкувати (з wider)', 'regular', 'widergedruckt', 'druckte wider', 'haben', 'C1', 'Ich moechte widerdrucken.', 'Я хочу печатать (с wider).')
+
+(1697, 'beirufen', 'звать/кричать (с bei)', 'звати/кричати (з bei)', 'irregular', 'beigerufen', 'rief bei', 'haben', 'B1', 'Wir muessen beirufen.', 'Я хочу звать/кричать (с bei).'),
+
+(1698, 'nachrufen', 'звать/кричать (с nach)', 'звати/кричати (з nach)', 'irregular', 'nachgerufen', 'rief nach', 'haben', 'B1', 'Ich moechte nachrufen.', 'Я хочу звать/кричать (с nach).'),
+
+(1699, 'vorrufen', 'звать/кричать (с vor)', 'звати/кричати (з vor)', 'irregular', 'vorgerufen', 'rief vor', 'haben', 'B1', 'Sie moechte vorrufen.', 'Я хочу звать/кричать (с vor).'),
+
+(1700, 'zurufen', 'звать/кричать (с zu)', 'звати/кричати (з zu)', 'irregular', 'zugerufen', 'rief zu', 'haben', 'B1', 'Sie moechte zurufen.', 'Я хочу звать/кричать (с zu).'),
+
+(1701, 'durchrufen', 'звать/кричать (с durch)', 'звати/кричати (з durch)', 'irregular', 'durchgerufen', 'rief durch', 'haben', 'B1', 'Es ist wichtig zu durchrufen.', 'Я хочу звать/кричать (с durch).'),
+
+(1702, 'umrufen', 'звать/кричать (с um)', 'звати/кричати (з um)', 'irregular', 'umgerufen', 'umrief', 'haben', 'B1', 'Ich moechte umrufen.', 'Я хочу звать/кричать (с um).'),
+
+(1703, 'wegrufen', 'звать/кричать (с weg)', 'звати/кричати (з weg)', 'irregular', 'weggerufen', 'rief weg', 'haben', 'B1', 'Kannst du wegrufen?', 'Я хочу звать/кричать (с weg).'),
+
+(1704, 'weiterrufen', 'звать/кричать (с weiter)', 'звати/кричати (з weiter)', 'irregular', 'weitergerufen', 'rief weiter', 'haben', 'B1', 'Du solltest weiterrufen.', 'Я хочу звать/кричать (с weiter).'),
+
+(1705, 'herrufen', 'звать/кричать (с her)', 'звати/кричати (з her)', 'irregular', 'hergerufen', 'rief her', 'haben', 'B1', 'Sie moechte herrufen.', 'Я хочу звать/кричать (с her).'),
+
+(1706, 'hinrufen', 'звать/кричать (с hin)', 'звати/кричати (з hin)', 'irregular', 'hingerufen', 'rief hin', 'haben', 'B1', 'Du solltest hinrufen.', 'Я хочу звать/кричать (с hin).'),
+
+(1707, 'darufen', 'звать/кричать (с da)', 'звати/кричати (з da)', 'irregular', 'dagerufen', 'rief da', 'haben', 'B1', 'Du solltest darufen.', 'Я хочу звать/кричать (с da).'),
+
+(1708, 'emporrufen', 'звать/кричать (с empor)', 'звати/кричати (з empor)', 'irregular', 'emporgerufen', 'rief empor', 'haben', 'B1', 'Er moechte emporrufen.', 'Я хочу звать/кричать (с empor).'),
+
+(1709, 'entlangrufen', 'звать/кричать (с entlang)', 'звати/кричати (з entlang)', 'irregular', 'entlanggerufen', 'rief entlang', 'haben', 'B1', 'Er moechte entlangrufen.', 'Я хочу звать/кричать (с entlang).'),
+
+(1710, 'entgegenrufen', 'звать/кричать (с entgegen)', 'звати/кричати (з entgegen)', 'irregular', 'entgegengerufen', 'rief entgegen', 'haben', 'B1', 'Kannst du entgegenrufen?', 'Я хочу звать/кричать (с entgegen).'),
+
+(1711, 'gegenrufen', 'звать/кричать (с gegen)', 'звати/кричати (з gegen)', 'irregular', 'gegengerufen', 'gegenrief', 'haben', 'B1', 'Sie moechte gegenrufen.', 'Я хочу звать/кричать (с gegen).'),
+
+(1712, 'herunterrufen', 'звать/кричать (с herunter)', 'звати/кричати (з herunter)', 'irregular', 'heruntergerufen', 'rief herunter', 'haben', 'B1', 'Du solltest herunterrufen.', 'Я хочу звать/кричать (с herunter).'),
+
+(1713, 'hinunterrufen', 'звать/кричать (с hinunter)', 'звати/кричати (з hinunter)', 'irregular', 'hinuntergerufen', 'rief hinunter', 'haben', 'B1', 'Wir koennen hinunterrufen.', 'Я хочу звать/кричать (с hinunter).'),
+
+(1714, 'hinzurufen', 'звать/кричать (с hinzu)', 'звати/кричати (з hinzu)', 'irregular', 'hinzugerufen', 'hinzurief', 'haben', 'B1', 'Kannst du hinzurufen?', 'Я хочу звать/кричать (с hinzu).'),
+
+(1715, 'festrufen', 'звать/кричать (с fest)', 'звати/кричати (з fest)', 'irregular', 'festgerufen', 'rief fest', 'haben', 'B1', 'Ich moechte festrufen.', 'Я хочу звать/кричать (с fest).'),
+
+(1716, 'fortrufen', 'звать/кричать (с fort)', 'звати/кричати (з fort)', 'irregular', 'fortgerufen', 'rief fort', 'haben', 'B1', 'Wir koennen fortrufen.', 'Я хочу звать/кричать (с fort).'),
+
+(1717, 'gegenueberrufen', 'звать/кричать (с gegenueber)', 'звати/кричати (з gegenueber)', 'irregular', 'gegenuebergerufen', 'rief gegenueber', 'haben', 'B1', 'Ich moechte gegenueberrufen.', 'Я хочу звать/кричать (с gegenueber).'),
+
+(1718, 'losrufen', 'звать/кричать (с los)', 'звати/кричати (з los)', 'irregular', 'losgerufen', 'rief los', 'haben', 'B1', 'Wir koennen losrufen.', 'Я хочу звать/кричать (с los).'),
+
+(1719, 'niederrufen', 'звать/кричать (с nieder)', 'звати/кричати (з nieder)', 'irregular', 'niedergerufen', 'rief nieder', 'haben', 'B1', 'Er moechte niederrufen.', 'Я хочу звать/кричать (с nieder).'),
+
+(1720, 'ranrufen', 'звать/кричать (с ran)', 'звати/кричати (з ran)', 'irregular', 'rangerufen', 'rief ran', 'haben', 'B1', 'Sie moechte ranrufen.', 'Я хочу звать/кричать (с ran).'),
+
+(1721, 'voranrufen', 'звать/кричать (с voran)', 'звати/кричати (з voran)', 'irregular', 'vorangerufen', 'rief voran', 'haben', 'B1', 'Du solltest voranrufen.', 'Я хочу звать/кричать (с voran).'),
+
+(1722, 'vorausrufen', 'звать/кричать (с voraus)', 'звати/кричати (з voraus)', 'irregular', 'vorausgerufen', 'rief voraus', 'haben', 'B1', 'Ich moechte vorausrufen.', 'Я хочу звать/кричать (с voraus).'),
+
+(1723, 'vorbeirufen', 'звать/кричать (с vorbei)', 'звати/кричати (з vorbei)', 'irregular', 'vorbeigerufen', 'rief vorbei', 'haben', 'B1', 'Du solltest vorbeirufen.', 'Я хочу звать/кричать (с vorbei).'),
+
+(1724, 'vorherrufen', 'звать/кричать (с vorher)', 'звати/кричати (з vorher)', 'irregular', 'vorhergerufen', 'rief vorher', 'haben', 'B1', 'Du solltest vorherrufen.', 'Я хочу звать/кричать (с vorher).'),
+
+(1725, 'vorwaertsrufen', 'звать/кричать (с vorwaerts)', 'звати/кричати (з vorwaerts)', 'irregular', 'vorwaertsgerufen', 'rief vorwaerts', 'haben', 'B1', 'Sie moechte vorwaertsrufen.', 'Я хочу звать/кричать (с vorwaerts).'),
+
+(1726, 'zurechtrufen', 'звать/кричать (с zurecht)', 'звати/кричати (з zurecht)', 'irregular', 'zurechtgerufen', 'rief zurecht', 'haben', 'B1', 'Ich moechte zurechtrufen.', 'Я хочу звать/кричать (с zurecht).'),
+
+(1727, 'zurueckrufen', 'звать/кричать (с zurueck)', 'звати/кричати (з zurueck)', 'irregular', 'zurueckgerufen', 'rief zurueck', 'haben', 'B1', 'Kannst du zurueckrufen?', 'Я хочу звать/кричать (с zurueck).'),
+
+(1728, 'zusammenrufen', 'звать/кричать (с zusammen)', 'звати/кричати (з zusammen)', 'irregular', 'zusammengerufen', 'rief zusammen', 'haben', 'B1', 'Ich moechte zusammenrufen.', 'Я хочу звать/кричать (с zusammen).'),
+
+(1729, 'abrufen', 'звать/кричать (с ab)', 'звати/кричати (з ab)', 'irregular', 'abgerufen', 'rief ab', 'haben', 'B2', 'Sie moechte abrufen.', 'Я хочу звать/кричать (с ab).'),
+
+(1730, 'einrufen', 'звать/кричать (с ein)', 'звати/кричати (з ein)', 'irregular', 'eingerufen', 'rief ein', 'haben', 'B2', 'Kannst du einrufen?', 'Я хочу звать/кричать (с ein).'),
+
+(1731, 'mitrufen', 'звать/кричать (с mit)', 'звати/кричати (з mit)', 'irregular', 'mitgerufen', 'rief mit', 'haben', 'B2', 'Sie moechte mitrufen.', 'Я хочу звать/кричать (с mit).'),
+
+(1732, 'hinterrufen', 'звать/кричать (с hinter)', 'звати/кричати (з hinter)', 'irregular', 'hintergerufen', 'hinterrief', 'haben', 'C1', 'Sie moechte hinterrufen.', 'Я хочу звать/кричать (с hinter).'),
+
+(1733, 'ueberrufen', 'звать/кричать (с ueber)', 'звати/кричати (з ueber)', 'irregular', 'uebergerufen', 'ueberrief', 'haben', 'C1', 'Kannst du ueberrufen?', 'Я хочу звать/кричать (с ueber).'),
+
+(1734, 'unterrufen', 'звать/кричать (с unter)', 'звати/кричати (з unter)', 'irregular', 'untergerufen', 'unterrief', 'haben', 'C1', 'Er moechte unterrufen.', 'Я хочу звать/кричать (с unter).'),
+
+(1735, 'beisagen', 'говорить/сказать (с bei)', 'говорити/сказати (з bei)', 'regular', 'sagt', 'sagte', 'haben', 'B1', 'Du solltest beisagen.', 'Я хочу говорить/сказать (с bei).')
+
+(1736, 'nachsagen', 'говорить/сказать (с nach)', 'говорити/сказати (з nach)', 'regular', 'nachgesagt', 'sagte nach', 'haben', 'B1', 'Es ist wichtig zu nachsagen.', 'Я хочу говорить/сказать (с nach).')
+
+(1737, 'vorsagen', 'говорить/сказать (с vor)', 'говорити/сказати (з vor)', 'regular', 'vorgesagt', 'sagte vor', 'haben', 'B1', 'Kannst du vorsagen?', 'Я хочу говорить/сказать (с vor).')
+
+(1738, 'zusagen', 'говорить/сказать (с zu)', 'говорити/сказати (з zu)', 'regular', 'zugesagt', 'sagte zu', 'haben', 'B1', 'Wir koennen zusagen.', 'Я хочу говорить/сказать (с zu).')
+
+(1739, 'durchsagen', 'говорить/сказать (с durch)', 'говорити/сказати (з durch)', 'regular', 'durchgesagt', 'sagte durch', 'haben', 'B1', 'Wir koennen durchsagen.', 'Я хочу говорить/сказать (с durch).')
+
+(1740, 'umsagen', 'говорить/сказать (с um)', 'говорити/сказати (з um)', 'regular', 'geumsagt', 'umsagte', 'haben', 'B1', 'Kannst du umsagen?', 'Я хочу говорить/сказать (с um).')
+
+(1741, 'wegsagen', 'говорить/сказать (с weg)', 'говорити/сказати (з weg)', 'regular', 'weggesagt', 'sagte weg', 'haben', 'B1', 'Sie moechte wegsagen.', 'Я хочу говорить/сказать (с weg).')
+
+(1742, 'weitersagen', 'говорить/сказать (с weiter)', 'говорити/сказати (з weiter)', 'regular', 'weitergesagt', 'sagte weiter', 'haben', 'B1', 'Es ist wichtig zu weitersagen.', 'Я хочу говорить/сказать (с weiter).')
+
+(1743, 'hersagen', 'говорить/сказать (с her)', 'говорити/сказати (з her)', 'regular', 'hergesagt', 'sagte her', 'haben', 'B1', 'Sie moechte hersagen.', 'Я хочу говорить/сказать (с her).')
+
+(1744, 'hinsagen', 'говорить/сказать (с hin)', 'говорити/сказати (з hin)', 'regular', 'hingesagt', 'sagte hin', 'haben', 'B1', 'Es ist wichtig zu hinsagen.', 'Я хочу говорить/сказать (с hin).')
+
+(1745, 'dasagen', 'говорить/сказать (с da)', 'говорити/сказати (з da)', 'regular', 'dagesagt', 'sagte da', 'haben', 'B1', 'Kannst du dasagen?', 'Я хочу говорить/сказать (с da).')
+
+(1746, 'emporsagen', 'говорить/сказать (с empor)', 'говорити/сказати (з empor)', 'regular', 'sagt', 'sagte', 'haben', 'B1', 'Ich moechte emporsagen.', 'Я хочу говорить/сказать (с empor).')
+
+(1747, 'entlangsagen', 'говорить/сказать (с entlang)', 'говорити/сказати (з entlang)', 'regular', 'sagt', 'sagte', 'haben', 'B1', 'Er moechte entlangsagen.', 'Я хочу говорить/сказать (с entlang).')
+
+(1748, 'entgegensagen', 'говорить/сказать (с entgegen)', 'говорити/сказати (з entgegen)', 'regular', 'sagt', 'sagte', 'haben', 'B1', 'Kannst du entgegensagen?', 'Я хочу говорить/сказать (с entgegen).')
+
+(1749, 'gegensagen', 'говорить/сказать (с gegen)', 'говорити/сказати (з gegen)', 'regular', 'gegensagt', 'gegensagte', 'haben', 'B1', 'Es ist wichtig zu gegensagen.', 'Я хочу говорить/сказать (с gegen).')
+
+(1750, 'heruntersagen', 'говорить/сказать (с herunter)', 'говорити/сказати (з herunter)', 'regular', 'heruntergesagt', 'sagte herunter', 'haben', 'B1', 'Er moechte heruntersagen.', 'Я хочу говорить/сказать (с herunter).')
+
+(1751, 'hinuntersagen', 'говорить/сказать (с hinunter)', 'говорити/сказати (з hinunter)', 'regular', 'hinuntergesagt', 'sagte hinunter', 'haben', 'B1', 'Sie moechte hinuntersagen.', 'Я хочу говорить/сказать (с hinunter).')
+
+(1752, 'hinzusagen', 'говорить/сказать (с hinzu)', 'говорити/сказати (з hinzu)', 'regular', 'hingezusagt', 'zusagte hin', 'haben', 'B1', 'Du solltest hinzusagen.', 'Я хочу говорить/сказать (с hinzu).')
+
+(1753, 'festsagen', 'говорить/сказать (с fest)', 'говорити/сказати (з fest)', 'regular', 'festgesagt', 'sagte fest', 'haben', 'B1', 'Er moechte festsagen.', 'Я хочу говорить/сказать (с fest).')
+
+(1754, 'fortsagen', 'говорить/сказать (с fort)', 'говорити/сказати (з fort)', 'regular', 'fortgesagt', 'sagte fort', 'haben', 'B1', 'Er moechte fortsagen.', 'Я хочу говорить/сказать (с fort).')
+
+(1755, 'gegenuebersagen', 'говорить/сказать (с gegenueber)', 'говорити/сказати (з gegenueber)', 'regular', 'gegenuebersagt', 'gegenuebersagte', 'haben', 'B1', 'Kannst du gegenuebersagen?', 'Я хочу говорить/сказать (с gegenueber).')
+
+(1756, 'lossagen', 'говорить/сказать (с los)', 'говорити/сказати (з los)', 'regular', 'losgesagt', 'sagte los', 'haben', 'B1', 'Es ist wichtig zu lossagen.', 'Я хочу говорить/сказать (с los).')
+
+(1757, 'niedersagen', 'говорить/сказать (с nieder)', 'говорити/сказати (з nieder)', 'regular', 'niedergesagt', 'sagte nieder', 'haben', 'B1', 'Ich moechte niedersagen.', 'Я хочу говорить/сказать (с nieder).')
+
+(1758, 'ransagen', 'говорить/сказать (с ran)', 'говорити/сказати (з ran)', 'regular', 'rangesagt', 'sagte ran', 'haben', 'B1', 'Wir muessen ransagen.', 'Я хочу говорить/сказать (с ran).')
+
+(1759, 'voransagen', 'говорить/сказать (с voran)', 'говорити/сказати (з voran)', 'regular', 'vorangesagt', 'sagte voran', 'haben', 'B1', 'Er moechte voransagen.', 'Я хочу говорить/сказать (с voran).')
+
+(1760, 'vorbeisagen', 'говорить/сказать (с vorbei)', 'говорити/сказати (з vorbei)', 'regular', 'vorbeigesagt', 'sagte vorbei', 'haben', 'B1', 'Ich moechte vorbeisagen.', 'Я хочу говорить/сказать (с vorbei).')
+
+(1761, 'vorhersagen', 'говорить/сказать (с vorher)', 'говорити/сказати (з vorher)', 'regular', 'vorhergesagt', 'sagte vorher', 'haben', 'B1', 'Er moechte vorhersagen.', 'Я хочу говорить/сказать (с vorher).')
+
+(1762, 'vorwaertssagen', 'говорить/сказать (с vorwaerts)', 'говорити/сказати (з vorwaerts)', 'regular', 'vorgewaertssagt', 'waertssagte vor', 'haben', 'B1', 'Wir koennen vorwaertssagen.', 'Я хочу говорить/сказать (с vorwaerts).')
+
+(1763, 'zurechtsagen', 'говорить/сказать (с zurecht)', 'говорити/сказати (з zurecht)', 'regular', 'zurechtgesagt', 'sagte zurecht', 'haben', 'B1', 'Kannst du zurechtsagen?', 'Я хочу говорить/сказать (с zurecht).')
+
+(1764, 'zuruecksagen', 'говорить/сказать (с zurueck)', 'говорити/сказати (з zurueck)', 'regular', 'zugeruecksagt', 'ruecksagte zu', 'haben', 'B1', 'Wir muessen zuruecksagen.', 'Я хочу говорить/сказать (с zurueck).')
+
+(1765, 'zusammensagen', 'говорить/сказать (с zusammen)', 'говорити/сказати (з zusammen)', 'regular', 'zusammengesagt', 'sagte zusammen', 'haben', 'B1', 'Wir muessen zusammensagen.', 'Я хочу говорить/сказать (с zusammen).')
+
+(1766, 'absagen', 'говорить/сказать (с ab)', 'говорити/сказати (з ab)', 'regular', 'abgesagt', 'sagte ab', 'haben', 'B2', 'Es ist wichtig zu absagen.', 'Я хочу говорить/сказать (с ab).')
+
+(1767, 'ansagen', 'говорить/сказать (с an)', 'говорити/сказати (з an)', 'regular', 'angesagt', 'sagte an', 'haben', 'B2', 'Sie moechte ansagen.', 'Я хочу говорить/сказать (с an).')
+
+(1768, 'aufsagen', 'говорить/сказать (с auf)', 'говорити/сказати (з auf)', 'regular', 'aufgesagt', 'sagte auf', 'haben', 'B2', 'Sie moechte aufsagen.', 'Я хочу говорить/сказать (с auf).')
+
+(1769, 'aussagen', 'говорить/сказать (с aus)', 'говорити/сказати (з aus)', 'regular', 'ausgesagt', 'sagte aus', 'haben', 'B2', 'Wir muessen aussagen.', 'Я хочу говорить/сказать (с aus).')
+
+(1770, 'einsagen', 'говорить/сказать (с ein)', 'говорити/сказати (з ein)', 'regular', 'eingesagt', 'sagte ein', 'haben', 'B2', 'Es ist wichtig zu einsagen.', 'Я хочу говорить/сказать (с ein).')
+
+(1771, 'mitsagen', 'говорить/сказать (с mit)', 'говорити/сказати (з mit)', 'regular', 'mitgesagt', 'sagte mit', 'haben', 'B2', 'Ich moechte mitsagen.', 'Я хочу говорить/сказать (с mit).')
+
+(1772, 'hintersagen', 'говорить/сказать (с hinter)', 'говорити/сказати (з hinter)', 'regular', 'hingetersagt', 'tersagte hin', 'haben', 'C1', 'Wir koennen hintersagen.', 'Я хочу говорить/сказать (с hinter).')
+
+(1773, 'uebersagen', 'говорить/сказать (с ueber)', 'говорити/сказати (з ueber)', 'regular', 'geuebersagt', 'uebersagte', 'haben', 'C1', 'Er moechte uebersagen.', 'Я хочу говорить/сказать (с ueber).')
+
+(1774, 'untersagen', 'говорить/сказать (с unter)', 'говорити/сказати (з unter)', 'regular', 'geuntersagt', 'untersagte', 'haben', 'C1', 'Kannst du untersagen?', 'Я хочу говорить/сказать (с unter).')
+
+(1775, 'widersagen', 'говорить/сказать (с wider)', 'говорити/сказати (з wider)', 'regular', 'widergesagt', 'sagte wider', 'haben', 'C1', 'Sie moechte widersagen.', 'Я хочу говорить/сказать (с wider).')
+
+(1776, 'beifuehren', 'вести/руководить (с bei)', 'вести/керувати (з bei)', 'regular', 'fuehrt', 'fuehrte', 'haben', 'B1', 'Du solltest beifuehren.', 'Я хочу вести/руководить (с bei).')
+
+(1777, 'nachfuehren', 'вести/руководить (с nach)', 'вести/керувати (з nach)', 'regular', 'nachgefuehrt', 'fuehrte nach', 'haben', 'B1', 'Er moechte nachfuehren.', 'Я хочу вести/руководить (с nach).')
+
+(1778, 'vorfuehren', 'вести/руководить (с vor)', 'вести/керувати (з vor)', 'regular', 'vorgefuehrt', 'fuehrte vor', 'haben', 'B1', 'Ich moechte vorfuehren.', 'Я хочу вести/руководить (с vor).')
+
+(1779, 'zufuehren', 'вести/руководить (с zu)', 'вести/керувати (з zu)', 'regular', 'zugefuehrt', 'fuehrte zu', 'haben', 'B1', 'Er moechte zufuehren.', 'Я хочу вести/руководить (с zu).')
+
+(1780, 'umfuehren', 'вести/руководить (с um)', 'вести/керувати (з um)', 'regular', 'geumfuehrt', 'umfuehrte', 'haben', 'B1', 'Sie moechte umfuehren.', 'Я хочу вести/руководить (с um).')
+
+(1781, 'wegfuehren', 'вести/руководить (с weg)', 'вести/керувати (з weg)', 'regular', 'weggefuehrt', 'fuehrte weg', 'haben', 'B1', 'Du solltest wegfuehren.', 'Я хочу вести/руководить (с weg).')
+
+(1782, 'weiterfuehren', 'вести/руководить (с weiter)', 'вести/керувати (з weiter)', 'regular', 'weitergefuehrt', 'fuehrte weiter', 'haben', 'B1', 'Wir koennen weiterfuehren.', 'Я хочу вести/руководить (с weiter).')
+
+(1783, 'herfuehren', 'вести/руководить (с her)', 'вести/керувати (з her)', 'regular', 'hergefuehrt', 'fuehrte her', 'haben', 'B1', 'Wir muessen herfuehren.', 'Я хочу вести/руководить (с her).')
+
+(1784, 'hinfuehren', 'вести/руководить (с hin)', 'вести/керувати (з hin)', 'regular', 'hingefuehrt', 'fuehrte hin', 'haben', 'B1', 'Er moechte hinfuehren.', 'Я хочу вести/руководить (с hin).')
+
+(1785, 'dafuehren', 'вести/руководить (с da)', 'вести/керувати (з da)', 'regular', 'dagefuehrt', 'fuehrte da', 'haben', 'B1', 'Es ist wichtig zu dafuehren.', 'Я хочу вести/руководить (с da).')
+
+(1786, 'emporfuehren', 'вести/руководить (с empor)', 'вести/керувати (з empor)', 'regular', 'fuehrt', 'fuehrte', 'haben', 'B1', 'Kannst du emporfuehren?', 'Я хочу вести/руководить (с empor).')
+
+(1787, 'entlangfuehren', 'вести/руководить (с entlang)', 'вести/керувати (з entlang)', 'regular', 'fuehrt', 'fuehrte', 'haben', 'B1', 'Er moechte entlangfuehren.', 'Я хочу вести/руководить (с entlang).')
+
+(1788, 'entgegenfuehren', 'вести/руководить (с entgegen)', 'вести/керувати (з entgegen)', 'regular', 'fuehrt', 'fuehrte', 'haben', 'B1', 'Ich moechte entgegenfuehren.', 'Я хочу вести/руководить (с entgegen).')
+
+(1789, 'gegenfuehren', 'вести/руководить (с gegen)', 'вести/керувати (з gegen)', 'regular', 'gegenfuehrt', 'gegenfuehrte', 'haben', 'B1', 'Wir koennen gegenfuehren.', 'Я хочу вести/руководить (с gegen).')
+
+(1790, 'herunterfuehren', 'вести/руководить (с herunter)', 'вести/керувати (з herunter)', 'regular', 'heruntergefuehrt', 'fuehrte herunter', 'haben', 'B1', 'Er moechte herunterfuehren.', 'Я хочу вести/руководить (с herunter).')
+
+(1791, 'hinunterfuehren', 'вести/руководить (с hinunter)', 'вести/керувати (з hinunter)', 'regular', 'hinuntergefuehrt', 'fuehrte hinunter', 'haben', 'B1', 'Wir muessen hinunterfuehren.', 'Я хочу вести/руководить (с hinunter).')
+
+(1792, 'hinzufuehren', 'вести/руководить (с hinzu)', 'вести/керувати (з hinzu)', 'regular', 'hingezufuehrt', 'zufuehrte hin', 'haben', 'B1', 'Er moechte hinzufuehren.', 'Я хочу вести/руководить (с hinzu).')
+
+(1793, 'festfuehren', 'вести/руководить (с fest)', 'вести/керувати (з fest)', 'regular', 'festgefuehrt', 'fuehrte fest', 'haben', 'B1', 'Du solltest festfuehren.', 'Я хочу вести/руководить (с fest).')
+
+(1794, 'fortfuehren', 'вести/руководить (с fort)', 'вести/керувати (з fort)', 'regular', 'fortgefuehrt', 'fuehrte fort', 'haben', 'B1', 'Er moechte fortfuehren.', 'Я хочу вести/руководить (с fort).')
+
+(1795, 'gegenueberfuehren', 'вести/руководить (с gegenueber)', 'вести/керувати (з gegenueber)', 'regular', 'gegenueberfuehrt', 'gegenueberfuehrte', 'haben', 'B1', 'Wir koennen gegenueberfuehren.', 'Я хочу вести/руководить (с gegenueber).')
+
+(1796, 'losfuehren', 'вести/руководить (с los)', 'вести/керувати (з los)', 'regular', 'losgefuehrt', 'fuehrte los', 'haben', 'B1', 'Kannst du losfuehren?', 'Я хочу вести/руководить (с los).')
+
+(1797, 'niederfuehren', 'вести/руководить (с nieder)', 'вести/керувати (з nieder)', 'regular', 'niedergefuehrt', 'fuehrte nieder', 'haben', 'B1', 'Kannst du niederfuehren?', 'Я хочу вести/руководить (с nieder).')
+
+(1798, 'ranfuehren', 'вести/руководить (с ran)', 'вести/керувати (з ran)', 'regular', 'rangefuehrt', 'fuehrte ran', 'haben', 'B1', 'Du solltest ranfuehren.', 'Я хочу вести/руководить (с ran).')
+
+(1799, 'voranfuehren', 'вести/руководить (с voran)', 'вести/керувати (з voran)', 'regular', 'vorangefuehrt', 'fuehrte voran', 'haben', 'B1', 'Wir muessen voranfuehren.', 'Я хочу вести/руководить (с voran).')
+
+(1800, 'vorausfuehren', 'вести/руководить (с voraus)', 'вести/керувати (з voraus)', 'regular', 'vorausgefuehrt', 'fuehrte voraus', 'haben', 'B1', 'Kannst du vorausfuehren?', 'Я хочу вести/руководить (с voraus).')
+
+(1801, 'vorbeifuehren', 'вести/руководить (с vorbei)', 'вести/керувати (з vorbei)', 'regular', 'vorbeigefuehrt', 'fuehrte vorbei', 'haben', 'B1', 'Sie moechte vorbeifuehren.', 'Я хочу вести/руководить (с vorbei).')
+
+(1802, 'vorherfuehren', 'вести/руководить (с vorher)', 'вести/керувати (з vorher)', 'regular', 'vorhergefuehrt', 'fuehrte vorher', 'haben', 'B1', 'Es ist wichtig zu vorherfuehren.', 'Я хочу вести/руководить (с vorher).')
+
+(1803, 'vorwaertsfuehren', 'вести/руководить (с vorwaerts)', 'вести/керувати (з vorwaerts)', 'regular', 'vorgewaertsfuehrt', 'waertsfuehrte vor', 'haben', 'B1', 'Kannst du vorwaertsfuehren?', 'Я хочу вести/руководить (с vorwaerts).')
+
+(1804, 'zurechtfuehren', 'вести/руководить (с zurecht)', 'вести/керувати (з zurecht)', 'regular', 'zurechtgefuehrt', 'fuehrte zurecht', 'haben', 'B1', 'Wir koennen zurechtfuehren.', 'Я хочу вести/руководить (с zurecht).')
+
+(1805, 'zurueckfuehren', 'вести/руководить (с zurueck)', 'вести/керувати (з zurueck)', 'regular', 'zugerueckfuehrt', 'rueckfuehrte zu', 'haben', 'B1', 'Er moechte zurueckfuehren.', 'Я хочу вести/руководить (с zurueck).')
+
+(1806, 'zusammenfuehren', 'вести/руководить (с zusammen)', 'вести/керувати (з zusammen)', 'regular', 'zusammengefuehrt', 'fuehrte zusammen', 'haben', 'B1', 'Er moechte zusammenfuehren.', 'Я хочу вести/руководить (с zusammen).')
+
+(1807, 'abfuehren', 'вести/руководить (с ab)', 'вести/керувати (з ab)', 'regular', 'abgefuehrt', 'fuehrte ab', 'haben', 'B2', 'Wir koennen abfuehren.', 'Я хочу вести/руководить (с ab).')
+
+(1808, 'ausfuehren', 'вести/руководить (с aus)', 'вести/керувати (з aus)', 'regular', 'ausgefuehrt', 'fuehrte aus', 'haben', 'B2', 'Wir koennen ausfuehren.', 'Я хочу вести/руководить (с aus).')
+
+(1809, 'einfuehren', 'вести/руководить (с ein)', 'вести/керувати (з ein)', 'regular', 'eingefuehrt', 'fuehrte ein', 'haben', 'B2', 'Ich moechte einfuehren.', 'Я хочу вести/руководить (с ein).')
+
+(1810, 'mitfuehren', 'вести/руководить (с mit)', 'вести/керувати (з mit)', 'regular', 'mitgefuehrt', 'fuehrte mit', 'haben', 'B2', 'Wir koennen mitfuehren.', 'Я хочу вести/руководить (с mit).')
+
+(1811, 'hinterfuehren', 'вести/руководить (с hinter)', 'вести/керувати (з hinter)', 'regular', 'hingeterfuehrt', 'terfuehrte hin', 'haben', 'C1', 'Du solltest hinterfuehren.', 'Я хочу вести/руководить (с hinter).')
+
+(1812, 'ueberfuehren', 'вести/руководить (с ueber)', 'вести/керувати (з ueber)', 'regular', 'geueberfuehrt', 'ueberfuehrte', 'haben', 'C1', 'Ich moechte ueberfuehren.', 'Я хочу вести/руководить (с ueber).')
+
+(1813, 'unterfuehren', 'вести/руководить (с unter)', 'вести/керувати (з unter)', 'regular', 'geunterfuehrt', 'unterfuehrte', 'haben', 'C1', 'Du solltest unterfuehren.', 'Я хочу вести/руководить (с unter).')
+
+(1814, 'widerfuehren', 'вести/руководить (с wider)', 'вести/керувати (з wider)', 'regular', 'widergefuehrt', 'fuehrte wider', 'haben', 'C1', 'Wir muessen widerfuehren.', 'Я хочу вести/руководить (с wider).')
+
+(1815, 'beischreiben', 'писать (с bei)', 'писати (з bei)', 'irregular', 'beigeschrieben', 'schrieb bei', 'haben', 'B1', 'Wir muessen beischreiben.', 'Я хочу писать (с bei).'),
+
+(1816, 'nachschreiben', 'писать (с nach)', 'писати (з nach)', 'irregular', 'nachgeschrieben', 'schrieb nach', 'haben', 'B1', 'Kannst du nachschreiben?', 'Я хочу писать (с nach).'),
+
+(1817, 'vorschreiben', 'писать (с vor)', 'писати (з vor)', 'irregular', 'vorgeschrieben', 'schrieb vor', 'haben', 'B1', 'Sie moechte vorschreiben.', 'Я хочу писать (с vor).'),
+
+(1818, 'zuschreiben', 'писать (с zu)', 'писати (з zu)', 'irregular', 'zugeschrieben', 'schrieb zu', 'haben', 'B1', 'Ich moechte zuschreiben.', 'Я хочу писать (с zu).'),
+
+(1819, 'durchschreiben', 'писать (с durch)', 'писати (з durch)', 'irregular', 'durchgeschrieben', 'schrieb durch', 'haben', 'B1', 'Kannst du durchschreiben?', 'Я хочу писать (с durch).'),
+
+(1820, 'wegschreiben', 'писать (с weg)', 'писати (з weg)', 'irregular', 'weggeschrieben', 'schrieb weg', 'haben', 'B1', 'Es ist wichtig zu wegschreiben.', 'Я хочу писать (с weg).'),
+
+(1821, 'weiterschreiben', 'писать (с weiter)', 'писати (з weiter)', 'irregular', 'weitergeschrieben', 'schrieb weiter', 'haben', 'B1', 'Wir koennen weiterschreiben.', 'Я хочу писать (с weiter).'),
+
+(1822, 'herschreiben', 'писать (с her)', 'писати (з her)', 'irregular', 'hergeschrieben', 'schrieb her', 'haben', 'B1', 'Er moechte herschreiben.', 'Я хочу писать (с her).'),
+
+(1823, 'hinschreiben', 'писать (с hin)', 'писати (з hin)', 'irregular', 'hingeschrieben', 'schrieb hin', 'haben', 'B1', 'Es ist wichtig zu hinschreiben.', 'Я хочу писать (с hin).'),
+
+(1824, 'daschreiben', 'писать (с da)', 'писати (з da)', 'irregular', 'dageschrieben', 'schrieb da', 'haben', 'B1', 'Er moechte daschreiben.', 'Я хочу писать (с da).'),
+
+(1825, 'emporschreiben', 'писать (с empor)', 'писати (з empor)', 'irregular', 'emporgeschrieben', 'schrieb empor', 'haben', 'B1', 'Er moechte emporschreiben.', 'Я хочу писать (с empor).'),
+
+(1826, 'entlangschreiben', 'писать (с entlang)', 'писати (з entlang)', 'irregular', 'entlanggeschrieben', 'schrieb entlang', 'haben', 'B1', 'Ich moechte entlangschreiben.', 'Я хочу писать (с entlang).'),
+
+(1827, 'entgegenschreiben', 'писать (с entgegen)', 'писати (з entgegen)', 'irregular', 'entgegengeschrieben', 'schrieb entgegen', 'haben', 'B1', 'Kannst du entgegenschreiben?', 'Я хочу писать (с entgegen).'),
+
+(1828, 'gegenschreiben', 'писать (с gegen)', 'писати (з gegen)', 'irregular', 'gegengeschrieben', 'gegenschrieb', 'haben', 'B1', 'Wir koennen gegenschreiben.', 'Я хочу писать (с gegen).'),
+
+(1829, 'herunterschreiben', 'писать (с herunter)', 'писати (з herunter)', 'irregular', 'heruntergeschrieben', 'schrieb herunter', 'haben', 'B1', 'Du solltest herunterschreiben.', 'Я хочу писать (с herunter).'),
+
+(1830, 'hinunterschreiben', 'писать (с hinunter)', 'писати (з hinunter)', 'irregular', 'hinuntergeschrieben', 'schrieb hinunter', 'haben', 'B1', 'Wir koennen hinunterschreiben.', 'Я хочу писать (с hinunter).'),
+
+(1831, 'hinzuschreiben', 'писать (с hinzu)', 'писати (з hinzu)', 'irregular', 'hinzugeschrieben', 'hinzuschrieb', 'haben', 'B1', 'Kannst du hinzuschreiben?', 'Я хочу писать (с hinzu).'),
+
+(1832, 'festschreiben', 'писать (с fest)', 'писати (з fest)', 'irregular', 'festgeschrieben', 'schrieb fest', 'haben', 'B1', 'Sie moechte festschreiben.', 'Я хочу писать (с fest).'),
+
+(1833, 'fortschreiben', 'писать (с fort)', 'писати (з fort)', 'irregular', 'fortgeschrieben', 'schrieb fort', 'haben', 'B1', 'Es ist wichtig zu fortschreiben.', 'Я хочу писать (с fort).'),
+
+(1834, 'gegenueberschreiben', 'писать (с gegenueber)', 'писати (з gegenueber)', 'irregular', 'gegenuebergeschrieben', 'schrieb gegenueber', 'haben', 'B1', 'Er moechte gegenueberschreiben.', 'Я хочу писать (с gegenueber).'),
+
+(1835, 'losschreiben', 'писать (с los)', 'писати (з los)', 'irregular', 'losgeschrieben', 'schrieb los', 'haben', 'B1', 'Kannst du losschreiben?', 'Я хочу писать (с los).'),
+
+(1836, 'ranschreiben', 'писать (с ran)', 'писати (з ran)', 'irregular', 'rangeschrieben', 'schrieb ran', 'haben', 'B1', 'Er moechte ranschreiben.', 'Я хочу писать (с ran).'),
+
+(1837, 'voranschreiben', 'писать (с voran)', 'писати (з voran)', 'irregular', 'vorangeschrieben', 'schrieb voran', 'haben', 'B1', 'Sie moechte voranschreiben.', 'Я хочу писать (с voran).'),
+
+(1838, 'vorausschreiben', 'писать (с voraus)', 'писати (з voraus)', 'irregular', 'vorausgeschrieben', 'schrieb voraus', 'haben', 'B1', 'Sie moechte vorausschreiben.', 'Я хочу писать (с voraus).'),
+
+(1839, 'vorbeischreiben', 'писать (с vorbei)', 'писати (з vorbei)', 'irregular', 'vorbeigeschrieben', 'schrieb vorbei', 'haben', 'B1', 'Wir muessen vorbeischreiben.', 'Я хочу писать (с vorbei).'),
+
+(1840, 'vorherschreiben', 'писать (с vorher)', 'писати (з vorher)', 'irregular', 'vorhergeschrieben', 'schrieb vorher', 'haben', 'B1', 'Es ist wichtig zu vorherschreiben.', 'Я хочу писать (с vorher).'),
+
+(1841, 'vorwaertsschreiben', 'писать (с vorwaerts)', 'писати (з vorwaerts)', 'irregular', 'vorwaertsgeschrieben', 'schrieb vorwaerts', 'haben', 'B1', 'Du solltest vorwaertsschreiben.', 'Я хочу писать (с vorwaerts).'),
+
+(1842, 'zurechtschreiben', 'писать (с zurecht)', 'писати (з zurecht)', 'irregular', 'zurechtgeschrieben', 'schrieb zurecht', 'haben', 'B1', 'Sie moechte zurechtschreiben.', 'Я хочу писать (с zurecht).'),
+
+(1843, 'zurueckschreiben', 'писать (с zurueck)', 'писати (з zurueck)', 'irregular', 'zurueckgeschrieben', 'schrieb zurueck', 'haben', 'B1', 'Ich moechte zurueckschreiben.', 'Я хочу писать (с zurueck).'),
+
+(1844, 'zusammenschreiben', 'писать (с zusammen)', 'писати (з zusammen)', 'irregular', 'zusammengeschrieben', 'schrieb zusammen', 'haben', 'B1', 'Du solltest zusammenschreiben.', 'Я хочу писать (с zusammen).'),
+
+(1845, 'anschreiben', 'писать (с an)', 'писати (з an)', 'irregular', 'angeschrieben', 'schrieb an', 'haben', 'B2', 'Er moechte anschreiben.', 'Я хочу писать (с an).'),
+
+(1846, 'aufschreiben', 'писать (с auf)', 'писати (з auf)', 'irregular', 'aufgeschrieben', 'schrieb auf', 'haben', 'B2', 'Wir muessen aufschreiben.', 'Я хочу писать (с auf).'),
+
+(1847, 'einschreiben', 'писать (с ein)', 'писати (з ein)', 'irregular', 'eingeschrieben', 'schrieb ein', 'haben', 'B2', 'Wir koennen einschreiben.', 'Я хочу писать (с ein).'),
+
+(1848, 'hinterschreiben', 'писать (с hinter)', 'писати (з hinter)', 'irregular', 'hintergeschrieben', 'hinterschrieb', 'haben', 'C1', 'Wir muessen hinterschreiben.', 'Я хочу писать (с hinter).'),
+
+(1849, 'ueberschreiben', 'писать (с ueber)', 'писати (з ueber)', 'irregular', 'uebergeschrieben', 'ueberschrieb', 'haben', 'C1', 'Wir muessen ueberschreiben.', 'Я хочу писать (с ueber).'),
+
+(1850, 'widerschreiben', 'писать (с wider)', 'писати (з wider)', 'irregular', 'widergeschrieben', 'schrieb wider', 'haben', 'C1', 'Er moechte widerschreiben.', 'Я хочу писать (с wider).'),
+
+(1851, 'beiteilen', 'делить (с bei)', 'ділити (з bei)', 'regular', 'teilt', 'teilte', 'sein', 'B1', 'Er moechte beiteilen.', 'Я хочу делить (с bei).')
+
+(1852, 'nachteilen', 'делить (с nach)', 'ділити (з nach)', 'regular', 'nachgeteilt', 'teilte nach', 'sein', 'B1', 'Wir koennen nachteilen.', 'Я хочу делить (с nach).')
+
+(1853, 'vorteilen', 'делить (с vor)', 'ділити (з vor)', 'regular', 'vorgeteilt', 'teilte vor', 'sein', 'B1', 'Wir koennen vorteilen.', 'Я хочу делить (с vor).')
+
+(1854, 'zuteilen', 'делить (с zu)', 'ділити (з zu)', 'regular', 'zugeteilt', 'teilte zu', 'sein', 'B1', 'Es ist wichtig zu zuteilen.', 'Я хочу делить (с zu).')
+
+(1855, 'durchteilen', 'делить (с durch)', 'ділити (з durch)', 'regular', 'durchgeteilt', 'teilte durch', 'sein', 'B1', 'Kannst du durchteilen?', 'Я хочу делить (с durch).')
+
+(1856, 'umteilen', 'делить (с um)', 'ділити (з um)', 'regular', 'geumteilt', 'umteilte', 'sein', 'B1', 'Wir koennen umteilen.', 'Я хочу делить (с um).')
+
+(1857, 'wegteilen', 'делить (с weg)', 'ділити (з weg)', 'regular', 'weggeteilt', 'teilte weg', 'sein', 'B1', 'Sie moechte wegteilen.', 'Я хочу делить (с weg).')
+
+(1858, 'weiterteilen', 'делить (с weiter)', 'ділити (з weiter)', 'regular', 'weitergeteilt', 'teilte weiter', 'sein', 'B1', 'Wir koennen weiterteilen.', 'Я хочу делить (с weiter).')
+
+(1859, 'herteilen', 'делить (с her)', 'ділити (з her)', 'regular', 'hergeteilt', 'teilte her', 'sein', 'B1', 'Ich moechte herteilen.', 'Я хочу делить (с her).')
+
+(1860, 'hinteilen', 'делить (с hin)', 'ділити (з hin)', 'regular', 'hingeteilt', 'teilte hin', 'sein', 'B1', 'Wir muessen hinteilen.', 'Я хочу делить (с hin).')
+
+(1861, 'dateilen', 'делить (с da)', 'ділити (з da)', 'regular', 'dageteilt', 'teilte da', 'sein', 'B1', 'Du solltest dateilen.', 'Я хочу делить (с da).')
+
+(1862, 'emporteilen', 'делить (с empor)', 'ділити (з empor)', 'regular', 'teilt', 'teilte', 'sein', 'B1', 'Kannst du emporteilen?', 'Я хочу делить (с empor).')
+
+(1863, 'entlangteilen', 'делить (с entlang)', 'ділити (з entlang)', 'regular', 'teilt', 'teilte', 'sein', 'B1', 'Kannst du entlangteilen?', 'Я хочу делить (с entlang).')
+
+(1864, 'entgegenteilen', 'делить (с entgegen)', 'ділити (з entgegen)', 'regular', 'teilt', 'teilte', 'sein', 'B1', 'Du solltest entgegenteilen.', 'Я хочу делить (с entgegen).')
+
+(1865, 'gegenteilen', 'делить (с gegen)', 'ділити (з gegen)', 'regular', 'gegenteilt', 'gegenteilte', 'sein', 'B1', 'Du solltest gegenteilen.', 'Я хочу делить (с gegen).')
+
+(1866, 'herunterteilen', 'делить (с herunter)', 'ділити (з herunter)', 'regular', 'heruntergeteilt', 'teilte herunter', 'sein', 'B1', 'Kannst du herunterteilen?', 'Я хочу делить (с herunter).')
+
+(1867, 'hinunterteilen', 'делить (с hinunter)', 'ділити (з hinunter)', 'regular', 'hinuntergeteilt', 'teilte hinunter', 'sein', 'B1', 'Es ist wichtig zu hinunterteilen.', 'Я хочу делить (с hinunter).')
+
+(1868, 'hinzuteilen', 'делить (с hinzu)', 'ділити (з hinzu)', 'regular', 'hingezuteilt', 'zuteilte hin', 'sein', 'B1', 'Kannst du hinzuteilen?', 'Я хочу делить (с hinzu).')
+
+(1869, 'festteilen', 'делить (с fest)', 'ділити (з fest)', 'regular', 'festgeteilt', 'teilte fest', 'sein', 'B1', 'Sie moechte festteilen.', 'Я хочу делить (с fest).')
+
+(1870, 'fortteilen', 'делить (с fort)', 'ділити (з fort)', 'regular', 'fortgeteilt', 'teilte fort', 'sein', 'B1', 'Er moechte fortteilen.', 'Я хочу делить (с fort).')
+
+(1871, 'gegenueberteilen', 'делить (с gegenueber)', 'ділити (з gegenueber)', 'regular', 'gegenueberteilt', 'gegenueberteilte', 'sein', 'B1', 'Wir muessen gegenueberteilen.', 'Я хочу делить (с gegenueber).')
+
+(1872, 'losteilen', 'делить (с los)', 'ділити (з los)', 'regular', 'losgeteilt', 'teilte los', 'sein', 'B1', 'Wir koennen losteilen.', 'Я хочу делить (с los).')
+
+(1873, 'niederteilen', 'делить (с nieder)', 'ділити (з nieder)', 'regular', 'niedergeteilt', 'teilte nieder', 'sein', 'B1', 'Sie moechte niederteilen.', 'Я хочу делить (с nieder).')
+
+(1874, 'ranteilen', 'делить (с ran)', 'ділити (з ran)', 'regular', 'rangeteilt', 'teilte ran', 'sein', 'B1', 'Sie moechte ranteilen.', 'Я хочу делить (с ran).')
+
+(1875, 'voranteilen', 'делить (с voran)', 'ділити (з voran)', 'regular', 'vorangeteilt', 'teilte voran', 'sein', 'B1', 'Ich moechte voranteilen.', 'Я хочу делить (с voran).')
+
+(1876, 'vorausteilen', 'делить (с voraus)', 'ділити (з voraus)', 'regular', 'vorausgeteilt', 'teilte voraus', 'sein', 'B1', 'Wir muessen vorausteilen.', 'Я хочу делить (с voraus).')
+
+(1877, 'vorbeiteilen', 'делить (с vorbei)', 'ділити (з vorbei)', 'regular', 'vorbeigeteilt', 'teilte vorbei', 'sein', 'B1', 'Ich moechte vorbeiteilen.', 'Я хочу делить (с vorbei).')
+
+(1878, 'vorherteilen', 'делить (с vorher)', 'ділити (з vorher)', 'regular', 'vorhergeteilt', 'teilte vorher', 'sein', 'B1', 'Ich moechte vorherteilen.', 'Я хочу делить (с vorher).')
+
+(1879, 'vorwaertsteilen', 'делить (с vorwaerts)', 'ділити (з vorwaerts)', 'regular', 'vorgewaertsteilt', 'waertsteilte vor', 'sein', 'B1', 'Wir muessen vorwaertsteilen.', 'Я хочу делить (с vorwaerts).')
+
+(1880, 'zurechtteilen', 'делить (с zurecht)', 'ділити (з zurecht)', 'regular', 'zurechtgeteilt', 'teilte zurecht', 'sein', 'B1', 'Wir koennen zurechtteilen.', 'Я хочу делить (с zurecht).')
+
+(1881, 'zurueckteilen', 'делить (с zurueck)', 'ділити (з zurueck)', 'regular', 'zugerueckteilt', 'rueckteilte zu', 'sein', 'B1', 'Ich moechte zurueckteilen.', 'Я хочу делить (с zurueck).')
+
+(1882, 'zusammenteilen', 'делить (с zusammen)', 'ділити (з zusammen)', 'regular', 'zusammengeteilt', 'teilte zusammen', 'sein', 'B1', 'Wir muessen zusammenteilen.', 'Я хочу делить (с zusammen).')
+
+(1883, 'abteilen', 'делить (с ab)', 'ділити (з ab)', 'regular', 'abgeteilt', 'teilte ab', 'sein', 'B2', 'Kannst du abteilen?', 'Я хочу делить (с ab).')
+
+(1884, 'anteilen', 'делить (с an)', 'ділити (з an)', 'regular', 'angeteilt', 'teilte an', 'sein', 'B2', 'Du solltest anteilen.', 'Я хочу делить (с an).')
+
+(1885, 'aufteilen', 'делить (с auf)', 'ділити (з auf)', 'regular', 'aufgeteilt', 'teilte auf', 'sein', 'B2', 'Du solltest aufteilen.', 'Я хочу делить (с auf).')
+
+(1886, 'austeilen', 'делить (с aus)', 'ділити (з aus)', 'regular', 'ausgeteilt', 'teilte aus', 'sein', 'B2', 'Er moechte austeilen.', 'Я хочу делить (с aus).')
+
+(1887, 'einteilen', 'делить (с ein)', 'ділити (з ein)', 'regular', 'eingeteilt', 'teilte ein', 'sein', 'B2', 'Du solltest einteilen.', 'Я хочу делить (с ein).')
+
+(1888, 'hinterteilen', 'делить (с hinter)', 'ділити (з hinter)', 'regular', 'hingeterteilt', 'terteilte hin', 'sein', 'C1', 'Es ist wichtig zu hinterteilen.', 'Я хочу делить (с hinter).')
+
+(1889, 'ueberteilen', 'делить (с ueber)', 'ділити (з ueber)', 'regular', 'geueberteilt', 'ueberteilte', 'sein', 'C1', 'Wir koennen ueberteilen.', 'Я хочу делить (с ueber).')
+
+(1890, 'unterteilen', 'делить (с unter)', 'ділити (з unter)', 'regular', 'geunterteilt', 'unterteilte', 'sein', 'C1', 'Wir muessen unterteilen.', 'Я хочу делить (с unter).')
+
+(1891, 'widerteilen', 'делить (с wider)', 'ділити (з wider)', 'regular', 'widergeteilt', 'teilte wider', 'sein', 'C1', 'Sie moechte widerteilen.', 'Я хочу делить (с wider).')
+
+(1892, 'beigeben', 'давать (с bei)', 'давати (з bei)', 'irregular', 'beigegeben', 'gab bei', 'haben', 'B1', 'Ich moechte beigeben.', 'Я хочу давать (с bei).'),
+
+(1893, 'vorgeben', 'давать (с vor)', 'давати (з vor)', 'irregular', 'vorgegeben', 'gab vor', 'haben', 'B1', 'Es ist wichtig zu vorgeben.', 'Я хочу давать (с vor).'),
+
+(1894, 'zugeben', 'давать (с zu)', 'давати (з zu)', 'irregular', 'zugegeben', 'gab zu', 'haben', 'B1', 'Kannst du zugeben?', 'Я хочу давать (с zu).'),
+
+(1895, 'durchgeben', 'давать (с durch)', 'давати (з durch)', 'irregular', 'durchgegeben', 'gab durch', 'haben', 'B1', 'Wir koennen durchgeben.', 'Я хочу давать (с durch).'),
+
+(1896, 'umgeben', 'давать (с um)', 'давати (з um)', 'irregular', 'umgegeben', 'umgab', 'haben', 'B1', 'Wir koennen umgeben.', 'Я хочу давать (с um).'),
+
+(1897, 'weggeben', 'давать (с weg)', 'давати (з weg)', 'irregular', 'weggegeben', 'gab weg', 'haben', 'B1', 'Wir muessen weggeben.', 'Я хочу давать (с weg).'),
+
+(1898, 'weitergeben', 'давать (с weiter)', 'давати (з weiter)', 'irregular', 'weitergegeben', 'gab weiter', 'haben', 'B1', 'Wir muessen weitergeben.', 'Я хочу давать (с weiter).'),
+
+(1899, 'hergeben', 'давать (с her)', 'давати (з her)', 'irregular', 'hergegeben', 'gab her', 'haben', 'B1', 'Du solltest hergeben.', 'Я хочу давать (с her).'),
+
+(1900, 'hingeben', 'давать (с hin)', 'давати (з hin)', 'irregular', 'hingegeben', 'gab hin', 'haben', 'B1', 'Es ist wichtig zu hingeben.', 'Я хочу давать (с hin).'),
+
+(1901, 'dageben', 'давать (с da)', 'давати (з da)', 'irregular', 'dagegeben', 'gab da', 'haben', 'B1', 'Sie moechte dageben.', 'Я хочу давать (с da).'),
+
+(1902, 'emporgeben', 'давать (с empor)', 'давати (з empor)', 'irregular', 'emporgegeben', 'gab empor', 'haben', 'B1', 'Ich moechte emporgeben.', 'Я хочу давать (с empor).'),
+
+(1903, 'entlanggeben', 'давать (с entlang)', 'давати (з entlang)', 'irregular', 'entlanggegeben', 'gab entlang', 'haben', 'B1', 'Du solltest entlanggeben.', 'Я хочу давать (с entlang).'),
+
+(1904, 'entgegengeben', 'давать (с entgegen)', 'давати (з entgegen)', 'irregular', 'entgegengegeben', 'gab entgegen', 'haben', 'B1', 'Es ist wichtig zu entgegengeben.', 'Я хочу давать (с entgegen).'),
+
+(1905, 'gegengeben', 'давать (с gegen)', 'давати (з gegen)', 'irregular', 'gegengegeben', 'gegengab', 'haben', 'B1', 'Ich moechte gegengeben.', 'Я хочу давать (с gegen).'),
+
+(1906, 'heruntergeben', 'давать (с herunter)', 'давати (з herunter)', 'irregular', 'heruntergegeben', 'gab herunter', 'haben', 'B1', 'Du solltest heruntergeben.', 'Я хочу давать (с herunter).'),
+
+(1907, 'hinuntergeben', 'давать (с hinunter)', 'давати (з hinunter)', 'irregular', 'hinuntergegeben', 'gab hinunter', 'haben', 'B1', 'Wir koennen hinuntergeben.', 'Я хочу давать (с hinunter).'),
+
+(1908, 'hinzugeben', 'давать (с hinzu)', 'давати (з hinzu)', 'irregular', 'hinzugegeben', 'hinzugab', 'haben', 'B1', 'Ich moechte hinzugeben.', 'Я хочу давать (с hinzu).'),
+
+(1909, 'festgeben', 'давать (с fest)', 'давати (з fest)', 'irregular', 'festgegeben', 'gab fest', 'haben', 'B1', 'Ich moechte festgeben.', 'Я хочу давать (с fest).'),
+
+(1910, 'fortgeben', 'давать (с fort)', 'давати (з fort)', 'irregular', 'fortgegeben', 'gab fort', 'haben', 'B1', 'Wir muessen fortgeben.', 'Я хочу давать (с fort).'),
+
+(1911, 'gegenuebergeben', 'давать (с gegenueber)', 'давати (з gegenueber)', 'irregular', 'gegenuebergegeben', 'gab gegenueber', 'haben', 'B1', 'Kannst du gegenuebergeben?', 'Я хочу давать (с gegenueber).'),
+
+(1912, 'losgeben', 'давать (с los)', 'давати (з los)', 'irregular', 'losgegeben', 'gab los', 'haben', 'B1', 'Kannst du losgeben?', 'Я хочу давать (с los).'),
+
+(1913, 'niedergeben', 'давать (с nieder)', 'давати (з nieder)', 'irregular', 'niedergegeben', 'gab nieder', 'haben', 'B1', 'Du solltest niedergeben.', 'Я хочу давать (с nieder).'),
+
+(1914, 'rangeben', 'давать (с ran)', 'давати (з ran)', 'irregular', 'rangegeben', 'gab ran', 'haben', 'B1', 'Sie moechte rangeben.', 'Я хочу давать (с ran).'),
+
+(1915, 'vorangeben', 'давать (с voran)', 'давати (з voran)', 'irregular', 'vorangegeben', 'gab voran', 'haben', 'B1', 'Wir koennen vorangeben.', 'Я хочу давать (с voran).'),
+
+(1916, 'vorausgeben', 'давать (с voraus)', 'давати (з voraus)', 'irregular', 'vorausgegeben', 'gab voraus', 'haben', 'B1', 'Ich moechte vorausgeben.', 'Я хочу давать (с voraus).'),
+
+(1917, 'vorbeigeben', 'давать (с vorbei)', 'давати (з vorbei)', 'irregular', 'vorbeigegeben', 'gab vorbei', 'haben', 'B1', 'Es ist wichtig zu vorbeigeben.', 'Я хочу давать (с vorbei).'),
+
+(1918, 'vorhergeben', 'давать (с vorher)', 'давати (з vorher)', 'irregular', 'vorhergegeben', 'gab vorher', 'haben', 'B1', 'Ich moechte vorhergeben.', 'Я хочу давать (с vorher).'),
+
+(1919, 'vorwaertsgeben', 'давать (с vorwaerts)', 'давати (з vorwaerts)', 'irregular', 'vorwaertsgegeben', 'gab vorwaerts', 'haben', 'B1', 'Wir muessen vorwaertsgeben.', 'Я хочу давать (с vorwaerts).'),
+
+(1920, 'zurechtgeben', 'давать (с zurecht)', 'давати (з zurecht)', 'irregular', 'zurechtgegeben', 'gab zurecht', 'haben', 'B1', 'Du solltest zurechtgeben.', 'Я хочу давать (с zurecht).'),
+
+(1921, 'zurueckgeben', 'давать (с zurueck)', 'давати (з zurueck)', 'irregular', 'zurueckgegeben', 'gab zurueck', 'haben', 'B1', 'Wir muessen zurueckgeben.', 'Я хочу давать (с zurueck).'),
+
+(1922, 'zusammengeben', 'давать (с zusammen)', 'давати (з zusammen)', 'irregular', 'zusammengegeben', 'gab zusammen', 'haben', 'B1', 'Sie moechte zusammengeben.', 'Я хочу давать (с zusammen).'),
+
+(1923, 'angeben', 'давать (с an)', 'давати (з an)', 'irregular', 'angegeben', 'gab an', 'haben', 'B2', 'Ich moechte angeben.', 'Я хочу давать (с an).'),
+
+(1924, 'eingeben', 'давать (с ein)', 'давати (з ein)', 'irregular', 'eingegeben', 'gab ein', 'haben', 'B2', 'Es ist wichtig zu eingeben.', 'Я хочу давать (с ein).'),
+
+(1925, 'mitgeben', 'давать (с mit)', 'давати (з mit)', 'irregular', 'mitgegeben', 'gab mit', 'haben', 'B2', 'Du solltest mitgeben.', 'Я хочу давать (с mit).'),
+
+(1926, 'hintergeben', 'давать (с hinter)', 'давати (з hinter)', 'irregular', 'hintergegeben', 'hintergab', 'haben', 'C1', 'Du solltest hintergeben.', 'Я хочу давать (с hinter).'),
+
+(1927, 'uebergeben', 'давать (с ueber)', 'давати (з ueber)', 'irregular', 'uebergegeben', 'uebergab', 'haben', 'C1', 'Ich moechte uebergeben.', 'Я хочу давать (с ueber).'),
+
+(1928, 'untergeben', 'давать (с unter)', 'давати (з unter)', 'irregular', 'untergegeben', 'untergab', 'haben', 'C1', 'Wir koennen untergeben.', 'Я хочу давать (с unter).'),
+
+(1929, 'widergeben', 'давать (с wider)', 'давати (з wider)', 'irregular', 'widergegeben', 'gab wider', 'haben', 'C1', 'Wir muessen widergeben.', 'Я хочу давать (с wider).'),
+
+(1930, 'beinehmen', 'брать (с bei)', 'брати (з bei)', 'irregular', 'beigenommen', 'nahm bei', 'haben', 'B1', 'Ich moechte beinehmen.', 'Я хочу брать (с bei).'),
+
+(1931, 'nachnehmen', 'брать (с nach)', 'брати (з nach)', 'irregular', 'nachgenommen', 'nahm nach', 'haben', 'B1', 'Sie moechte nachnehmen.', 'Я хочу брать (с nach).'),
+
+(1932, 'vornehmen', 'брать (с vor)', 'брати (з vor)', 'irregular', 'vorgenommen', 'nahm vor', 'haben', 'B1', 'Sie moechte vornehmen.', 'Я хочу брать (с vor).'),
+
+(1933, 'durchnehmen', 'брать (с durch)', 'брати (з durch)', 'irregular', 'durchgenommen', 'nahm durch', 'haben', 'B1', 'Du solltest durchnehmen.', 'Я хочу брать (с durch).'),
+
+(1934, 'umnehmen', 'брать (с um)', 'брати (з um)', 'irregular', 'umgenommen', 'umnahm', 'haben', 'B1', 'Sie moechte umnehmen.', 'Я хочу брать (с um).'),
+
+(1935, 'wegnehmen', 'брать (с weg)', 'брати (з weg)', 'irregular', 'weggenommen', 'nahm weg', 'haben', 'B1', 'Sie moechte wegnehmen.', 'Я хочу брать (с weg).'),
+
+(1936, 'weiternehmen', 'брать (с weiter)', 'брати (з weiter)', 'irregular', 'weitergenommen', 'nahm weiter', 'haben', 'B1', 'Wir muessen weiternehmen.', 'Я хочу брать (с weiter).'),
+
+(1937, 'hernehmen', 'брать (с her)', 'брати (з her)', 'irregular', 'hergenommen', 'nahm her', 'haben', 'B1', 'Er moechte hernehmen.', 'Я хочу брать (с her).'),
+
+(1938, 'hinnehmen', 'брать (с hin)', 'брати (з hin)', 'irregular', 'hingenommen', 'nahm hin', 'haben', 'B1', 'Er moechte hinnehmen.', 'Я хочу брать (с hin).'),
+
+(1939, 'danehmen', 'брать (с da)', 'брати (з da)', 'irregular', 'dagenommen', 'nahm da', 'haben', 'B1', 'Wir muessen danehmen.', 'Я хочу брать (с da).'),
+
+(1940, 'empornehmen', 'брать (с empor)', 'брати (з empor)', 'irregular', 'emporgenommen', 'nahm empor', 'haben', 'B1', 'Sie moechte empornehmen.', 'Я хочу брать (с empor).'),
+
+(1941, 'entlangnehmen', 'брать (с entlang)', 'брати (з entlang)', 'irregular', 'entlanggenommen', 'nahm entlang', 'haben', 'B1', 'Wir muessen entlangnehmen.', 'Я хочу брать (с entlang).'),
+
+(1942, 'entgegennehmen', 'брать (с entgegen)', 'брати (з entgegen)', 'irregular', 'entgegengenommen', 'nahm entgegen', 'haben', 'B1', 'Sie moechte entgegennehmen.', 'Я хочу брать (с entgegen).'),
+
+(1943, 'gegennehmen', 'брать (с gegen)', 'брати (з gegen)', 'irregular', 'gegengenommen', 'gegennahm', 'haben', 'B1', 'Wir koennen gegennehmen.', 'Я хочу брать (с gegen).'),
+
+(1944, 'herunternehmen', 'брать (с herunter)', 'брати (з herunter)', 'irregular', 'heruntergenommen', 'nahm herunter', 'haben', 'B1', 'Wir koennen herunternehmen.', 'Я хочу брать (с herunter).'),
+
+(1945, 'hinunternehmen', 'брать (с hinunter)', 'брати (з hinunter)', 'irregular', 'hinuntergenommen', 'nahm hinunter', 'haben', 'B1', 'Er moechte hinunternehmen.', 'Я хочу брать (с hinunter).'),
+
+(1946, 'hinzunehmen', 'брать (с hinzu)', 'брати (з hinzu)', 'irregular', 'hinzugenommen', 'hinzunahm', 'haben', 'B1', 'Es ist wichtig zu hinzunehmen.', 'Я хочу брать (с hinzu).'),
+
+(1947, 'fortnehmen', 'брать (с fort)', 'брати (з fort)', 'irregular', 'fortgenommen', 'nahm fort', 'haben', 'B1', 'Ich moechte fortnehmen.', 'Я хочу брать (с fort).'),
+
+(1948, 'gegenuebernehmen', 'брать (с gegenueber)', 'брати (з gegenueber)', 'irregular', 'gegenuebergenommen', 'nahm gegenueber', 'haben', 'B1', 'Er moechte gegenuebernehmen.', 'Я хочу брать (с gegenueber).'),
+
+(1949, 'losnehmen', 'брать (с los)', 'брати (з los)', 'irregular', 'losgenommen', 'nahm los', 'haben', 'B1', 'Er moechte losnehmen.', 'Я хочу брать (с los).'),
+
+(1950, 'niedernehmen', 'брать (с nieder)', 'брати (з nieder)', 'irregular', 'niedergenommen', 'nahm nieder', 'haben', 'B1', 'Wir koennen niedernehmen.', 'Я хочу брать (с nieder).'),
+
+(1951, 'rannehmen', 'брать (с ran)', 'брати (з ran)', 'irregular', 'rangenommen', 'nahm ran', 'haben', 'B1', 'Wir koennen rannehmen.', 'Я хочу брать (с ran).'),
+
+(1952, 'vorannehmen', 'брать (с voran)', 'брати (з voran)', 'irregular', 'vorangenommen', 'nahm voran', 'haben', 'B1', 'Wir muessen vorannehmen.', 'Я хочу брать (с voran).'),
+
+(1953, 'vorausnehmen', 'брать (с voraus)', 'брати (з voraus)', 'irregular', 'vorausgenommen', 'nahm voraus', 'haben', 'B1', 'Es ist wichtig zu vorausnehmen.', 'Я хочу брать (с voraus).'),
+
+(1954, 'vorbeinehmen', 'брать (с vorbei)', 'брати (з vorbei)', 'irregular', 'vorbeigenommen', 'nahm vorbei', 'haben', 'B1', 'Es ist wichtig zu vorbeinehmen.', 'Я хочу брать (с vorbei).'),
+
+(1955, 'vorhernehmen', 'брать (с vorher)', 'брати (з vorher)', 'irregular', 'vorhergenommen', 'nahm vorher', 'haben', 'B1', 'Ich moechte vorhernehmen.', 'Я хочу брать (с vorher).'),
+
+(1956, 'vorwaertsnehmen', 'брать (с vorwaerts)', 'брати (з vorwaerts)', 'irregular', 'vorwaertsgenommen', 'nahm vorwaerts', 'haben', 'B1', 'Kannst du vorwaertsnehmen?', 'Я хочу брать (с vorwaerts).'),
+
+(1957, 'zurechtnehmen', 'брать (с zurecht)', 'брати (з zurecht)', 'irregular', 'zurechtgenommen', 'nahm zurecht', 'haben', 'B1', 'Du solltest zurechtnehmen.', 'Я хочу брать (с zurecht).'),
+
+(1958, 'zuruecknehmen', 'брать (с zurueck)', 'брати (з zurueck)', 'irregular', 'zurueckgenommen', 'nahm zurueck', 'haben', 'B1', 'Er moechte zuruecknehmen.', 'Я хочу брать (с zurueck).'),
+
+(1959, 'zusammennehmen', 'брать (с zusammen)', 'брати (з zusammen)', 'irregular', 'zusammengenommen', 'nahm zusammen', 'haben', 'B1', 'Er moechte zusammennehmen.', 'Я хочу брать (с zusammen).'),
+
+(1960, 'ausnehmen', 'брать (с aus)', 'брати (з aus)', 'irregular', 'ausgenommen', 'nahm aus', 'haben', 'B2', 'Wir koennen ausnehmen.', 'Я хочу брать (с aus).'),
+
+(1961, 'hinternehmen', 'брать (с hinter)', 'брати (з hinter)', 'irregular', 'hintergenommen', 'hinternahm', 'haben', 'C1', 'Kannst du hinternehmen?', 'Я хочу брать (с hinter).'),
+
+(1962, 'uebernehmen', 'брать (с ueber)', 'брати (з ueber)', 'irregular', 'uebergenommen', 'uebernahm', 'haben', 'C1', 'Wir muessen uebernehmen.', 'Я хочу брать (с ueber).'),
+
+(1963, 'widernehmen', 'брать (с wider)', 'брати (з wider)', 'irregular', 'widergenommen', 'nahm wider', 'haben', 'C1', 'Er moechte widernehmen.', 'Я хочу брать (с wider).'),
+
+(1964, 'beifahren', 'ехать (с bei)', 'їхати (з bei)', 'irregular', 'beigefahren', 'fuhr bei', 'sein', 'B1', 'Sie moechte beifahren.', 'Я хочу ехать (с bei).'),
+
+(1965, 'nachfahren', 'ехать (с nach)', 'їхати (з nach)', 'irregular', 'nachgefahren', 'fuhr nach', 'sein', 'B1', 'Sie moechte nachfahren.', 'Я хочу ехать (с nach).'),
+
+(1966, 'vorfahren', 'ехать (с vor)', 'їхати (з vor)', 'irregular', 'vorgefahren', 'fuhr vor', 'sein', 'B1', 'Du solltest vorfahren.', 'Я хочу ехать (с vor).'),
+
+(1967, 'zufahren', 'ехать (с zu)', 'їхати (з zu)', 'irregular', 'zugefahren', 'fuhr zu', 'sein', 'B1', 'Wir muessen zufahren.', 'Я хочу ехать (с zu).'),
+
+(1968, 'umfahren', 'ехать (с um)', 'їхати (з um)', 'irregular', 'umgefahren', 'umfuhr', 'sein', 'B1', 'Es ist wichtig zu umfahren.', 'Я хочу ехать (с um).'),
+
+(1969, 'wegfahren', 'ехать (с weg)', 'їхати (з weg)', 'irregular', 'weggefahren', 'fuhr weg', 'sein', 'B1', 'Es ist wichtig zu wegfahren.', 'Я хочу ехать (с weg).'),
+
+(1970, 'herfahren', 'ехать (с her)', 'їхати (з her)', 'irregular', 'hergefahren', 'fuhr her', 'sein', 'B1', 'Sie moechte herfahren.', 'Я хочу ехать (с her).'),
+
+(1971, 'hinfahren', 'ехать (с hin)', 'їхати (з hin)', 'irregular', 'hingefahren', 'fuhr hin', 'sein', 'B1', 'Wir muessen hinfahren.', 'Я хочу ехать (с hin).'),
+
+(1972, 'dafahren', 'ехать (с da)', 'їхати (з da)', 'irregular', 'dagefahren', 'fuhr da', 'sein', 'B1', 'Kannst du dafahren?', 'Я хочу ехать (с da).'),
+
+(1973, 'emporfahren', 'ехать (с empor)', 'їхати (з empor)', 'irregular', 'emporgefahren', 'fuhr empor', 'sein', 'B1', 'Wir koennen emporfahren.', 'Я хочу ехать (с empor).'),
+
+(1974, 'entlangfahren', 'ехать (с entlang)', 'їхати (з entlang)', 'irregular', 'entlanggefahren', 'fuhr entlang', 'sein', 'B1', 'Du solltest entlangfahren.', 'Я хочу ехать (с entlang).'),
+
+(1975, 'entgegenfahren', 'ехать (с entgegen)', 'їхати (з entgegen)', 'irregular', 'entgegengefahren', 'fuhr entgegen', 'sein', 'B1', 'Ich moechte entgegenfahren.', 'Я хочу ехать (с entgegen).'),
+
+(1976, 'gegenfahren', 'ехать (с gegen)', 'їхати (з gegen)', 'irregular', 'gegengefahren', 'gegenfuhr', 'sein', 'B1', 'Wir muessen gegenfahren.', 'Я хочу ехать (с gegen).'),
+
+(1977, 'herunterfahren', 'ехать (с herunter)', 'їхати (з herunter)', 'irregular', 'heruntergefahren', 'fuhr herunter', 'sein', 'B1', 'Wir muessen herunterfahren.', 'Я хочу ехать (с herunter).'),
+
+(1978, 'hinunterfahren', 'ехать (с hinunter)', 'їхати (з hinunter)', 'irregular', 'hinuntergefahren', 'fuhr hinunter', 'sein', 'B1', 'Du solltest hinunterfahren.', 'Я хочу ехать (с hinunter).'),
+
+(1979, 'hinzufahren', 'ехать (с hinzu)', 'їхати (з hinzu)', 'irregular', 'hinzugefahren', 'hinzufuhr', 'sein', 'B1', 'Er moechte hinzufahren.', 'Я хочу ехать (с hinzu).'),
+
+(1980, 'voranfahren', 'ехать (с voran)', 'їхати (з voran)', 'irregular', 'vorangefahren', 'fuhr voran', 'sein', 'B1', 'Du solltest voranfahren.', 'Я хочу ехать (с voran).'),
+
+(1981, 'vorausfahren', 'ехать (с voraus)', 'їхати (з voraus)', 'irregular', 'vorausgefahren', 'fuhr voraus', 'sein', 'B1', 'Kannst du vorausfahren?', 'Я хочу ехать (с voraus).'),
+
+(1982, 'vorbeifahren', 'ехать (с vorbei)', 'їхати (з vorbei)', 'irregular', 'vorbeigefahren', 'fuhr vorbei', 'sein', 'B1', 'Wir koennen vorbeifahren.', 'Я хочу ехать (с vorbei).'),
+
+(1983, 'vorherfahren', 'ехать (с vorher)', 'їхати (з vorher)', 'irregular', 'vorhergefahren', 'fuhr vorher', 'sein', 'B1', 'Wir koennen vorherfahren.', 'Я хочу ехать (с vorher).'),
+
+(1984, 'vorwaertsfahren', 'ехать (с vorwaerts)', 'їхати (з vorwaerts)', 'irregular', 'vorwaertsgefahren', 'fuhr vorwaerts', 'sein', 'B1', 'Wir muessen vorwaertsfahren.', 'Я хочу ехать (с vorwaerts).'),
+
+(1985, 'anfahren', 'ехать (с an)', 'їхати (з an)', 'irregular', 'angefahren', 'fuhr an', 'sein', 'B2', 'Wir koennen anfahren.', 'Я хочу ехать (с an).'),
+
+(1986, 'auffahren', 'ехать (с auf)', 'їхати (з auf)', 'irregular', 'aufgefahren', 'fuhr auf', 'sein', 'B2', 'Du solltest auffahren.', 'Я хочу ехать (с auf).'),
+
+(1987, 'ausfahren', 'ехать (с aus)', 'їхати (з aus)', 'irregular', 'ausgefahren', 'fuhr aus', 'sein', 'B2', 'Kannst du ausfahren?', 'Я хочу ехать (с aus).'),
+
+(1988, 'einfahren', 'ехать (с ein)', 'їхати (з ein)', 'irregular', 'eingefahren', 'fuhr ein', 'sein', 'B2', 'Kannst du einfahren?', 'Я хочу ехать (с ein).'),
+
+(1989, 'hinterfahren', 'ехать (с hinter)', 'їхати (з hinter)', 'irregular', 'hintergefahren', 'hinterfuhr', 'sein', 'C1', 'Du solltest hinterfahren.', 'Я хочу ехать (с hinter).'),
+
+(1990, 'ueberfahren', 'ехать (с ueber)', 'їхати (з ueber)', 'irregular', 'uebergefahren', 'ueberfuhr', 'sein', 'C1', 'Er moechte ueberfahren.', 'Я хочу ехать (с ueber).'),
+
+(1991, 'unterfahren', 'ехать (с unter)', 'їхати (з unter)', 'irregular', 'untergefahren', 'unterfuhr', 'sein', 'C1', 'Wir muessen unterfahren.', 'Я хочу ехать (с unter).'),
+
+(1992, 'widerfahren', 'ехать (с wider)', 'їхати (з wider)', 'irregular', 'widergefahren', 'fuhr wider', 'sein', 'C1', 'Ich moechte widerfahren.', 'Я хочу ехать (с wider).'),
+
+(1993, 'beigehen', 'идти (с bei)', 'йти (з bei)', 'irregular', 'beigegangen', 'ging bei', 'sein', 'B1', 'Er moechte beigehen.', 'Я хочу идти (с bei).'),
+
+(1994, 'nachgehen', 'идти (с nach)', 'йти (з nach)', 'irregular', 'nachgegangen', 'ging nach', 'sein', 'B1', 'Er moechte nachgehen.', 'Я хочу идти (с nach).'),
+
+(1995, 'vorgehen', 'идти (с vor)', 'йти (з vor)', 'irregular', 'vorgegangen', 'ging vor', 'sein', 'B1', 'Sie moechte vorgehen.', 'Я хочу идти (с vor).'),
+
+(1996, 'zugehen', 'идти (с zu)', 'йти (з zu)', 'irregular', 'zugegangen', 'ging zu', 'sein', 'B1', 'Wir koennen zugehen.', 'Я хочу идти (с zu).'),
+
+(1997, 'durchgehen', 'идти (с durch)', 'йти (з durch)', 'irregular', 'durchgegangen', 'ging durch', 'sein', 'B1', 'Wir muessen durchgehen.', 'Я хочу идти (с durch).'),
+
+(1998, 'weggehen', 'идти (с weg)', 'йти (з weg)', 'irregular', 'weggegangen', 'ging weg', 'sein', 'B1', 'Wir koennen weggehen.', 'Я хочу идти (с weg).'),
+
+(1999, 'hergehen', 'идти (с her)', 'йти (з her)', 'irregular', 'hergegangen', 'ging her', 'sein', 'B1', 'Du solltest hergehen.', 'Я хочу идти (с her).'),
+
+(2000, 'hingehen', 'идти (с hin)', 'йти (з hin)', 'irregular', 'hingegangen', 'ging hin', 'sein', 'B1', 'Es ist wichtig zu hingehen.', 'Я хочу идти (с hin).'),
+
+(2001, 'dagehen', 'идти (с da)', 'йти (з da)', 'irregular', 'dagegangen', 'ging da', 'sein', 'B1', 'Wir koennen dagehen.', 'Я хочу идти (с da).'),
+
+(2002, 'emporgehen', 'идти (с empor)', 'йти (з empor)', 'irregular', 'emporgegangen', 'ging empor', 'sein', 'B1', 'Es ist wichtig zu emporgehen.', 'Я хочу идти (с empor).'),
+
+(2003, 'entlanggehen', 'идти (с entlang)', 'йти (з entlang)', 'irregular', 'entlanggegangen', 'ging entlang', 'sein', 'B1', 'Ich moechte entlanggehen.', 'Я хочу идти (с entlang).'),
+
+(2004, 'entgegengehen', 'идти (с entgegen)', 'йти (з entgegen)', 'irregular', 'entgegengegangen', 'ging entgegen', 'sein', 'B1', 'Es ist wichtig zu entgegengehen.', 'Я хочу идти (с entgegen).'),
+
+(2005, 'gegengehen', 'идти (с gegen)', 'йти (з gegen)', 'irregular', 'gegengegangen', 'gegenging', 'sein', 'B1', 'Du solltest gegengehen.', 'Я хочу идти (с gegen).'),
+
+(2006, 'heruntergehen', 'идти (с herunter)', 'йти (з herunter)', 'irregular', 'heruntergegangen', 'ging herunter', 'sein', 'B1', 'Es ist wichtig zu heruntergehen.', 'Я хочу идти (с herunter).'),
+
+(2007, 'hinuntergehen', 'идти (с hinunter)', 'йти (з hinunter)', 'irregular', 'hinuntergegangen', 'ging hinunter', 'sein', 'B1', 'Du solltest hinuntergehen.', 'Я хочу идти (с hinunter).'),
+
+(2008, 'hinzugehen', 'идти (с hinzu)', 'йти (з hinzu)', 'irregular', 'hinzugegangen', 'hinzuging', 'sein', 'B1', 'Sie moechte hinzugehen.', 'Я хочу идти (с hinzu).'),
+
+(2009, 'gegenuebergehen', 'идти (с gegenueber)', 'йти (з gegenueber)', 'irregular', 'gegenuebergegangen', 'ging gegenueber', 'sein', 'B1', 'Kannst du gegenuebergehen?', 'Я хочу идти (с gegenueber).'),
+
+(2010, 'zurechtgehen', 'идти (с zurecht)', 'йти (з zurecht)', 'irregular', 'zurechtgegangen', 'ging zurecht', 'sein', 'B1', 'Sie moechte zurechtgehen.', 'Я хочу идти (с zurecht).'),
+
+(2011, 'zurueckgehen', 'идти (с zurueck)', 'йти (з zurueck)', 'irregular', 'zurueckgegangen', 'ging zurueck', 'sein', 'B1', 'Kannst du zurueckgehen?', 'Я хочу идти (с zurueck).'),
+
+(2012, 'abgehen', 'идти (с ab)', 'йти (з ab)', 'irregular', 'abgegangen', 'ging ab', 'sein', 'B2', 'Er moechte abgehen.', 'Я хочу идти (с ab).'),
+
+(2013, 'eingehen', 'идти (с ein)', 'йти (з ein)', 'irregular', 'eingegangen', 'ging ein', 'sein', 'B2', 'Kannst du eingehen?', 'Я хочу идти (с ein).'),
+
+(2014, 'mitgehen', 'идти (с mit)', 'йти (з mit)', 'irregular', 'mitgegangen', 'ging mit', 'sein', 'B2', 'Sie moechte mitgehen.', 'Я хочу идти (с mit).'),
+
+(2015, 'hintergehen', 'идти (с hinter)', 'йти (з hinter)', 'irregular', 'hintergegangen', 'hinterging', 'sein', 'C1', 'Du solltest hintergehen.', 'Я хочу идти (с hinter).'),
+
+(2016, 'uebergehen', 'идти (с ueber)', 'йти (з ueber)', 'irregular', 'uebergegangen', 'ueberging', 'sein', 'C1', 'Ich moechte uebergehen.', 'Я хочу идти (с ueber).'),
+
+(2017, 'untergehen', 'идти (с unter)', 'йти (з unter)', 'irregular', 'untergegangen', 'unterging', 'sein', 'C1', 'Du solltest untergehen.', 'Я хочу идти (с unter).'),
+
+(2018, 'widergehen', 'идти (с wider)', 'йти (з wider)', 'irregular', 'widergegangen', 'ging wider', 'sein', 'C1', 'Ich moechte widergehen.', 'Я хочу идти (с wider).'),
+
+(2019, 'beikommen', 'приходить (с bei)', 'приходити (з bei)', 'irregular', 'beigekommen', 'kam bei', 'sein', 'B1', 'Du solltest beikommen.', 'Я хочу приходить (с bei).'),
+
+(2020, 'nachkommen', 'приходить (с nach)', 'приходити (з nach)', 'irregular', 'nachgekommen', 'kam nach', 'sein', 'B1', 'Ich moechte nachkommen.', 'Я хочу приходить (с nach).'),
+
+(2021, 'vorkommen', 'приходить (с vor)', 'приходити (з vor)', 'irregular', 'vorgekommen', 'kam vor', 'sein', 'B1', 'Wir muessen vorkommen.', 'Я хочу приходить (с vor).'),
+
+(2022, 'zukommen', 'приходить (с zu)', 'приходити (з zu)', 'irregular', 'zugekommen', 'kam zu', 'sein', 'B1', 'Er moechte zukommen.', 'Я хочу приходить (с zu).'),
+
+(2023, 'durchkommen', 'приходить (с durch)', 'приходити (з durch)', 'irregular', 'durchgekommen', 'kam durch', 'sein', 'B1', 'Wir muessen durchkommen.', 'Я хочу приходить (с durch).'),
+
+(2024, 'umkommen', 'приходить (с um)', 'приходити (з um)', 'irregular', 'umgekommen', 'umkam', 'sein', 'B1', 'Ich moechte umkommen.', 'Я хочу приходить (с um).'),
+
+(2025, 'wegkommen', 'приходить (с weg)', 'приходити (з weg)', 'irregular', 'weggekommen', 'kam weg', 'sein', 'B1', 'Du solltest wegkommen.', 'Я хочу приходить (с weg).'),
+
+(2026, 'weiterkommen', 'приходить (с weiter)', 'приходити (з weiter)', 'irregular', 'weitergekommen', 'kam weiter', 'sein', 'B1', 'Ich moechte weiterkommen.', 'Я хочу приходить (с weiter).'),
+
+(2027, 'hinkommen', 'приходить (с hin)', 'приходити (з hin)', 'irregular', 'hingekommen', 'kam hin', 'sein', 'B1', 'Es ist wichtig zu hinkommen.', 'Я хочу приходить (с hin).'),
+
+(2028, 'dakommen', 'приходить (с da)', 'приходити (з da)', 'irregular', 'dagekommen', 'kam da', 'sein', 'B1', 'Ich moechte dakommen.', 'Я хочу приходить (с da).'),
+
+(2029, 'emporkommen', 'приходить (с empor)', 'приходити (з empor)', 'irregular', 'emporgekommen', 'kam empor', 'sein', 'B1', 'Wir koennen emporkommen.', 'Я хочу приходить (с empor).'),
+
+(2030, 'entlangkommen', 'приходить (с entlang)', 'приходити (з entlang)', 'irregular', 'entlanggekommen', 'kam entlang', 'sein', 'B1', 'Wir koennen entlangkommen.', 'Я хочу приходить (с entlang).'),
+
+(2031, 'entgegenkommen', 'приходить (с entgegen)', 'приходити (з entgegen)', 'irregular', 'entgegengekommen', 'kam entgegen', 'sein', 'B1', 'Er moechte entgegenkommen.', 'Я хочу приходить (с entgegen).'),
+
+(2032, 'gegenkommen', 'приходить (с gegen)', 'приходити (з gegen)', 'irregular', 'gegengekommen', 'gegenkam', 'sein', 'B1', 'Du solltest gegenkommen.', 'Я хочу приходить (с gegen).'),
+
+(2033, 'herunterkommen', 'приходить (с herunter)', 'приходити (з herunter)', 'irregular', 'heruntergekommen', 'kam herunter', 'sein', 'B1', 'Es ist wichtig zu herunterkommen.', 'Я хочу приходить (с herunter).'),
+
+(2034, 'hinunterkommen', 'приходить (с hinunter)', 'приходити (з hinunter)', 'irregular', 'hinuntergekommen', 'kam hinunter', 'sein', 'B1', 'Kannst du hinunterkommen?', 'Я хочу приходить (с hinunter).'),
+
+(2035, 'hinzukommen', 'приходить (с hinzu)', 'приходити (з hinzu)', 'irregular', 'hinzugekommen', 'hinzukam', 'sein', 'B1', 'Er moechte hinzukommen.', 'Я хочу приходить (с hinzu).'),
+
+(2036, 'vorbeikommen', 'приходить (с vorbei)', 'приходити (з vorbei)', 'irregular', 'vorbeigekommen', 'kam vorbei', 'sein', 'B1', 'Du solltest vorbeikommen.', 'Я хочу приходить (с vorbei).'),
+
+(2037, 'zurueckkommen', 'приходить (с zurueck)', 'приходити (з zurueck)', 'irregular', 'zurueckgekommen', 'kam zurueck', 'sein', 'B1', 'Du solltest zurueckkommen.', 'Я хочу приходить (с zurueck).'),
+
+(2038, 'einkommen', 'приходить (с ein)', 'приходити (з ein)', 'irregular', 'eingekommen', 'kam ein', 'sein', 'B2', 'Er moechte einkommen.', 'Я хочу приходить (с ein).'),
+
+(2039, 'hinterkommen', 'приходить (с hinter)', 'приходити (з hinter)', 'irregular', 'hintergekommen', 'hinterkam', 'sein', 'C1', 'Wir muessen hinterkommen.', 'Я хочу приходить (с hinter).'),
+
+(2040, 'ueberkommen', 'приходить (с ueber)', 'приходити (з ueber)', 'irregular', 'uebergekommen', 'ueberkam', 'sein', 'C1', 'Wir muessen ueberkommen.', 'Я хочу приходить (с ueber).'),
+
+(2041, 'widerkommen', 'приходить (с wider)', 'приходити (з wider)', 'irregular', 'widergekommen', 'kam wider', 'sein', 'C1', 'Es ist wichtig zu widerkommen.', 'Я хочу приходить (с wider).'),
+
+(2042, 'beiziehen', 'тянуть (с bei)', 'тягнути (з bei)', 'irregular', 'beigezogen', 'zog bei', 'haben', 'B1', 'Er moechte beiziehen.', 'Я хочу тянуть (с bei).'),
+
+(2043, 'nachziehen', 'тянуть (с nach)', 'тягнути (з nach)', 'irregular', 'nachgezogen', 'zog nach', 'haben', 'B1', 'Du solltest nachziehen.', 'Я хочу тянуть (с nach).'),
+
+(2044, 'vorziehen', 'тянуть (с vor)', 'тягнути (з vor)', 'irregular', 'vorgezogen', 'zog vor', 'haben', 'B1', 'Sie moechte vorziehen.', 'Я хочу тянуть (с vor).'),
+
+(2045, 'zuziehen', 'тянуть (с zu)', 'тягнути (з zu)', 'irregular', 'zugezogen', 'zog zu', 'haben', 'B1', 'Kannst du zuziehen?', 'Я хочу тянуть (с zu).'),
+
+(2046, 'durchziehen', 'тянуть (с durch)', 'тягнути (з durch)', 'irregular', 'durchgezogen', 'zog durch', 'haben', 'B1', 'Wir muessen durchziehen.', 'Я хочу тянуть (с durch).'),
+
+(2047, 'wegziehen', 'тянуть (с weg)', 'тягнути (з weg)', 'irregular', 'weggezogen', 'zog weg', 'haben', 'B1', 'Sie moechte wegziehen.', 'Я хочу тянуть (с weg).'),
+
+(2048, 'weiterziehen', 'тянуть (с weiter)', 'тягнути (з weiter)', 'irregular', 'weitergezogen', 'zog weiter', 'haben', 'B1', 'Ich moechte weiterziehen.', 'Я хочу тянуть (с weiter).'),
+
+(2049, 'herziehen', 'тянуть (с her)', 'тягнути (з her)', 'irregular', 'hergezogen', 'zog her', 'haben', 'B1', 'Er moechte herziehen.', 'Я хочу тянуть (с her).'),
+
+(2050, 'hinziehen', 'тянуть (с hin)', 'тягнути (з hin)', 'irregular', 'hingezogen', 'zog hin', 'haben', 'B1', 'Wir muessen hinziehen.', 'Я хочу тянуть (с hin).'),
+
+(2051, 'daziehen', 'тянуть (с da)', 'тягнути (з da)', 'irregular', 'dagezogen', 'zog da', 'haben', 'B1', 'Es ist wichtig zu daziehen.', 'Я хочу тянуть (с da).'),
+
+(2052, 'emporziehen', 'тянуть (с empor)', 'тягнути (з empor)', 'irregular', 'emporgezogen', 'zog empor', 'haben', 'B1', 'Wir koennen emporziehen.', 'Я хочу тянуть (с empor).'),
+
+(2053, 'entlangziehen', 'тянуть (с entlang)', 'тягнути (з entlang)', 'irregular', 'entlanggezogen', 'zog entlang', 'haben', 'B1', 'Wir koennen entlangziehen.', 'Я хочу тянуть (с entlang).'),
+
+(2054, 'entgegenziehen', 'тянуть (с entgegen)', 'тягнути (з entgegen)', 'irregular', 'entgegengezogen', 'zog entgegen', 'haben', 'B1', 'Du solltest entgegenziehen.', 'Я хочу тянуть (с entgegen).'),
+
+(2055, 'gegenziehen', 'тянуть (с gegen)', 'тягнути (з gegen)', 'irregular', 'gegengezogen', 'gegenzog', 'haben', 'B1', 'Ich moechte gegenziehen.', 'Я хочу тянуть (с gegen).'),
+
+(2056, 'herunterziehen', 'тянуть (с herunter)', 'тягнути (з herunter)', 'irregular', 'heruntergezogen', 'zog herunter', 'haben', 'B1', 'Kannst du herunterziehen?', 'Я хочу тянуть (с herunter).'),
+
+(2057, 'hinunterziehen', 'тянуть (с hinunter)', 'тягнути (з hinunter)', 'irregular', 'hinuntergezogen', 'zog hinunter', 'haben', 'B1', 'Er moechte hinunterziehen.', 'Я хочу тянуть (с hinunter).'),
+
+(2058, 'hinzuziehen', 'тянуть (с hinzu)', 'тягнути (з hinzu)', 'irregular', 'hinzugezogen', 'hinzuzog', 'haben', 'B1', 'Kannst du hinzuziehen?', 'Я хочу тянуть (с hinzu).'),
+
+(2059, 'festziehen', 'тянуть (с fest)', 'тягнути (з fest)', 'irregular', 'festgezogen', 'zog fest', 'haben', 'B1', 'Es ist wichtig zu festziehen.', 'Я хочу тянуть (с fest).'),
+
+(2060, 'fortziehen', 'тянуть (с fort)', 'тягнути (з fort)', 'irregular', 'fortgezogen', 'zog fort', 'haben', 'B1', 'Er moechte fortziehen.', 'Я хочу тянуть (с fort).'),
+
+(2061, 'gegenueberziehen', 'тянуть (с gegenueber)', 'тягнути (з gegenueber)', 'irregular', 'gegenuebergezogen', 'zog gegenueber', 'haben', 'B1', 'Kannst du gegenueberziehen?', 'Я хочу тянуть (с gegenueber).'),
+
+(2062, 'losziehen', 'тянуть (с los)', 'тягнути (з los)', 'irregular', 'losgezogen', 'zog los', 'haben', 'B1', 'Du solltest losziehen.', 'Я хочу тянуть (с los).'),
+
+(2063, 'niederziehen', 'тянуть (с nieder)', 'тягнути (з nieder)', 'irregular', 'niedergezogen', 'zog nieder', 'haben', 'B1', 'Kannst du niederziehen?', 'Я хочу тянуть (с nieder).'),
+
+(2064, 'ranziehen', 'тянуть (с ran)', 'тягнути (з ran)', 'irregular', 'rangezogen', 'zog ran', 'haben', 'B1', 'Kannst du ranziehen?', 'Я хочу тянуть (с ran).'),
+
+(2065, 'voranziehen', 'тянуть (с voran)', 'тягнути (з voran)', 'irregular', 'vorangezogen', 'zog voran', 'haben', 'B1', 'Sie moechte voranziehen.', 'Я хочу тянуть (с voran).'),
+
+(2066, 'vorausziehen', 'тянуть (с voraus)', 'тягнути (з voraus)', 'irregular', 'vorausgezogen', 'zog voraus', 'haben', 'B1', 'Wir muessen vorausziehen.', 'Я хочу тянуть (с voraus).'),
+
+(2067, 'vorbeiziehen', 'тянуть (с vorbei)', 'тягнути (з vorbei)', 'irregular', 'vorbeigezogen', 'zog vorbei', 'haben', 'B1', 'Ich moechte vorbeiziehen.', 'Я хочу тянуть (с vorbei).'),
+
+(2068, 'vorherziehen', 'тянуть (с vorher)', 'тягнути (з vorher)', 'irregular', 'vorhergezogen', 'zog vorher', 'haben', 'B1', 'Wir muessen vorherziehen.', 'Я хочу тянуть (с vorher).'),
+
+(2069, 'vorwaertsziehen', 'тянуть (с vorwaerts)', 'тягнути (з vorwaerts)', 'irregular', 'vorwaertsgezogen', 'zog vorwaerts', 'haben', 'B1', 'Wir koennen vorwaertsziehen.', 'Я хочу тянуть (с vorwaerts).'),
+
+(2070, 'zurechtziehen', 'тянуть (с zurecht)', 'тягнути (з zurecht)', 'irregular', 'zurechtgezogen', 'zog zurecht', 'haben', 'B1', 'Ich moechte zurechtziehen.', 'Я хочу тянуть (с zurecht).'),
+
+(2071, 'zurueckziehen', 'тянуть (с zurueck)', 'тягнути (з zurueck)', 'irregular', 'zurueckgezogen', 'zog zurueck', 'haben', 'B1', 'Es ist wichtig zu zurueckziehen.', 'Я хочу тянуть (с zurueck).'),
+
+(2072, 'zusammenziehen', 'тянуть (с zusammen)', 'тягнути (з zusammen)', 'irregular', 'zusammengezogen', 'zog zusammen', 'haben', 'B1', 'Sie moechte zusammenziehen.', 'Я хочу тянуть (с zusammen).'),
+
+(2073, 'abziehen', 'тянуть (с ab)', 'тягнути (з ab)', 'irregular', 'abgezogen', 'zog ab', 'haben', 'B2', 'Wir muessen abziehen.', 'Я хочу тянуть (с ab).'),
+
+(2074, 'aufziehen', 'тянуть (с auf)', 'тягнути (з auf)', 'irregular', 'aufgezogen', 'zog auf', 'haben', 'B2', 'Ich moechte aufziehen.', 'Я хочу тянуть (с auf).'),
+
+(2075, 'einziehen', 'тянуть (с ein)', 'тягнути (з ein)', 'irregular', 'eingezogen', 'zog ein', 'haben', 'B2', 'Er moechte einziehen.', 'Я хочу тянуть (с ein).'),
+
+(2076, 'mitziehen', 'тянуть (с mit)', 'тягнути (з mit)', 'irregular', 'mitgezogen', 'zog mit', 'haben', 'B2', 'Du solltest mitziehen.', 'Я хочу тянуть (с mit).'),
+
+(2077, 'hinterziehen', 'тянуть (с hinter)', 'тягнути (з hinter)', 'irregular', 'hintergezogen', 'hinterzog', 'haben', 'C1', 'Sie moechte hinterziehen.', 'Я хочу тянуть (с hinter).'),
+
+(2078, 'ueberziehen', 'тянуть (с ueber)', 'тягнути (з ueber)', 'irregular', 'uebergezogen', 'ueberzog', 'haben', 'C1', 'Er moechte ueberziehen.', 'Я хочу тянуть (с ueber).'),
+
+(2079, 'unterziehen', 'тянуть (с unter)', 'тягнути (з unter)', 'irregular', 'untergezogen', 'unterzog', 'haben', 'C1', 'Kannst du unterziehen?', 'Я хочу тянуть (с unter).'),
+
+(2080, 'widerziehen', 'тянуть (с wider)', 'тягнути (з wider)', 'irregular', 'widergezogen', 'zog wider', 'haben', 'C1', 'Kannst du widerziehen?', 'Я хочу тянуть (с wider).'),
+
+(2081, 'nachtragen', 'носить (с nach)', 'носити (з nach)', 'irregular', 'nachgetragen', 'trug nach', 'haben', 'B1', 'Wir koennen nachtragen.', 'Я хочу носить (с nach).'),
+
+(2082, 'zutragen', 'носить (с zu)', 'носити (з zu)', 'irregular', 'zugetragen', 'trug zu', 'haben', 'B1', 'Es ist wichtig zu zutragen.', 'Я хочу носить (с zu).'),
+
+(2083, 'durchtragen', 'носить (с durch)', 'носити (з durch)', 'irregular', 'durchgetragen', 'trug durch', 'haben', 'B1', 'Sie moechte durchtragen.', 'Я хочу носить (с durch).'),
+
+(2084, 'umtragen', 'носить (с um)', 'носити (з um)', 'irregular', 'umgetragen', 'umtrug', 'haben', 'B1', 'Ich moechte umtragen.', 'Я хочу носить (с um).'),
+
+(2085, 'wegtragen', 'носить (с weg)', 'носити (з weg)', 'irregular', 'weggetragen', 'trug weg', 'haben', 'B1', 'Du solltest wegtragen.', 'Я хочу носить (с weg).'),
+
+(2086, 'weitertragen', 'носить (с weiter)', 'носити (з weiter)', 'irregular', 'weitergetragen', 'trug weiter', 'haben', 'B1', 'Wir koennen weitertragen.', 'Я хочу носить (с weiter).'),
+
+(2087, 'hertragen', 'носить (с her)', 'носити (з her)', 'irregular', 'hergetragen', 'trug her', 'haben', 'B1', 'Wir muessen hertragen.', 'Я хочу носить (с her).'),
+
+(2088, 'hintragen', 'носить (с hin)', 'носити (з hin)', 'irregular', 'hingetragen', 'trug hin', 'haben', 'B1', 'Es ist wichtig zu hintragen.', 'Я хочу носить (с hin).'),
+
+(2089, 'datragen', 'носить (с da)', 'носити (з da)', 'irregular', 'dagetragen', 'trug da', 'haben', 'B1', 'Wir muessen datragen.', 'Я хочу носить (с da).'),
+
+(2090, 'emportragen', 'носить (с empor)', 'носити (з empor)', 'irregular', 'emporgetragen', 'trug empor', 'haben', 'B1', 'Wir koennen emportragen.', 'Я хочу носить (с empor).'),
+
+(2091, 'entlangtragen', 'носить (с entlang)', 'носити (з entlang)', 'irregular', 'entlanggetragen', 'trug entlang', 'haben', 'B1', 'Wir koennen entlangtragen.', 'Я хочу носить (с entlang).'),
+
+(2092, 'entgegentragen', 'носить (с entgegen)', 'носити (з entgegen)', 'irregular', 'entgegengetragen', 'trug entgegen', 'haben', 'B1', 'Wir koennen entgegentragen.', 'Я хочу носить (с entgegen).'),
+
+(2093, 'gegentragen', 'носить (с gegen)', 'носити (з gegen)', 'irregular', 'gegengetragen', 'gegentrug', 'haben', 'B1', 'Er moechte gegentragen.', 'Я хочу носить (с gegen).'),
+
+(2094, 'heruntertragen', 'носить (с herunter)', 'носити (з herunter)', 'irregular', 'heruntergetragen', 'trug herunter', 'haben', 'B1', 'Es ist wichtig zu heruntertragen.', 'Я хочу носить (с herunter).'),
+
+(2095, 'hinuntertragen', 'носить (с hinunter)', 'носити (з hinunter)', 'irregular', 'hinuntergetragen', 'trug hinunter', 'haben', 'B1', 'Wir muessen hinuntertragen.', 'Я хочу носить (с hinunter).'),
+
+(2096, 'hinzutragen', 'носить (с hinzu)', 'носити (з hinzu)', 'irregular', 'hinzugetragen', 'hinzutrug', 'haben', 'B1', 'Sie moechte hinzutragen.', 'Я хочу носить (с hinzu).'),
+
+(2097, 'festtragen', 'носить (с fest)', 'носити (з fest)', 'irregular', 'festgetragen', 'trug fest', 'haben', 'B1', 'Du solltest festtragen.', 'Я хочу носить (с fest).'),
+
+(2098, 'forttragen', 'носить (с fort)', 'носити (з fort)', 'irregular', 'fortgetragen', 'trug fort', 'haben', 'B1', 'Du solltest forttragen.', 'Я хочу носить (с fort).'),
+
+(2099, 'gegenuebertragen', 'носить (с gegenueber)', 'носити (з gegenueber)', 'irregular', 'gegenuebergetragen', 'trug gegenueber', 'haben', 'B1', 'Kannst du gegenuebertragen?', 'Я хочу носить (с gegenueber).'),
+
+(2100, 'lostragen', 'носить (с los)', 'носити (з los)', 'irregular', 'losgetragen', 'trug los', 'haben', 'B1', 'Wir muessen lostragen.', 'Я хочу носить (с los).'),
+
+(2101, 'niedertragen', 'носить (с nieder)', 'носити (з nieder)', 'irregular', 'niedergetragen', 'trug nieder', 'haben', 'B1', 'Sie moechte niedertragen.', 'Я хочу носить (с nieder).'),
+
+(2102, 'rantragen', 'носить (с ran)', 'носити (з ran)', 'irregular', 'rangetragen', 'trug ran', 'haben', 'B1', 'Wir muessen rantragen.', 'Я хочу носить (с ran).'),
+
+(2103, 'vorantragen', 'носить (с voran)', 'носити (з voran)', 'irregular', 'vorangetragen', 'trug voran', 'haben', 'B1', 'Ich moechte vorantragen.', 'Я хочу носить (с voran).'),
+
+(2104, 'voraustragen', 'носить (с voraus)', 'носити (з voraus)', 'irregular', 'vorausgetragen', 'trug voraus', 'haben', 'B1', 'Kannst du voraustragen?', 'Я хочу носить (с voraus).'),
+
+(2105, 'vorbeitragen', 'носить (с vorbei)', 'носити (з vorbei)', 'irregular', 'vorbeigetragen', 'trug vorbei', 'haben', 'B1', 'Es ist wichtig zu vorbeitragen.', 'Я хочу носить (с vorbei).'),
+
+(2106, 'vorhertragen', 'носить (с vorher)', 'носити (з vorher)', 'irregular', 'vorhergetragen', 'trug vorher', 'haben', 'B1', 'Sie moechte vorhertragen.', 'Я хочу носить (с vorher).'),
+
+(2107, 'vorwaertstragen', 'носить (с vorwaerts)', 'носити (з vorwaerts)', 'irregular', 'vorwaertsgetragen', 'trug vorwaerts', 'haben', 'B1', 'Es ist wichtig zu vorwaertstragen.', 'Я хочу носить (с vorwaerts).'),
+
+(2108, 'zurechttragen', 'носить (с zurecht)', 'носити (з zurecht)', 'irregular', 'zurechtgetragen', 'trug zurecht', 'haben', 'B1', 'Wir koennen zurechttragen.', 'Я хочу носить (с zurecht).'),
+
+(2109, 'zuruecktragen', 'носить (с zurueck)', 'носити (з zurueck)', 'irregular', 'zurueckgetragen', 'trug zurueck', 'haben', 'B1', 'Sie moechte zuruecktragen.', 'Я хочу носить (с zurueck).'),
+
+(2110, 'zusammentragen', 'носить (с zusammen)', 'носити (з zusammen)', 'irregular', 'zusammengetragen', 'trug zusammen', 'haben', 'B1', 'Du solltest zusammentragen.', 'Я хочу носить (с zusammen).'),
+
+(2111, 'abtragen', 'носить (с ab)', 'носити (з ab)', 'irregular', 'abgetragen', 'trug ab', 'haben', 'B2', 'Es ist wichtig zu abtragen.', 'Я хочу носить (с ab).'),
+
+(2112, 'antragen', 'носить (с an)', 'носити (з an)', 'irregular', 'angetragen', 'trug an', 'haben', 'B2', 'Wir koennen antragen.', 'Я хочу носить (с an).'),
+
+(2113, 'austragen', 'носить (с aus)', 'носити (з aus)', 'irregular', 'ausgetragen', 'trug aus', 'haben', 'B2', 'Ich moechte austragen.', 'Я хочу носить (с aus).'),
+
+(2114, 'mittragen', 'носить (с mit)', 'носити (з mit)', 'irregular', 'mitgetragen', 'trug mit', 'haben', 'B2', 'Er moechte mittragen.', 'Я хочу носить (с mit).'),
+
+(2115, 'hintertragen', 'носить (с hinter)', 'носити (з hinter)', 'irregular', 'hintergetragen', 'hintertrug', 'haben', 'C1', 'Sie moechte hintertragen.', 'Я хочу носить (с hinter).'),
+
+(2116, 'uebertragen', 'носить (с ueber)', 'носити (з ueber)', 'irregular', 'uebergetragen', 'uebertrug', 'haben', 'C1', 'Du solltest uebertragen.', 'Я хочу носить (с ueber).'),
+
+(2117, 'untertragen', 'носить (с unter)', 'носити (з unter)', 'irregular', 'untergetragen', 'untertrug', 'haben', 'C1', 'Kannst du untertragen?', 'Я хочу носить (с unter).'),
+
+(2118, 'widertragen', 'носить (с wider)', 'носити (з wider)', 'irregular', 'widergetragen', 'trug wider', 'haben', 'C1', 'Wir muessen widertragen.', 'Я хочу носить (с wider).'),
+
+(2119, 'beiwerfen', 'бросать (с bei)', 'кидати (з bei)', 'irregular', 'beigeworfen', 'warf bei', 'haben', 'B1', 'Wir muessen beiwerfen.', 'Я хочу бросать (с bei).'),
+
+(2120, 'nachwerfen', 'бросать (с nach)', 'кидати (з nach)', 'irregular', 'nachgeworfen', 'warf nach', 'haben', 'B1', 'Ich moechte nachwerfen.', 'Я хочу бросать (с nach).'),
+
+(2121, 'zuwerfen', 'бросать (с zu)', 'кидати (з zu)', 'irregular', 'zugeworfen', 'warf zu', 'haben', 'B1', 'Sie moechte zuwerfen.', 'Я хочу бросать (с zu).'),
+
+(2122, 'durchwerfen', 'бросать (с durch)', 'кидати (з durch)', 'irregular', 'durchgeworfen', 'warf durch', 'haben', 'B1', 'Wir koennen durchwerfen.', 'Я хочу бросать (с durch).'),
+
+(2123, 'umwerfen', 'бросать (с um)', 'кидати (з um)', 'irregular', 'umgeworfen', 'umwarf', 'haben', 'B1', 'Du solltest umwerfen.', 'Я хочу бросать (с um).'),
+
+(2124, 'weiterwerfen', 'бросать (с weiter)', 'кидати (з weiter)', 'irregular', 'weitergeworfen', 'warf weiter', 'haben', 'B1', 'Es ist wichtig zu weiterwerfen.', 'Я хочу бросать (с weiter).'),
+
+(2125, 'herwerfen', 'бросать (с her)', 'кидати (з her)', 'irregular', 'hergeworfen', 'warf her', 'haben', 'B1', 'Wir koennen herwerfen.', 'Я хочу бросать (с her).'),
+
+(2126, 'hinwerfen', 'бросать (с hin)', 'кидати (з hin)', 'irregular', 'hingeworfen', 'warf hin', 'haben', 'B1', 'Kannst du hinwerfen?', 'Я хочу бросать (с hin).'),
+
+(2127, 'dawerfen', 'бросать (с da)', 'кидати (з da)', 'irregular', 'dageworfen', 'warf da', 'haben', 'B1', 'Er moechte dawerfen.', 'Я хочу бросать (с da).'),
+
+(2128, 'emporwerfen', 'бросать (с empor)', 'кидати (з empor)', 'irregular', 'emporgeworfen', 'warf empor', 'haben', 'B1', 'Wir koennen emporwerfen.', 'Я хочу бросать (с empor).'),
+
+(2129, 'entlangwerfen', 'бросать (с entlang)', 'кидати (з entlang)', 'irregular', 'entlanggeworfen', 'warf entlang', 'haben', 'B1', 'Wir koennen entlangwerfen.', 'Я хочу бросать (с entlang).'),
+
+(2130, 'entgegenwerfen', 'бросать (с entgegen)', 'кидати (з entgegen)', 'irregular', 'entgegengeworfen', 'warf entgegen', 'haben', 'B1', 'Ich moechte entgegenwerfen.', 'Я хочу бросать (с entgegen).'),
+
+(2131, 'gegenwerfen', 'бросать (с gegen)', 'кидати (з gegen)', 'irregular', 'gegengeworfen', 'gegenwarf', 'haben', 'B1', 'Wir koennen gegenwerfen.', 'Я хочу бросать (с gegen).'),
+
+(2132, 'herunterwerfen', 'бросать (с herunter)', 'кидати (з herunter)', 'irregular', 'heruntergeworfen', 'warf herunter', 'haben', 'B1', 'Wir koennen herunterwerfen.', 'Я хочу бросать (с herunter).'),
+
+(2133, 'hinunterwerfen', 'бросать (с hinunter)', 'кидати (з hinunter)', 'irregular', 'hinuntergeworfen', 'warf hinunter', 'haben', 'B1', 'Kannst du hinunterwerfen?', 'Я хочу бросать (с hinunter).'),
+
+(2134, 'hinzuwerfen', 'бросать (с hinzu)', 'кидати (з hinzu)', 'irregular', 'hinzugeworfen', 'hinzuwarf', 'haben', 'B1', 'Sie moechte hinzuwerfen.', 'Я хочу бросать (с hinzu).'),
+
+(2135, 'festwerfen', 'бросать (с fest)', 'кидати (з fest)', 'irregular', 'festgeworfen', 'warf fest', 'haben', 'B1', 'Es ist wichtig zu festwerfen.', 'Я хочу бросать (с fest).'),
+
+(2136, 'fortwerfen', 'бросать (с fort)', 'кидати (з fort)', 'irregular', 'fortgeworfen', 'warf fort', 'haben', 'B1', 'Kannst du fortwerfen?', 'Я хочу бросать (с fort).'),
+
+(2137, 'gegenueberwerfen', 'бросать (с gegenueber)', 'кидати (з gegenueber)', 'irregular', 'gegenuebergeworfen', 'warf gegenueber', 'haben', 'B1', 'Wir koennen gegenueberwerfen.', 'Я хочу бросать (с gegenueber).'),
+
+(2138, 'loswerfen', 'бросать (с los)', 'кидати (з los)', 'irregular', 'losgeworfen', 'warf los', 'haben', 'B1', 'Wir koennen loswerfen.', 'Я хочу бросать (с los).'),
+
+(2139, 'niederwerfen', 'бросать (с nieder)', 'кидати (з nieder)', 'irregular', 'niedergeworfen', 'warf nieder', 'haben', 'B1', 'Sie moechte niederwerfen.', 'Я хочу бросать (с nieder).'),
+
+(2140, 'ranwerfen', 'бросать (с ran)', 'кидати (з ran)', 'irregular', 'rangeworfen', 'warf ran', 'haben', 'B1', 'Sie moechte ranwerfen.', 'Я хочу бросать (с ran).'),
+
+(2141, 'voranwerfen', 'бросать (с voran)', 'кидати (з voran)', 'irregular', 'vorangeworfen', 'warf voran', 'haben', 'B1', 'Er moechte voranwerfen.', 'Я хочу бросать (с voran).'),
+
+(2142, 'vorauswerfen', 'бросать (с voraus)', 'кидати (з voraus)', 'irregular', 'vorausgeworfen', 'warf voraus', 'haben', 'B1', 'Kannst du vorauswerfen?', 'Я хочу бросать (с voraus).'),
+
+(2143, 'vorbeiwerfen', 'бросать (с vorbei)', 'кидати (з vorbei)', 'irregular', 'vorbeigeworfen', 'warf vorbei', 'haben', 'B1', 'Du solltest vorbeiwerfen.', 'Я хочу бросать (с vorbei).'),
+
+(2144, 'vorherwerfen', 'бросать (с vorher)', 'кидати (з vorher)', 'irregular', 'vorhergeworfen', 'warf vorher', 'haben', 'B1', 'Es ist wichtig zu vorherwerfen.', 'Я хочу бросать (с vorher).'),
+
+(2145, 'vorwaertswerfen', 'бросать (с vorwaerts)', 'кидати (з vorwaerts)', 'irregular', 'vorwaertsgeworfen', 'warf vorwaerts', 'haben', 'B1', 'Kannst du vorwaertswerfen?', 'Я хочу бросать (с vorwaerts).'),
+
+(2146, 'zurechtwerfen', 'бросать (с zurecht)', 'кидати (з zurecht)', 'irregular', 'zurechtgeworfen', 'warf zurecht', 'haben', 'B1', 'Du solltest zurechtwerfen.', 'Я хочу бросать (с zurecht).'),
+
+(2147, 'zurueckwerfen', 'бросать (с zurueck)', 'кидати (з zurueck)', 'irregular', 'zurueckgeworfen', 'warf zurueck', 'haben', 'B1', 'Du solltest zurueckwerfen.', 'Я хочу бросать (с zurueck).'),
+
+(2148, 'zusammenwerfen', 'бросать (с zusammen)', 'кидати (з zusammen)', 'irregular', 'zusammengeworfen', 'warf zusammen', 'haben', 'B1', 'Sie moechte zusammenwerfen.', 'Я хочу бросать (с zusammen).'),
+
+(2149, 'abwerfen', 'бросать (с ab)', 'кидати (з ab)', 'irregular', 'abgeworfen', 'warf ab', 'haben', 'B2', 'Es ist wichtig zu abwerfen.', 'Я хочу бросать (с ab).'),
+
+(2150, 'anwerfen', 'бросать (с an)', 'кидати (з an)', 'irregular', 'angeworfen', 'warf an', 'haben', 'B2', 'Wir koennen anwerfen.', 'Я хочу бросать (с an).'),
+
+(2151, 'aufwerfen', 'бросать (с auf)', 'кидати (з auf)', 'irregular', 'aufgeworfen', 'warf auf', 'haben', 'B2', 'Sie moechte aufwerfen.', 'Я хочу бросать (с auf).'),
+
+(2152, 'auswerfen', 'бросать (с aus)', 'кидати (з aus)', 'irregular', 'ausgeworfen', 'warf aus', 'haben', 'B2', 'Kannst du auswerfen?', 'Я хочу бросать (с aus).'),
+
+(2153, 'mitwerfen', 'бросать (с mit)', 'кидати (з mit)', 'irregular', 'mitgeworfen', 'warf mit', 'haben', 'B2', 'Ich moechte mitwerfen.', 'Я хочу бросать (с mit).'),
+
+(2154, 'hinterwerfen', 'бросать (с hinter)', 'кидати (з hinter)', 'irregular', 'hintergeworfen', 'hinterwarf', 'haben', 'C1', 'Ich moechte hinterwerfen.', 'Я хочу бросать (с hinter).'),
+
+(2155, 'ueberwerfen', 'бросать (с ueber)', 'кидати (з ueber)', 'irregular', 'uebergeworfen', 'ueberwarf', 'haben', 'C1', 'Es ist wichtig zu ueberwerfen.', 'Я хочу бросать (с ueber).'),
+
+(2156, 'unterwerfen', 'бросать (с unter)', 'кидати (з unter)', 'irregular', 'untergeworfen', 'unterwarf', 'haben', 'C1', 'Ich moechte unterwerfen.', 'Я хочу бросать (с unter).'),
+
+(2157, 'widerwerfen', 'бросать (с wider)', 'кидати (з wider)', 'irregular', 'widergeworfen', 'warf wider', 'haben', 'C1', 'Wir koennen widerwerfen.', 'Я хочу бросать (с wider).'),
+
+(2158, 'beibrechen', 'ломать (с bei)', 'ламати (з bei)', 'irregular', 'beigebrochen', 'brach bei', 'haben', 'B1', 'Kannst du beibrechen?', 'Я хочу ломать (с bei).'),
+
+(2159, 'nachbrechen', 'ломать (с nach)', 'ламати (з nach)', 'irregular', 'nachgebrochen', 'brach nach', 'haben', 'B1', 'Kannst du nachbrechen?', 'Я хочу ломать (с nach).'),
+
+(2160, 'vorbrechen', 'ломать (с vor)', 'ламати (з vor)', 'irregular', 'vorgebrochen', 'brach vor', 'haben', 'B1', 'Es ist wichtig zu vorbrechen.', 'Я хочу ломать (с vor).'),
+
+(2161, 'zubrechen', 'ломать (с zu)', 'ламати (з zu)', 'irregular', 'zugebrochen', 'brach zu', 'haben', 'B1', 'Sie moechte zubrechen.', 'Я хочу ломать (с zu).'),
+
+(2162, 'durchbrechen', 'ломать (с durch)', 'ламати (з durch)', 'irregular', 'durchgebrochen', 'brach durch', 'haben', 'B1', 'Du solltest durchbrechen.', 'Я хочу ломать (с durch).'),
+
+(2163, 'umbrechen', 'ломать (с um)', 'ламати (з um)', 'irregular', 'umgebrochen', 'umbrach', 'haben', 'B1', 'Ich moechte umbrechen.', 'Я хочу ломать (с um).'),
+
+(2164, 'wegbrechen', 'ломать (с weg)', 'ламати (з weg)', 'irregular', 'weggebrochen', 'brach weg', 'haben', 'B1', 'Kannst du wegbrechen?', 'Я хочу ломать (с weg).'),
+
+(2165, 'weiterbrechen', 'ломать (с weiter)', 'ламати (з weiter)', 'irregular', 'weitergebrochen', 'brach weiter', 'haben', 'B1', 'Wir koennen weiterbrechen.', 'Я хочу ломать (с weiter).'),
+
+(2166, 'herbrechen', 'ломать (с her)', 'ламати (з her)', 'irregular', 'hergebrochen', 'brach her', 'haben', 'B1', 'Du solltest herbrechen.', 'Я хочу ломать (с her).'),
+
+(2167, 'hinbrechen', 'ломать (с hin)', 'ламати (з hin)', 'irregular', 'hingebrochen', 'brach hin', 'haben', 'B1', 'Ich moechte hinbrechen.', 'Я хочу ломать (с hin).'),
+
+(2168, 'dabrechen', 'ломать (с da)', 'ламати (з da)', 'irregular', 'dagebrochen', 'brach da', 'haben', 'B1', 'Wir koennen dabrechen.', 'Я хочу ломать (с da).'),
+
+(2169, 'emporbrechen', 'ломать (с empor)', 'ламати (з empor)', 'irregular', 'emporgebrochen', 'brach empor', 'haben', 'B1', 'Du solltest emporbrechen.', 'Я хочу ломать (с empor).'),
+
+(2170, 'entlangbrechen', 'ломать (с entlang)', 'ламати (з entlang)', 'irregular', 'entlanggebrochen', 'brach entlang', 'haben', 'B1', 'Sie moechte entlangbrechen.', 'Я хочу ломать (с entlang).'),
+
+(2171, 'entgegenbrechen', 'ломать (с entgegen)', 'ламати (з entgegen)', 'irregular', 'entgegengebrochen', 'brach entgegen', 'haben', 'B1', 'Wir muessen entgegenbrechen.', 'Я хочу ломать (с entgegen).'),
+
+(2172, 'gegenbrechen', 'ломать (с gegen)', 'ламати (з gegen)', 'irregular', 'gegengebrochen', 'gegenbrach', 'haben', 'B1', 'Kannst du gegenbrechen?', 'Я хочу ломать (с gegen).'),
+
+(2173, 'herunterbrechen', 'ломать (с herunter)', 'ламати (з herunter)', 'irregular', 'heruntergebrochen', 'brach herunter', 'haben', 'B1', 'Wir muessen herunterbrechen.', 'Я хочу ломать (с herunter).'),
+
+(2174, 'hinunterbrechen', 'ломать (с hinunter)', 'ламати (з hinunter)', 'irregular', 'hinuntergebrochen', 'brach hinunter', 'haben', 'B1', 'Ich moechte hinunterbrechen.', 'Я хочу ломать (с hinunter).'),
+
+(2175, 'hinzubrechen', 'ломать (с hinzu)', 'ламати (з hinzu)', 'irregular', 'hinzugebrochen', 'hinzubrach', 'haben', 'B1', 'Du solltest hinzubrechen.', 'Я хочу ломать (с hinzu).'),
+
+(2176, 'festbrechen', 'ломать (с fest)', 'ламати (з fest)', 'irregular', 'festgebrochen', 'brach fest', 'haben', 'B1', 'Sie moechte festbrechen.', 'Я хочу ломать (с fest).'),
+
+(2177, 'fortbrechen', 'ломать (с fort)', 'ламати (з fort)', 'irregular', 'fortgebrochen', 'brach fort', 'haben', 'B1', 'Wir muessen fortbrechen.', 'Я хочу ломать (с fort).'),
+
+(2178, 'gegenueberbrechen', 'ломать (с gegenueber)', 'ламати (з gegenueber)', 'irregular', 'gegenuebergebrochen', 'brach gegenueber', 'haben', 'B1', 'Wir muessen gegenueberbrechen.', 'Я хочу ломать (с gegenueber).'),
+
+(2179, 'losbrechen', 'ломать (с los)', 'ламати (з los)', 'irregular', 'losgebrochen', 'brach los', 'haben', 'B1', 'Sie moechte losbrechen.', 'Я хочу ломать (с los).'),
+
+(2180, 'niederbrechen', 'ломать (с nieder)', 'ламати (з nieder)', 'irregular', 'niedergebrochen', 'brach nieder', 'haben', 'B1', 'Er moechte niederbrechen.', 'Я хочу ломать (с nieder).'),
+
+(2181, 'ranbrechen', 'ломать (с ran)', 'ламати (з ran)', 'irregular', 'rangebrochen', 'brach ran', 'haben', 'B1', 'Wir koennen ranbrechen.', 'Я хочу ломать (с ran).'),
+
+(2182, 'voranbrechen', 'ломать (с voran)', 'ламати (з voran)', 'irregular', 'vorangebrochen', 'brach voran', 'haben', 'B1', 'Ich moechte voranbrechen.', 'Я хочу ломать (с voran).'),
+
+(2183, 'vorausbrechen', 'ломать (с voraus)', 'ламати (з voraus)', 'irregular', 'vorausgebrochen', 'brach voraus', 'haben', 'B1', 'Du solltest vorausbrechen.', 'Я хочу ломать (с voraus).'),
+
+(2184, 'vorbeibrechen', 'ломать (с vorbei)', 'ламати (з vorbei)', 'irregular', 'vorbeigebrochen', 'brach vorbei', 'haben', 'B1', 'Du solltest vorbeibrechen.', 'Я хочу ломать (с vorbei).'),
+
+(2185, 'vorherbrechen', 'ломать (с vorher)', 'ламати (з vorher)', 'irregular', 'vorhergebrochen', 'brach vorher', 'haben', 'B1', 'Wir muessen vorherbrechen.', 'Я хочу ломать (с vorher).'),
+
+(2186, 'vorwaertsbrechen', 'ломать (с vorwaerts)', 'ламати (з vorwaerts)', 'irregular', 'vorwaertsgebrochen', 'brach vorwaerts', 'haben', 'B1', 'Ich moechte vorwaertsbrechen.', 'Я хочу ломать (с vorwaerts).'),
+
+(2187, 'zurechtbrechen', 'ломать (с zurecht)', 'ламати (з zurecht)', 'irregular', 'zurechtgebrochen', 'brach zurecht', 'haben', 'B1', 'Ich moechte zurechtbrechen.', 'Я хочу ломать (с zurecht).'),
+
+(2188, 'zurueckbrechen', 'ломать (с zurueck)', 'ламати (з zurueck)', 'irregular', 'zurueckgebrochen', 'brach zurueck', 'haben', 'B1', 'Kannst du zurueckbrechen?', 'Я хочу ломать (с zurueck).'),
+
+(2189, 'zusammenbrechen', 'ломать (с zusammen)', 'ламати (з zusammen)', 'irregular', 'zusammengebrochen', 'brach zusammen', 'haben', 'B1', 'Er moechte zusammenbrechen.', 'Я хочу ломать (с zusammen).'),
+
+(2190, 'abbrechen', 'ломать (с ab)', 'ламати (з ab)', 'irregular', 'abgebrochen', 'brach ab', 'haben', 'B2', 'Wir muessen abbrechen.', 'Я хочу ломать (с ab).'),
+
+(2191, 'anbrechen', 'ломать (с an)', 'ламати (з an)', 'irregular', 'angebrochen', 'brach an', 'haben', 'B2', 'Sie moechte anbrechen.', 'Я хочу ломать (с an).'),
+
+(2192, 'aufbrechen', 'ломать (с auf)', 'ламати (з auf)', 'irregular', 'aufgebrochen', 'brach auf', 'haben', 'B2', 'Es ist wichtig zu aufbrechen.', 'Я хочу ломать (с auf).'),
+
+(2193, 'ausbrechen', 'ломать (с aus)', 'ламати (з aus)', 'irregular', 'ausgebrochen', 'brach aus', 'haben', 'B2', 'Du solltest ausbrechen.', 'Я хочу ломать (с aus).'),
+
+(2194, 'einbrechen', 'ломать (с ein)', 'ламати (з ein)', 'irregular', 'eingebrochen', 'brach ein', 'haben', 'B2', 'Er moechte einbrechen.', 'Я хочу ломать (с ein).'),
+
+(2195, 'mitbrechen', 'ломать (с mit)', 'ламати (з mit)', 'irregular', 'mitgebrochen', 'brach mit', 'haben', 'B2', 'Sie moechte mitbrechen.', 'Я хочу ломать (с mit).'),
+
+(2196, 'hinterbrechen', 'ломать (с hinter)', 'ламати (з hinter)', 'irregular', 'hintergebrochen', 'hinterbrach', 'haben', 'C1', 'Wir koennen hinterbrechen.', 'Я хочу ломать (с hinter).'),
+
+(2197, 'ueberbrechen', 'ломать (с ueber)', 'ламати (з ueber)', 'irregular', 'uebergebrochen', 'ueberbrach', 'haben', 'C1', 'Ich moechte ueberbrechen.', 'Я хочу ломать (с ueber).'),
+
+(2198, 'widerbrechen', 'ломать (с wider)', 'ламати (з wider)', 'irregular', 'widergebrochen', 'brach wider', 'haben', 'C1', 'Kannst du widerbrechen?', 'Я хочу ломать (с wider).'),
+
+(2199, 'nachtreten', 'ступать (с nach)', 'ступати (з nach)', 'irregular', 'nachgetreten', 'trat nach', 'sein', 'B1', 'Wir koennen nachtreten.', 'Я хочу ступать (с nach).'),
+
+(2200, 'vortreten', 'ступать (с vor)', 'ступати (з vor)', 'irregular', 'vorgetreten', 'trat vor', 'sein', 'B1', 'Kannst du vortreten?', 'Я хочу ступать (с vor).'),
+
+(2201, 'zutreten', 'ступать (с zu)', 'ступати (з zu)', 'irregular', 'zugetreten', 'trat zu', 'sein', 'B1', 'Wir muessen zutreten.', 'Я хочу ступать (с zu).'),
+
+(2202, 'durchtreten', 'ступать (с durch)', 'ступати (з durch)', 'irregular', 'durchgetreten', 'trat durch', 'sein', 'B1', 'Ich moechte durchtreten.', 'Я хочу ступать (с durch).'),
+
+(2203, 'umtreten', 'ступать (с um)', 'ступати (з um)', 'irregular', 'umgetreten', 'umtrat', 'sein', 'B1', 'Kannst du umtreten?', 'Я хочу ступать (с um).'),
+
+(2204, 'wegtreten', 'ступать (с weg)', 'ступати (з weg)', 'irregular', 'weggetreten', 'trat weg', 'sein', 'B1', 'Ich moechte wegtreten.', 'Я хочу ступать (с weg).'),
+
+(2205, 'weitertreten', 'ступать (с weiter)', 'ступати (з weiter)', 'irregular', 'weitergetreten', 'trat weiter', 'sein', 'B1', 'Wir koennen weitertreten.', 'Я хочу ступать (с weiter).'),
+
+(2206, 'hertreten', 'ступать (с her)', 'ступати (з her)', 'irregular', 'hergetreten', 'trat her', 'sein', 'B1', 'Wir muessen hertreten.', 'Я хочу ступать (с her).'),
+
+(2207, 'hintreten', 'ступать (с hin)', 'ступати (з hin)', 'irregular', 'hingetreten', 'trat hin', 'sein', 'B1', 'Er moechte hintreten.', 'Я хочу ступать (с hin).'),
+
+(2208, 'datreten', 'ступать (с da)', 'ступати (з da)', 'irregular', 'dagetreten', 'trat da', 'sein', 'B1', 'Sie moechte datreten.', 'Я хочу ступать (с da).'),
+
+(2209, 'emportreten', 'ступать (с empor)', 'ступати (з empor)', 'irregular', 'emporgetreten', 'trat empor', 'sein', 'B1', 'Du solltest emportreten.', 'Я хочу ступать (с empor).'),
+
+(2210, 'entlangtreten', 'ступать (с entlang)', 'ступати (з entlang)', 'irregular', 'entlanggetreten', 'trat entlang', 'sein', 'B1', 'Er moechte entlangtreten.', 'Я хочу ступать (с entlang).'),
+
+(2211, 'entgegentreten', 'ступать (с entgegen)', 'ступати (з entgegen)', 'irregular', 'entgegengetreten', 'trat entgegen', 'sein', 'B1', 'Wir koennen entgegentreten.', 'Я хочу ступать (с entgegen).'),
+
+(2212, 'gegentreten', 'ступать (с gegen)', 'ступати (з gegen)', 'irregular', 'gegengetreten', 'gegentrat', 'sein', 'B1', 'Wir koennen gegentreten.', 'Я хочу ступать (с gegen).'),
+
+(2213, 'heruntertreten', 'ступать (с herunter)', 'ступати (з herunter)', 'irregular', 'heruntergetreten', 'trat herunter', 'sein', 'B1', 'Kannst du heruntertreten?', 'Я хочу ступать (с herunter).'),
+
+(2214, 'hinuntertreten', 'ступать (с hinunter)', 'ступати (з hinunter)', 'irregular', 'hinuntergetreten', 'trat hinunter', 'sein', 'B1', 'Er moechte hinuntertreten.', 'Я хочу ступать (с hinunter).'),
+
+(2215, 'hinzutreten', 'ступать (с hinzu)', 'ступати (з hinzu)', 'irregular', 'hinzugetreten', 'hinzutrat', 'sein', 'B1', 'Du solltest hinzutreten.', 'Я хочу ступать (с hinzu).'),
+
+(2216, 'festtreten', 'ступать (с fest)', 'ступати (з fest)', 'irregular', 'festgetreten', 'trat fest', 'sein', 'B1', 'Wir koennen festtreten.', 'Я хочу ступать (с fest).'),
+
+(2217, 'forttreten', 'ступать (с fort)', 'ступати (з fort)', 'irregular', 'fortgetreten', 'trat fort', 'sein', 'B1', 'Kannst du forttreten?', 'Я хочу ступать (с fort).'),
+
+(2218, 'gegenuebertreten', 'ступать (с gegenueber)', 'ступати (з gegenueber)', 'irregular', 'gegenuebergetreten', 'trat gegenueber', 'sein', 'B1', 'Sie moechte gegenuebertreten.', 'Я хочу ступать (с gegenueber).'),
+
+(2219, 'lostreten', 'ступать (с los)', 'ступати (з los)', 'irregular', 'losgetreten', 'trat los', 'sein', 'B1', 'Ich moechte lostreten.', 'Я хочу ступать (с los).'),
+
+(2220, 'niedertreten', 'ступать (с nieder)', 'ступати (з nieder)', 'irregular', 'niedergetreten', 'trat nieder', 'sein', 'B1', 'Er moechte niedertreten.', 'Я хочу ступать (с nieder).'),
+
+(2221, 'rantreten', 'ступать (с ran)', 'ступати (з ran)', 'irregular', 'rangetreten', 'trat ran', 'sein', 'B1', 'Es ist wichtig zu rantreten.', 'Я хочу ступать (с ran).'),
+
+(2222, 'vorantreten', 'ступать (с voran)', 'ступати (з voran)', 'irregular', 'vorangetreten', 'trat voran', 'sein', 'B1', 'Du solltest vorantreten.', 'Я хочу ступать (с voran).'),
+
+(2223, 'voraustreten', 'ступать (с voraus)', 'ступати (з voraus)', 'irregular', 'vorausgetreten', 'trat voraus', 'sein', 'B1', 'Er moechte voraustreten.', 'Я хочу ступать (с voraus).'),
+
+(2224, 'vorbeitreten', 'ступать (с vorbei)', 'ступати (з vorbei)', 'irregular', 'vorbeigetreten', 'trat vorbei', 'sein', 'B1', 'Du solltest vorbeitreten.', 'Я хочу ступать (с vorbei).'),
+
+(2225, 'vorhertreten', 'ступать (с vorher)', 'ступати (з vorher)', 'irregular', 'vorhergetreten', 'trat vorher', 'sein', 'B1', 'Sie moechte vorhertreten.', 'Я хочу ступать (с vorher).'),
+
+(2226, 'vorwaertstreten', 'ступать (с vorwaerts)', 'ступати (з vorwaerts)', 'irregular', 'vorwaertsgetreten', 'trat vorwaerts', 'sein', 'B1', 'Wir koennen vorwaertstreten.', 'Я хочу ступать (с vorwaerts).'),
+
+(2227, 'zurechttreten', 'ступать (с zurecht)', 'ступати (з zurecht)', 'irregular', 'zurechtgetreten', 'trat zurecht', 'sein', 'B1', 'Es ist wichtig zu zurechttreten.', 'Я хочу ступать (с zurecht).'),
+
+(2228, 'zuruecktreten', 'ступать (с zurueck)', 'ступати (з zurueck)', 'irregular', 'zurueckgetreten', 'trat zurueck', 'sein', 'B1', 'Sie moechte zuruecktreten.', 'Я хочу ступать (с zurueck).'),
+
+(2229, 'zusammentreten', 'ступать (с zusammen)', 'ступати (з zusammen)', 'irregular', 'zusammengetreten', 'trat zusammen', 'sein', 'B1', 'Sie moechte zusammentreten.', 'Я хочу ступать (с zusammen).'),
+
+(2230, 'abtreten', 'ступать (с ab)', 'ступати (з ab)', 'irregular', 'abgetreten', 'trat ab', 'sein', 'B2', 'Kannst du abtreten?', 'Я хочу ступать (с ab).'),
+
+(2231, 'antreten', 'ступать (с an)', 'ступати (з an)', 'irregular', 'angetreten', 'trat an', 'sein', 'B2', 'Kannst du antreten?', 'Я хочу ступать (с an).'),
+
+(2232, 'austreten', 'ступать (с aus)', 'ступати (з aus)', 'irregular', 'ausgetreten', 'trat aus', 'sein', 'B2', 'Ich moechte austreten.', 'Я хочу ступать (с aus).'),
+
+(2233, 'eintreten', 'ступать (с ein)', 'ступати (з ein)', 'irregular', 'eingetreten', 'trat ein', 'sein', 'B2', 'Wir muessen eintreten.', 'Я хочу ступать (с ein).'),
+
+(2234, 'mittreten', 'ступать (с mit)', 'ступати (з mit)', 'irregular', 'mitgetreten', 'trat mit', 'sein', 'B2', 'Er moechte mittreten.', 'Я хочу ступать (с mit).'),
+
+(2235, 'hintertreten', 'ступать (с hinter)', 'ступати (з hinter)', 'irregular', 'hintergetreten', 'hintertrat', 'sein', 'C1', 'Er moechte hintertreten.', 'Я хочу ступать (с hinter).'),
+
+(2236, 'uebertreten', 'ступать (с ueber)', 'ступати (з ueber)', 'irregular', 'uebergetreten', 'uebertrat', 'sein', 'C1', 'Wir muessen uebertreten.', 'Я хочу ступать (с ueber).'),
+
+(2237, 'untertreten', 'ступать (с unter)', 'ступати (з unter)', 'irregular', 'untergetreten', 'untertrat', 'sein', 'C1', 'Es ist wichtig zu untertreten.', 'Я хочу ступать (с unter).'),
+
+(2238, 'widertreten', 'ступать (с wider)', 'ступати (з wider)', 'irregular', 'widergetreten', 'trat wider', 'sein', 'C1', 'Kannst du widertreten?', 'Я хочу ступать (с wider).'),
+
+(2239, 'beiwachsen', 'расти (с bei)', 'рости (з bei)', 'irregular', 'beigewachsen', 'wuchs bei', 'sein', 'B1', 'Kannst du beiwachsen?', 'Я хочу расти (с bei).'),
+
+(2240, 'vorwachsen', 'расти (с vor)', 'рости (з vor)', 'irregular', 'vorgewachsen', 'wuchs vor', 'sein', 'B1', 'Sie moechte vorwachsen.', 'Я хочу расти (с vor).'),
+
+(2241, 'zuwachsen', 'расти (с zu)', 'рости (з zu)', 'irregular', 'zugewachsen', 'wuchs zu', 'sein', 'B1', 'Wir koennen zuwachsen.', 'Я хочу расти (с zu).'),
+
+(2242, 'durchwachsen', 'расти (с durch)', 'рости (з durch)', 'irregular', 'durchgewachsen', 'wuchs durch', 'sein', 'B1', 'Du solltest durchwachsen.', 'Я хочу расти (с durch).'),
+
+(2243, 'umwachsen', 'расти (с um)', 'рости (з um)', 'irregular', 'umgewachsen', 'umwuchs', 'sein', 'B1', 'Wir muessen umwachsen.', 'Я хочу расти (с um).'),
+
+(2244, 'wegwachsen', 'расти (с weg)', 'рости (з weg)', 'irregular', 'weggewachsen', 'wuchs weg', 'sein', 'B1', 'Du solltest wegwachsen.', 'Я хочу расти (с weg).'),
+
+(2245, 'weiterwachsen', 'расти (с weiter)', 'рости (з weiter)', 'irregular', 'weitergewachsen', 'wuchs weiter', 'sein', 'B1', 'Ich moechte weiterwachsen.', 'Я хочу расти (с weiter).'),
+
+(2246, 'herwachsen', 'расти (с her)', 'рости (з her)', 'irregular', 'hergewachsen', 'wuchs her', 'sein', 'B1', 'Es ist wichtig zu herwachsen.', 'Я хочу расти (с her).'),
+
+(2247, 'hinwachsen', 'расти (с hin)', 'рости (з hin)', 'irregular', 'hingewachsen', 'wuchs hin', 'sein', 'B1', 'Wir koennen hinwachsen.', 'Я хочу расти (с hin).'),
+
+(2248, 'dawachsen', 'расти (с da)', 'рости (з da)', 'irregular', 'dagewachsen', 'wuchs da', 'sein', 'B1', 'Ich moechte dawachsen.', 'Я хочу расти (с da).'),
+
+(2249, 'emporwachsen', 'расти (с empor)', 'рости (з empor)', 'irregular', 'emporgewachsen', 'wuchs empor', 'sein', 'B1', 'Er moechte emporwachsen.', 'Я хочу расти (с empor).'),
+
+(2250, 'entlangwachsen', 'расти (с entlang)', 'рости (з entlang)', 'irregular', 'entlanggewachsen', 'wuchs entlang', 'sein', 'B1', 'Er moechte entlangwachsen.', 'Я хочу расти (с entlang).'),
+
+(2251, 'entgegenwachsen', 'расти (с entgegen)', 'рости (з entgegen)', 'irregular', 'entgegengewachsen', 'wuchs entgegen', 'sein', 'B1', 'Wir muessen entgegenwachsen.', 'Я хочу расти (с entgegen).'),
+
+(2252, 'gegenwachsen', 'расти (с gegen)', 'рости (з gegen)', 'irregular', 'gegengewachsen', 'gegenwuchs', 'sein', 'B1', 'Du solltest gegenwachsen.', 'Я хочу расти (с gegen).'),
+
+(2253, 'herunterwachsen', 'расти (с herunter)', 'рости (з herunter)', 'irregular', 'heruntergewachsen', 'wuchs herunter', 'sein', 'B1', 'Du solltest herunterwachsen.', 'Я хочу расти (с herunter).'),
+
+(2254, 'hinunterwachsen', 'расти (с hinunter)', 'рости (з hinunter)', 'irregular', 'hinuntergewachsen', 'wuchs hinunter', 'sein', 'B1', 'Kannst du hinunterwachsen?', 'Я хочу расти (с hinunter).'),
+
+(2255, 'hinzuwachsen', 'расти (с hinzu)', 'рости (з hinzu)', 'irregular', 'hinzugewachsen', 'hinzuwuchs', 'sein', 'B1', 'Es ist wichtig zu hinzuwachsen.', 'Я хочу расти (с hinzu).'),
+
+(2256, 'festwachsen', 'расти (с fest)', 'рости (з fest)', 'irregular', 'festgewachsen', 'wuchs fest', 'sein', 'B1', 'Ich moechte festwachsen.', 'Я хочу расти (с fest).'),
+
+(2257, 'fortwachsen', 'расти (с fort)', 'рости (з fort)', 'irregular', 'fortgewachsen', 'wuchs fort', 'sein', 'B1', 'Du solltest fortwachsen.', 'Я хочу расти (с fort).'),
+
+(2258, 'gegenueberwachsen', 'расти (с gegenueber)', 'рости (з gegenueber)', 'irregular', 'gegenuebergewachsen', 'wuchs gegenueber', 'sein', 'B1', 'Wir koennen gegenueberwachsen.', 'Я хочу расти (с gegenueber).'),
+
+(2259, 'loswachsen', 'расти (с los)', 'рости (з los)', 'irregular', 'losgewachsen', 'wuchs los', 'sein', 'B1', 'Es ist wichtig zu loswachsen.', 'Я хочу расти (с los).'),
+
+(2260, 'niederwachsen', 'расти (с nieder)', 'рости (з nieder)', 'irregular', 'niedergewachsen', 'wuchs nieder', 'sein', 'B1', 'Du solltest niederwachsen.', 'Я хочу расти (с nieder).'),
+
+(2261, 'ranwachsen', 'расти (с ran)', 'рости (з ran)', 'irregular', 'rangewachsen', 'wuchs ran', 'sein', 'B1', 'Es ist wichtig zu ranwachsen.', 'Я хочу расти (с ran).'),
+
+(2262, 'voranwachsen', 'расти (с voran)', 'рости (з voran)', 'irregular', 'vorangewachsen', 'wuchs voran', 'sein', 'B1', 'Wir koennen voranwachsen.', 'Я хочу расти (с voran).'),
+
+(2263, 'vorauswachsen', 'расти (с voraus)', 'рости (з voraus)', 'irregular', 'vorausgewachsen', 'wuchs voraus', 'sein', 'B1', 'Kannst du vorauswachsen?', 'Я хочу расти (с voraus).'),
+
+(2264, 'vorbeiwachsen', 'расти (с vorbei)', 'рости (з vorbei)', 'irregular', 'vorbeigewachsen', 'wuchs vorbei', 'sein', 'B1', 'Du solltest vorbeiwachsen.', 'Я хочу расти (с vorbei).'),
+
+(2265, 'vorherwachsen', 'расти (с vorher)', 'рости (з vorher)', 'irregular', 'vorhergewachsen', 'wuchs vorher', 'sein', 'B1', 'Sie moechte vorherwachsen.', 'Я хочу расти (с vorher).'),
+
+(2266, 'vorwaertswachsen', 'расти (с vorwaerts)', 'рости (з vorwaerts)', 'irregular', 'vorwaertsgewachsen', 'wuchs vorwaerts', 'sein', 'B1', 'Er moechte vorwaertswachsen.', 'Я хочу расти (с vorwaerts).'),
+
+(2267, 'zurechtwachsen', 'расти (с zurecht)', 'рости (з zurecht)', 'irregular', 'zurechtgewachsen', 'wuchs zurecht', 'sein', 'B1', 'Wir muessen zurechtwachsen.', 'Я хочу расти (с zurecht).'),
+
+(2268, 'zurueckwachsen', 'расти (с zurueck)', 'рости (з zurueck)', 'irregular', 'zurueckgewachsen', 'wuchs zurueck', 'sein', 'B1', 'Ich moechte zurueckwachsen.', 'Я хочу расти (с zurueck).'),
+
+(2269, 'zusammenwachsen', 'расти (с zusammen)', 'рости (з zusammen)', 'irregular', 'zusammengewachsen', 'wuchs zusammen', 'sein', 'B1', 'Wir koennen zusammenwachsen.', 'Я хочу расти (с zusammen).'),
+
+(2270, 'abwachsen', 'расти (с ab)', 'рости (з ab)', 'irregular', 'abgewachsen', 'wuchs ab', 'sein', 'B2', 'Kannst du abwachsen?', 'Я хочу расти (с ab).'),
+
+(2271, 'auswachsen', 'расти (с aus)', 'рости (з aus)', 'irregular', 'ausgewachsen', 'wuchs aus', 'sein', 'B2', 'Es ist wichtig zu auswachsen.', 'Я хочу расти (с aus).'),
+
+(2272, 'einwachsen', 'расти (с ein)', 'рости (з ein)', 'irregular', 'eingewachsen', 'wuchs ein', 'sein', 'B2', 'Es ist wichtig zu einwachsen.', 'Я хочу расти (с ein).'),
+
+(2273, 'mitwachsen', 'расти (с mit)', 'рости (з mit)', 'irregular', 'mitgewachsen', 'wuchs mit', 'sein', 'B2', 'Wir muessen mitwachsen.', 'Я хочу расти (с mit).'),
+
+(2274, 'hinterwachsen', 'расти (с hinter)', 'рости (з hinter)', 'irregular', 'hintergewachsen', 'hinterwuchs', 'sein', 'C1', 'Kannst du hinterwachsen?', 'Я хочу расти (с hinter).'),
+
+(2275, 'ueberwachsen', 'расти (с ueber)', 'рости (з ueber)', 'irregular', 'uebergewachsen', 'ueberwuchs', 'sein', 'C1', 'Wir muessen ueberwachsen.', 'Я хочу расти (с ueber).'),
+
+(2276, 'unterwachsen', 'расти (с unter)', 'рости (з unter)', 'irregular', 'untergewachsen', 'unterwuchs', 'sein', 'C1', 'Du solltest unterwachsen.', 'Я хочу расти (с unter).'),
+
+(2277, 'widerwachsen', 'расти (с wider)', 'рости (з wider)', 'irregular', 'widergewachsen', 'wuchs wider', 'sein', 'C1', 'Sie moechte widerwachsen.', 'Я хочу расти (с wider).'),
+
+(2278, 'beidruecken', 'жать/давить (с bei)', 'тиснути/давити (з bei)', 'regular', 'drueckt', 'drueckte', 'haben', 'B1', 'Ich moechte beidruecken.', 'Я хочу жать/давить (с bei).')
+
+(2279, 'nachdruecken', 'жать/давить (с nach)', 'тиснути/давити (з nach)', 'regular', 'nachgedrueckt', 'drueckte nach', 'haben', 'B1', 'Er moechte nachdruecken.', 'Я хочу жать/давить (с nach).')
+
+(2280, 'vordruecken', 'жать/давить (с vor)', 'тиснути/давити (з vor)', 'regular', 'vorgedrueckt', 'drueckte vor', 'haben', 'B1', 'Wir koennen vordruecken.', 'Я хочу жать/давить (с vor).')
+
+(2281, 'zudruecken', 'жать/давить (с zu)', 'тиснути/давити (з zu)', 'regular', 'zugedrueckt', 'drueckte zu', 'haben', 'B1', 'Er moechte zudruecken.', 'Я хочу жать/давить (с zu).')
+
+(2282, 'durchdruecken', 'жать/давить (с durch)', 'тиснути/давити (з durch)', 'regular', 'durchgedrueckt', 'drueckte durch', 'haben', 'B1', 'Er moechte durchdruecken.', 'Я хочу жать/давить (с durch).')
+
+(2283, 'umdruecken', 'жать/давить (с um)', 'тиснути/давити (з um)', 'regular', 'geumdrueckt', 'umdrueckte', 'haben', 'B1', 'Sie moechte umdruecken.', 'Я хочу жать/давить (с um).')
+
+(2284, 'wegdruecken', 'жать/давить (с weg)', 'тиснути/давити (з weg)', 'regular', 'weggedrueckt', 'drueckte weg', 'haben', 'B1', 'Sie moechte wegdruecken.', 'Я хочу жать/давить (с weg).')
+
+(2285, 'weiterdruecken', 'жать/давить (с weiter)', 'тиснути/давити (з weiter)', 'regular', 'weitergedrueckt', 'drueckte weiter', 'haben', 'B1', 'Er moechte weiterdruecken.', 'Я хочу жать/давить (с weiter).')
+
+(2286, 'herdruecken', 'жать/давить (с her)', 'тиснути/давити (з her)', 'regular', 'hergedrueckt', 'drueckte her', 'haben', 'B1', 'Du solltest herdruecken.', 'Я хочу жать/давить (с her).')
+
+(2287, 'hindruecken', 'жать/давить (с hin)', 'тиснути/давити (з hin)', 'regular', 'hingedrueckt', 'drueckte hin', 'haben', 'B1', 'Er moechte hindruecken.', 'Я хочу жать/давить (с hin).')
+
+(2288, 'dadruecken', 'жать/давить (с da)', 'тиснути/давити (з da)', 'regular', 'dagedrueckt', 'drueckte da', 'haben', 'B1', 'Sie moechte dadruecken.', 'Я хочу жать/давить (с da).')
+
+(2289, 'empordruecken', 'жать/давить (с empor)', 'тиснути/давити (з empor)', 'regular', 'drueckt', 'drueckte', 'haben', 'B1', 'Wir muessen empordruecken.', 'Я хочу жать/давить (с empor).')
+
+(2290, 'entlangdruecken', 'жать/давить (с entlang)', 'тиснути/давити (з entlang)', 'regular', 'drueckt', 'drueckte', 'haben', 'B1', 'Kannst du entlangdruecken?', 'Я хочу жать/давить (с entlang).')
+
+(2291, 'entgegendruecken', 'жать/давить (с entgegen)', 'тиснути/давити (з entgegen)', 'regular', 'drueckt', 'drueckte', 'haben', 'B1', 'Wir koennen entgegendruecken.', 'Я хочу жать/давить (с entgegen).')
+
+(2292, 'gegendruecken', 'жать/давить (с gegen)', 'тиснути/давити (з gegen)', 'regular', 'gegendrueckt', 'gegendrueckte', 'haben', 'B1', 'Wir koennen gegendruecken.', 'Я хочу жать/давить (с gegen).')
+
+(2293, 'herunterdruecken', 'жать/давить (с herunter)', 'тиснути/давити (з herunter)', 'regular', 'heruntergedrueckt', 'drueckte herunter', 'haben', 'B1', 'Er moechte herunterdruecken.', 'Я хочу жать/давить (с herunter).')
+
+(2294, 'hinunterdruecken', 'жать/давить (с hinunter)', 'тиснути/давити (з hinunter)', 'regular', 'hinuntergedrueckt', 'drueckte hinunter', 'haben', 'B1', 'Wir koennen hinunterdruecken.', 'Я хочу жать/давить (с hinunter).')
+
+(2295, 'hinzudruecken', 'жать/давить (с hinzu)', 'тиснути/давити (з hinzu)', 'regular', 'hingezudrueckt', 'zudrueckte hin', 'haben', 'B1', 'Wir koennen hinzudruecken.', 'Я хочу жать/давить (с hinzu).')
+
+(2296, 'festdruecken', 'жать/давить (с fest)', 'тиснути/давити (з fest)', 'regular', 'festgedrueckt', 'drueckte fest', 'haben', 'B1', 'Ich moechte festdruecken.', 'Я хочу жать/давить (с fest).')
+
+(2297, 'fortdruecken', 'жать/давить (с fort)', 'тиснути/давити (з fort)', 'regular', 'fortgedrueckt', 'drueckte fort', 'haben', 'B1', 'Es ist wichtig zu fortdruecken.', 'Я хочу жать/давить (с fort).')
+
+(2298, 'gegenueberdruecken', 'жать/давить (с gegenueber)', 'тиснути/давити (з gegenueber)', 'regular', 'gegenueberdrueckt', 'gegenueberdrueckte', 'haben', 'B1', 'Du solltest gegenueberdruecken.', 'Я хочу жать/давить (с gegenueber).')
+
+(2299, 'losdruecken', 'жать/давить (с los)', 'тиснути/давити (з los)', 'regular', 'losgedrueckt', 'drueckte los', 'haben', 'B1', 'Ich moechte losdruecken.', 'Я хочу жать/давить (с los).')
+
+(2300, 'niederdruecken', 'жать/давить (с nieder)', 'тиснути/давити (з nieder)', 'regular', 'niedergedrueckt', 'drueckte nieder', 'haben', 'B1', 'Er moechte niederdruecken.', 'Я хочу жать/давить (с nieder).')
+
+(2301, 'randruecken', 'жать/давить (с ran)', 'тиснути/давити (з ran)', 'regular', 'rangedrueckt', 'drueckte ran', 'haben', 'B1', 'Du solltest randruecken.', 'Я хочу жать/давить (с ran).')
+
+(2302, 'vorandruecken', 'жать/давить (с voran)', 'тиснути/давити (з voran)', 'regular', 'vorangedrueckt', 'drueckte voran', 'haben', 'B1', 'Wir koennen vorandruecken.', 'Я хочу жать/давить (с voran).')
+
+(2303, 'vorausdruecken', 'жать/давить (с voraus)', 'тиснути/давити (з voraus)', 'regular', 'vorausgedrueckt', 'drueckte voraus', 'haben', 'B1', 'Wir koennen vorausdruecken.', 'Я хочу жать/давить (с voraus).')
+
+(2304, 'vorbeidruecken', 'жать/давить (с vorbei)', 'тиснути/давити (з vorbei)', 'regular', 'vorbeigedrueckt', 'drueckte vorbei', 'haben', 'B1', 'Es ist wichtig zu vorbeidruecken.', 'Я хочу жать/давить (с vorbei).')
+
+(2305, 'vorherdruecken', 'жать/давить (с vorher)', 'тиснути/давити (з vorher)', 'regular', 'vorhergedrueckt', 'drueckte vorher', 'haben', 'B1', 'Wir muessen vorherdruecken.', 'Я хочу жать/давить (с vorher).')
+
+(2306, 'vorwaertsdruecken', 'жать/давить (с vorwaerts)', 'тиснути/давити (з vorwaerts)', 'regular', 'vorgewaertsdrueckt', 'waertsdrueckte vor', 'haben', 'B1', 'Er moechte vorwaertsdruecken.', 'Я хочу жать/давить (с vorwaerts).')
+
+(2307, 'zurechtdruecken', 'жать/давить (с zurecht)', 'тиснути/давити (з zurecht)', 'regular', 'zurechtgedrueckt', 'drueckte zurecht', 'haben', 'B1', 'Wir muessen zurechtdruecken.', 'Я хочу жать/давить (с zurecht).')
+
+(2308, 'zurueckdruecken', 'жать/давить (с zurueck)', 'тиснути/давити (з zurueck)', 'regular', 'zugerueckdrueckt', 'rueckdrueckte zu', 'haben', 'B1', 'Kannst du zurueckdruecken?', 'Я хочу жать/давить (с zurueck).')
+
+(2309, 'zusammendruecken', 'жать/давить (с zusammen)', 'тиснути/давити (з zusammen)', 'regular', 'zusammengedrueckt', 'drueckte zusammen', 'haben', 'B1', 'Es ist wichtig zu zusammendruecken.', 'Я хочу жать/давить (с zusammen).')
+
+(2310, 'abdruecken', 'жать/давить (с ab)', 'тиснути/давити (з ab)', 'regular', 'abgedrueckt', 'drueckte ab', 'haben', 'B2', 'Ich moechte abdruecken.', 'Я хочу жать/давить (с ab).')
+
+(2311, 'andruecken', 'жать/давить (с an)', 'тиснути/давити (з an)', 'regular', 'angedrueckt', 'drueckte an', 'haben', 'B2', 'Sie moechte andruecken.', 'Я хочу жать/давить (с an).')
+
+(2312, 'aufdruecken', 'жать/давить (с auf)', 'тиснути/давити (з auf)', 'regular', 'aufgedrueckt', 'drueckte auf', 'haben', 'B2', 'Sie moechte aufdruecken.', 'Я хочу жать/давить (с auf).')
+
+(2313, 'ausdruecken', 'жать/давить (с aus)', 'тиснути/давити (з aus)', 'regular', 'ausgedrueckt', 'drueckte aus', 'haben', 'B2', 'Kannst du ausdruecken?', 'Я хочу жать/давить (с aus).')
+
+(2314, 'eindruecken', 'жать/давить (с ein)', 'тиснути/давити (з ein)', 'regular', 'eingedrueckt', 'drueckte ein', 'haben', 'B2', 'Kannst du eindruecken?', 'Я хочу жать/давить (с ein).')
+
+(2315, 'mitdruecken', 'жать/давить (с mit)', 'тиснути/давити (з mit)', 'regular', 'mitgedrueckt', 'drueckte mit', 'haben', 'B2', 'Es ist wichtig zu mitdruecken.', 'Я хочу жать/давить (с mit).')
+
+(2316, 'hinterdruecken', 'жать/давить (с hinter)', 'тиснути/давити (з hinter)', 'regular', 'hingeterdrueckt', 'terdrueckte hin', 'haben', 'C1', 'Kannst du hinterdruecken?', 'Я хочу жать/давить (с hinter).')
+
+(2317, 'ueberdruecken', 'жать/давить (с ueber)', 'тиснути/давити (з ueber)', 'regular', 'geueberdrueckt', 'ueberdrueckte', 'haben', 'C1', 'Es ist wichtig zu ueberdruecken.', 'Я хочу жать/давить (с ueber).')
+
+(2318, 'unterdruecken', 'жать/давить (с unter)', 'тиснути/давити (з unter)', 'regular', 'geunterdrueckt', 'unterdrueckte', 'haben', 'C1', 'Es ist wichtig zu unterdruecken.', 'Я хочу жать/давить (с unter).')
+
+(2319, 'widerdruecken', 'жать/давить (с wider)', 'тиснути/давити (з wider)', 'regular', 'widergedrueckt', 'drueckte wider', 'haben', 'C1', 'Du solltest widerdruecken.', 'Я хочу жать/давить (с wider).')
+
+(2320, 'beischliessen', 'закрывать (с bei)', 'закривати (з bei)', 'irregular', 'beigeschlossen', 'schloss bei', 'haben', 'B1', 'Du solltest beischliessen.', 'Я хочу закрывать (с bei).'),
+
+(2321, 'nachschliessen', 'закрывать (с nach)', 'закривати (з nach)', 'irregular', 'nachgeschlossen', 'schloss nach', 'haben', 'B1', 'Sie moechte nachschliessen.', 'Я хочу закрывать (с nach).'),
+
+(2322, 'vorschliessen', 'закрывать (с vor)', 'закривати (з vor)', 'irregular', 'vorgeschlossen', 'schloss vor', 'haben', 'B1', 'Er moechte vorschliessen.', 'Я хочу закрывать (с vor).'),
+
+(2323, 'zuschliessen', 'закрывать (с zu)', 'закривати (з zu)', 'irregular', 'zugeschlossen', 'schloss zu', 'haben', 'B1', 'Wir koennen zuschliessen.', 'Я хочу закрывать (с zu).'),
+
+(2324, 'durchschliessen', 'закрывать (с durch)', 'закривати (з durch)', 'irregular', 'durchgeschlossen', 'schloss durch', 'haben', 'B1', 'Ich moechte durchschliessen.', 'Я хочу закрывать (с durch).'),
+
+(2325, 'umschliessen', 'закрывать (с um)', 'закривати (з um)', 'irregular', 'umgeschlossen', 'umschloss', 'haben', 'B1', 'Ich moechte umschliessen.', 'Я хочу закрывать (с um).'),
+
+(2326, 'wegschliessen', 'закрывать (с weg)', 'закривати (з weg)', 'irregular', 'weggeschlossen', 'schloss weg', 'haben', 'B1', 'Wir koennen wegschliessen.', 'Я хочу закрывать (с weg).'),
+
+(2327, 'weiterschliessen', 'закрывать (с weiter)', 'закривати (з weiter)', 'irregular', 'weitergeschlossen', 'schloss weiter', 'haben', 'B1', 'Kannst du weiterschliessen?', 'Я хочу закрывать (с weiter).'),
+
+(2328, 'herschliessen', 'закрывать (с her)', 'закривати (з her)', 'irregular', 'hergeschlossen', 'schloss her', 'haben', 'B1', 'Kannst du herschliessen?', 'Я хочу закрывать (с her).'),
+
+(2329, 'hinschliessen', 'закрывать (с hin)', 'закривати (з hin)', 'irregular', 'hingeschlossen', 'schloss hin', 'haben', 'B1', 'Sie moechte hinschliessen.', 'Я хочу закрывать (с hin).'),
+
+(2330, 'daschliessen', 'закрывать (с da)', 'закривати (з da)', 'irregular', 'dageschlossen', 'schloss da', 'haben', 'B1', 'Wir muessen daschliessen.', 'Я хочу закрывать (с da).'),
+
+(2331, 'emporschliessen', 'закрывать (с empor)', 'закривати (з empor)', 'irregular', 'emporgeschlossen', 'schloss empor', 'haben', 'B1', 'Wir muessen emporschliessen.', 'Я хочу закрывать (с empor).'),
+
+(2332, 'entlangschliessen', 'закрывать (с entlang)', 'закривати (з entlang)', 'irregular', 'entlanggeschlossen', 'schloss entlang', 'haben', 'B1', 'Du solltest entlangschliessen.', 'Я хочу закрывать (с entlang).'),
+
+(2333, 'entgegenschliessen', 'закрывать (с entgegen)', 'закривати (з entgegen)', 'irregular', 'entgegengeschlossen', 'schloss entgegen', 'haben', 'B1', 'Ich moechte entgegenschliessen.', 'Я хочу закрывать (с entgegen).'),
+
+(2334, 'gegenschliessen', 'закрывать (с gegen)', 'закривати (з gegen)', 'irregular', 'gegengeschlossen', 'gegenschloss', 'haben', 'B1', 'Ich moechte gegenschliessen.', 'Я хочу закрывать (с gegen).'),
+
+(2335, 'herunterschliessen', 'закрывать (с herunter)', 'закривати (з herunter)', 'irregular', 'heruntergeschlossen', 'schloss herunter', 'haben', 'B1', 'Er moechte herunterschliessen.', 'Я хочу закрывать (с herunter).'),
+
+(2336, 'hinunterschliessen', 'закрывать (с hinunter)', 'закривати (з hinunter)', 'irregular', 'hinuntergeschlossen', 'schloss hinunter', 'haben', 'B1', 'Du solltest hinunterschliessen.', 'Я хочу закрывать (с hinunter).'),
+
+(2337, 'hinzuschliessen', 'закрывать (с hinzu)', 'закривати (з hinzu)', 'irregular', 'hinzugeschlossen', 'hinzuschloss', 'haben', 'B1', 'Ich moechte hinzuschliessen.', 'Я хочу закрывать (с hinzu).'),
+
+(2338, 'festschliessen', 'закрывать (с fest)', 'закривати (з fest)', 'irregular', 'festgeschlossen', 'schloss fest', 'haben', 'B1', 'Wir muessen festschliessen.', 'Я хочу закрывать (с fest).'),
+
+(2339, 'fortschliessen', 'закрывать (с fort)', 'закривати (з fort)', 'irregular', 'fortgeschlossen', 'schloss fort', 'haben', 'B1', 'Wir koennen fortschliessen.', 'Я хочу закрывать (с fort).'),
+
+(2340, 'gegenueberschliessen', 'закрывать (с gegenueber)', 'закривати (з gegenueber)', 'irregular', 'gegenuebergeschlossen', 'schloss gegenueber', 'haben', 'B1', 'Sie moechte gegenueberschliessen.', 'Я хочу закрывать (с gegenueber).'),
+
+(2341, 'losschliessen', 'закрывать (с los)', 'закривати (з los)', 'irregular', 'losgeschlossen', 'schloss los', 'haben', 'B1', 'Es ist wichtig zu losschliessen.', 'Я хочу закрывать (с los).'),
+
+(2342, 'niederschliessen', 'закрывать (с nieder)', 'закривати (з nieder)', 'irregular', 'niedergeschlossen', 'schloss nieder', 'haben', 'B1', 'Kannst du niederschliessen?', 'Я хочу закрывать (с nieder).'),
+
+(2343, 'ranschliessen', 'закрывать (с ran)', 'закривати (з ran)', 'irregular', 'rangeschlossen', 'schloss ran', 'haben', 'B1', 'Ich moechte ranschliessen.', 'Я хочу закрывать (с ran).'),
+
+(2344, 'voranschliessen', 'закрывать (с voran)', 'закривати (з voran)', 'irregular', 'vorangeschlossen', 'schloss voran', 'haben', 'B1', 'Er moechte voranschliessen.', 'Я хочу закрывать (с voran).'),
+
+(2345, 'vorausschliessen', 'закрывать (с voraus)', 'закривати (з voraus)', 'irregular', 'vorausgeschlossen', 'schloss voraus', 'haben', 'B1', 'Ich moechte vorausschliessen.', 'Я хочу закрывать (с voraus).'),
+
+(2346, 'vorbeischliessen', 'закрывать (с vorbei)', 'закривати (з vorbei)', 'irregular', 'vorbeigeschlossen', 'schloss vorbei', 'haben', 'B1', 'Sie moechte vorbeischliessen.', 'Я хочу закрывать (с vorbei).'),
+
+(2347, 'vorherschliessen', 'закрывать (с vorher)', 'закривати (з vorher)', 'irregular', 'vorhergeschlossen', 'schloss vorher', 'haben', 'B1', 'Er moechte vorherschliessen.', 'Я хочу закрывать (с vorher).'),
+
+(2348, 'vorwaertsschliessen', 'закрывать (с vorwaerts)', 'закривати (з vorwaerts)', 'irregular', 'vorwaertsgeschlossen', 'schloss vorwaerts', 'haben', 'B1', 'Es ist wichtig zu vorwaertsschliessen.', 'Я хочу закрывать (с vorwaerts).'),
+
+(2349, 'zurechtschliessen', 'закрывать (с zurecht)', 'закривати (з zurecht)', 'irregular', 'zurechtgeschlossen', 'schloss zurecht', 'haben', 'B1', 'Ich moechte zurechtschliessen.', 'Я хочу закрывать (с zurecht).'),
+
+(2350, 'zurueckschliessen', 'закрывать (с zurueck)', 'закривати (з zurueck)', 'irregular', 'zurueckgeschlossen', 'schloss zurueck', 'haben', 'B1', 'Er moechte zurueckschliessen.', 'Я хочу закрывать (с zurueck).'),
+
+(2351, 'zusammenschliessen', 'закрывать (с zusammen)', 'закривати (з zusammen)', 'irregular', 'zusammengeschlossen', 'schloss zusammen', 'haben', 'B1', 'Wir koennen zusammenschliessen.', 'Я хочу закрывать (с zusammen).'),
+
+(2352, 'aufschliessen', 'закрывать (с auf)', 'закривати (з auf)', 'irregular', 'aufgeschlossen', 'schloss auf', 'haben', 'B2', 'Er moechte aufschliessen.', 'Я хочу закрывать (с auf).'),
+
+(2353, 'einschliessen', 'закрывать (с ein)', 'закривати (з ein)', 'irregular', 'eingeschlossen', 'schloss ein', 'haben', 'B2', 'Du solltest einschliessen.', 'Я хочу закрывать (с ein).'),
+
+(2354, 'mitschliessen', 'закрывать (с mit)', 'закривати (з mit)', 'irregular', 'mitgeschlossen', 'schloss mit', 'haben', 'B2', 'Er moechte mitschliessen.', 'Я хочу закрывать (с mit).'),
+
+(2355, 'hinterschliessen', 'закрывать (с hinter)', 'закривати (з hinter)', 'irregular', 'hintergeschlossen', 'hinterschloss', 'haben', 'C1', 'Kannst du hinterschliessen?', 'Я хочу закрывать (с hinter).'),
+
+(2356, 'ueberschliessen', 'закрывать (с ueber)', 'закривати (з ueber)', 'irregular', 'uebergeschlossen', 'ueberschloss', 'haben', 'C1', 'Ich moechte ueberschliessen.', 'Я хочу закрывать (с ueber).'),
+
+(2357, 'unterschliessen', 'закрывать (с unter)', 'закривати (з unter)', 'irregular', 'untergeschlossen', 'unterschloss', 'haben', 'C1', 'Wir koennen unterschliessen.', 'Я хочу закрывать (с unter).'),
+
+(2358, 'widerschliessen', 'закрывать (с wider)', 'закривати (з wider)', 'irregular', 'widergeschlossen', 'schloss wider', 'haben', 'C1', 'Er moechte widerschliessen.', 'Я хочу закрывать (с wider).'),
+
+(2359, 'aufraeumen', 'убирать (наводить порядок)', 'прибирати (наводити лад)', 'regular', 'aufgeraeumt', 'raeumte auf', 'haben', 'A2', 'Sie moechte aufraeumen.', 'Я хочу убирать (наводить порядок).')
+
+(2360, 'einatmen', 'вдыхать', 'вдихати', 'regular', 'eingeatmet', 'atmete ein', 'haben', 'A2', 'Ich moechte einatmen.', 'Я хочу вдыхать.')
+
+(2361, 'entscheiden (sich)', 'решать(ся) (принимать решение)', 'вирішувати(ся) (приймати рішення)', 'irregular', 'entschieden', 'entschied', 'haben', 'A2', 'Sie moechte entscheiden (sich).', 'Я хочу решать(ся) (принимать решение).'),
+
+(2362, 'fruehstuecken', 'завтракать', 'снідати', 'regular', 'gefruehstueckt', 'fruehstueckte', 'haben', 'A2', 'Wir koennen fruehstuecken.', 'Я хочу завтракать.')
+
+(2363, 'klappen', 'получаться (удаваться)', 'виходити (вдаватися)', 'regular', 'geklappt', 'klappte', 'haben', 'A2', 'Wir koennen klappen.', 'Я хочу получаться (удаваться).')
+
+(2364, 'luegen', 'лгать (врать)', 'брехати (обманювати)', 'irregular', 'gelogen', 'log', 'haben', 'A2', 'Ich moechte luegen.', 'Я хочу лгать (врать).'),
+
+(2365, 'regen (sich)', 'шевелиться (двигаться)', 'ворушитися (рухатися)', 'regular', 'geregen (sich)t', 'regen (sich)te', 'haben', 'A2', 'Wir muessen regen (sich).', 'Я хочу шевелиться (двигаться).'),
+
+(2366, 'schnarchen', 'храпеть', 'хропіти', 'regular', 'geschnarcht', 'schnarchte', 'haben', 'A2', 'Sie moechte schnarchen.', 'Я хочу храпеть.')
+
+(2367, 'uebernachten', 'ночевать (пеpеночевать)', 'ночувати (пepеночувати)', 'regular', 'geuebernachtet', 'uebernachtete', 'haben', 'A2', 'Wir muessen uebernachten.', 'Я хочу ночевать (пеpеночевать).')
+
+(2368, 'verabschieden (sich)', 'прощаться', 'прощатися', 'regular', 'verabschieden (sich)t', 'verabschieden (sich)te', 'haben', 'A2', 'Ich moechte verabschieden (sich).', 'Я хочу прощаться.'),
+
+(2369, 'manifestieren', 'манифестировать (проявлять)', 'маніфестувати (проявляти)', 'regular', 'manifestiert', 'manifestierte', 'haben', 'C1', 'Ich moechte manifestieren.', 'Я хочу манифестировать (проявлять).')
+
+(2370, 'objektivieren', 'объективировать', 'об''єктивувати', 'regular', 'objektiviert', 'objektivierte', 'haben', 'C1', 'Er moechte objektivieren.', 'Я хочу объективировать.')
+
+(2371, 'paradieren', 'парадировать (шествовать)', 'парадувати (шествувати)', 'regular', 'paradiert', 'paradierte', 'haben', 'C1', 'Ich moechte paradieren.', 'Я хочу парадировать (шествовать).')
+
+(2372, 'sanktionieren', 'санкционировать', 'санкціонувати', 'regular', 'sanktioniert', 'sanktionierte', 'haben', 'C1', 'Du solltest sanktionieren.', 'Я хочу санкционировать.')
+
+(2373, 'signalisieren', 'сигнализировать (подавать сигнал)', 'сигналізувати (подавати сигнал)', 'regular', 'signalisiert', 'signalisierte', 'haben', 'C1', 'Er moechte signalisieren.', 'Я хочу сигнализировать (подавать сигнал).')
+
+(2374, 'symbolisieren', 'символизировать', 'символізувати', 'regular', 'symbolisiert', 'symbolisierte', 'haben', 'C1', 'Kannst du symbolisieren?', 'Я хочу символизировать.')
+
+(2375, 'synchronisieren', 'синхронизировать', 'синхронізувати', 'regular', 'synchronisiert', 'synchronisierte', 'haben', 'C1', 'Es ist wichtig zu synchronisieren.', 'Я хочу синхронизировать.')
+
+(2376, 'tangieren', 'касаться (затрагивать)', 'торкатися (зачіпати)', 'regular', 'tangiert', 'tangierte', 'haben', 'C1', 'Er moechte tangieren.', 'Я хочу касаться (затрагивать).')
+
+(2377, 'transferieren', 'переводить (перемещать)', 'переводити (переміщувати)', 'regular', 'transferiert', 'transferierte', 'haben', 'C1', 'Es ist wichtig zu transferieren.', 'Я хочу переводить (перемещать).')
+
+(2378, 'versichern (sich)', 'страховать(ся) (убеждаться)', 'страхувати(ся) (переконуватися)', 'regular', 'versichern (sich)t', 'versichern (sich)te', 'haben', 'C1', 'Wir koennen versichern (sich).', 'Я хочу страховать(ся) (убеждаться).'),
+
+(2379, 'sich setzen', 'садиться', 'сідати', 'regular', 'sich gesetzt', 'setzte sich', 'haben', 'A2', 'Wir muessen sich setzen.', 'Я хочу садиться.')
+
+(2380, 'sich legen', 'ложиться', 'лягати', 'regular', 'sich gelegt', 'legte sich', 'haben', 'A2', 'Wir muessen sich legen.', 'Я хочу ложиться.')
+
+(2381, 'sich stellen', 'становиться (в очередь)', 'ставати (в чергу)', 'regular', 'sich gestellt', 'stellte sich', 'haben', 'A2', 'Wir muessen sich stellen.', 'Я хочу становиться (в очередь).')
+
+(2382, 'abschaffen', 'отменять (упразднять)', 'скасовувати (упразднювати)', 'regular', 'abschaffent', 'schaffente ab', 'haben', 'B2', 'Sie moechte abschaffen.', 'Я хочу отменять (упразднять).'),
+
+(2384, 'ausschöpfen', 'исчерпывать (использовать)', 'вичерпувати (використовувати)', 'regular', 'ausgeschöpft', 'schöpfte aus', 'haben', 'B2', 'Kannst du ausschöpfen?', 'Я хочу исчерпывать (использовать).')
+
+(2385, 'ausstatten', 'оборудовать (оснащать)', 'обладнати (оснащувати)', 'regular', 'ausgestattet', 'stattete aus', 'haben', 'B2', 'Es ist wichtig zu ausstatten.', 'Я хочу оборудовать (оснащать).')
+
+(2386, 'befriedigen', 'удовлетворять (удовлетворять)', 'задовольняти', 'regular', 'befriedigt', 'befriedigte', 'haben', 'B2', 'Er moechte befriedigen.', 'Я хочу удовлетворять (удовлетворять).')
+
+(2387, 'beglückwünschen', 'поздравлять', 'вітати', 'regular', 'beglückwünscht', 'beglückwünschte', 'haben', 'B2', 'Ich moechte beglückwünschen.', 'Я хочу поздравлять.')
+
+(2388, 'behindern', 'препятствовать (мешать)', 'перешкоджати (заважати)', 'regular', 'behindert', 'behinderte', 'haben', 'B2', 'Er moechte behindern.', 'Я хочу препятствовать (мешать).')
+
+(2389, 'beschränken', 'ограничивать (сокращать)', 'обмежувати (скорочувати)', 'regular', 'beschränkt', 'beschränkte', 'haben', 'B2', 'Du solltest beschränken.', 'Я хочу ограничивать (сокращать).')
+
+(2390, 'beschuldigen', 'обвинять (винить)', 'обвинувачувати (винити)', 'regular', 'beschuldigt', 'beschuldigte', 'haben', 'B2', 'Ich moechte beschuldigen.', 'Я хочу обвинять (винить).')
+
+(2391, 'besiegen', 'побеждать (одолевать)', 'перемагати (долати)', 'regular', 'besiegt', 'besiegte', 'haben', 'B2', 'Sie moechte besiegen.', 'Я хочу побеждать (одолевать).')
+
+(2392, 'betrügen', 'обманывать (мошенничать)', 'обманювати (шахраювати)', 'irregular', 'betrogen', 'betrog', 'haben', 'B2', 'Kannst du betrügen?', 'Я хочу обманывать (мошенничать).'),
+
+(2393, 'bevorzugen', 'предпочитать (отдавать предпочтение)', 'надавати перевагу', 'regular', 'bevorzugt', 'bevorzugte', 'haben', 'B2', 'Es ist wichtig zu bevorzugen.', 'Я хочу предпочитать (отдавать предпочтение).')
+
+(2394, 'bewirken', 'вызывать (приводить к)', 'викликати (призводити до)', 'regular', 'bewirkt', 'bewirkte', 'haben', 'B2', 'Du solltest bewirken.', 'Я хочу вызывать (приводить к).')
+
+(2395, 'darstellen', 'изображать (представлять)', 'зображати (представляти)', 'regular', 'dagerstellt', 'rstellte da', 'haben', 'B2', 'Kannst du darstellen?', 'Я хочу изображать (представлять).')
+
+(2396, 'durchsetzen (sich)', 'пробивать(ся) (добиваться)', 'пробивати(ся) (домагатися)', 'regular', 'durchsetzen (sich)t', 'setzen (sich)te durch', 'haben', 'B2', 'Wir muessen durchsetzen (sich).', 'Я хочу пробивать(ся) (добиваться).'),
+
+(2397, 'einfordern', 'требовать (востребовать)', 'вимагати (затребувати)', 'regular', 'eingefordert', 'forderte ein', 'haben', 'B2', 'Es ist wichtig zu einfordern.', 'Я хочу требовать (востребовать).')
+
+(2398, 'einhalten', 'соблюдать (выдерживать)', 'дотримуватися (витримувати)', 'irregular', 'eingehalten', 'hielt ein', 'haben', 'B2', 'Wir muessen einhalten.', 'Я хочу соблюдать (выдерживать).'),
+
+(2399, 'einräumen', 'признавать (уступать)', 'визнавати (поступатися)', 'regular', 'eingeräumt', 'räumte ein', 'haben', 'B2', 'Du solltest einräumen.', 'Я хочу признавать (уступать).')
+
+(2400, 'einschränken', 'ограничивать (сокращать)', 'обмежувати (скорочувати)', 'regular', 'eingeschränkt', 'schränkte ein', 'haben', 'B2', 'Er moechte einschränken.', 'Я хочу ограничивать (сокращать).')
+
+(2401, 'einsetzen (sich)', 'вступаться (за)', 'заступатися (за)', 'regular', 'einsetzen (sich)t', 'setzen (sich)te ein', 'haben', 'B2', 'Du solltest einsetzen (sich).', 'Я хочу вступаться (за).'),
+
+(2402, 'entgehen', 'избегать (ускользать)', 'уникати (вислизати)', 'irregular', 'entgangen', 'entging', 'sein', 'B2', 'Wir koennen entgehen.', 'Я хочу избегать (ускользать).'),
+
+(2403, 'entkommen', 'избегать (убегать)', 'уникати (тікати)', 'irregular', 'entkommen', 'entkam', 'sein', 'B2', 'Sie moechte entkommen.', 'Я хочу избегать (убегать).'),
+
+(2404, 'enttäuschen', 'разочаровывать', 'розчаровувати', 'regular', 'enttäuscht', 'enttäuschte', 'haben', 'B2', 'Er moechte enttäuschen.', 'Я хочу разочаровывать.')
+
+(2405, 'erfüllen', 'выполнять (осуществлять)', 'виконувати (здійснювати)', 'regular', 'erfüllt', 'erfüllte', 'haben', 'B2', 'Sie moechte erfüllen.', 'Я хочу выполнять (осуществлять).')
+
+(2406, 'erheben (sich)', 'подниматься (восставать)', 'підніматися (повставати)', 'irregular', 'erhoben', 'erhob', 'haben', 'B2', 'Ich moechte erheben (sich).', 'Я хочу подниматься (восставать).'),
+
+(2407, 'erkundigen (sich)', 'осведомляться (справляться)', 'освідомлюватися (довідуватися)', 'regular', 'erkundigen (sich)t', 'erkundigen (sich)te', 'haben', 'B2', 'Wir muessen erkundigen (sich).', 'Я хочу осведомляться (справляться).'),
+
+(2408, 'erregen', 'возбуждать (вызывать)', 'збуджувати (викликати)', 'regular', 'erregt', 'erregte', 'haben', 'B2', 'Ich moechte erregen.', 'Я хочу возбуждать (вызывать).')
+
+(2409, 'erwägen', 'обдумывать (взвешивать)', 'обдумувати (зважувати)', 'irregular', 'erwogen', 'erwog', 'haben', 'B2', 'Kannst du erwägen?', 'Я хочу обдумывать (взвешивать).'),
+
+(2410, 'fordern', 'требовать (взыскивать)', 'вимагати (стягувати)', 'regular', 'gefordert', 'forderte', 'haben', 'B2', 'Wir muessen fordern.', 'Я хочу требовать (взыскивать).')
+
+(2411, 'genügen', 'быть достаточным (удовлетворять)', 'бути достатнім (задовольняти)', 'regular', 'genügt', 'genügte', 'haben', 'B2', 'Du solltest genügen.', 'Я хочу быть достаточным (удовлетворять).')
+
+(2412, 'hinderen', 'препятствовать (мешать)', 'перешкоджати (заважати)', 'regular', 'hingedert', 'derte hin', 'haben', 'B2', 'Wir muessen hinderen.', 'Я хочу препятствовать (мешать).')
+
+(2413, 'misslingen', 'не удаваться (провалиться)', 'не вдаватися (провалитися)', 'irregular', 'misslungen', 'misslang', 'sein', 'B2', 'Es ist wichtig zu misslingen.', 'Я хочу не удаваться (провалиться).'),
+
+(2414, 'profitieren', 'извлекать прибыль (выгоду)', 'отримувати прибуток (вигоду)', 'regular', 'profitiert', 'profitierte', 'haben', 'B2', 'Er moechte profitieren.', 'Я хочу извлекать прибыль (выгоду).')
+
+(2415, 'reagieren', 'реагировать (отвечать)', 'реагувати (відповідати)', 'regular', 'reagiert', 'reagierte', 'haben', 'B2', 'Ich moechte reagieren.', 'Я хочу реагировать (отвечать).')
+
+(2416, 'schädigen', 'повреждать (наносить ущерб)', 'пошкоджувати (наносити збиток)', 'regular', 'geschädigt', 'schädigte', 'haben', 'B2', 'Er moechte schädigen.', 'Я хочу повреждать (наносить ущерб).')
+
+(2417, 'stürzen', 'падать (свергать)', 'падати (скидати)', 'regular', 'gestürzt', 'stürzte', 'haben', 'B2', 'Sie moechte stürzen.', 'Я хочу падать (свергать).')
+
+(2418, 'täuschen', 'обманывать (вводить в заблуждение)', 'обманювати (вводити в оману)', 'regular', 'getäuscht', 'täuschte', 'haben', 'B2', 'Ich moechte täuschen.', 'Я хочу обманывать (вводить в заблуждение).')
+
+(2419, 'überfordern', 'предъявлять завышенные требования', 'пред''являти завищені вимоги', 'regular', 'geüberfordert', 'überforderte', 'haben', 'B2', 'Wir muessen überfordern.', 'Я хочу предъявлять завышенные требования.')
+
+(2420, 'überleben', 'выживать (пережить)', 'виживати (пережити)', 'regular', 'geüberlebt', 'überlebte', 'haben', 'B2', 'Kannst du überleben?', 'Я хочу выживать (пережить).')
+
+(2421, 'übernehmen', 'принимать (брать на себя)', 'приймати (брати на себе)', 'irregular', 'übernommen', 'übernahm', 'haben', 'B2', 'Es ist wichtig zu übernehmen.', 'Я хочу принимать (брать на себя).'),
+
+(2422, 'überprüfen', 'проверять (контролировать)', 'перевіряти (контролювати)', 'regular', 'geüberprüft', 'überprüfte', 'haben', 'B2', 'Kannst du überprüfen?', 'Я хочу проверять (контролировать).')
+
+(2423, 'unterlassen', 'воздерживаться (не делать)', 'утримуватися (не робити)', 'irregular', 'unterlassen', 'unterließ', 'haben', 'B2', 'Wir muessen unterlassen.', 'Я хочу воздерживаться (не делать).'),
+
+(2424, 'unternemen', 'предпринимать', 'вживати заходів', 'irregular', 'unternommen', 'unternahm', 'haben', 'B2', 'Es ist wichtig zu unternemen.', 'Я хочу предпринимать.'),
+
+(2425, 'ursachen', 'быть причиной (вызывать)', 'бути причиною (викликати)', 'regular', 'geursacht', 'ursachte', 'haben', 'B2', 'Du solltest ursachen.', 'Я хочу быть причиной (вызывать).')
+
+(2426, 'verabreden (sich)', 'договариваться (о встрече)', 'домовлятися (про зустріч)', 'regular', 'verabreden (sich)t', 'verabreden (sich)te', 'haben', 'B2', 'Ich moechte verabreden (sich).', 'Я хочу договариваться (о встрече).'),
+
+(2427, 'verbünden (sich)', 'союзничать (объединяться)', 'союзничати (об''єднуватися)', 'regular', 'verbünden (sich)t', 'verbünden (sich)te', 'haben', 'B2', 'Wir koennen verbünden (sich).', 'Я хочу союзничать (объединяться).'),
+
+(2428, 'verdoppeln', 'удваивать(ся)', 'подвоювати(ся)', 'regular', 'verdoppelt', 'verdoppelte', 'haben', 'B2', 'Kannst du verdoppeln?', 'Я хочу удваивать(ся).')
+
+(2429, 'vereinfachen', 'упрощать (облегчать)', 'спрощувати (полегшувати)', 'regular', 'vereinfacht', 'vereinfachte', 'haben', 'B2', 'Wir muessen vereinfachen.', 'Я хочу упрощать (облегчать).')
+
+(2430, 'verhalten (sich)', 'вести (себя) (ведут себя)', 'поводитися', 'irregular', 'verhalten', 'verhielt', 'haben', 'B2', 'Ich moechte verhalten (sich).', 'Я хочу вести (себя) (ведут себя).'),
+
+(2431, 'verhindern', 'предотвращать (препятствовать)', 'запобігати (перешкоджати)', 'regular', 'verhindert', 'verhinderte', 'haben', 'B2', 'Er moechte verhindern.', 'Я хочу предотвращать (препятствовать).')
+
+(2432, 'verlangsamen', 'замедлять(ся) (тормозить)', 'уповільнювати(ся) (гальмувати)', 'regular', 'verlangsamt', 'verlangsamte', 'haben', 'B2', 'Du solltest verlangsamen.', 'Я хочу замедлять(ся) (тормозить).')
+
+(2433, 'verschlechtern', 'ухудшать(ся)', 'погіршувати(ся)', 'regular', 'verschlechtert', 'verschlechterte', 'haben', 'B2', 'Wir koennen verschlechtern.', 'Я хочу ухудшать(ся).')
+
+(2434, 'verschwinden', 'исчезать (пропадать)', 'зникати (пропадати)', 'irregular', 'verschwunden', 'verschwand', 'sein', 'B2', 'Wir koennen verschwinden.', 'Я хочу исчезать (пропадать).'),
+
+(2435, 'verstoßen', 'нарушать (отталкивать)', 'порушувати (відштовхувати)', 'irregular', 'verstoßen', 'verstieß', 'haben', 'B2', 'Sie moechte verstoßen.', 'Я хочу нарушать (отталкивать).'),
+
+(2436, 'verursachen', 'причинять (вызывать)', 'заподіювати (викликати)', 'regular', 'verursacht', 'verursachte', 'haben', 'B2', 'Es ist wichtig zu verursachen.', 'Я хочу причинять (вызывать).')
+
+(2437, 'vervollständigen', 'дополнять (завершать)', 'доповнювати (завершувати)', 'regular', 'vervollständigt', 'vervollständigte', 'haben', 'B2', 'Ich moechte vervollständigen.', 'Я хочу дополнять (завершать).')
+
+(2438, 'verwickeln', 'вовлекать (впутывать)', 'втягувати (вплутувати)', 'regular', 'verwickelt', 'verwickelte', 'haben', 'B2', 'Wir muessen verwickeln.', 'Я хочу вовлекать (впутывать).')
+
+(2439, 'verwirklichen', 'осуществлять (реализовать)', 'здійснювати (реалізувати)', 'regular', 'verwirklicht', 'verwirklichte', 'haben', 'B2', 'Wir muessen verwirklichen.', 'Я хочу осуществлять (реализовать).')
+
+(2440, 'widerspiegeln', 'отражать (отражать суть)', 'відображати', 'regular', 'widergespiegelt', 'spiegelte wider', 'haben', 'B2', 'Kannst du widerspiegeln?', 'Я хочу отражать (отражать суть).')
+
+(2441, 'zulassen', 'допускать (разрешать)', 'допускати (дозволяти)', 'irregular', 'zugelassen', 'ließ zu', 'haben', 'B2', 'Wir muessen zulassen.', 'Я хочу допускать (разрешать).'),
+
+(2442, 'aberkennen', 'лишать (отнимать права)', 'позбавляти (віднімати права)', 'irregular', 'aberkannt', 'erkannte ab', 'haben', 'C1', 'Es ist wichtig zu aberkennen.', 'Я хочу лишать (отнимать права).'),
+
+(2443, 'abstossen', 'отталкивать (отвергать)', 'відштовхувати (відкидати)', 'irregular', 'abgestoßen', 'stieß ab', 'haben', 'C1', 'Er moechte abstossen.', 'Я хочу отталкивать (отвергать).'),
+
+(2444, 'anfechten', 'оспаривать (обжаловать)', 'оспорювати (оскаржувати)', 'irregular', 'angefochten', 'focht an', 'haben', 'C1', 'Ich moechte anfechten.', 'Я хочу оспаривать (обжаловать).'),
+
+(2445, 'angleichen', 'уравнивать (приспосабливать)', 'зрівнювати (пристосовувати)', 'irregular', 'angeglichen', 'glich an', 'haben', 'C1', 'Du solltest angleichen.', 'Я хочу уравнивать (приспосабливать).'),
+
+(2446, 'anheimfallen', 'доставаться (переходить)', 'діставатися (переходити)', 'irregular', 'anheimgefallen', 'fiel anheim', 'sein', 'C1', 'Kannst du anheimfallen?', 'Я хочу доставаться (переходить).'),
+
+(2447, 'anheimstellen', 'предоставлять (на усмотрение)', 'надавати (на розсуд)', 'regular', 'angeheimstellt', 'heimstellte an', 'haben', 'C1', 'Es ist wichtig zu anheimstellen.', 'Я хочу предоставлять (на усмотрение).')
+
+(2448, 'ankurbeln', 'стимулировать (подхлестывать)', 'стимулювати (підстьобувати)', 'regular', 'angekurbelt', 'kurbelte an', 'haben', 'C1', 'Es ist wichtig zu ankurbeln.', 'Я хочу стимулировать (подхлестывать).')
+
+(2449, 'anprangern', 'клеймить (публично осуждать)', 'таврувати (публічно засуджувати)', 'regular', 'angeprangert', 'prangerte an', 'haben', 'C1', 'Ich moechte anprangern.', 'Я хочу клеймить (публично осуждать).')
+
+(2450, 'anrechnen', 'засчитывать (вменять в вину)', 'зараховувати (ставити у провину)', 'regular', 'angerechnet', 'rechnete an', 'haben', 'C1', 'Sie moechte anrechnen.', 'Я хочу засчитывать (вменять в вину).')
+
+(2451, 'ansiedeln', 'поселять(ся) (помещать)', 'поселяти(ся)', 'regular', 'angesiedelt', 'siedelte an', 'haben', 'C1', 'Es ist wichtig zu ansiedeln.', 'Я хочу поселять(ся) (помещать).')
+
+(2452, 'anvisieren', 'намечать (планировать)', 'намічати (планувати)', 'regular', 'anvisiert', 'anvisierte', 'haben', 'C1', 'Ich moechte anvisieren.', 'Я хочу намечать (планировать).')
+
+(2453, 'aufarbeiten', 'обрабатывать (перерабатывать)', 'обробляти (переробляти)', 'regular', 'aufgearbeitet', 'arbeitete auf', 'haben', 'C1', 'Wir muessen aufarbeiten.', 'Я хочу обрабатывать (перерабатывать).')
+
+(2454, 'aufdrängen', 'навязывать (насильно)', 'нав''язувати (насильно)', 'regular', 'aufgedrängt', 'drängte auf', 'haben', 'C1', 'Wir muessen aufdrängen.', 'Я хочу навязывать (насильно).')
+
+(2455, 'aufhetzen', 'подстрекать (разжигать)', 'підбурювати (розпалювати)', 'regular', 'aufgehetzt', 'hetzte auf', 'haben', 'C1', 'Wir koennen aufhetzen.', 'Я хочу подстрекать (разжигать).')
+
+(2456, 'aufoktroyieren', 'навязывать (диктовать)', 'нав''язувати (диктувати)', 'regular', 'aufoktroyiert', 'aufoktroyierte', 'haben', 'C1', 'Wir muessen aufoktroyieren.', 'Я хочу навязывать (диктовать).')
+
+(2457, 'auserkoren', 'избирать (выбирать)', 'обирати (вибирати)', 'irregular', 'auserkoren', 'auserkor', 'haben', 'C1', 'Wir muessen auserkoren.', 'Я хочу избирать (выбирать).'),
+
+(2458, 'ausklammern', 'исключать (не учитывать)', 'виключати (не враховувати)', 'regular', 'ausgeklammert', 'klammerte aus', 'haben', 'C1', 'Es ist wichtig zu ausklammern.', 'Я хочу исключать (не учитывать).')
+
+(2459, 'ausstehen', 'быть в силе (оставаться)', 'бути чинним (залишатися)', 'irregular', 'ausgestanden', 'stand aus', 'haben', 'C1', 'Wir koennen ausstehen.', 'Я хочу быть в силе (оставаться).'),
+
+(2460, 'ausstrahlen', 'транслировать (излучать)', 'транслювати (випромінювати)', 'regular', 'ausgestrahlt', 'strahlte aus', 'haben', 'C1', 'Wir koennen ausstrahlen.', 'Я хочу транслировать (излучать).')
+
+(2461, 'ausufern', 'выходить из берегов (распространяться)', 'виходити з берегів (поширюватися)', 'regular', 'ausgeufert', 'uferte aus', 'haben', 'C1', 'Du solltest ausufern.', 'Я хочу выходить из берегов (распространяться).')
+
+(2462, 'auswerten', 'оценивать (анализировать)', 'оцінювати (аналізувати)', 'regular', 'ausgewertet', 'wertete aus', 'haben', 'C1', 'Sie moechte auswerten.', 'Я хочу оценивать (анализировать).')
+
+(2463, 'befürworten', 'одобрять (поддерживать)', 'схвалювати (підтримувати)', 'regular', 'befürwortet', 'befürwortete', 'haben', 'C1', 'Sie moechte befürworten.', 'Я хочу одобрять (поддерживать).')
+
+(2464, 'bemängeln', 'критиковать (осуждать)', 'критикувати (осуджувати)', 'regular', 'bemängelt', 'bemängelte', 'haben', 'C1', 'Kannst du bemängeln?', 'Я хочу критиковать (осуждать).')
+
+(2465, 'besinnen (sich)', 'размышлять (опомниться)', 'розмірковувати (схаменутися)', 'irregular', 'besonnen', 'besann', 'haben', 'C1', 'Wir koennen besinnen (sich).', 'Я хочу размышлять (опомниться).'),
+
+(2466, 'betrauen', 'поручать (доверять)', 'доручати (довіряти)', 'regular', 'betraut', 'betraute', 'haben', 'C1', 'Wir koennen betrauen.', 'Я хочу поручать (доверять).')
+
+(2467, 'bevorstehen', 'предстоять (ожидаться)', 'передстояти (очікуватися)', 'irregular', 'bevorgestanden', 'bevorstand', 'haben', 'C1', 'Sie moechte bevorstehen.', 'Я хочу предстоять (ожидаться).'),
+
+(2468, 'bewenden lassen', 'оставлять как есть', 'залишати як є', 'regular', 'bewenden lassent', 'bewenden lassente', 'haben', 'C1', 'Es ist wichtig zu bewenden lassen.', 'Я хочу оставлять как есть.'),
+
+(2469, 'dartun', 'доказывать (показывать)', 'доводити (показувати)', 'irregular', 'dargetan', 'tat dar', 'haben', 'C1', 'Wir muessen dartun.', 'Я хочу доказывать (показывать).'),
+
+(2470, 'dazugehören', 'принадлежать (относиться)', 'належати (відноситися)', 'regular', 'dazugegehört', 'gehörte dazu', 'haben', 'C1', 'Wir koennen dazugehören.', 'Я хочу принадлежать (относиться).')
+
+(2471, 'durchdringen', 'проникать (пронизывать)', 'проникати (пронизувати)', 'irregular', 'durchdrungen', 'drang durch', 'haben', 'C1', 'Er moechte durchdringen.', 'Я хочу проникать (пронизывать).'),
+
+(2472, 'durchleuchten', 'просвечивать (анализировать)', 'просвічувати (аналізувати)', 'regular', 'durchgeleuchtet', 'leuchtete durch', 'haben', 'C1', 'Kannst du durchleuchten?', 'Я хочу просвечивать (анализировать).')
+
+(2473, 'einbiüßen', 'терять (утрачивать)', 'втрачати', 'regular', 'eingebiüßt', 'biüßte ein', 'haben', 'C1', 'Wir muessen einbiüßen.', 'Я хочу терять (утрачивать).')
+
+(2474, 'eindämmen', 'сдерживать (ограничивать)', 'стримувати (обмежувати)', 'regular', 'eingedämmet', 'dämmete ein', 'haben', 'C1', 'Du solltest eindämmen.', 'Я хочу сдерживать (ограничивать).')
+
+(2475, 'einheimsen', 'собирать (заполучать)', 'збирати (отримувати)', 'regular', 'eingeheimst', 'heimste ein', 'haben', 'C1', 'Er moechte einheimsen.', 'Я хочу собирать (заполучать).')
+
+(2476, 'einschlagen', 'заворачивать (ударяться)', 'загортати (вдарятися)', 'irregular', 'eingeschlagen', 'schlug ein', 'haben', 'C1', 'Kannst du einschlagen?', 'Я хочу заворачивать (ударяться).'),
+
+(2477, 'einweihen', 'посвящать (открывать)', 'присвячувати (відкривати)', 'regular', 'eingeweiht', 'weihte ein', 'haben', 'C1', 'Wir muessen einweihen.', 'Я хочу посвящать (открывать).')
+
+(2478, 'entfallen', 'выпадать (забываться)', 'випадати (забуватися)', 'irregular', 'entfallen', 'entfiel', 'sein', 'C1', 'Ich moechte entfallen.', 'Я хочу выпадать (забываться).'),
+
+(2479, 'entschärfen', 'обезвреживать (смягчать)', 'знешкоджувати (пом''якшувати)', 'regular', 'entschärft', 'entschärfte', 'haben', 'C1', 'Kannst du entschärfen?', 'Я хочу обезвреживать (смягчать).')
+
+(2480, 'entwürigen', 'унижать (оскорблять)', 'принижувати (ображати)', 'regular', 'entwürigt', 'entwürigte', 'haben', 'C1', 'Wir muessen entwürigen.', 'Я хочу унижать (оскорблять).')
+
+(2481, 'entzünden (sich)', 'воспаляться (загораться)', 'запалюватися (загорятися)', 'regular', 'entzünden (sich)t', 'entzünden (sich)te', 'haben', 'C1', 'Er moechte entzünden (sich).', 'Я хочу воспаляться (загораться).'),
+
+(2482, 'erblicken', 'взглянуть (увидеть)', 'глянути (побачити)', 'regular', 'erblickt', 'erblickte', 'haben', 'C1', 'Wir muessen erblicken.', 'Я хочу взглянуть (увидеть).')
+
+(2483, 'erhärten', 'затвердевать (подтверждаться)', 'тверднути (підтверджуватися)', 'regular', 'erhärtet', 'erhärtete', 'haben', 'C1', 'Kannst du erhärten?', 'Я хочу затвердевать (подтверждаться).')
+
+(2484, 'erhellen', 'освещать (прояснять)', 'освітлювати (прояснювати)', 'regular', 'erhellt', 'erhellte', 'haben', 'C1', 'Wir koennen erhellen.', 'Я хочу освещать (прояснять).')
+
+(2485, 'erküren', 'избирать (выбирать)', 'обирати (вибирати)', 'irregular', 'erkoren', 'erkor', 'haben', 'C1', 'Er moechte erküren.', 'Я хочу избирать (выбирать).'),
+
+(2486, 'erlahmen', 'ослабевать (утихать)', 'слабшати (затихати)', 'regular', 'erlahmt', 'erlahmte', 'haben', 'C1', 'Ich moechte erlahmen.', 'Я хочу ослабевать (утихать).')
+
+(2487, 'ermäßtigen (sich)', 'осмеливаться (отваживаться)', 'наважуватися', 'regular', 'ermäßtigen (sich)t', 'ermäßtigen (sich)te', 'haben', 'C1', 'Kannst du ermäßtigen (sich)?', 'Я хочу осмеливаться (отваживаться).'),
+
+(2488, 'ermessen', 'оценивать (понимать)', 'оцінювати (розуміти)', 'irregular', 'ermessen', 'ermaß', 'haben', 'C1', 'Er moechte ermessen.', 'Я хочу оценивать (понимать).'),
+
+(2489, 'errichten', 'возводить (сооружать)', 'зводити (споруджувати)', 'regular', 'errichtet', 'errichtete', 'haben', 'C1', 'Kannst du errichten?', 'Я хочу возводить (сооружать).')
+
+(2490, 'erträumen (sich)', 'мечтать (воображать)', 'мріяти (уявляти)', 'regular', 'erträumen (sich)t', 'erträumen (sich)te', 'haben', 'C1', 'Er moechte erträumen (sich).', 'Я хочу мечтать (воображать).'),
+
+(2491, 'erwidern', 'отвечать (возражать)', 'відповідати (заперечувати)', 'regular', 'erwidert', 'erwiderte', 'haben', 'C1', 'Ich moechte erwidern.', 'Я хочу отвечать (возражать).')
+
+(2492, 'entrüstet sein', 'быть возмущенным', 'бути обуреним', 'regular', 'entrüstet seint', 'entrüstet seinte', 'haben', 'C1', 'Du solltest entrüstet sein.', 'Я хочу быть возмущенным.'),
+
+(2493, 'gegenüberstehen', 'стоять (перед лицом)', 'стояти (перед обличчям)', 'irregular', 'gegenübergestanden', 'stand gegenüber', 'haben', 'C1', 'Wir koennen gegenüberstehen.', 'Я хочу стоять (перед лицом).'),
+
+(2494, 'herausgreifen', 'выбирать (извлекать)', 'вибирати (витягувати)', 'irregular', 'herausgegriffen', 'griff heraus', 'haben', 'C1', 'Kannst du herausgreifen?', 'Я хочу выбирать (извлекать).'),
+
+(2495, 'herauskristallisieren (sich)', 'выкристаллизовываться', 'викристалізовуватися', 'regular', 'herauskristallisieren (sich)t', 'auskristallisieren (sich)te her', 'haben', 'C1', 'Wir koennen herauskristallisieren (sich).', 'Я хочу выкристаллизовываться.'),
+
+(2496, 'heraufbeschwören', 'вызывать (навлекать)', 'викликати (накликати)', 'irregular', 'heraufbeschworen', 'beschwor herauf', 'haben', 'C1', 'Du solltest heraufbeschwören.', 'Я хочу вызывать (навлекать).'),
+
+(2497, 'hereinragen', 'вдаваться (выдаваться)', 'вдаватися (висуватися)', 'regular', 'hereingeragt', 'ragte herein', 'haben', 'C1', 'Du solltest hereinragen.', 'Я хочу вдаваться (выдаваться).')
+
+(2498, 'herleiten', 'выводить (происходить)', 'виводити (походити)', 'regular', 'hergeleitet', 'leitete her', 'haben', 'C1', 'Kannst du herleiten?', 'Я хочу выводить (происходить).')
+
+(2499, 'hinwirken', 'способствовать (действовать)', 'сприяти (діяти)', 'regular', 'hingewirkt', 'wirkte hin', 'haben', 'C1', 'Du solltest hinwirken.', 'Я хочу способствовать (действовать).')
+
+(2500, 'huldigen', 'чествовать (воздавать почести)', 'вшановувати (віддавати шану)', 'regular', 'gehuldigt', 'huldigte', 'haben', 'C1', 'Kannst du huldigen?', 'Я хочу чествовать (воздавать почести).')
+
+(2501, 'innehalten', 'останавливаться (делать паузу)', 'зупинятися (робити паузу)', 'irregular', 'innegehalten', 'hielt inne', 'haben', 'C1', 'Wir koennen innehalten.', 'Я хочу останавливаться (делать паузу).'),
+
+(2502, 'instand setzen', 'ремонтировать (восстанавливать)', 'ремонтувати (відновлювати)', 'regular', 'geinstand setzent', 'instand setzente', 'haben', 'C1', 'Sie moechte instand setzen.', 'Я хочу ремонтировать (восстанавливать).'),
+
+(2503, 'konfiszieren', 'конфисковать (изымать)', 'конфісковувати (вилучати)', 'regular', 'konfisziert', 'konfiszierte', 'haben', 'C1', 'Du solltest konfiszieren.', 'Я хочу конфисковать (изымать).')
+
+(2504, 'kontern', 'отвечать (на парировать)', 'відповідати (на парирувати)', 'regular', 'gekontert', 'konterte', 'haben', 'C1', 'Kannst du kontern?', 'Я хочу отвечать (на парировать).')
+
+(2505, 'kränken', 'обижать (задевать)', 'образити (зачіпати)', 'regular', 'gekränkt', 'kränkte', 'haben', 'C1', 'Du solltest kränken.', 'Я хочу обижать (задевать).')
+
+(2506, 'lästern', 'злословить (богохульствовать)', 'злословити (богохульствувати)', 'regular', 'gelästert', 'lästerte', 'haben', 'C1', 'Wir muessen lästern.', 'Я хочу злословить (богохульствовать).')
+
+(2507, 'losschlagen', 'ударять (начинать)', 'ударяти (починати)', 'irregular', 'losgeschlagen', 'schlug los', 'haben', 'C1', 'Wir koennen losschlagen.', 'Я хочу ударять (начинать).'),
+
+(2508, 'missbilligen', 'осуждать (не одобрять)', 'осуджувати (не схвалювати)', 'regular', 'missbilligt', 'missbilligte', 'haben', 'C1', 'Ich moechte missbilligen.', 'Я хочу осуждать (не одобрять).')
+
+(2509, 'nachhaken', 'допытываться (уточнять)', 'допитуватися (уточнювати)', 'regular', 'nachgehakt', 'hakte nach', 'haben', 'C1', 'Ich moechte nachhaken.', 'Я хочу допытываться (уточнять).')
+
+(2510, 'nachvollziehen', 'понимать (прослеживать)', 'розуміти (відстежувати)', 'irregular', 'nachvollzogen', 'vollzog nach', 'haben', 'C1', 'Wir koennen nachvollziehen.', 'Я хочу понимать (прослеживать).'),
+
+(2511, 'rügen', 'бранить (порицать)', 'лаяти (дорікати)', 'regular', 'gerügt', 'rügte', 'haben', 'C1', 'Es ist wichtig zu rügen.', 'Я хочу бранить (порицать).')
+
+(2512, 'schöpfen', 'черпать (вдыхать)', 'черпати (вдихати)', 'regular', 'geschöpft', 'schöpfte', 'haben', 'C1', 'Sie moechte schöpfen.', 'Я хочу черпать (вдыхать).')
+
+(2513, 'schwächen', 'ослаблять (подрывать)', 'послаблювати (підривати)', 'regular', 'geschwächt', 'schwächte', 'haben', 'C1', 'Es ist wichtig zu schwächen.', 'Я хочу ослаблять (подрывать).')
+
+(2514, 'stigmatisieren', 'стигматизировать (клеймить)', 'стигматизувати (таврувати)', 'regular', 'stigmatisiert', 'stigmatisierte', 'haben', 'C1', 'Kannst du stigmatisieren?', 'Я хочу стигматизировать (клеймить).')
+
+(2515, 'unterbinden', 'препятствовать (предотвращать)', 'перешкоджати (запобігати)', 'irregular', 'unterbunden', 'unterband', 'haben', 'C1', 'Wir koennen unterbinden.', 'Я хочу препятствовать (предотвращать).'),
+
+(2516, 'untergraben', 'подрывать (разрушать)', 'підривати (руйнувати)', 'irregular', 'untergraben', 'untergrub', 'haben', 'C1', 'Es ist wichtig zu untergraben.', 'Я хочу подрывать (разрушать).'),
+
+(2517, 'verabscheuen', 'отвращать (ненавидеть)', 'відражати (ненавидіти)', 'regular', 'verabscheut', 'verabscheute', 'haben', 'C1', 'Wir muessen verabscheuen.', 'Я хочу отвращать (ненавидеть).')
+
+(2518, 'veranlassen', 'побуждать (распоряжаться)', 'спонукати (розпоряджатися)', 'regular', 'veranlassent', 'veranlassente', 'haben', 'C1', 'Wir koennen veranlassen.', 'Я хочу побуждать (распоряжаться).'),
+
+(2519, 'veranschaulichen', 'наглядно показывать (иллюстрировать)', 'наочно показувати (ілюструвати)', 'regular', 'veranschaulicht', 'veranschaulichte', 'haben', 'C1', 'Kannst du veranschaulichen?', 'Я хочу наглядно показывать (иллюстрировать).')
+
+(2520, 'verantworten', 'нести ответственность (отвечать)', 'нести відповідальність (відповідати)', 'regular', 'verantwortet', 'verantwortete', 'haben', 'C1', 'Sie moechte verantworten.', 'Я хочу нести ответственность (отвечать).')
+
+(2521, 'verbergen', 'скрывать (прятать)', 'приховувати (ховати)', 'irregular', 'verborgen', 'verbarg', 'haben', 'C1', 'Es ist wichtig zu verbergen.', 'Я хочу скрывать (прятать).'),
+
+(2522, 'verbitten (sich)', 'запрещать себе (возражать)', 'забороняти собі (заперечувати)', 'irregular', 'verbeten', 'verbat', 'haben', 'C1', 'Er moechte verbitten (sich).', 'Я хочу запрещать себе (возражать).'),
+
+(2523, 'verblassen', 'бледнеть (угасать)', 'бліднути (згасати)', 'regular', 'verblasst', 'verblasste', 'haben', 'C1', 'Sie moechte verblassen.', 'Я хочу бледнеть (угасать).')
+
+(2524, 'verbuchen', 'регистрировать (записывать)', 'реєструвати (записувати)', 'regular', 'verbucht', 'verbuchte', 'haben', 'C1', 'Wir muessen verbuchen.', 'Я хочу регистрировать (записывать).')
+
+(2525, 'vereiteln', 'срывать (препятствовать)', 'зривати (перешкоджати)', 'regular', 'vereitelt', 'vereitelte', 'haben', 'C1', 'Es ist wichtig zu vereiteln.', 'Я хочу срывать (препятствовать).')
+
+(2526, 'verflüchtigen (sich)', 'улетучиваться (исчезать)', 'випаровуватися (зникати)', 'regular', 'verflüchtigen (sich)t', 'verflüchtigen (sich)te', 'haben', 'C1', 'Du solltest verflüchtigen (sich).', 'Я хочу улетучиваться (исчезать).'),
+
+(2527, 'vergegenwärtigen (sich)', 'представлять (воображать)', 'уявляти (уявляти)', 'regular', 'vergegenwärtigen (sich)t', 'vergegenwärtigen (sich)te', 'haben', 'C1', 'Es ist wichtig zu vergegenwärtigen (sich).', 'Я хочу представлять (воображать).'),
+
+(2528, 'verherrlichen', 'превозносить (прославлять)', 'підносити (прославляти)', 'regular', 'verherrlicht', 'verherrlichte', 'haben', 'C1', 'Es ist wichtig zu verherrlichen.', 'Я хочу превозносить (прославлять).')
+
+(2529, 'verhehlen', 'скрывать (таить)', 'приховувати (таїти)', 'regular', 'verhehlt', 'verhehlte', 'haben', 'C1', 'Kannst du verhehlen?', 'Я хочу скрывать (таить).')
+
+(2530, 'verinnerlichen', 'усваивать (внутренне принимать)', 'засвоювати (внутрішньо приймати)', 'regular', 'verinnerlicht', 'verinnerlichte', 'haben', 'C1', 'Es ist wichtig zu verinnerlichen.', 'Я хочу усваивать (внутренне принимать).')
+
+(2531, 'verkennen', 'недооценивать (обманываться)', 'недооцінювати (обманюватися)', 'mixed', 'verkannt', 'verkannte', 'haben', 'C1', 'Kannst du verkennen?', 'Я хочу недооценивать (обманываться).'),
+
+(2532, 'verkleinern', 'уменьшать (преуменьшать)', 'зменшувати (применшувати)', 'regular', 'verkleinert', 'verkleinerte', 'haben', 'C1', 'Wir koennen verkleinern.', 'Я хочу уменьшать (преуменьшать).')
+
+(2533, 'verleiden', 'отбивать охоту (портить)', 'відбивати бажання (псувати)', 'regular', 'verleident', 'verleidente', 'haben', 'C1', 'Kannst du verleiden?', 'Я хочу отбивать охоту (портить).'),
+
+(2534, 'verleugnen', 'отрицать (отрекаться)', 'заперечувати (зрікатися)', 'regular', 'verleugnet', 'verleugnete', 'haben', 'C1', 'Du solltest verleugnen.', 'Я хочу отрицать (отрекаться).')
+
+(2535, 'vermehren', 'увеличивать(ся) (приумножать)', 'збільшувати(ся) (примножувати)', 'regular', 'vermehrt', 'vermehrte', 'haben', 'C1', 'Du solltest vermehren.', 'Я хочу увеличивать(ся) (приумножать).')
+
+(2536, 'vermerken', 'запоминать (отмечать)', 'запам''ятовувати (відзначати)', 'regular', 'vermerkt', 'vermerkte', 'haben', 'C1', 'Kannst du vermerken?', 'Я хочу запоминать (отмечать).')
+
+(2537, 'verpuffen', 'исчезать (пропадать даром)', 'зникати (пропадати даром)', 'regular', 'verpufft', 'verpuffte', 'haben', 'C1', 'Du solltest verpuffen.', 'Я хочу исчезать (пропадать даром).')
+
+(2538, 'versagen', 'не справляться (отказывать)', 'не справлятися (відмовляти)', 'regular', 'versagt', 'versagte', 'haben', 'C1', 'Du solltest versagen.', 'Я хочу не справляться (отказывать).')
+
+(2539, 'verschlägern', 'сбивать (с толку)', 'збивати (з пантелику)', 'irregular', 'verschlagen', 'verschlug', 'haben', 'C1', 'Wir koennen verschlägern.', 'Я хочу сбивать (с толку).'),
+
+(2540, 'verschonen', 'щадить (пощадить)', 'щадити (пощадити)', 'regular', 'verschont', 'verschonte', 'haben', 'C1', 'Du solltest verschonen.', 'Я хочу щадить (пощадить).')
+
+(2541, 'verschulden', 'быть виноватым (задолжать)', 'бути винним (заборгувати)', 'regular', 'verschuldet', 'verschuldete', 'haben', 'C1', 'Wir muessen verschulden.', 'Я хочу быть виноватым (задолжать).')
+
+(2542, 'versetzen', 'перемещать (переводить)', 'переміщувати (переводити)', 'regular', 'versetzt', 'versetzte', 'haben', 'C1', 'Kannst du versetzen?', 'Я хочу перемещать (переводить).')
+
+(2543, 'verspüren', 'чувствовать (ощущать)', 'відчувати (почувати)', 'regular', 'verspürt', 'verspürte', 'haben', 'C1', 'Ich moechte verspüren.', 'Я хочу чувствовать (ощущать).')
+
+(2544, 'verstümmeln', 'калечить (уродовать)', 'калічити (потворювати)', 'regular', 'verstümmelt', 'verstümmelte', 'haben', 'C1', 'Sie moechte verstümmeln.', 'Я хочу калечить (уродовать).')
+
+(2545, 'vertagen', 'откладывать (переносить)', 'відкладати (переносити)', 'regular', 'vertagt', 'vertagte', 'haben', 'C1', 'Du solltest vertagen.', 'Я хочу откладывать (переносить).')
+
+(2546, 'vertiefen (sich)', 'углублять(ся) (погружаться)', 'поглиблювати(ся) (занурюватися)', 'regular', 'vertiefen (sich)t', 'vertiefen (sich)te', 'haben', 'C1', 'Sie moechte vertiefen (sich).', 'Я хочу углублять(ся) (погружаться).'),
+
+(2547, 'vertilgen', 'истреблять (уничтожать)', 'знищувати (винищувати)', 'regular', 'vertilgt', 'vertilgte', 'haben', 'C1', 'Kannst du vertilgen?', 'Я хочу истреблять (уничтожать).')
+
+(2548, 'verüben', 'совершать (преступление)', 'вчиняти (злочин)', 'regular', 'verübt', 'verübte', 'haben', 'C1', 'Wir koennen verüben.', 'Я хочу совершать (преступление).')
+
+(2549, 'verunglimpfen', 'порочить (чернить)', 'порочити (чорнити)', 'regular', 'verunglimpft', 'verunglimpfte', 'haben', 'C1', 'Ich moechte verunglimpfen.', 'Я хочу порочить (чернить).')
+
+(2550, 'vervollkommnen', 'совершенствовать(ся)', 'удосконалювати(ся)', 'regular', 'vervollkommnet', 'vervollkommnete', 'haben', 'C1', 'Sie moechte vervollkommnen.', 'Я хочу совершенствовать(ся).')
+
+(2551, 'verwahren (sich)', 'хранить (протестовать)', 'зберігати (протестувати)', 'regular', 'verwahren (sich)t', 'verwahren (sich)te', 'haben', 'C1', 'Wir muessen verwahren (sich).', 'Я хочу хранить (протестовать).'),
+
+(2552, 'verwahrlosen', 'запускать (приходить в упадок)', 'запускати (занепадати)', 'regular', 'verwahrlost', 'verwahrloste', 'haben', 'C1', 'Wir koennen verwahrlosen.', 'Я хочу запускать (приходить в упадок).')
+
+(2553, 'verwerfen', 'отвергать (отбрасывать)', 'відкидати (відхиляти)', 'irregular', 'verworfen', 'verwarf', 'haben', 'C1', 'Kannst du verwerfen?', 'Я хочу отвергать (отбрасывать).'),
+
+(2554, 'verwerten', 'использовать (утилизировать)', 'використовувати (утилізувати)', 'regular', 'verwertet', 'verwertete', 'haben', 'C1', 'Er moechte verwerten.', 'Я хочу использовать (утилизировать).')
+
+(2555, 'verwittern', 'выветриваться (разрушаться)', 'вивітрюватися (руйнуватися)', 'regular', 'verwittert', 'verwitterte', 'haben', 'C1', 'Du solltest verwittern.', 'Я хочу выветриваться (разрушаться).')
+
+(2556, 'voraussehen', 'предвидеть (предусматривать)', 'передбачати', 'irregular', 'vorausgesehen', 'sah voraus', 'haben', 'C1', 'Kannst du voraussehen?', 'Я хочу предвидеть (предусматривать).'),
+
+(2557, 'vorbehalten (sich)', 'оговорить за собой (сохранять)', 'обумовити за собою (зберігати)', 'irregular', 'vorbehalten', 'behielt vor', 'haben', 'C1', 'Kannst du vorbehalten (sich)?', 'Я хочу оговорить за собой (сохранять).'),
+
+(2558, 'vordringen', 'проникать (проникать)', 'проникати', 'irregular', 'vorgedrungen', 'drang vor', 'sein', 'C1', 'Ich moechte vordringen.', 'Я хочу проникать (проникать).'),
+
+(2559, 'vormerken', 'предварительно записывать', 'попередньо записувати', 'regular', 'vorgemerkt', 'merkte vor', 'haben', 'C1', 'Du solltest vormerken.', 'Я хочу предварительно записывать.')
+
+(2560, 'vorrücken', 'продвигать(ся) (наступать)', 'просувати(ся) (наступати)', 'regular', 'vorgerückt', 'rückte vor', 'haben', 'C1', 'Wir muessen vorrücken.', 'Я хочу продвигать(ся) (наступать).')
+
+(2561, 'vorübergehen', 'проходить (прекращаться)', 'проходити (припинятися)', 'irregular', 'vorübergegangen', 'ging vorüber', 'sein', 'C1', 'Wir koennen vorübergehen.', 'Я хочу проходить (прекращаться).'),
+
+(2562, 'vorwegnehmen', 'опережать (предвосхищать)', 'випереджати (передбачати)', 'irregular', 'vorweggenommen', 'nahm vorweg', 'haben', 'C1', 'Du solltest vorwegnehmen.', 'Я хочу опережать (предвосхищать).'),
+
+(2563, 'widerstehen', 'сопротивляться (выдерживать)', 'чинити опір (витримувати)', 'irregular', 'widerstanden', 'widerstand', 'haben', 'C1', 'Ich moechte widerstehen.', 'Я хочу сопротивляться (выдерживать).'),
+
+(2564, 'zurückweisen', 'отклонять (отвергать)', 'відхиляти (відкидати)', 'irregular', 'zurückgewiesen', 'wies zurück', 'haben', 'C1', 'Wir koennen zurückweisen.', 'Я хочу отклонять (отвергать).'),
+
+(2565, 'zutage treten', 'выявляться (обнаруживаться)', 'виявлятися', 'irregular', 'zutage getreten', 'trat zutage', 'sein', 'C1', 'Kannst du zutage treten?', 'Я хочу выявляться (обнаруживаться).'),
+
+(2566, 'vorstellen (sich)', 'представлять(ся) (воображать)', 'представляти(ся) (уявляти)', 'regular', 'vorstellen (sich)t', 'stellen (sich)te vor', 'haben', 'A2', 'Ich moechte vorstellen (sich).', 'Я хочу представлять(ся) (воображать).'),
+
+(2567, 'aufrechterhalten', 'поддерживать (сохранять)', 'підтримувати (зберігати)', 'irregular', 'aufrechterhalten', 'hielt aufrecht', 'haben', 'B2', 'Sie moechte aufrechterhalten.', 'Я хочу поддерживать (сохранять).'),
+
+(2568, 'aussprechen', 'произносить (выговаривать)', 'вимовляти (проговорювати)', 'irregular', 'ausgesprochen', 'sprach aus', 'haben', 'B2', 'Sie moechte aussprechen.', 'Я хочу произносить (выговаривать).'),
+
+(2569, 'beeintraechtigen', 'нарушать (мешать)', 'порушувати (заважати)', 'regular', 'beeintraechtigt', 'beeintraechtigte', 'haben', 'B2', 'Sie moechte beeintraechtigen.', 'Я хочу нарушать (мешать).')
+
+(2570, 'befassen (sich)', 'заниматься (работать над)', 'займатися (працювати над)', 'regular', 'befassen (sich)t', 'befassen (sich)te', 'haben', 'B2', 'Wir koennen befassen (sich).', 'Я хочу заниматься (работать над).'),
+
+(2571, 'begrüssen', 'приветствовать (одобрять)', 'вітати (схвалювати)', 'regular', 'begrüsst', 'begrüsste', 'haben', 'B2', 'Wir muessen begrüssen.', 'Я хочу приветствовать (одобрять).')
+
+(2572, 'bekanntgeben', 'объявлять (сообщать)', 'оголошувати (повідомляти)', 'irregular', 'bekanntgegeben', 'gab bekannt', 'haben', 'B2', 'Kannst du bekanntgeben?', 'Я хочу объявлять (сообщать).'),
+
+(2573, 'besitzen', 'владеть (обладать)', 'володіти', 'irregular', 'besessen', 'besass', 'haben', 'B2', 'Sie moechte besitzen.', 'Я хочу владеть (обладать).'),
+
+(2574, 'bestehen (in)', 'заключаться (в)', 'полягати (в)', 'irregular', 'bestanden', 'bestand', 'haben', 'B2', 'Sie moechte bestehen (in).', 'Я хочу заключаться (в).'),
+
+(2575, 'bestimmen', 'определять (обуславливать)', 'визначати (зумовлювати)', 'regular', 'bestimmet', 'bestimmete', 'haben', 'B2', 'Sie moechte bestimmen.', 'Я хочу определять (обуславливать).')
+
+(2576, 'betragen', 'составлять (равняться)', 'становити (дорівнювати)', 'irregular', 'betragen', 'betrug', 'haben', 'B2', 'Er moechte betragen.', 'Я хочу составлять (равняться).'),
+
+(2577, 'einschreiten', 'вмешиваться (пресекать)', 'втручатися (припиняти)', 'irregular', 'eingeschritten', 'schritt ein', 'sein', 'B2', 'Ich moechte einschreiten.', 'Я хочу вмешиваться (пресекать).'),
+
+(2578, 'entfernen', 'удалять(ся) (отстранять)', 'видаляти(ся) (усувати)', 'regular', 'entfernt', 'entfernte', 'haben', 'B2', 'Kannst du entfernen?', 'Я хочу удалять(ся) (отстранять).')
+
+(2579, 'erschliessen', 'открывать (осваивать)', 'відкривати (освоювати)', 'irregular', 'erschlossen', 'erschloss', 'haben', 'B2', 'Sie moechte erschliessen.', 'Я хочу открывать (осваивать).'),
+
+(2580, 'erweitern', 'расширять (увеличивать)', 'розширювати (збільшувати)', 'regular', 'erweitert', 'erweiterte', 'haben', 'B2', 'Wir muessen erweitern.', 'Я хочу расширять (увеличивать).')
+
+(2581, 'festhalten', 'держать (фиксировать)', 'тримати (фіксувати)', 'irregular', 'festgehalten', 'hielt fest', 'haben', 'B2', 'Wir muessen festhalten.', 'Я хочу держать (фиксировать).'),
+
+(2582, 'herausstellen (sich)', 'оказываться (выясняться)', 'виявлятися (з''ясовуватися)', 'regular', 'herausstellen (sich)t', 'ausstellen (sich)te her', 'haben', 'B2', 'Wir koennen herausstellen (sich).', 'Я хочу оказываться (выясняться).'),
+
+(2583, 'hervorgehen', 'следовать (проистекать)', 'випливати (витікати)', 'irregular', 'hervorgegangen', 'ging hervor', 'sein', 'B2', 'Ich moechte hervorgehen.', 'Я хочу следовать (проистекать).'),
+
+(2584, 'informieren (sich)', 'информировать(ся) (узнавать)', 'інформувати(ся) (дізнаватися)', 'regular', 'geinformieren (sich)t', 'informieren (sich)te', 'haben', 'B2', 'Sie moechte informieren (sich).', 'Я хочу информировать(ся) (узнавать).'),
+
+(2585, 'kundtun', 'объявлять (сообщать)', 'оголошувати (повідомляти)', 'irregular', 'kundgetan', 'tat kund', 'haben', 'B2', 'Ich moechte kundtun.', 'Я хочу объявлять (сообщать).'),
+
+(2586, 'losgehen', 'отправляться (начинаться)', 'відправлятися (починатися)', 'irregular', 'losgegangen', 'ging los', 'sein', 'B2', 'Sie moechte losgehen.', 'Я хочу отправляться (начинаться).'),
+
+(2587, 'versehen (sich)', 'снабжать (ошибаться)', 'постачати (помилятися)', 'irregular', 'versehen', 'versah', 'haben', 'B2', 'Er moechte versehen (sich).', 'Я хочу снабжать (ошибаться).'),
+
+(2588, 'widersetzen (sich)', 'сопротивляться (противиться)', 'чинити опір (противитися)', 'regular', 'widersetzen (sich)t', 'widersetzen (sich)te', 'haben', 'B2', 'Wir muessen widersetzen (sich).', 'Я хочу сопротивляться (противиться).'),
+
+(2589, 'ausdauer', 'выдерживать (проявлять стойкость)', 'витримувати (проявляти стійкість)', 'regular', 'ausgedauert', 'dauerte aus', 'haben', 'C1', 'Sie moechte ausdauer.', 'Я хочу выдерживать (проявлять стойкость).')
+
+(2590, 'ausser Acht lassen', 'упускать из виду', 'упускати з уваги', 'irregular', 'ausser Acht gelassen', 'liess ausser Acht', 'haben', 'C1', 'Er moechte ausser Acht lassen.', 'Я хочу упускать из виду.'),
+
+(2591, 'beschliessen', 'принимать решение (постановлять)', 'приймати рішення (постановляти)', 'irregular', 'beschlossen', 'beschloss', 'haben', 'C1', 'Er moechte beschliessen.', 'Я хочу принимать решение (постановлять).'),
+
+(2592, 'entgegenwirken', 'противодействовать', 'протидіяти', 'regular', 'wirkt', 'wirkte', 'haben', 'C1', 'Wir koennen entgegenwirken.', 'Я хочу противодействовать.')
+
+(2593, 'ermöglichen', 'делать возможным (создавать условия)', 'робити можливим (створювати умови)', 'regular', 'ermöglicht', 'ermöglichte', 'haben', 'C1', 'Er moechte ermöglichen.', 'Я хочу делать возможным (создавать условия).')
+
+(2594, 'erschweren', 'затруднять (усложнять)', 'утруднювати (ускладнювати)', 'regular', 'erschwert', 'erschwerte', 'haben', 'C1', 'Es ist wichtig zu erschweren.', 'Я хочу затруднять (усложнять).')
+
+(2595, 'erstrecken (sich)', 'простираться (распространяться)', 'простиратися (поширюватися)', 'regular', 'erstrecken (sich)t', 'erstrecken (sich)te', 'haben', 'C1', 'Du solltest erstrecken (sich).', 'Я хочу простираться (распространяться).'),
+
+(2596, 'erwaehnen', 'упоминать (называть)', 'згадувати (називати)', 'regular', 'erwaehnt', 'erwaehnte', 'haben', 'C1', 'Du solltest erwaehnen.', 'Я хочу упоминать (называть).')
+
+(2597, 'fortschreiten', 'прогрессировать (развиваться)', 'прогресувати (розвиватися)', 'irregular', 'fortgeschritten', 'schritt fort', 'sein', 'C1', 'Du solltest fortschreiten.', 'Я хочу прогрессировать (развиваться).'),
+
+(2598, 'gegeneinander abwägen', 'взвешивать друг против друга', 'зважувати один проти одного', 'irregular', 'gegeneinander abgewogen', 'wog gegeneinander ab', 'haben', 'C1', 'Wir muessen gegeneinander abwägen.', 'Я хочу взвешивать друг против друга.'),
+
+(2599, 'herausbilden (sich)', 'формироваться (образовываться)', 'формуватися (утворюватися)', 'regular', 'herausbilden (sich)t', 'ausbilden (sich)te her', 'haben', 'C1', 'Kannst du herausbilden (sich)?', 'Я хочу формироваться (образовываться).'),
+
+(2600, 'hervorrufen', 'вызывать (порождать)', 'викликати (породжувати)', 'irregular', 'hervorgerufen', 'rief hervor', 'haben', 'C1', 'Wir koennen hervorrufen.', 'Я хочу вызывать (порождать).'),
+
+(2601, 'hinarbeiten (auf)', 'работать над (стремиться к)', 'працювати над (прагнути до)', 'regular', 'hinarbeiten (auf)t', 'arbeiten (auf)te hin', 'haben', 'C1', 'Ich moechte hinarbeiten (auf).', 'Я хочу работать над (стремиться к).'),
+
+(2602, 'hinwegsetzen (sich)', 'пренебрегать (игнорировать)', 'нехтувати (ігнорувати)', 'regular', 'hinwegsetzen (sich)t', 'wegsetzen (sich)te hin', 'haben', 'C1', 'Du solltest hinwegsetzen (sich).', 'Я хочу пренебрегать (игнорировать).'),
+
+(2603, 'verfügen (ueber)', 'располагать (иметь в распоряжении)', 'мати в розпорядженні', 'regular', 'verfügen (ueber)t', 'verfügen (ueber)te', 'haben', 'C1', 'Wir muessen verfügen (ueber).', 'Я хочу располагать (иметь в распоряжении).'),
+
+(2604, 'versetzen (sich in)', 'ставить себя (на место)', 'ставляти себе (на місце)', 'regular', 'versetzen (sich in)t', 'versetzen (sich in)te', 'haben', 'C1', 'Kannst du versetzen (sich in)?', 'Я хочу ставить себя (на место).'),
+
+(2605, 'verstaerken', 'усиливать (укреплять)', 'посилювати (зміцнювати)', 'regular', 'verstaerkt', 'verstaerkte', 'haben', 'C1', 'Kannst du verstaerken?', 'Я хочу усиливать (укреплять).')
+
+(2606, 'vervollstaendigen', 'дополнять (завершать)', 'доповнювати (завершувати)', 'regular', 'vervollstaendigt', 'vervollstaendigte', 'haben', 'C1', 'Ich moechte vervollstaendigen.', 'Я хочу дополнять (завершать).')
+
+(2607, 'verweisen (auf)', 'ссылаться (указывать)', 'посилатися (вказувати)', 'irregular', 'verwiesen', 'verwies', 'haben', 'C1', 'Wir koennen verweisen (auf).', 'Я хочу ссылаться (указывать).'),
+
+(2608, 'verzeichnen', 'отмечать (регистрировать)', 'відзначати (реєструвати)', 'regular', 'verzeichnet', 'verzeichnete', 'haben', 'C1', 'Wir muessen verzeichnen.', 'Я хочу отмечать (регистрировать).')
+
+(2609, 'vorantreiben', 'двигать вперед (продвигать)', 'просувати (проштовхувати)', 'irregular', 'vorangetrieben', 'trieb voran', 'haben', 'C1', 'Sie moechte vorantreiben.', 'Я хочу двигать вперед (продвигать).'),
+
+(2610, 'vorsehen', 'предусматривать (планировать)', 'передбачати (планувати)', 'irregular', 'vorgesehen', 'sah vor', 'haben', 'C1', 'Wir koennen vorsehen.', 'Я хочу предусматривать (планировать).'),
+
+(2611, 'vorweisen', 'предъявлять (показывать)', 'пред''являти (показувати)', 'irregular', 'vorgewiesen', 'wies vor', 'haben', 'C1', 'Du solltest vorweisen.', 'Я хочу предъявлять (показывать).'),
+
+(2612, 'zuordnen', 'соотносить (приписывать)', 'співвідносити (приписувати)', 'regular', 'zugeordnet', 'ordnete zu', 'haben', 'C1', 'Kannst du zuordnen?', 'Я хочу соотносить (приписывать).')
+
+(2613, 'zurueckfuehren (auf)', 'объяснять (приписывать)', 'пояснювати (приписувати)', 'regular', 'zurueckfuehren (auf)t', 'rueckfuehren (auf)te zu', 'haben', 'C1', 'Sie moechte zurueckfuehren (auf).', 'Я хочу объяснять (приписывать).'),
+
+(2614, 'zurueckgreifen (auf)', 'прибегать (обращаться к)', 'вдаватися (звертатися до)', 'irregular', 'zurueckgegriffen', 'griff zurueck', 'haben', 'C1', 'Du solltest zurueckgreifen (auf).', 'Я хочу прибегать (обращаться к).'),
+
+(2615, 'zusaetzlich sein', 'быть дополнительным', 'бути додатковим', 'regular', 'zusaetzlich seint', 'saetzlich seinte zu', 'haben', 'C1', 'Wir muessen zusaetzlich sein.', 'Я хочу быть дополнительным.'),
+
+(2616, 'zustande kommen', 'осуществляться (происходить)', 'здійснюватися (відбуватися)', 'irregular', 'zustande gekommen', 'kam zustande', 'sein', 'C1', 'Wir muessen zustande kommen.', 'Я хочу осуществляться (происходить).'),
+
+(2617, 'zuteil werden', 'доставаться (выпадать)', 'діставатися (випадати)', 'regular', 'zuteil werdent', 'teil werdente zu', 'haben', 'C1', 'Wir koennen zuteil werden.', 'Я хочу доставаться (выпадать).'),
+
+(2618, 'betreten', 'входить (ступать)', 'входити (ступати)', 'irregular', 'betreten', 'betrat', 'haben', 'A2', 'Er moechte betreten.', 'Я хочу входить (ступать).'),
+
+(2619, 'erfahren', 'узнавать (испытывать)', 'дізнаватися (випробовувати)', 'irregular', 'erfahren', 'erfuhr', 'haben', 'A2', 'Sie moechte erfahren.', 'Я хочу узнавать (испытывать).'),
+
+(2620, 'erledigen', 'выполнять (делать)', 'виконувати (робити)', 'regular', 'erledigt', 'erledigte', 'haben', 'A2', 'Wir muessen erledigen.', 'Я хочу выполнять (делать).')
+
+(2621, 'fuehlen (sich)', 'чувствовать (себя)', 'відчувати (себе)', 'regular', 'gefuehlen (sich)t', 'fuehlen (sich)te', 'haben', 'A2', 'Wir muessen fuehlen (sich).', 'Я хочу чувствовать (себя).'),
+
+(2622, 'klaeren', 'выяснять (прояснять)', 'з''ясовувати (прояснювати)', 'regular', 'geklaert', 'klaerte', 'haben', 'A2', 'Ich moechte klaeren.', 'Я хочу выяснять (прояснять).')
+
+(2623, 'lehren', 'учить (преподавать)', 'вчити (викладати)', 'regular', 'gelehrt', 'lehrte', 'haben', 'A2', 'Kannst du lehren?', 'Я хочу учить (преподавать).')
+
+(2624, 'meinen', 'думать (полагать)', 'думати (вважати)', 'regular', 'gemeint', 'meinte', 'haben', 'A2', 'Ich moechte meinen.', 'Я хочу думать (полагать).')
+
+(2625, 'merken', 'замечать (запоминать)', 'помічати (запам''ятовувати)', 'regular', 'gemerkt', 'merkte', 'haben', 'A2', 'Wir koennen merken.', 'Я хочу замечать (запоминать).')
+
+(2626, 'pressen', 'давить (прессовать)', 'тиснути (пресувати)', 'regular', 'gepresst', 'presste', 'haben', 'A2', 'Du solltest pressen.', 'Я хочу давить (прессовать).')
+
+(2627, 'telefonieren', 'звонить (говорить по телефону)', 'телефонувати (говорити по телефону)', 'regular', 'telefoniert', 'telefonierte', 'haben', 'A2', 'Es ist wichtig zu telefonieren.', 'Я хочу звонить (говорить по телефону).')
+
+(2628, 'verheiraten (sich)', 'жениться (выходить замуж)', 'одружуватися (виходити заміж)', 'regular', 'verheiraten (sich)t', 'verheiraten (sich)te', 'haben', 'A2', 'Du solltest verheiraten (sich).', 'Я хочу жениться (выходить замуж).'),
+
+(2629, 'waegen', 'взвешивать (отважиться)', 'зважувати (наважуватися)', 'irregular', 'gewogen', 'wog', 'haben', 'A2', 'Ich moechte waegen.', 'Я хочу взвешивать (отважиться).'),
+
+(2630, 'waehlen', 'выбирать (голосовать)', 'вибирати (голосувати)', 'regular', 'gewaehlt', 'waehlte', 'haben', 'A2', 'Wir koennen waehlen.', 'Я хочу выбирать (голосовать).')
+
+(2631, 'anvertrauen', 'доверять (вверять)', 'довіряти (ввіряти)', 'regular', 'angevertraut', 'vertraute an', 'haben', 'B2', 'Kannst du anvertrauen?', 'Я хочу доверять (вверять).')
+
+(2632, 'ausleihen', 'одалживать (брать взаймы)', 'позичати (брати в борг)', 'irregular', 'ausgeliehen', 'lieh aus', 'haben', 'B2', 'Kannst du ausleihen?', 'Я хочу одалживать (брать взаймы).'),
+
+(2633, 'ausruhen (sich)', 'отдыхать (передохнуть)', 'відпочивати (перепочити)', 'regular', 'ausruhen (sich)t', 'ruhen (sich)te aus', 'haben', 'B2', 'Sie moechte ausruhen (sich).', 'Я хочу отдыхать (передохнуть).'),
+
+(2634, 'befestigen', 'прикреплять (укреплять)', 'прикріплювати (зміцнювати)', 'regular', 'befestigt', 'befestigte', 'haben', 'B2', 'Du solltest befestigen.', 'Я хочу прикреплять (укреплять).')
+
+(2635, 'beheben', 'устранять (исправлять)', 'усувати (виправляти)', 'irregular', 'behoben', 'behob', 'haben', 'B2', 'Er moechte beheben.', 'Я хочу устранять (исправлять).'),
+
+(2636, 'beklagen (sich)', 'жаловаться (сетовать)', 'скаржитися (нарікати)', 'regular', 'beklagen (sich)t', 'beklagen (sich)te', 'haben', 'B2', 'Du solltest beklagen (sich).', 'Я хочу жаловаться (сетовать).'),
+
+(2637, 'besteigen', 'восходить (подниматься)', 'сходити (підніматися)', 'irregular', 'bestiegen', 'bestieg', 'haben', 'B2', 'Es ist wichtig zu besteigen.', 'Я хочу восходить (подниматься).'),
+
+(2638, 'einschätzen', 'оценивать (расценивать)', 'оцінювати (розцінювати)', 'regular', 'eingeschätzt', 'schätzte ein', 'haben', 'B2', 'Ich moechte einschätzen.', 'Я хочу оценивать (расценивать).')
+
+(2639, 'einsehen', 'понимать (признавать)', 'розуміти (визнавати)', 'irregular', 'eingesehen', 'sah ein', 'haben', 'B2', 'Wir muessen einsehen.', 'Я хочу понимать (признавать).'),
+
+(2640, 'entbehren', 'лишаться (обходиться без)', 'позбавлятися (обходитися без)', 'regular', 'entbehrt', 'entbehrte', 'haben', 'B2', 'Er moechte entbehren.', 'Я хочу лишаться (обходиться без).')
+
+(2641, 'entfalten', 'развертывать (раскрывать)', 'розгортати (розкривати)', 'regular', 'entfaltet', 'entfaltete', 'haben', 'B2', 'Wir koennen entfalten.', 'Я хочу развертывать (раскрывать).')
+
+(2642, 'erneuern', 'обновлять (возобновлять)', 'оновлювати (відновлювати)', 'regular', 'erneuert', 'erneuerte', 'haben', 'B2', 'Kannst du erneuern?', 'Я хочу обновлять (возобновлять).')
+
+(2643, 'ersparen', 'экономить (избегать)', 'економити (уникати)', 'regular', 'erspart', 'ersparte', 'haben', 'B2', 'Es ist wichtig zu ersparen.', 'Я хочу экономить (избегать).')
+
+(2644, 'gedeihen', 'процветать (развиваться)', 'процвітати (розвиватися)', 'irregular', 'gediehen', 'gedieh', 'sein', 'B2', 'Sie moechte gedeihen.', 'Я хочу процветать (развиваться).'),
+
+(2645, 'gelingen', 'удаваться (получаться)', 'вдаватися (виходити)', 'irregular', 'gelungen', 'gelang', 'sein', 'B2', 'Wir koennen gelingen.', 'Я хочу удаваться (получаться).'),
+
+(2646, 'gewähren', 'давать (предоставлять)', 'давати (надавати)', 'regular', 'gewährt', 'gewährte', 'haben', 'B2', 'Es ist wichtig zu gewähren.', 'Я хочу давать (предоставлять).')
+
+(2647, 'gewöhnen', 'привыкать (приучать)', 'звикати (привчати)', 'regular', 'gewöhnt', 'gewöhnte', 'haben', 'B2', 'Ich moechte gewöhnen.', 'Я хочу привыкать (приучать).')
+
+(2648, 'grundlegen', 'закладывать основу', 'закладати основу', 'regular', 'gegrundlegt', 'grundlegte', 'haben', 'B2', 'Kannst du grundlegen?', 'Я хочу закладывать основу.')
+
+(2649, 'handeln (sich um)', 'действовать (речь идет о)', 'діяти (йдеться про)', 'regular', 'gehandeln (sich um)t', 'handeln (sich um)te', 'haben', 'B2', 'Ich moechte handeln (sich um).', 'Я хочу действовать (речь идет о).'),
+
+(2650, 'hinweisen (auf)', 'указывать (напоминать)', 'вказувати (нагадувати)', 'irregular', 'hingewiesen', 'wies hin', 'haben', 'B2', 'Sie moechte hinweisen (auf).', 'Я хочу указывать (напоминать).'),
+
+(2651, 'konzentrieren (sich)', 'сосредоточиваться', 'зосереджуватися', 'regular', 'gekonzentrieren (sich)t', 'konzentrieren (sich)te', 'haben', 'B2', 'Ich moechte konzentrieren (sich).', 'Я хочу сосредоточиваться.'),
+
+(2652, 'nachdenken (ueber)', 'размышлять (обдумывать)', 'розмірковувати (обдумувати)', 'regular', 'nachdenken (ueber)t', 'denken (ueber)te nach', 'haben', 'B2', 'Ich moechte nachdenken (ueber).', 'Я хочу размышлять (обдумывать).'),
+
+(2653, 'senken', 'снижать (опускать)', 'знижувати (опускати)', 'regular', 'gesenkt', 'senkte', 'haben', 'B2', 'Es ist wichtig zu senken.', 'Я хочу снижать (опускать).')
+
+(2654, 'stärken', 'укреплять (подкреплять)', 'зміцнювати (підкріплювати)', 'regular', 'gestärkt', 'stärkte', 'haben', 'B2', 'Ich moechte stärken.', 'Я хочу укреплять (подкреплять).')
+
+(2655, 'teilnehmen (an)', 'участвовать (принимать участие)', 'брати участь', 'irregular', 'teilgenommen', 'nahm teil', 'haben', 'B2', 'Es ist wichtig zu teilnehmen (an).', 'Я хочу участвовать (принимать участие).'),
+
+(2656, 'wecken', 'будить (пробуждать)', 'будити (пробуджувати)', 'regular', 'geweckt', 'weckte', 'haben', 'B2', 'Wir koennen wecken.', 'Я хочу будить (пробуждать).')
+
+(2657, 'würken', 'действовать (влиять)', 'діяти (впливати)', 'regular', 'gewürkt', 'würkte', 'haben', 'B2', 'Es ist wichtig zu würken.', 'Я хочу действовать (влиять).')
+
+(2658, 'anknüpfen', 'устанавливать связь (продолжать)', 'встановлювати зв''язок (продовжувати)', 'regular', 'angeknüpft', 'knüpfte an', 'haben', 'C1', 'Wir koennen anknüpfen.', 'Я хочу устанавливать связь (продолжать).')
+
+(2659, 'anrichten', 'причинять (подавать на стол)', 'причиняти (подавати на стіл)', 'regular', 'angerichtet', 'richtete an', 'haben', 'C1', 'Sie moechte anrichten.', 'Я хочу причинять (подавать на стол).')
+
+(2660, 'ausbauen', 'расширять (развивать)', 'розширювати (розвивати)', 'regular', 'ausgebaut', 'baute aus', 'haben', 'C1', 'Wir muessen ausbauen.', 'Я хочу расширять (развивать).')
+
+(2661, 'begaben (sich)', 'отправляться (направляться)', 'відправлятися (направлятися)', 'regular', 'begaben (sich)t', 'begaben (sich)te', 'sein', 'C1', 'Wir koennen begaben (sich).', 'Я хочу отправляться (направляться).'),
+
+(2662, 'besichtigen', 'осматривать (обозревать)', 'оглядати (роздивлятися)', 'regular', 'besichtigt', 'besichtigte', 'haben', 'C1', 'Er moechte besichtigen.', 'Я хочу осматривать (обозревать).')
+
+(2663, 'betreffen', 'касаться (относиться)', 'стосуватися (відноситися)', 'irregular', 'betroffen', 'betraf', 'haben', 'C1', 'Er moechte betreffen.', 'Я хочу касаться (относиться).'),
+
+(2664, 'davonlaufen', 'убегать (удирать)', 'утікати', 'irregular', 'davongelaufen', 'lief davon', 'sein', 'C1', 'Wir koennen davonlaufen.', 'Я хочу убегать (удирать).'),
+
+(2665, 'davonkommen', 'отделываться (выкручиваться)', 'відкараскатися (викручуватися)', 'irregular', 'davongekommen', 'kam davon', 'sein', 'C1', 'Wir muessen davonkommen.', 'Я хочу отделываться (выкручиваться).'),
+
+(2666, 'einbeziehen', 'включать (привлекать)', 'включати (залучати)', 'irregular', 'einbezogen', 'bezog ein', 'haben', 'C1', 'Ich moechte einbeziehen.', 'Я хочу включать (привлекать).'),
+
+(2667, 'einführen', 'вводить (импортировать)', 'вводити (імпортувати)', 'regular', 'eingeführt', 'führte ein', 'haben', 'C1', 'Wir koennen einführen.', 'Я хочу вводить (импортировать).')
+
+(2668, 'eingestehen', 'признавать(ся) (сознаваться)', 'визнавати(ся) (зізнаватися)', 'irregular', 'eingestanden', 'gestand ein', 'haben', 'C1', 'Es ist wichtig zu eingestehen.', 'Я хочу признавать(ся) (сознаваться).'),
+
+(2669, 'einordnen', 'классифицировать (упорядочивать)', 'класифікувати (впорядковувати)', 'regular', 'eingeordnet', 'ordnete ein', 'haben', 'C1', 'Kannst du einordnen?', 'Я хочу классифицировать (упорядочивать).')
+
+(2670, 'eintreten (in)', 'вступать (входить)', 'вступати (входити)', 'irregular', 'eingetreten', 'trat ein', 'sein', 'C1', 'Er moechte eintreten (in).', 'Я хочу вступать (входить).'),
+
+(2671, 'entschliessen (sich)', 'решиться (принять решение)', 'зважитися (прийняти рішення)', 'irregular', 'entschlossen', 'entschloss', 'haben', 'C1', 'Du solltest entschliessen (sich).', 'Я хочу решиться (принять решение).'),
+
+(2672, 'erleben', 'переживать (испытывать)', 'переживати (досвідчувати)', 'regular', 'erlebt', 'erlebte', 'haben', 'C1', 'Wir koennen erleben.', 'Я хочу переживать (испытывать).')
+
+(2673, 'erweisen (sich)', 'оказываться (доказывать)', 'виявлятися (доводити)', 'irregular', 'erwiesen', 'erwies', 'haben', 'C1', 'Du solltest erweisen (sich).', 'Я хочу оказываться (доказывать).'),
+
+(2674, 'ankreuzen', 'отмечать (ставить крестик)', 'відзначати (ставити хрестик)', 'regular', 'angekreuzt', 'kreuzte an', 'haben', 'A2', 'Sie moechte ankreuzen.', 'Я хочу отмечать (ставить крестик).')
+
+(2675, 'druecken', 'жать (давить)', 'тиснути (давити)', 'regular', 'gedrueckt', 'drueckte', 'haben', 'A2', 'Kannst du druecken?', 'Я хочу жать (давить).')
+
+(2676, 'duerfen', 'мочь (иметь право)', 'могти (мати право)', 'mixed', 'gedurft', 'durfte', 'haben', 'A2', 'Wir koennen duerfen.', 'Я хочу мочь (иметь право).'),
+
+(2677, 'erwischen', 'успевать (ловить)', 'встигати (ловити)', 'regular', 'erwischt', 'erwischte', 'haben', 'A2', 'Er moechte erwischen.', 'Я хочу успевать (ловить).')
+
+(2678, 'erzaehlen', 'рассказывать (повествовать)', 'розповідати', 'regular', 'erzaehlt', 'erzaehlte', 'haben', 'A2', 'Es ist wichtig zu erzaehlen.', 'Я хочу рассказывать (повествовать).')
+
+(2679, 'graben', 'копать (рыть)', 'копати (рити)', 'irregular', 'gegraben', 'grub', 'haben', 'A2', 'Du solltest graben.', 'Я хочу копать (рыть).'),
+
+(2680, 'grenzen', 'граничить (примыкать)', 'граничити (примикати)', 'regular', 'gegrenzt', 'grenzte', 'haben', 'A2', 'Es ist wichtig zu grenzen.', 'Я хочу граничить (примыкать).')
+
+(2681, 'heissen', 'называться (значить)', 'називатися (означати)', 'mixed', 'geheissen', 'hiess', 'haben', 'A2', 'Du solltest heissen.', 'Я хочу называться (значить).'),
+
+(2682, 'hoeren', 'слышать (слушать)', 'чути (слухати)', 'regular', 'gehoert', 'hoerte', 'haben', 'A2', 'Kannst du hoeren?', 'Я хочу слышать (слушать).')
+
+(2683, 'kennen', 'знать (быть знакомым)', 'знати (бути знайомим)', 'mixed', 'gekannt', 'kannte', 'haben', 'A2', 'Wir koennen kennen.', 'Я хочу знать (быть знакомым).'),
+
+(2684, 'koennen', 'мочь (уметь)', 'могти (вміти)', 'mixed', 'gekonnt', 'konnte', 'haben', 'A2', 'Sie moechte koennen.', 'Я хочу мочь (уметь).'),
+
+(2685, 'laden', 'грузить (загружать)', 'вантажити (завантажувати)', 'irregular', 'geladen', 'lud', 'haben', 'A2', 'Wir koennen laden.', 'Я хочу грузить (загружать).'),
+
+(2686, 'leben', 'жить (проживать)', 'жити (проживати)', 'regular', 'gelebt', 'lebte', 'haben', 'A2', 'Du solltest leben.', 'Я хочу жить (проживать).')
+
+(2687, 'mobilisieren', 'мобилизовать', 'мобілізувати', 'regular', 'mobilisiert', 'mobilisierte', 'haben', 'A2', 'Kannst du mobilisieren?', 'Я хочу мобилизовать.')
+
+(2688, 'moegen', 'любить (нравиться)', 'любити (подобатися)', 'mixed', 'gemocht', 'mochte', 'haben', 'A2', 'Kannst du moegen?', 'Я хочу любить (нравиться).'),
+
+(2689, 'muessen', 'долженствовать (быть вынужденным)', 'мусити (бути змушеним)', 'mixed', 'gemusst', 'musste', 'haben', 'A2', 'Wir muessen muessen.', 'Я хочу долженствовать (быть вынужденным).'),
+
+(2690, 'oefnen', 'открывать (отворять)', 'відкривати (відчиняти)', 'regular', 'geoefnt', 'oefnte', 'haben', 'A2', 'Es ist wichtig zu oefnen.', 'Я хочу открывать (отворять).')
+
+(2691, 'packen', 'паковать (укладывать)', 'пакувати (укладати)', 'regular', 'gepackt', 'packte', 'haben', 'A2', 'Er moechte packen.', 'Я хочу паковать (укладывать).')
+
+(2692, 'raetseln', 'разгадывать (ломать голову)', 'розгадувати (ламати голову)', 'regular', 'geraetselt', 'raetselte', 'haben', 'A2', 'Sie moechte raetseln.', 'Я хочу разгадывать (ломать голову).')
+
+(2693, 'regen', 'шевелить (двигать)', 'ворушити (рухати)', 'regular', 'geregt', 'regte', 'haben', 'A2', 'Wir koennen regen.', 'Я хочу шевелить (двигать).')
+
+(2694, 'ruhen', 'отдыхать (покоиться)', 'відпочивати (спочивати)', 'regular', 'geruht', 'ruhte', 'haben', 'A2', 'Es ist wichtig zu ruhen.', 'Я хочу отдыхать (покоиться).')
+
+(2695, 'schiessen', 'стрелять (забивать)', 'стріляти (забивати)', 'irregular', 'geschossen', 'schoss', 'haben', 'A2', 'Wir koennen schiessen.', 'Я хочу стрелять (забивать).'),
+
+(2696, 'schmerzen', 'болеть (причинять боль)', 'боліти (заподіювати біль)', 'regular', 'geschmerzt', 'schmerzte', 'haben', 'A2', 'Wir muessen schmerzen.', 'Я хочу болеть (причинять боль).')
+
+(2697, 'senden', 'посылать (передавать)', 'посилати (передавати)', 'regular', 'gesendent', 'sendente', 'haben', 'A2', 'Sie moechte senden.', 'Я хочу посылать (передавать).'),
+
+(2698, 'ueben', 'упражняться (тренировать)', 'вправлятися (тренувати)', 'regular', 'geuebt', 'uebte', 'haben', 'A2', 'Wir koennen ueben.', 'Я хочу упражняться (тренировать).')
+
+(2699, 'verbrauchen', 'потреблять (расходовать)', 'споживати (витрачати)', 'regular', 'verbraucht', 'verbrauchte', 'haben', 'A2', 'Er moechte verbrauchen.', 'Я хочу потреблять (расходовать).')
+
+(2700, 'verlassen', 'покидать (оставлять)', 'покидати (залишати)', 'irregular', 'verlassen', 'verliess', 'haben', 'A2', 'Wir koennen verlassen.', 'Я хочу покидать (оставлять).'),
+
+(2701, 'wuenschen', 'желать (пожелать)', 'бажати (побажати)', 'regular', 'gewuenscht', 'wuenschte', 'haben', 'A2', 'Er moechte wuenschen.', 'Я хочу желать (пожелать).')
+
+(2702, 'zaehlen', 'считать (насчитывать)', 'рахувати (налічувати)', 'regular', 'gezaehlt', 'zaehlte', 'haben', 'A2', 'Du solltest zaehlen.', 'Я хочу считать (насчитывать).')
+
+(2703, 'ausdenken', 'придумывать (выдумывать)', 'вигадувати (придумувати)', 'regular', 'ausdenkent', 'denkente aus', 'haben', 'B2', 'Er moechte ausdenken.', 'Я хочу придумывать (выдумывать).'),
+
+(2704, 'ausgehen (von)', 'исходить (из)', 'виходити (з)', 'irregular', 'ausgegangen', 'ging aus', 'sein', 'B2', 'Wir koennen ausgehen (von).', 'Я хочу исходить (из).'),
+
+(2705, 'auswirken (sich)', 'сказываться (влиять)', 'позначатися (впливати)', 'regular', 'auswirken (sich)t', 'wirken (sich)te aus', 'haben', 'B2', 'Wir koennen auswirken (sich).', 'Я хочу сказываться (влиять).'),
+
+(2706, 'befragen', 'спрашивать (допрашивать)', 'питати (допитувати)', 'regular', 'befragt', 'befragte', 'haben', 'B2', 'Sie moechte befragen.', 'Я хочу спрашивать (допрашивать).')
+
+(2707, 'befuerworten', 'одобрять (поддерживать)', 'схвалювати (підтримувати)', 'regular', 'befuerwortet', 'befuerwortete', 'haben', 'B2', 'Es ist wichtig zu befuerworten.', 'Я хочу одобрять (поддерживать).')
+
+(2708, 'bemuehen (sich)', 'стараться (хлопотать)', 'намагатися (клопотати)', 'regular', 'bemuehen (sich)t', 'bemuehen (sich)te', 'haben', 'B2', 'Wir muessen bemuehen (sich).', 'Я хочу стараться (хлопотать).'),
+
+(2709, 'bezeugen', 'свидетельствовать (удостоверять)', 'свідчити (засвідчувати)', 'regular', 'bezeugt', 'bezeugte', 'haben', 'B2', 'Es ist wichtig zu bezeugen.', 'Я хочу свидетельствовать (удостоверять).')
+
+(2710, 'dazugehoeren', 'принадлежать (относиться)', 'належати (відноситися)', 'regular', 'dazugegehoert', 'gehoerte dazu', 'haben', 'B2', 'Es ist wichtig zu dazugehoeren.', 'Я хочу принадлежать (относиться).')
+
+(2711, 'ebenfalls', 'также (тоже)', 'також', 'regular', 'geebenfallst', 'ebenfallste', 'haben', 'B2', 'Wir muessen ebenfalls.', 'Я хочу также (тоже).')
+
+(2712, 'zurueckkehren', 'возвращаться (обратно)', 'повертатися (назад)', 'regular', 'zugerueckkehrt', 'rueckkehrte zu', 'sein', 'B2', 'Ich moechte zurueckkehren.', 'Я хочу возвращаться (обратно).')
+
+(2713, 'abzielen (auf)', 'нацеливаться (метить)', 'націлюватися (цілити)', 'regular', 'abzielen (auf)t', 'zielen (auf)te ab', 'haben', 'C1', 'Sie moechte abzielen (auf).', 'Я хочу нацеливаться (метить).'),
+
+(2714, 'ansehen (als)', 'рассматривать (считать)', 'розглядати (вважати)', 'irregular', 'angesehen', 'sah an', 'haben', 'C1', 'Ich moechte ansehen (als).', 'Я хочу рассматривать (считать).'),
+
+(2715, 'anstrengen', 'напрягать (утомлять)', 'напружувати (стомлювати)', 'regular', 'angestrengt', 'strengte an', 'haben', 'C1', 'Du solltest anstrengen.', 'Я хочу напрягать (утомлять).')
+
+(2716, 'auffangen', 'ловить (перехватывать)', 'ловити (перехоплювати)', 'irregular', 'aufgefangen', 'fing auf', 'haben', 'C1', 'Du solltest auffangen.', 'Я хочу ловить (перехватывать).'),
+
+(2717, 'auffassen', 'воспринимать (понимать)', 'сприймати (розуміти)', 'regular', 'aufgefasst', 'fasste auf', 'haben', 'C1', 'Es ist wichtig zu auffassen.', 'Я хочу воспринимать (понимать).')
+
+(2718, 'aufhalten (sich)', 'задерживаться (пребывать)', 'затримуватися (перебувати)', 'irregular', 'aufgehalten', 'hielt auf', 'haben', 'C1', 'Er moechte aufhalten (sich).', 'Я хочу задерживаться (пребывать).'),
+
+(2719, 'auflockern', 'разрыхлять (разнообразить)', 'розпушувати (урізноманітнювати)', 'regular', 'aufgelockert', 'lockerte auf', 'haben', 'C1', 'Wir koennen auflockern.', 'Я хочу разрыхлять (разнообразить).')
+
+(2720, 'aufopfern (sich)', 'жертвовать собой', 'жертвувати собою', 'regular', 'aufopfern (sich)t', 'opfern (sich)te auf', 'haben', 'C1', 'Sie moechte aufopfern (sich).', 'Я хочу жертвовать собой.'),
+
+(2721, 'aufzeichnen', 'записывать (регистрировать)', 'записувати (реєструвати)', 'regular', 'aufgezeichnet', 'zeichnete auf', 'haben', 'C1', 'Wir koennen aufzeichnen.', 'Я хочу записывать (регистрировать).')
+
+(2722, 'ausgeben (sich)', 'выдавать себя (притворяться)', 'видавати себе (прикидатися)', 'irregular', 'ausgegeben', 'gab aus', 'haben', 'C1', 'Kannst du ausgeben (sich)?', 'Я хочу выдавать себя (притворяться).'),
+
+(2723, 'aushandeln', 'договариваться (торговаться)', 'домовлятися (торгуватися)', 'regular', 'ausgehandelt', 'handelte aus', 'haben', 'C1', 'Es ist wichtig zu aushandeln.', 'Я хочу договариваться (торговаться).')
+
+(2724, 'ausrichten', 'организовывать (передавать)', 'організовувати (передавати)', 'regular', 'ausgerichtet', 'richtete aus', 'haben', 'C1', 'Ich moechte ausrichten.', 'Я хочу организовывать (передавать).')
+
+(2725, 'beauftragen', 'поручать (уполномочивать)', 'доручати (уповноважувати)', 'regular', 'beauftragent', 'beauftragente', 'haben', 'C1', 'Ich moechte beauftragen.', 'Я хочу поручать (уполномочивать).'),
+
+(2726, 'abbiegen', 'поворачивать (сворачивать)', 'повертати (звертати)', 'irregular', 'abgebogen', 'bog ab', 'sein', 'A2', 'Wir koennen abbiegen.', 'Я хочу поворачивать (сворачивать).'),
+
+(2727, 'abschalten', 'выключать (отключать)', 'вимикати (відключати)', 'regular', 'abgeschaltet', 'schaltete ab', 'haben', 'A2', 'Er moechte abschalten.', 'Я хочу выключать (отключать).')
+
+(2728, 'ackern', 'пахать (много работать)', 'орати (багато працювати)', 'regular', 'geackert', 'ackerte', 'haben', 'A2', 'Er moechte ackern.', 'Я хочу пахать (много работать).')
+
+(2729, 'aktivieren', 'активировать', 'активувати', 'regular', 'aktiviert', 'aktivierte', 'haben', 'A2', 'Er moechte aktivieren.', 'Я хочу активировать.')
+
+(2730, 'angucken', 'смотреть (глядеть)', 'дивитися (глядіти)', 'regular', 'angeguckt', 'guckte an', 'haben', 'A2', 'Wir koennen angucken.', 'Я хочу смотреть (глядеть).')
+
+(2731, 'anhaben', 'носить (быть одетым)', 'носити (бути одягненим)', 'irregular', 'angehabt', 'hatte an', 'haben', 'A2', 'Kannst du anhaben?', 'Я хочу носить (быть одетым).'),
+
+(2732, 'anmalen(sich)', 'красить(ся)', 'фарбувати(ся)', 'regular', 'angemalen(sich)t', 'malen(sich)te an', 'haben', 'A2', 'Du solltest anmalen(sich).', 'Я хочу красить(ся).')
+
+(2733, 'anschalten', 'включать (прибор)', 'вмикати (прилад)', 'regular', 'angeschaltet', 'schaltete an', 'haben', 'A2', 'Er moechte anschalten.', 'Я хочу включать (прибор).')
+
+(2734, 'anschnallen(sich)', 'пристегивать(ся)', 'пристібати(ся)', 'regular', 'angeschnallen(sich)t', 'schnallen(sich)te an', 'haben', 'A2', 'Du solltest anschnallen(sich).', 'Я хочу пристегивать(ся).')
+
+(2735, 'aufblaettern', 'пролистывать (раскрывать)', 'гортати (розкривати)', 'regular', 'aufgeblaettert', 'blaetterte auf', 'haben', 'A2', 'Du solltest aufblaettern.', 'Я хочу пролистывать (раскрывать).')
+
+(2736, 'aufregen(sich)', 'волновать(ся)', 'хвилювати(ся)', 'regular', 'aufgeregen(sich)t', 'regen(sich)te auf', 'haben', 'A2', 'Sie moechte aufregen(sich).', 'Я хочу волновать(ся).')
+
+(2737, 'aufwaermen', 'разогревать (подогревать)', 'розігрівати (підігрівати)', 'regular', 'aufgewaermt', 'waermte auf', 'haben', 'A2', 'Er moechte aufwaermen.', 'Я хочу разогревать (подогревать).')
+
+(2738, 'ausgeben(sich)', 'тратить(ся)', 'витрачати(ся)', 'irregular', 'ausgegeben', 'gab aus', 'haben', 'A2', 'Kannst du ausgeben(sich)?', 'Я хочу тратить(ся).'),
+
+(2739, 'ausprobieren', 'испытывать (пробовать)', 'випробовувати (пробувати)', 'regular', 'ausprobiert', 'ausprobierte', 'haben', 'A2', 'Kannst du ausprobieren?', 'Я хочу испытывать (пробовать).')
+
+(2740, 'abbilden', 'изображать', 'зображати', 'r', 'abgebildet', 'bildete ab', 'haben', 'B2', 'Wir muessen abbilden.', 'Я хочу изображать.')
+
+(2741, 'abbinden', 'отвязывать', 'відв''язувати', 'r', '', '', 'haben', 'B2', 'Ich moechte abbinden.', 'Я хочу отвязывать.'),
+
+(2742, 'abbremsen', 'тормозить', 'гальмувати', 'r', 'abgebremst', 'bremste ab', 'haben', 'B2', 'Es ist wichtig zu abbremsen.', 'Я хочу тормозить.')
+
+(2743, 'abdampfen', 'испаряться', 'випаровуватися', 'r', 'abgedampft', 'dampfte ab', 'haben', 'B2', 'Es ist wichtig zu abdampfen.', 'Я хочу испаряться.')
+
+(2744, 'abfedern', 'амортизировать', 'амортизувати', 'r', 'abgefedert', 'federte ab', 'haben', 'B2', 'Ich moechte abfedern.', 'Я хочу амортизировать.')
+
+(2745, 'abheften', 'подшивать', 'підшивати', 'r', 'abgeheftet', 'heftete ab', 'haben', 'B2', 'Es ist wichtig zu abheften.', 'Я хочу подшивать.')
+
+(2746, 'ablesen', 'считывать', 'зчитувати', 'i', 'abgelesen', 'las ab', 'haben', 'B2', 'Kannst du ablesen?', 'Я хочу считывать.'),
+
+(2747, 'abloesen', 'сменять', 'змінювати', 'r', 'abgeloest', 'loeste ab', 'haben', 'B2', 'Es ist wichtig zu abloesen.', 'Я хочу сменять.')
+
+(2748, 'abmontieren', 'демонтировать', 'демонтувати', 'r', 'abmontiert', 'abmontierte', 'haben', 'B2', 'Es ist wichtig zu abmontieren.', 'Я хочу демонтировать.')
+
+(2749, 'abpacken', 'упаковывать', 'пакувати', 'r', 'abgepackt', 'packte ab', 'haben', 'B2', 'Wir muessen abpacken.', 'Я хочу упаковывать.')
+
+(2750, 'abraten', 'отсоветовать', 'відраджувати', 'i', 'abgeraten', 'riet ab', 'haben', 'B2', 'Ich moechte abraten.', 'Я хочу отсоветовать.'),
+
+(2751, 'abrechnen', 'раccчитывать', 'розраховувати', 'r', 'abgerechnet', 'rechnete ab', 'haben', 'B2', 'Ich versuche zu abrechnen.', 'Я хочу раccчитывать.')
+
+(2752, 'abreiben', 'обтирать', 'обтирати', 'i', 'abgerieben', 'rieb ab', 'haben', 'B2', 'Ich moechte abreiben.', 'Я хочу обтирать.'),
+
+(2753, 'abrollen', 'разворачивать', 'розгортати', 'r', 'abgerollt', 'rollte ab', 'haben', 'B2', 'Er moechte abrollen.', 'Я хочу разворачивать.')
+
+(2754, 'abschleppen', 'буксировать', 'буксирувати', 'r', 'abgeschleppt', 'schleppte ab', 'haben', 'B2', 'Es ist wichtig zu abschleppen.', 'Я хочу буксировать.')
+
+(2755, 'absprechen', 'договариваться', 'домовлятися', 'i', 'abgesprochen', 'sprach ab', 'haben', 'B2', 'Kannst du absprechen?', 'Я хочу договариваться.'),
+
+(2756, 'abstuerzen', 'падать', 'падати', 'r', 'abgestuerzt', 'stuerzte ab', 'sein', 'B2', 'Ich moechte abstuerzen.', 'Я хочу падать.')
+
+(2757, 'absuchen', 'обыскивать', 'обшукувати', 'r', 'abgesucht', 'suchte ab', 'haben', 'B2', 'Ich moechte absuchen.', 'Я хочу обыскивать.')
+
+(2758, 'abwehren', 'отражать', 'відбивати', 'r', 'abgewehrt', 'wehrte ab', 'haben', 'B2', 'Ich versuche zu abwehren.', 'Я хочу отражать.')
+
+(2759, 'anbehalten', 'оставлять', 'залишати', 'i', 'anbehalten', 'behielt an', 'haben', 'B2', 'Er moechte anbehalten.', 'Я хочу оставлять.'),
+
+(2760, 'anbrauchen', 'почать', 'почати', 'r', 'angebraucht', 'brauchte an', 'haben', 'B2', 'Wir muessen anbrauchen.', 'Я хочу почать.')
+
+(2761, 'aneignen', 'усваивать', 'засвоювати', 'r', 'angeeignet', 'eignete an', 'haben', 'B2', 'Kannst du aneignen?', 'Я хочу усваивать.')
+
+(2762, 'anfallen', 'нападать', 'нападати', 'i', 'angefallen', 'fiel an', 'haben', 'B2', 'Wir muessen anfallen.', 'Я хочу нападать.'),
+
+(2763, 'anfaerben', 'окрашивать', 'фарбувати', 'r', 'angefaerbt', 'faerbte an', 'haben', 'B2', 'Er moechte anfaerben.', 'Я хочу окрашивать.')
+
+(2764, 'anfassen', 'трогать', 'торкатися', 'r', 'angefasst', 'fasste an', 'haben', 'B2', 'Er moechte anfassen.', 'Я хочу трогать.')
+
+(2765, 'anfeuchten', 'увлажнять', 'зволожувати', 'r', 'angefeuchtet', 'feuchtete an', 'haben', 'B2', 'Wir muessen anfeuchten.', 'Я хочу увлажнять.')
+
+(2766, 'anfliegen', 'подлетать', 'підлітати', 'i', 'angeflogen', 'flog an', 'sein', 'B2', 'Es ist wichtig zu anfliegen.', 'Я хочу подлетать.'),
+
+(2767, 'angehoeren', 'принадлежать', 'належати', 'r', 'angegehoert', 'gehoerte an', 'haben', 'B2', 'Es ist wichtig zu angehoeren.', 'Я хочу принадлежать.')
+
+(2768, 'ankleben', 'приклеивать', 'приклеювати', 'r', 'angeklebt', 'klebte an', 'haben', 'B2', 'Kannst du ankleben?', 'Я хочу приклеивать.')
+
+(2769, 'anklopfen', 'стучать', 'стукати', 'r', 'angeklopft', 'klopfte an', 'haben', 'B2', 'Es ist wichtig zu anklopfen.', 'Я хочу стучать.')
+
+(2770, 'ankuendigen', 'объявлять', 'оголошувати', 'r', 'angekuendigt', 'kuendigte an', 'haben', 'B2', 'Kannst du ankuendigen?', 'Я хочу объявлять.')
+
+(2771, 'anlangen', 'прибывать', 'прибувати', 'r', 'angelangt', 'langte an', 'sein', 'B2', 'Wir muessen anlangen.', 'Я хочу прибывать.')
+
+(2772, 'anlernen', 'обучать', 'навчати', 'r', 'angelernt', 'lernte an', 'haben', 'B2', 'Wir muessen anlernen.', 'Я хочу обучать.')
+
+(2773, 'anliefern', 'доставлять', 'доставляти', 'r', 'angeliefert', 'lieferte an', 'haben', 'B2', 'Ich versuche zu anliefern.', 'Я хочу доставлять.')
+
+(2774, 'anprobieren', 'примерять', 'приміряти', 'r', 'anprobiert', 'anprobierte', 'haben', 'B2', 'Wir muessen anprobieren.', 'Я хочу примерять.')
+
+(2775, 'anreichen', 'подавать', 'подавати', 'r', 'angereicht', 'reichte an', 'haben', 'B2', 'Ich moechte anreichen.', 'Я хочу подавать.')
+
+(2776, 'anreisen', 'приезжать', 'приїжджати', 'r', 'angereist', 'reiste an', 'sein', 'B2', 'Es ist wichtig zu anreisen.', 'Я хочу приезжать.')
+
+(2777, 'anstreichen', 'красить', 'фарбувати', 'i', 'angestrichen', 'strich an', 'haben', 'B2', 'Ich versuche zu anstreichen.', 'Я хочу красить.'),
+
+(2778, 'antreffen', 'заставать', 'заставати', 'i', 'angetroffen', 'traf an', 'haben', 'B2', 'Es ist wichtig zu antreffen.', 'Я хочу заставать.'),
+
+(2779, 'antreiben', 'погонять', 'підганяти', 'i', 'angetrieben', 'trieb an', 'haben', 'B2', 'Ich versuche zu antreiben.', 'Я хочу погонять.'),
+
+(2780, 'anweisen', 'указывать', 'вказувати', 'i', 'angewiesen', 'wies an', 'haben', 'B2', 'Ich moechte anweisen.', 'Я хочу указывать.'),
+
+(2781, 'aufbauen', 'строить', 'будувати', 'r', 'aufgebaut', 'baute auf', 'haben', 'B2', 'Ich moechte aufbauen.', 'Я хочу строить.')
+
+(2782, 'aufbieten', 'напрягать', 'напружувати', 'i', 'aufgeboten', 'bot auf', 'haben', 'C1', 'Er moechte aufbieten.', 'Я хочу напрягать.'),
+
+(2783, 'aufbringen', 'добывать', 'добувати', 'i', 'aufgebracht', 'brachte auf', 'haben', 'C1', 'Wir muessen aufbringen.', 'Я хочу добывать.'),
+
+(2784, 'aufeinander', 'друг на друга', 'один на одного', 'r', 'aufgeeinandert', 'einanderte auf', 'haben', 'C1', 'Es ist wichtig zu aufeinander.', 'Я хочу друг на друга.')
+
+(2785, 'aufeinanderfolgen', 'следовать', 'слідувати', 'r', 'aufgeeinanderfolgt', 'einanderfolgte auf', 'sein', 'C1', 'Ich moechte aufeinanderfolgen.', 'Я хочу следовать.')
+
+(2786, 'aufeinandertreffen', 'сталкиваться', 'стикатися', 'i', 'aufgeeinandertrefft', 'einandertreffte auf', 'sein', 'C1', 'Ich moechte aufeinandertreffen.', 'Я хочу сталкиваться.')
+
+(2787, 'auffuellen', 'дозаправлять', 'дозаправляти', 'r', 'aufgefuellt', 'fuellte auf', 'haben', 'B2', 'Wir muessen auffuellen.', 'Я хочу дозаправлять.')
+
+(2788, 'aufhellen', 'осветлять', 'освітлювати', 'r', 'aufgehellt', 'hellte auf', 'haben', 'B2', 'Er moechte aufhellen.', 'Я хочу осветлять.')
+
+(2789, 'aufhoeren', 'прекращать', 'припиняти', 'r', 'aufgehoert', 'hoerte auf', 'haben', 'B2', 'Kannst du aufhoeren?', 'Я хочу прекращать.')
+
+(2790, 'aufkleben', 'наклеивать', 'наклеювати', 'r', 'aufgeklebt', 'klebte auf', 'haben', 'B2', 'Kannst du aufkleben?', 'Я хочу наклеивать.')
+
+(2791, 'aufliefern', 'сдавать', 'здавати', 'r', 'aufgeliefert', 'lieferte auf', 'haben', 'B2', 'Er moechte aufliefern.', 'Я хочу сдавать.')
+
+(2792, 'aufopfern', 'жертвовать', 'жертвувати', 'r', 'aufgeopfert', 'opferte auf', 'haben', 'C1', 'Er moechte aufopfern.', 'Я хочу жертвовать.')
+
+(2793, 'aufregen', 'волновать', 'хвилювати', 'r', 'aufgeregt', 'regte auf', 'haben', 'B2', 'Er moechte aufregen.', 'Я хочу волновать.')
+
+(2794, 'aufrollen', 'раскатывать', 'розгортати', 'r', 'aufgerollt', 'rollte auf', 'haben', 'B2', 'Ich versuche zu aufrollen.', 'Я хочу раскатывать.')
+
+(2795, 'aufruecken', 'продвигаться', 'просуватися', 'r', 'aufgerueckt', 'rueckte auf', 'sein', 'B2', 'Er moechte aufruecken.', 'Я хочу продвигаться.')
+
+(2796, 'aufschlagen', 'открывать', 'відкривати', 'i', 'aufgeschlagen', 'schlug auf', 'haben', 'B2', 'Wir muessen aufschlagen.', 'Я хочу открывать.'),
+
+(2797, 'aufspannen', 'натягивать', 'натягати', 'r', 'aufgespannet', 'spannete auf', 'haben', 'B2', 'Wir muessen aufspannen.', 'Я хочу натягивать.')
+
+(2798, 'auftanken', 'заправляться', 'заправлятися', 'r', 'aufgetankt', 'tankte auf', 'haben', 'B2', 'Ich versuche zu auftanken.', 'Я хочу заправляться.')
+
+(2799, 'auftreiben', 'разыскивать', 'розшукувати', 'i', 'aufgetrieben', 'trieb auf', 'haben', 'B2', 'Ich moechte auftreiben.', 'Я хочу разыскивать.'),
+
+(2800, 'aufwerten', 'повышать', 'підвищувати', 'r', 'aufgewertet', 'wertete auf', 'haben', 'C1', 'Ich versuche zu aufwerten.', 'Я хочу повышать.')
+
+(2801, 'ausarbeiten', 'разрабатывать', 'розробляти', 'r', 'ausgearbeitet', 'arbeitete aus', 'haben', 'B2', 'Ich moechte ausarbeiten.', 'Я хочу разрабатывать.')
+
+(2802, 'ausfertigen', 'оформлять', 'оформлювати', 'r', 'ausgefertigt', 'fertigte aus', 'haben', 'C1', 'Kannst du ausfertigen?', 'Я хочу оформлять.')
+
+(2803, 'ausgrenzen', 'исключать', 'виключати', 'r', 'ausgegrenzt', 'grenzte aus', 'haben', 'C1', 'Kannst du ausgrenzen?', 'Я хочу исключать.')
+
+(2804, 'auskuppeln', 'выключать', 'вимикати', 'r', 'ausgekuppelt', 'kuppelte aus', 'haben', 'C1', 'Er moechte auskuppeln.', 'Я хочу выключать.')
+
+(2805, 'ausloeschen', 'гасить', 'гасити', 'i', 'ausgeloescht', 'loeschte aus', 'haben', 'C1', 'Wir muessen ausloeschen.', 'Я хочу гасить.')
+
+(2806, 'ausmustern', 'отбраковывать', 'бракувати', 'r', 'ausgemustert', 'musterte aus', 'haben', 'C1', 'Er moechte ausmustern.', 'Я хочу отбраковывать.')
+
+(2807, 'ausrechnen', 'вычислять', 'обчислювати', 'r', 'ausgerechnet', 'rechnete aus', 'haben', 'B2', 'Er moechte ausrechnen.', 'Я хочу вычислять.')
+
+(2808, 'ausruesten', 'оснащать', 'оснащувати', 'r', 'ausgeruestet', 'ruestete aus', 'haben', 'B2', 'Er moechte ausruesten.', 'Я хочу оснащать.')
+
+(2809, 'aussiedeln', 'выселять', 'виселяти', 'r', 'ausgesiedelt', 'siedelte aus', 'haben', 'C1', 'Es ist wichtig zu aussiedeln.', 'Я хочу выселять.')
+
+(2810, 'aussortieren', 'сортировать', 'сортувати', 'r', 'aussortiert', 'aussortierte', 'haben', 'B2', 'Kannst du aussortieren?', 'Я хочу сортировать.')
+
+(2811, 'auswirken', 'воздействовать', 'впливати', 'r', 'ausgewirkt', 'wirkte aus', 'haben', 'B2', 'Er moechte auswirken.', 'Я хочу воздействовать.')
+
+(2812, 'bebauen', 'застраивать', 'забудовувати', 'r', 'bebaut', 'bebaute', 'haben', 'B2', 'Kannst du bebauen?', 'Я хочу застраивать.')
+
+(2813, 'bedenken', 'обдумывать', 'обдумувати', 'i', 'bedacht', 'bedachte', 'haben', 'C1', 'Ich moechte bedenken.', 'Я хочу обдумывать.'),
+
+(2814, 'befaehigen', 'делать способным', 'робити здатним', 'r', 'befaehigt', 'befaehigte', 'haben', 'B2', 'Kannst du befaehigen?', 'Я хочу делать способным.')
+
+(2815, 'begnuegen', 'довольствоваться', 'задовольнятися', 'r', 'begnuegt', 'begnuegte', 'haben', 'B2', 'Kannst du begnuegen?', 'Я хочу довольствоваться.')
+
+(2816, 'begraben', 'хоронить', 'ховати', 'i', 'begraben', 'begrub', 'haben', 'C1', 'Ich moechte begraben.', 'Я хочу хоронить.'),
+
+(2817, 'begruessen', 'приветствовать', 'вітати', 'r', 'begruesst', 'begruesste', 'haben', 'B2', 'Es ist wichtig zu begruessen.', 'Я хочу приветствовать.')
+
+(2818, 'behaupen', 'утверждать', 'стверджувати', 'r', 'behaupt', 'behaupte', 'haben', 'B2', 'Wir muessen behaupen.', 'Я хочу утверждать.')
+
+(2819, 'beiwohnen', 'присутствовать', 'бути присутнім', 'r', 'wohnt', 'wohnte', 'haben', 'C1', 'Kannst du beiwohnen?', 'Я хочу присутствовать.')
+
+(2820, 'bekleiden', 'одевать', 'одягати', 'r', 'bekleidet', 'bekleidete', 'haben', 'C1', 'Kannst du bekleiden?', 'Я хочу одевать.')
+
+(2821, 'bekraeftigen', 'подтверждать', 'підтверджувати', 'r', 'bekraeftigt', 'bekraeftigte', 'haben', 'B2', 'Kannst du bekraeftigen?', 'Я хочу подтверждать.')
+
+(2822, 'belasten', 'нагружать', 'навантажувати', 'r', 'belastet', 'belastete', 'haben', 'B2', 'Wir muessen belasten.', 'Я хочу нагружать.')
+
+(2823, 'belegen', 'доказывать', 'доводити', 'r', 'belegt', 'belegte', 'haben', 'B2', 'Ich moechte belegen.', 'Я хочу доказывать.')
+
+(2824, 'bemoegeln', 'обманывать', 'обманювати', 'r', 'bemoegelt', 'bemoegelte', 'haben', 'B2', 'Wir muessen bemoegeln.', 'Я хочу обманывать.')
+
+(2825, 'bemuhen', 'стараться', 'намагатися', 'r', 'bemuht', 'bemuhte', 'haben', 'B2', 'Ich moechte bemuhen.', 'Я хочу стараться.')
+
+(2826, 'benehmen', 'вести себя', 'поводитися', 'i', 'benehmen', 'benehm', 'haben', 'C1', 'Ich moechte benehmen.', 'Я хочу вести себя.'),
+
+(2827, 'benennen', 'называть', 'називати', 'i', 'benannt', 'benannte', 'haben', 'C1', 'Er moechte benennen.', 'Я хочу называть.'),
+
+(2828, 'beobachten', 'наблюдать', 'спостерігати', 'r', 'beobachtet', 'beobachtete', 'haben', 'B2', 'Ich versuche zu beobachten.', 'Я хочу наблюдать.')
+
+(2829, 'beschaedigen', 'повреждать', 'пошкоджувати', 'r', 'beschaedigt', 'beschaedigte', 'haben', 'B2', 'Es ist wichtig zu beschaedigen.', 'Я хочу повреждать.')
+
+(2830, 'bevoelkeren', 'населять', 'населяти', 'r', 'bevoelkert', 'bevoelkerte', 'haben', 'C1', 'Kannst du bevoelkeren?', 'Я хочу населять.')
+
+(2831, 'bewachen', 'охранять', 'охороняти', 'r', 'bewacht', 'bewachte', 'haben', 'C1', 'Er moechte bewachen.', 'Я хочу охранять.')
+
+(2832, 'bewaffnen', 'вооружать', 'озброювати', 'r', 'bewaffnet', 'bewaffnete', 'haben', 'C1', 'Er moechte bewaffnen.', 'Я хочу вооружать.')
+
+(2833, 'binden', 'связывать', 'зв''язувати', 'i', 'gebunden', 'band', 'haben', 'B2', 'Wir muessen binden.', 'Я хочу связывать.'),
+
+(2834, 'bummeln', 'гулять', 'гуляти', 'r', 'gebummelt', 'bummelte', 'haben', 'B2', 'Es ist wichtig zu bummeln.', 'Я хочу гулять.')
+
+(2835, 'daemmern', 'смеркаться', 'сутеніти', 'r', 'dageemmert', 'emmerte da', 'haben', 'B2', 'Es ist wichtig zu daemmern.', 'Я хочу смеркаться.')
+
+(2836, 'dampfen', 'парить', 'парити', 'r', 'dagempft', 'mpfte da', 'haben', 'B2', 'Ich versuche zu dampfen.', 'Я хочу парить.')
+
+(2837, 'darbieten', 'представляти', 'представляти', 'i', 'dagerbietet', 'rbietete da', 'haben', 'C1', 'Wir muessen darbieten.', 'Я хочу представляти.')
+
+(2838, 'durchsuchen', 'обыскивать', 'обшукувати', 'r', 'durchgesucht', 'suchte durch', 'haben', 'B2', 'Kannst du durchsuchen?', 'Я хочу обыскивать.')
+
+(2839, 'einberufen', 'призывать', 'призивати', 'i', 'einberufen', 'berief ein', 'haben', 'C1', 'Er moechte einberufen.', 'Я хочу призывать.'),
+
+(2840, 'einbilden', 'воображать', 'уявляти', 'r', 'eingebildet', 'bildete ein', 'haben', 'B2', 'Kannst du einbilden?', 'Я хочу воображать.')
+
+(2841, 'einbringen', 'вносить', 'вносити', 'i', 'eingebracht', 'brachte ein', 'haben', 'C1', 'Kannst du einbringen?', 'Я хочу вносить.'),
+
+(2842, 'einbuchen', 'заносить', 'заносити', 'r', 'eingebucht', 'buchte ein', 'haben', 'B2', 'Wir muessen einbuchen.', 'Я хочу заносить.')
+
+(2843, 'einkehren', 'заходить', 'заходити', 'r', 'eingekehrt', 'kehrte ein', 'sein', 'C1', 'Wir muessen einkehren.', 'Я хочу заходить.')
+
+(2844, 'einkreisen', 'окружать', 'оточувати', 'r', 'eingekreist', 'kreiste ein', 'haben', 'C1', 'Wir muessen einkreisen.', 'Я хочу окружать.')
+
+(2845, 'einloesen', 'выкупать', 'викуповувати', 'r', 'eingeloest', 'loeste ein', 'haben', 'B2', 'Ich versuche zu einloesen.', 'Я хочу выкупать.')
+
+(2846, 'einplanen', 'планировать', 'планувати', 'r', 'eingeplant', 'plante ein', 'haben', 'B2', 'Ich versuche zu einplanen.', 'Я хочу планировать.')
+
+(2847, 'einraeumen', 'вмещать', 'вміщати', 'r', 'eingeraeumt', 'raeumte ein', 'haben', 'B2', 'Kannst du einraeumen?', 'Я хочу вмещать.')
+
+(2848, 'einschaetzen', 'оценивать', 'оцінювати', 'r', 'eingeschaetzt', 'schaetzte ein', 'haben', 'B2', 'Ich moechte einschaetzen.', 'Я хочу оценивать.')
+
+(2849, 'einschenken', 'наливать', 'наливати', 'r', 'eingeschenkt', 'schenkte ein', 'haben', 'B2', 'Ich moechte einschenken.', 'Я хочу наливать.')
+
+(2850, 'einschlafern', 'усыплять', 'присипляти', 'r', 'eingeschlafert', 'schlaferte ein', 'haben', 'C1', 'Ich moechte einschlafern.', 'Я хочу усыплять.')
+
+(2851, 'einschlaefern', 'усыплять', 'присипляти', 'r', 'eingeschlaefert', 'schlaeferte ein', 'haben', 'B2', 'Kannst du einschlaefern?', 'Я хочу усыплять.')
+
+(2852, 'einschraenken', 'ограничивать', 'обмежувати', 'r', 'eingeschraenkt', 'schraenkte ein', 'haben', 'B2', 'Es ist wichtig zu einschraenken.', 'Я хочу ограничивать.')
+
+(2853, 'einspringen', 'подменять', 'підміняти', 'i', 'eingesprungen', 'sprang ein', 'sein', 'C1', 'Ich versuche zu einspringen.', 'Я хочу подменять.'),
+
+(2854, 'einstecken', 'вставлять', 'вставляти', 'r', '', '', 'haben', 'B2', 'Ich moechte einstecken.', 'Я хочу вставлять.'),
+
+(2855, 'einstimmen', 'настраивать', 'настроювати', 'r', 'eingestimmet', 'stimmete ein', 'haben', 'B2', 'Es ist wichtig zu einstimmen.', 'Я хочу настраивать.')
+
+(2856, 'eintreffen', 'прибывать', 'прибувати', 'i', 'eingetroffen', 'traf ein', 'sein', 'C1', 'Wir muessen eintreffen.', 'Я хочу прибывать.'),
+
+(2857, 'einweisen', 'направлять', 'направляти', 'i', 'eingewiesen', 'wies ein', 'haben', 'C1', 'Ich moechte einweisen.', 'Я хочу направлять.'),
+
+(2858, 'einwirken', 'воздействовать', 'впливати', 'r', 'eingewirkt', 'wirkte ein', 'haben', 'B2', 'Ich moechte einwirken.', 'Я хочу воздействовать.')
+
+(2859, 'einwoehnen', 'привыкать', 'звикати', 'r', 'eingewoehnt', 'woehnte ein', 'haben', 'C1', 'Es ist wichtig zu einwoehnen.', 'Я хочу привыкать.')
+
+(2860, 'empfinden', 'чувствовать', 'відчувати', 'i', 'empfunden', 'empfand', 'haben', 'C1', 'Er moechte empfinden.', 'Я хочу чувствовать.'),
+
+(2861, 'entfuehren', 'похищать', 'викрадати', 'r', 'entfuehrt', 'entfuehrte', 'haben', 'B2', 'Wir muessen entfuehren.', 'Я хочу похищать.')
+
+(2862, 'entladen', 'разгружать', 'розвантажувати', 'i', 'entladen', 'entlud', 'haben', 'C1', 'Ich versuche zu entladen.', 'Я хочу разгружать.'),
+
+(2863, 'entrollen', 'разворачивать', 'розгортати', 'r', 'entrollt', 'entrollte', 'haben', 'C1', 'Es ist wichtig zu entrollen.', 'Я хочу разворачивать.')
+
+(2864, 'entschuldigen', 'извинять', 'вибачати', 'r', 'entschuldigt', 'entschuldigte', 'haben', 'B2', 'Wir muessen entschuldigen.', 'Я хочу извинять.')
+
+(2865, 'entspannen', 'расслаблять', 'розслабляти', 'r', 'entspannet', 'entspannete', 'haben', 'B2', 'Ich moechte entspannen.', 'Я хочу расслаблять.')
+
+(2866, 'entwaessern', 'осушать', 'осушувати', 'r', 'entwaessert', 'entwaesserte', 'haben', 'C1', 'Es ist wichtig zu entwaessern.', 'Я хочу осушать.')
+
+(2867, 'entwenden', 'похищать', 'викрадати', 'i', 'entwendet', 'entwendete', 'haben', 'C1', 'Wir muessen entwenden.', 'Я хочу похищать.'),
+
+(2868, 'erarbeiten', 'разрабатывать', 'розробляти', 'r', 'erarbeitet', 'erarbeitete', 'haben', 'B2', 'Kannst du erarbeiten?', 'Я хочу разрабатывать.')
+
+(2869, 'erbauen', 'строить', 'будувати', 'r', 'erbaut', 'erbaute', 'haben', 'C1', 'Kannst du erbauen?', 'Я хочу строить.')
+
+(2870, 'erbrechen', 'рвать', 'рвати', 'i', 'erbrochen', 'erbrach', 'haben', 'C1', 'Ich versuche zu erbrechen.', 'Я хочу рвать.'),
+
+(2871, 'erbringen', 'приносити', 'приносити', 'i', 'erbracht', 'erbrachte', 'haben', 'C1', 'Kannst du erbringen?', 'Я хочу приносити.'),
+
+(2872, 'erdolchen', 'закалывать', 'заколювати', 'r', 'erdolcht', 'erdolchte', 'haben', 'C1', 'Ich moechte erdolchen.', 'Я хочу закалывать.')
+
+(2873, 'ereignen', 'происходить', 'відбуватися', 'r', 'ereignet', 'ereignete', 'haben', 'C1', 'Ich moechte ereignen.', 'Я хочу происходить.')
+
+(2874, 'erfolgen', 'следовать', 'слідувати', 'r', 'erfolgt', 'erfolgte', 'sein', 'B2', 'Es ist wichtig zu erfolgen.', 'Я хочу следовать.')
+
+(2875, 'erfordern', 'требовать', 'вимагати', 'r', 'erfordert', 'erforderte', 'haben', 'B2', 'Er moechte erfordern.', 'Я хочу требовать.')
+
+(2876, 'erforschen', 'исследовать', 'досліджувати', 'r', 'erforscht', 'erforschte', 'haben', 'B2', 'Kannst du erforschen?', 'Я хочу исследовать.')
+
+(2877, 'erfuellen', 'выполнять', 'виконувати', 'r', 'erfuellt', 'erfuellte', 'haben', 'B2', 'Ich versuche zu erfuellen.', 'Я хочу выполнять.')
+
+(2878, 'ergeben', 'давать', 'давати', 'i', 'ergeben', 'ergab', 'haben', 'C1', 'Ich versuche zu ergeben.', 'Я хочу давать.'),
+
+(2879, 'ergreifen', 'схватывать', 'схоплювати', 'i', 'ergriffen', 'ergriff', 'haben', 'C1', 'Kannst du ergreifen?', 'Я хочу схватывать.'),
+
+(2880, 'erhoehen', 'повышать', 'підвищувати', 'r', 'erhoeht', 'erhoehte', 'haben', 'B2', 'Wir muessen erhoehen.', 'Я хочу повышать.')
+
+(2881, 'erinnern', 'помнить', 'пам''ятати', 'r', 'erinnert', 'erinnerte', 'haben', 'B2', 'Kannst du erinnern?', 'Я хочу помнить.')
+
+(2882, 'erkundigen', 'осведомляться', 'довідуватися', 'r', 'erkundigt', 'erkundigte', 'haben', 'B2', 'Ich versuche zu erkundigen.', 'Я хочу осведомляться.')
+
+(2883, 'ermaechtigen', 'уполномочивать', 'уповноважувати', 'r', 'ermaechtigt', 'ermaechtigte', 'haben', 'C1', 'Er moechte ermaechtigen.', 'Я хочу уполномочивать.')
+
+(2884, 'ermorden', 'убивать', 'вбивати', 'r', 'ermordet', 'ermordete', 'haben', 'C1', 'Wir muessen ermorden.', 'Я хочу убивать.')
+
+(2885, 'eroeffnen', 'открывать', 'відкривати', 'r', 'eroeffnet', 'eroeffnete', 'haben', 'B2', 'Wir muessen eroeffnen.', 'Я хочу открывать.')
+
+(2886, 'erobern', 'завоевывать', 'завойовувати', 'r', 'erobert', 'eroberte', 'haben', 'B2', 'Ich versuche zu erobern.', 'Я хочу завоевывать.')
+
+(2887, 'erraten', 'угадывать', 'відгадувати', 'i', 'erraten', 'erriet', 'haben', 'C1', 'Wir muessen erraten.', 'Я хочу угадывать.'),
+
+(2888, 'erzwingen', 'принуждать', 'примушувати', 'i', 'erzwungen', 'erzwang', 'haben', 'C1', 'Kannst du erzwingen?', 'Я хочу принуждать.'),
+
+(2889, 'allozieren', 'распределять', 'розподіляти', 'r', 'alloziert', 'allozierte', 'haben', 'C1', 'Wir muessen allozieren.', 'Я хочу распределять.')
+
+(2890, 'annullieren', 'аннулировать', 'анулювати', 'r', 'annulliert', 'annullierte', 'haben', 'C1', 'Ich moechte annullieren.', 'Я хочу аннулировать.')
+
+(2891, 'bevoelligen', 'уполномочивать', 'уповноважувати', 'r', 'bevoelligt', 'bevoelligte', 'haben', 'C1', 'Er moechte bevoelligen.', 'Я хочу уполномочивать.')
+
+(2892, 'bevorraten', 'запасать', 'запасати', 'r', 'bevorratent', 'bevorratente', 'haben', 'C1', 'Ich moechte bevorraten.', 'Я хочу запасать.'),
+
+(2893, 'computerisieren', 'компьютеризировать', 'комп''ютеризувати', 'r', 'computerisiert', 'computerisierte', 'haben', 'C1', 'Kannst du computerisieren?', 'Я хочу компьютеризировать.')
+
+(2894, 'deponieren', 'депонировать', 'депонувати', 'r', 'deponiert', 'deponierte', 'haben', 'C1', 'Wir muessen deponieren.', 'Я хочу депонировать.')
+
+(2895, 'desertieren', 'дезертировать', 'дезертирувати', 'r', 'desertiert', 'desertierte', 'sein', 'C1', 'Wir muessen desertieren.', 'Я хочу дезертировать.')
+
+(2896, 'digitalisieren', 'цифровизировать', 'цифровізувати', 'r', 'digitalisiert', 'digitalisierte', 'haben', 'C1', 'Kannst du digitalisieren?', 'Я хочу цифровизировать.')
+
+(2897, 'disponieren', 'располагать', 'розташовувати', 'r', 'disponiert', 'disponierte', 'haben', 'C1', 'Es ist wichtig zu disponieren.', 'Я хочу располагать.')
+
+(2898, 'dotieren', 'дотировать', 'дотувати', 'r', 'dotiert', 'dotierte', 'haben', 'C1', 'Ich moechte dotieren.', 'Я хочу дотировать.')
+
+(2899, 'eliminieren', 'элиминировать', 'елімінувати', 'r', 'eliminiert', 'eliminierte', 'haben', 'C1', 'Es ist wichtig zu eliminieren.', 'Я хочу элиминировать.')
+
+(2900, 'etikettieren', 'этикетировать', 'етикетувати', 'r', 'etikettiert', 'etikettierte', 'haben', 'C1', 'Er moechte etikettieren.', 'Я хочу этикетировать.')
+
+(2901, 'evakuieren', 'эвакуировать', 'евакуювати', 'r', 'evakuiert', 'evakuierte', 'haben', 'C1', 'Kannst du evakuieren?', 'Я хочу эвакуировать.')
+
+(2902, 'falsifizieren', 'фальсифицировать', 'фальсифікувати', 'r', 'falsifiziert', 'falsifizierte', 'haben', 'C1', 'Er moechte falsifizieren.', 'Я хочу фальсифицировать.')
+
+(2903, 'fixieren', 'фиксировать', 'фіксувати', 'r', 'fixiert', 'fixierte', 'haben', 'C1', 'Kannst du fixieren?', 'Я хочу фиксировать.')
+
+(2904, 'frequentieren', 'часто посещать', 'часто відвідувати', 'r', 'frequentiert', 'frequentierte', 'haben', 'C1', 'Wir muessen frequentieren.', 'Я хочу часто посещать.')
+
+(2905, 'generalisieren', 'обобщать', 'узагальнювати', 'r', 'generalisiert', 'generalisierte', 'haben', 'C1', 'Wir muessen generalisieren.', 'Я хочу обобщать.')
+
+(2906, 'harmonisieren', 'гармонизировать', 'гармонізувати', 'r', 'harmonisiert', 'harmonisierte', 'haben', 'C1', 'Kannst du harmonisieren?', 'Я хочу гармонизировать.')
+
+(2907, 'hierarchisieren', 'иерархизировать', 'ієрархізувати', 'r', 'hierarchisiert', 'hierarchisierte', 'haben', 'C1', 'Er moechte hierarchisieren.', 'Я хочу иерархизировать.')
+
+(2908, 'honorieren', 'вознаграждать', 'винагороджувати', 'r', 'honoriert', 'honorierte', 'haben', 'C1', 'Kannst du honorieren?', 'Я хочу вознаграждать.')
+
+(2909, 'identifizieren', 'идентифицировать', 'ідентифікувати', 'r', 'identifiziert', 'identifizierte', 'haben', 'C1', 'Es ist wichtig zu identifizieren.', 'Я хочу идентифицировать.')
+
+(2910, 'imitieren', 'имитировать', 'імітувати', 'r', 'imitiert', 'imitierte', 'haben', 'C1', 'Kannst du imitieren?', 'Я хочу имитировать.')
+
+(2911, 'industrialisieren', 'индустриализировать', 'індустріалізувати', 'r', 'industrialisiert', 'industrialisierte', 'haben', 'C1', 'Ich moechte industrialisieren.', 'Я хочу индустриализировать.')
+
+(2912, 'informieren', 'информировать', 'інформувати', 'r', 'informiert', 'informierte', 'haben', 'C1', 'Kannst du informieren?', 'Я хочу информировать.')
+
+(2913, 'initialisieren', 'инициализировать', 'ініціалізувати', 'r', 'initialisiert', 'initialisierte', 'haben', 'C1', 'Kannst du initialisieren?', 'Я хочу инициализировать.')
+
+(2914, 'initiieren', 'инициировать', 'ініціювати', 'r', 'initiiert', 'initiierte', 'haben', 'C1', 'Es ist wichtig zu initiieren.', 'Я хочу инициировать.')
+
+(2915, 'institutionalisieren', 'институционализировать', 'інституціоналізувати', 'r', 'institutionalisiert', 'institutionalisierte', 'haben', 'C1', 'Er moechte institutionalisieren.', 'Я хочу институционализировать.')
+
+(2916, 'instrumentalisieren', 'инструментализировать', 'інструменталізувати', 'r', 'instrumentalisiert', 'instrumentalisierte', 'haben', 'C1', 'Kannst du instrumentalisieren?', 'Я хочу инструментализировать.')
+
+(2917, 'intervenieren', 'интервенировать', 'інтервенувати', 'r', 'interveniert', 'intervenierte', 'haben', 'C1', 'Es ist wichtig zu intervenieren.', 'Я хочу интервенировать.')
+
+(2918, 'isolieren', 'изолировать', 'ізолювати', 'r', 'isoliert', 'isolierte', 'haben', 'C1', 'Wir muessen isolieren.', 'Я хочу изолировать.')
+
+(2919, 'justieren', 'юстировать', 'юстувати', 'r', 'justiert', 'justierte', 'haben', 'C1', 'Er moechte justieren.', 'Я хочу юстировать.')
+
+(2920, 'kalibrieren', 'калибровать', 'калібрувати', 'r', 'kalibriert', 'kalibrierte', 'haben', 'C1', 'Kannst du kalibrieren?', 'Я хочу калибровать.')
+
+(2921, 'kanonisieren', 'канонизировать', 'канонізувати', 'r', 'kanonisiert', 'kanonisierte', 'haben', 'C1', 'Wir muessen kanonisieren.', 'Я хочу канонизировать.')
+
+(2922, 'kapitalisieren', 'капитализировать', 'капіталізувати', 'r', 'kapitalisiert', 'kapitalisierte', 'haben', 'C1', 'Ich moechte kapitalisieren.', 'Я хочу капитализировать.')
+
+(2923, 'katalogisieren', 'каталогизировать', 'каталогізувати', 'r', 'katalogisiert', 'katalogisierte', 'haben', 'C1', 'Es ist wichtig zu katalogisieren.', 'Я хочу каталогизировать.')
+
+(2924, 'kollektivisieren', 'коллективизировать', 'колективізувати', 'r', 'kollektivisiert', 'kollektivisierte', 'haben', 'C1', 'Ich moechte kollektivisieren.', 'Я хочу коллективизировать.')
+
+(2925, 'kombinieren', 'комбинировать', 'комбінувати', 'r', 'kombiniert', 'kombinierte', 'haben', 'C1', 'Kannst du kombinieren?', 'Я хочу комбинировать.')
+
+(2926, 'kommunizieren', 'общаться', 'спілкуватися', 'r', 'kommuniziert', 'kommunizierte', 'haben', 'C1', 'Ich moechte kommunizieren.', 'Я хочу общаться.')
+
+(2927, 'kompensieren', 'компенсировать', 'компенсувати', 'r', 'kompensiert', 'kompensierte', 'haben', 'C1', 'Ich moechte kompensieren.', 'Я хочу компенсировать.')
+
+(2928, 'konfrontieren', 'конфронтировать', 'конфронтувати', 'r', 'konfrontiert', 'konfrontierte', 'haben', 'C1', 'Wir muessen konfrontieren.', 'Я хочу конфронтировать.')
+
+(2929, 'konstituieren', 'учреждать', 'засновувати', 'r', 'konstituiert', 'konstituierte', 'haben', 'C1', 'Wir muessen konstituieren.', 'Я хочу учреждать.')
+
+(2930, 'konsumieren', 'потреблять', 'споживати', 'r', 'konsumiert', 'konsumierte', 'haben', 'C1', 'Ich moechte konsumieren.', 'Я хочу потреблять.')
+
+(2931, 'konvertieren', 'конвертировать', 'конвертувати', 'r', 'konvertiert', 'konvertierte', 'haben', 'C1', 'Er moechte konvertieren.', 'Я хочу конвертировать.')
+
+(2932, 'korrigieren', 'исправлять', 'виправляти', 'r', 'korrigiert', 'korrigierte', 'haben', 'C1', 'Wir muessen korrigieren.', 'Я хочу исправлять.')
+
+(2933, 'manipulieren', 'манипулировать', 'маніпулювати', 'r', 'manipuliert', 'manipulierte', 'haben', 'C1', 'Er moechte manipulieren.', 'Я хочу манипулировать.')
+
+(2934, 'maximieren', 'максимизировать', 'максимізувати', 'r', 'maximiert', 'maximierte', 'haben', 'C1', 'Ich moechte maximieren.', 'Я хочу максимизировать.')
+
+(2935, 'minimieren', 'минимизировать', 'мінімізувати', 'r', 'minimiert', 'minimierte', 'haben', 'C1', 'Es ist wichtig zu minimieren.', 'Я хочу минимизировать.')
+
+(2936, 'monetarisieren', 'монетизировать', 'монетизувати', 'r', 'monetarisiert', 'monetarisierte', 'haben', 'C1', 'Kannst du monetarisieren?', 'Я хочу монетизировать.')
+
+(2937, 'nationalisieren', 'национализировать', 'націоналізувати', 'r', 'nationalisiert', 'nationalisierte', 'haben', 'C1', 'Er moechte nationalisieren.', 'Я хочу национализировать.')
+
+(2938, 'neutralisieren', 'нейтрализовать', 'нейтралізувати', 'r', 'neutralisiert', 'neutralisierte', 'haben', 'C1', 'Er moechte neutralisieren.', 'Я хочу нейтрализовать.')
+
+(2939, 'nominieren', 'номинировать', 'номінувати', 'r', 'nominiert', 'nominierte', 'haben', 'C1', 'Er moechte nominieren.', 'Я хочу номинировать.')
+
+(2940, 'orchestrieren', 'оркестровать', 'оркеструвати', 'r', 'orchestriert', 'orchestrierte', 'haben', 'C1', 'Es ist wichtig zu orchestrieren.', 'Я хочу оркестровать.')
+
+(2941, 'paralysieren', 'парализовать', 'паралізувати', 'r', 'paralysiert', 'paralysierte', 'haben', 'C1', 'Wir muessen paralysieren.', 'Я хочу парализовать.')
+
+(2942, 'pluralisieren', 'плюрализировать', 'плюралізувати', 'r', 'pluralisiert', 'pluralisierte', 'haben', 'C1', 'Es ist wichtig zu pluralisieren.', 'Я хочу плюрализировать.')
+
+(2943, 'polarisieren', 'поляризовать', 'поляризувати', 'r', 'polarisiert', 'polarisierte', 'haben', 'C1', 'Es ist wichtig zu polarisieren.', 'Я хочу поляризовать.')
+
+(2944, 'professionalisieren', 'профессионализировать', 'професіоналізувати', 'r', 'professionalisiert', 'professionalisierte', 'haben', 'C1', 'Kannst du professionalisieren?', 'Я хочу профессионализировать.')
+
+(2945, 'projektieren', 'проектировать', 'проектувати', 'r', 'projektiert', 'projektierte', 'haben', 'C1', 'Ich moechte projektieren.', 'Я хочу проектировать.')
+
+(2946, 'prolongieren', 'пролонгировать', 'пролонгувати', 'r', 'prolongiert', 'prolongierte', 'haben', 'C1', 'Kannst du prolongieren?', 'Я хочу пролонгировать.')
+
+(2947, 'qualifizieren', 'квалифицировать', 'кваліфікувати', 'r', 'qualifiziert', 'qualifizierte', 'haben', 'C1', 'Wir muessen qualifizieren.', 'Я хочу квалифицировать.')
+
+(2948, 'realisieren', 'реализовывать', 'реалізовувати', 'r', 'realisiert', 'realisierte', 'haben', 'C1', 'Er moechte realisieren.', 'Я хочу реализовывать.')
+
+(2949, 'redefinieren', 'переопределять', 'перевизначати', 'r', 'redefiniert', 'redefinierte', 'haben', 'C1', 'Wir muessen redefinieren.', 'Я хочу переопределять.')
+
+(2950, 'reduzieren', 'сокращать', 'скорочувати', 'r', 'reduziert', 'reduzierte', 'haben', 'C1', 'Wir muessen reduzieren.', 'Я хочу сокращать.')
+
+(2951, 'reglementieren', 'регламентировать', 'регламентувати', 'r', 'reglementiert', 'reglementierte', 'haben', 'C1', 'Wir muessen reglementieren.', 'Я хочу регламентировать.')
+
+(2952, 'regulieren', 'регулировать', 'регулювати', 'r', 'reguliert', 'regulierte', 'haben', 'C1', 'Ich moechte regulieren.', 'Я хочу регулировать.')
+
+(2953, 'rekonstruieren', 'реконструировать', 'реконструювати', 'r', 'rekonstruiert', 'rekonstruierte', 'haben', 'C1', 'Kannst du rekonstruieren?', 'Я хочу реконструировать.')
+
+(2954, 'rekrutieren', 'рекрутировать', 'рекрутувати', 'r', 'rekrutiert', 'rekrutierte', 'haben', 'C1', 'Es ist wichtig zu rekrutieren.', 'Я хочу рекрутировать.')
+
+(2955, 'reproduzieren', 'воспроизводить', 'відтворювати', 'r', 'reproduziert', 'reproduzierte', 'haben', 'C1', 'Wir muessen reproduzieren.', 'Я хочу воспроизводить.')
+
+(2956, 'revozieren', 'отзывать', 'відкликати', 'r', 'revoziert', 'revozierte', 'haben', 'C1', 'Ich moechte revozieren.', 'Я хочу отзывать.')
+
+(2957, 'sabotieren', 'саботировать', 'саботувати', 'r', 'sabotiert', 'sabotierte', 'haben', 'C1', 'Kannst du sabotieren?', 'Я хочу саботировать.')
+
+(2958, 'saturieren', 'насыщать', 'насичувати', 'r', 'saturiert', 'saturierte', 'haben', 'C1', 'Er moechte saturieren.', 'Я хочу насыщать.')
+
+(2959, 'selektieren', 'отбирать', 'відбирати', 'r', 'selektiert', 'selektierte', 'haben', 'C1', 'Wir muessen selektieren.', 'Я хочу отбирать.')
+
+(2960, 'sensibilisieren', 'сенсибилизировать', 'сенсибілізувати', 'r', 'sensibilisiert', 'sensibilisierte', 'haben', 'C1', 'Es ist wichtig zu sensibilisieren.', 'Я хочу сенсибилизировать.')
+
+(2961, 'spezialisieren', 'специализировать', 'спеціалізувати', 'r', 'spezialisiert', 'spezialisierte', 'haben', 'C1', 'Wir muessen spezialisieren.', 'Я хочу специализировать.')
+
+(2962, 'stabilisieren', 'стабилизировать', 'стабілізувати', 'r', 'stabilisiert', 'stabilisierte', 'haben', 'C1', 'Kannst du stabilisieren?', 'Я хочу стабилизировать.')
+
+(2963, 'strategisieren', 'стратегизировать', 'стратегізувати', 'r', 'strategisiert', 'strategisierte', 'haben', 'C1', 'Ich moechte strategisieren.', 'Я хочу стратегизировать.')
+
+(2964, 'subjektivieren', 'субъективировать', 'суб''єктивувати', 'r', 'subjektiviert', 'subjektivierte', 'haben', 'C1', 'Kannst du subjektivieren?', 'Я хочу субъективировать.')
+
+(2965, 'substituieren', 'замещать', 'заміщувати', 'r', 'substituiert', 'substituierte', 'haben', 'C1', 'Wir muessen substituieren.', 'Я хочу замещать.')
+
+(2966, 'suspendieren', 'приостанавливать', 'призупиняти', 'r', 'suspendiert', 'suspendierte', 'haben', 'C1', 'Er moechte suspendieren.', 'Я хочу приостанавливать.')
+
+(2967, 'terminieren', 'назначать', 'призначати', 'r', 'terminiert', 'terminierte', 'haben', 'C1', 'Es ist wichtig zu terminieren.', 'Я хочу назначать.')
+
+(2968, 'testieren', 'заверять', 'завіряти', 'r', 'testiert', 'testierte', 'haben', 'C1', 'Wir muessen testieren.', 'Я хочу заверять.')
+
+(2969, 'torpedieren', 'торпедировать', 'торпедувати', 'r', 'torpediert', 'torpedierte', 'haben', 'C1', 'Er moechte torpedieren.', 'Я хочу торпедировать.')
+
+(2970, 'tradieren', 'передавать', 'передавати', 'r', 'tradiert', 'tradierte', 'haben', 'C1', 'Er moechte tradieren.', 'Я хочу передавать.')
+
+(2971, 'transkribieren', 'транскрибировать', 'транскрибувати', 'r', 'transkribiert', 'transkribierte', 'haben', 'C1', 'Es ist wichtig zu transkribieren.', 'Я хочу транскрибировать.')
+
+(2972, 'typisieren', 'типизировать', 'типізувати', 'r', 'typisiert', 'typisierte', 'haben', 'C1', 'Wir muessen typisieren.', 'Я хочу типизировать.')
+
+(2973, 'urbanisieren', 'урбанизировать', 'урбанізувати', 'r', 'urbanisiert', 'urbanisierte', 'haben', 'C1', 'Es ist wichtig zu urbanisieren.', 'Я хочу урбанизировать.')
+
+(2974, 'visualisieren', 'визуализировать', 'візуалізувати', 'r', 'visualisiert', 'visualisierte', 'haben', 'C1', 'Ich moechte visualisieren.', 'Я хочу визуализировать.')
+
+(2975, 'zentralisieren', 'централизовать', 'централізувати', 'r', 'zentralisiert', 'zentralisierte', 'haben', 'C1', 'Kannst du zentralisieren?', 'Я хочу централизовать.')
+
+(2976, 'bestatten', 'хоронить', 'ховати', 'r', 'bestattet', 'bestattete', 'haben', 'C1', 'Ich moechte bestatten.', 'Я хочу хоронить.')
+
+(2977, 'dechiffrieren', 'расшифровывать', 'розшифровувати', 'r', 'dechiffriert', 'dechiffrierte', 'haben', 'C1', 'Ich moechte dechiffrieren.', 'Я хочу расшифровывать.')
+
+(2978, 'dedizieren', 'посвящать', 'присвячувати', 'r', 'dediziert', 'dedizierte', 'haben', 'C1', 'Es ist wichtig zu dedizieren.', 'Я хочу посвящать.')
+
+(2979, 'degradieren', 'понижать', 'понижувати', 'r', 'degradiert', 'degradierte', 'haben', 'C1', 'Es ist wichtig zu degradieren.', 'Я хочу понижать.')
+
+(2980, 'deklassieren', 'деклассировать', 'декласувати', 'r', 'deklassiert', 'deklassierte', 'haben', 'C1', 'Kannst du deklassieren?', 'Я хочу деклассировать.')
+
+(2981, 'dekompilieren', 'декомпилировать', 'декомпілювати', 'r', 'dekompiliert', 'dekompilierte', 'haben', 'C1', 'Es ist wichtig zu dekompilieren.', 'Я хочу декомпилировать.')
+
+(2982, 'dekontaminieren', 'дезактивировать', 'дезактивувати', 'r', 'dekontaminiert', 'dekontaminierte', 'haben', 'C1', 'Wir muessen dekontaminieren.', 'Я хочу дезактивировать.')
+
+(2983, 'delogieren', 'выселять', 'виселяти', 'r', 'delogiert', 'delogierte', 'haben', 'C1', 'Kannst du delogieren?', 'Я хочу выселять.')
+
+(2984, 'demobilisieren', 'демобилизовать', 'демобілізувати', 'r', 'demobilisiert', 'demobilisierte', 'haben', 'C1', 'Er moechte demobilisieren.', 'Я хочу демобилизовать.')
+
+(2985, 'demontieren', 'демонтировать', 'демонтувати', 'r', 'demontiert', 'demontierte', 'haben', 'C1', 'Ich moechte demontieren.', 'Я хочу демонтировать.')
+
+(2986, 'deprimieren', 'угнетать', 'пригноблювати', 'r', 'deprimiert', 'deprimierte', 'haben', 'C1', 'Wir muessen deprimieren.', 'Я хочу угнетать.')
+
+(2987, 'desillusionieren', 'разочаровывать', 'розчаровувати', 'r', 'desillusioniert', 'desillusionierte', 'haben', 'C1', 'Wir muessen desillusionieren.', 'Я хочу разочаровывать.')
+
+(2988, 'destabilisieren', 'дестабилизировать', 'дестабілізувати', 'r', 'destabilisiert', 'destabilisierte', 'haben', 'C1', 'Er moechte destabilisieren.', 'Я хочу дестабилизировать.')
+
+(2989, 'determinieren', 'определять', 'визначати', 'r', 'determiniert', 'determinierte', 'haben', 'C1', 'Wir muessen determinieren.', 'Я хочу определять.')
+
+(2990, 'diplomieren', 'дипломировать', 'дипломувати', 'r', 'diplomiert', 'diplomierte', 'haben', 'C1', 'Es ist wichtig zu diplomieren.', 'Я хочу дипломировать.')
+
+(2991, 'disqualifizieren', 'дисквалифицировать', 'дискваліфікувати', 'r', 'disqualifiziert', 'disqualifizierte', 'haben', 'C1', 'Es ist wichtig zu disqualifizieren.', 'Я хочу дисквалифицировать.')
+
+(2992, 'distinguieren', 'различать', 'розрізняти', 'r', 'distinguiert', 'distinguierte', 'haben', 'C1', 'Wir muessen distinguieren.', 'Я хочу различать.')
+
+(2993, 'distribuieren', 'распределять', 'розподіляти', 'r', 'distribuiert', 'distribuierte', 'haben', 'C1', 'Es ist wichtig zu distribuieren.', 'Я хочу распределять.')
+
+(2994, 'echoloten', 'эхолотировать', 'ехолотувати', 'r', 'geecholotet', 'echolotete', 'haben', 'C1', 'Wir muessen echoloten.', 'Я хочу эхолотировать.')
+
+(2995, 'edieren', 'издавать', 'видавати', 'r', 'ediert', 'edierte', 'haben', 'C1', 'Wir muessen edieren.', 'Я хочу издавать.')
+
+(2996, 'editieren', 'редактировать', 'редагувати', 'r', 'editiert', 'editierte', 'haben', 'C1', 'Er moechte editieren.', 'Я хочу редактировать.')
+
+(2997, 'einbalsamieren', 'бальзамировать', 'бальзамувати', 'r', 'einbalsamiert', 'einbalsamierte', 'haben', 'C1', 'Wir muessen einbalsamieren.', 'Я хочу бальзамировать.')
+
+(2998, 'eindampfen', 'выпаривать', 'випаровувати', 'r', 'eingedampft', 'dampfte ein', 'haben', 'C1', 'Ich moechte eindampfen.', 'Я хочу выпаривать.')
+
+(2999, 'eindellen', 'вдавливать', 'вдавлювати', 'r', 'eingedellt', 'dellte ein', 'haben', 'C1', 'Kannst du eindellen?', 'Я хочу вдавливать.')
+
+(3000, 'einfrieden', 'огораживать', 'огороджувати', 'r', 'eingefriedet', 'friedete ein', 'haben', 'C1', 'Er moechte einfrieden.', 'Я хочу огораживать.')
+
+(3001, 'eingemeinden', 'присоединять', 'приєднувати', 'r', 'eingegemeindet', 'gemeindete ein', 'haben', 'C1', 'Er moechte eingemeinden.', 'Я хочу присоединять.')
+
+(3002, 'einimpfen', 'прививать', 'щепити', 'r', 'eingeimpft', 'impfte ein', 'haben', 'C1', 'Es ist wichtig zu einimpfen.', 'Я хочу прививать.')
+
+(3003, 'einkassieren', 'инкассировать', 'інкасувати', 'r', 'einkassiert', 'einkassierte', 'haben', 'C1', 'Wir muessen einkassieren.', 'Я хочу инкассировать.')
+
+(3004, 'einklammern', 'заключать в скобки', 'брати в дужки', 'r', 'eingeklammert', 'klammerte ein', 'haben', 'C1', 'Wir muessen einklammern.', 'Я хочу заключать в скобки.')
+
+(3005, 'einkoppeln', 'соединять', 'з''єднувати', 'r', 'eingekoppelt', 'koppelte ein', 'haben', 'C1', 'Es ist wichtig zu einkoppeln.', 'Я хочу соединять.')
+
+(3006, 'einlochen', 'сажать в тюрьму', 'садити до в''язниці', 'r', 'eingelocht', 'lochte ein', 'haben', 'C1', 'Er moechte einlochen.', 'Я хочу сажать в тюрьму.')
+
+(3007, 'einmuenden', 'впадать', 'впадати', 'r', 'eingemuendet', 'muendete ein', 'sein', 'C1', 'Es ist wichtig zu einmuenden.', 'Я хочу впадать.')
+
+(3008, 'einoelen', 'смазывать', 'змащувати', 'r', 'eingeoelt', 'oelte ein', 'haben', 'C1', 'Er moechte einoelen.', 'Я хочу смазывать.')
+
+(3009, 'einpendeln', 'урегулировать', 'врегульовувати', 'r', 'eingependelt', 'pendelte ein', 'haben', 'C1', 'Wir muessen einpendeln.', 'Я хочу урегулировать.')
+
+(3010, 'einpflanzen', 'имплантировать', 'імплантувати', 'r', 'eingepflanzt', 'pflanzte ein', 'haben', 'C1', 'Es ist wichtig zu einpflanzen.', 'Я хочу имплантировать.')
+
+(3011, 'einpinseln', 'закрашивать', 'зафарбовувати', 'r', 'eingepinselt', 'pinselte ein', 'haben', 'C1', 'Ich moechte einpinseln.', 'Я хочу закрашивать.')
+
+(3012, 'einrasten', 'защелкивать', 'защіпати', 'r', 'eingerastet', 'rastete ein', 'rastete ein', 'C1', 'Ich moechte einrasten.', 'Я хочу защелкивать.')
+
+(3013, 'einreden', 'убеждать', 'переконувати', 'r', 'eingeredet', 'redete ein', 'haben', 'C1', 'Es ist wichtig zu einreden.', 'Я хочу убеждать.')
+
+(3014, 'einsalben', 'умащивать', 'умащувати', 'r', 'eingesalbt', 'salbte ein', 'haben', 'C1', 'Er moechte einsalben.', 'Я хочу умащивать.')
+
+(3015, 'einsargen', 'класть в гроб', 'класти в труну', 'r', 'eingesargt', 'sargte ein', 'haben', 'C1', 'Wir muessen einsargen.', 'Я хочу класть в гроб.')
+
+(3016, 'einscannen', 'сканировать', 'сканувати', 'r', 'eingescannet', 'scannete ein', 'haben', 'C1', 'Es ist wichtig zu einscannen.', 'Я хочу сканировать.')
+
+(3017, 'einschleusen', 'внедрять', 'впроваджувати', 'r', 'eingeschleust', 'schleuste ein', 'haben', 'C1', 'Ich moechte einschleusen.', 'Я хочу внедрять.')
+
+(3018, 'einschmelzen', 'переплавлять', 'переплавляти', 'i', 'eingeschmolzen', 'schmolz ein', 'haben', 'C1', 'Er moechte einschmelzen.', 'Я хочу переплавлять.'),
+
+(3019, 'einschulen', 'зачислять в школу', 'зараховувати до школи', 'r', 'eingeschult', 'schulte ein', 'haben', 'C1', 'Er moechte einschulen.', 'Я хочу зачислять в школу.')
+
+(3020, 'regelmäßigen', 'упорядочивать', 'встановлювати порядок', 'regular', 'geregelmäßigt', 'regelmäßigte', 'haben', 'C1', 'Wir muessen die Arbeit regelmäßigen.', 'Нам нужно упорядочить работу.')
+
+(3021, 'aufhören', 'прекращать', 'переставати', 'separable', 'aufgehört', 'hörte auf', 'haben', 'B1', 'Er hat mit dem Rauchen aufgehört.', 'Он бросил курить.')
