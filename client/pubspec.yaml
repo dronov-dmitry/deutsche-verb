@@ -1,0 +1,48 @@
+name: deutsche_verb
+description: Offline-first German verbs learning app.
+publish_to: "none"
+version: 1.0.25
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  provider: ^6.1.2
+  sqflite: ^2.4.1
+  sqflite_common_ffi: ^2.3.4
+  sqlite3_flutter_libs: ^0.5.24
+  url_launcher: ^6.3.2
+  http: ^1.2.2
+  open_filex: ^4.5.0
+  package_info_plus: ^8.3.1
+  flutter_markdown: ^0.7.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  image_path: "icons/app_icon.png"
+  android: true
+  windows:
+    image_path: "icons/app_icon.ico"
+  web:
+    image_path: "icons/app_icon.png"
+    favicon_path: "icons/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/database/schema.sql
+    - assets/database/data.sql
+    - assets/database/descriptions.sql
+    - assets/database/example_translations_uk.sql
+    - assets/database/links.sql
+    - assets/database/descriptions_verbformen.sql
+    - icons/app_icon.png
