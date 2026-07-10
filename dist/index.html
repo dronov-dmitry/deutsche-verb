@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="Deutsche Verb is a fully offline app for learning German verbs with flashcards, filters, progress tracking, and ~3000 verbs from A1 to C1.">
+  <meta property="og:title" content="Deutsche Verb - Offline German Verb Trainer">
+  <meta property="og:description" content="Learn German verbs from A1 to C1 offline. No account, no server, no internet required.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/app-icon-512.png">
+  <title>Deutsche Verb - Offline German Verb Trainer</title>
+  <link rel="icon" href="assets/app-icon-192.png">
+  <link rel="apple-touch-icon" href="assets/app-icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    :root{color-scheme:light dark;--bg:#f7f3ec;--ink:#17201a;--muted:#5d675f;--panel:rgba(255,255,255,.76);--line:rgba(23,32,26,.14);--green:#25634f;--gold:#d49431;--red:#ca4e3a;--blue:#2d6ea3;--shadow:0 24px 80px rgba(22,31,25,.16)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink)}.hero{min-height:94svh;display:grid;align-items:center;padding:88px 20px 36px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 18% 16%,rgba(212,148,49,.24),transparent 30%),linear-gradient(135deg,rgba(37,99,79,.12),transparent 48%),radial-gradient(circle at 88% 72%,rgba(202,78,58,.18),transparent 32%);pointer-events:none}.nav{position:fixed;z-index:20;top:14px;left:14px;right:14px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:rgba(247,243,236,.72);backdrop-filter:blur(18px)}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand img{width:34px;height:34px;border-radius:8px}.lang-switch{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.45)}.lang-switch button{border:0;background:transparent;color:var(--muted);font-weight:800;padding:8px 9px;border-radius:6px;cursor:pointer}.lang-switch button[aria-pressed=true]{background:var(--ink);color:var(--bg)}.hero-inner{position:relative;display:grid;gap:30px;max-width:1160px;margin:0 auto;width:100%}.eyebrow{display:inline-flex;width:max-content;gap:8px;align-items:center;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:rgba(255,255,255,.54);font-size:13px;font-weight:800;color:var(--green)}h1{font-size:clamp(42px,12vw,88px);line-height:.92;margin:14px 0 18px;letter-spacing:0;max-width:780px}.lead{font-size:clamp(18px,4.6vw,24px);line-height:1.45;color:var(--muted);max-width:650px;margin:0}.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.button{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 18px;border-radius:8px;border:1px solid var(--line);text-decoration:none;font-weight:850;color:var(--ink);background:rgba(255,255,255,.62);transition:transform .22s ease,box-shadow .22s ease,background .22s ease}.button.primary{background:var(--green);color:#fff;border-color:var(--green);box-shadow:0 16px 34px rgba(37,99,79,.24)}.button:hover{transform:translateY(-2px);box-shadow:0 18px 42px rgba(22,31,25,.14)}@media (prefers-color-scheme:dark){:root{--bg:#101512;--ink:#f3f0e9;--muted:#bac5bb;--panel:rgba(22,29,24,.78);--line:rgba(243,240,233,.16);--shadow:0 26px 90px rgba(0,0,0,.42)}.nav{background:rgba(16,21,18,.68)}.lang-switch{background:rgba(255,255,255,.06)}.button:not(.primary),.eyebrow{background:rgba(255,255,255,.08)}}
+  </style>
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Deutsche Verb","applicationCategory":"EducationalApplication","operatingSystem":"Android, Windows, Linux, macOS","description":"Fully offline app for learning German verbs with flashcards, progress tracking, filters, and about 3000 verbs from A1 to C1.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Dmitry Dronov"}}
+  </script>
+</head>
+<body>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="index.html" aria-label="Deutsche Verb home">
+      <img src="assets/app-icon-192.png" width="34" height="34" alt="">
+      <span>Deutsche Verb</span>
+    </a>
+    <div class="nav-actions">
+      <a class="nav-link" href="#features" data-i18n="navFeatures">Features</a>
+      <a class="nav-link" href="#privacy" data-i18n="navPrivacy">Privacy</a>
+      <div class="lang-switch" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+        <button type="button" data-lang="de" aria-pressed="false">DE</button>
+        <button type="button" data-lang="ua" aria-pressed="false">UA</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <section class="hero-copy reveal">
+        <span class="eyebrow" data-i18n="eyebrow">Offline German verb trainer</span>
+        <h1 data-i18n="heroTitle">Learn the verbs that make German move.</h1>
+        <p class="lead" data-i18n="heroLead">Deutsche Verb keeps ~3000 A1-C1 verbs, flashcards, examples, filters, and progress on your device. No login. No server. No internet.</p>
+        <div class="cta-row">
+          <a class="button primary haptic" href="https://github.com/dronov-dmitry/deutsche-verb/releases" data-i18n="primaryCta">Download app</a>
+          <a class="button haptic" href="#how" data-i18n="secondaryCta">See how it works</a>
+        </div>
+      </section>
+
+      <section class="phone-stage reveal" aria-label="Product preview">
+        <div class="learning-radar" aria-hidden="true">
+          <span>A1</span><span>A2</span><span>B1</span><span>B2</span><span>C1</span>
+        </div>
+        <div class="phone-shell">
+          <div class="phone-top">
+            <span>Deutsche Verb</span>
+            <span class="status-dot"></span>
+          </div>
+          <div class="verb-card" tabindex="0" role="button" aria-label="Flip card preview">
+            <div class="verb-card-inner">
+              <div class="verb-card-face card-front">
+                <small data-i18n="cardLabel">Flashcard</small>
+                <strong>beginnen</strong>
+                <span>Präteritum: begann</span>
+                <span>Partizip II: begonnen</span>
+              </div>
+              <div class="verb-card-face card-back">
+                <small data-i18n="cardBackLabel">Meaning and example</small>
+                <strong data-i18n="cardMeaning">to begin</strong>
+                <span>Der Unterricht beginnt um neun.</span>
+                <span data-i18n="cardExample">The lesson begins at nine.</span>
+              </div>
+            </div>
+          </div>
+          <div class="chips" aria-hidden="true">
+            <span>A1</span><span>B2</span><span>strong</span><span>repeat</span>
+          </div>
+          <div class="progress-preview">
+            <div><b>1847</b><span data-i18n="learned">learned</span></div>
+            <div><b>73%</b><span data-i18n="progress">progress</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section class="strip" aria-label="App highlights">
+      <div class="metric reveal"><b>~3000</b><span data-i18n="metricVerbs">German verbs</span></div>
+      <div class="metric reveal"><b>A1-C1</b><span data-i18n="metricLevels">CEFR levels</span></div>
+      <div class="metric reveal"><b>0</b><span data-i18n="metricAccounts">accounts or servers</span></div>
+    </section>
+
+    <section class="section feature-grid" id="features">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="featuresEyebrow">Built for repetition</span>
+        <h2 data-i18n="featuresTitle">A compact grammar engine for daily practice.</h2>
+      </div>
+      <article class="feature reveal"><span class="icon">01</span><h3 data-i18n="feature1Title">Flashcards that flip fast</h3><p data-i18n="feature1Text">Tap, swipe, mark as known, or send a verb back to repeat without losing your flow.</p></article>
+      <article class="feature reveal"><span class="icon">02</span><h3 data-i18n="feature2Title">Filters that match real study</h3><p data-i18n="feature2Text">Focus by level, weak, strong, mixed verbs, learned, unlearned, or repeat queue.</p></article>
+      <article class="feature reveal"><span class="icon">03</span><h3 data-i18n="feature3Title">Forms, examples, descriptions</h3><p data-i18n="feature3Text">Review Präteritum, Partizip II, auxiliary verbs, translations, and usage examples in one place.</p></article>
+      <article class="feature reveal"><span class="icon">04</span><h3 data-i18n="feature4Title">Search without friction</h3><p data-i18n="feature4Text">Find a verb by German infinitive or translation, even when you are offline.</p></article>
+    </section>
+
+    <section class="section workflow" id="how">
+      <div class="section-heading reveal">
+        <span class="eyebrow" data-i18n="howEyebrow">Practice loop</span>
+        <h2 data-i18n="howTitle">From unknown to automatic.</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span>1</span><h3 data-i18n="step1Title">Choose a level</h3><p data-i18n="step1Text">Start with A1 basics or narrow the deck to B2-C1 verbs.</p></div>
+        <div class="step reveal"><span>2</span><h3 data-i18n="step2Title">Train the forms</h3><p data-i18n="step2Text">Flip cards to connect meaning, forms, and example sentences.</p></div>
+        <div class="step reveal"><span>3</span><h3 data-i18n="step3Title">Track momentum</h3><p data-i18n="step3Text">Mark learned verbs and watch progress by level grow over time.</p></div>
+      </div>
+    </section>
+
+    <section class="section privacy-band" id="privacy">
+      <div class="privacy-copy reveal">
+        <span class="eyebrow" data-i18n="privacyEyebrow">Privacy by architecture</span>
+        <h2 data-i18n="privacyTitle">The best data policy is not collecting it.</h2>
+        <p data-i18n="privacyText">Deutsche Verb works from a built-in local database. Study history stays on your device, and the app does not require registration or a remote account.</p>
+      </div>
+      <div class="privacy-points reveal">
+        <span data-i18n="privacyPoint1">No login</span>
+        <span data-i18n="privacyPoint2">No learning server</span>
+        <span data-i18n="privacyPoint3">Offline database</span>
+      </div>
+    </section>
+
+    <section class="section final-cta">
+      <div class="reveal">
+        <h2 data-i18n="finalTitle">Build a verb habit that works anywhere.</h2>
+        <p data-i18n="finalText">On a train, in a classroom, or with unstable internet, your German verb practice stays available.</p>
+        <a class="button primary haptic" href="https://github.com/dronov-dmitry/deutsche-verb/releases" data-i18n="finalCta">Get Deutsche Verb</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html">
+      <img src="assets/app-icon-192.png" width="34" height="34" alt="">
+      <span>Deutsche Verb</span>
+    </a>
+    <div>
+      <a href="privacy.html" data-i18n="footerPrivacy">Privacy Policy</a>
+      <span>© 2026 Dmitry Dronov</span>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
