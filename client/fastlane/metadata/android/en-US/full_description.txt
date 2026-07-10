@@ -1,0 +1,15 @@
+Fully offline app for learning German verbs. No server, no login, no internet required.
+
+Features:
+• ~3000 verbs from A1 to C1 levels
+• Flashcards with flip animation and progress tracking
+• Filter by verb type: weak, strong, and mixed
+• Filter by level: A1, A2, B1, B2, C1
+• Search by infinitive or translation
+• Dark theme
+• Language switch: Russian / Ukrainian
+• Progress tracking — mark verbs as learned, track repetitions
+• Stats — learned verbs by level
+• Verb descriptions with usage examples for each verb
+
+This app is free software. Licensed under GNU GPL v3.
