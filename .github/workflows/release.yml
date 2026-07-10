@@ -1,0 +1,159 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - run: flutter pub get
+        working-directory: client
+
+      - name: Decode keystore
+        run: echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > client/android/key.jks
+
+      - name: Build APK
+        run: flutter build apk --release
+        working-directory: client
+        env:
+          KEYSTORE_PATH: key.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+
+      - name: Build App Bundle
+        run: flutter build appbundle --release
+        working-directory: client
+        env:
+          KEYSTORE_PATH: key.jks
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: apk
+          path: client/build/app/outputs/flutter-apk/app-release.apk
+
+      - name: Upload AAB
+        uses: actions/upload-artifact@v4
+        with:
+          name: aab
+          path: client/build/app/outputs/bundle/release/app-release.aab
+
+  windows:
+    runs-on: windows-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: flutter pub get
+        working-directory: client
+      - run: flutter build windows --release
+        working-directory: client
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: client/build/windows/x64/runner/Release/
+
+  linux:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake ninja-build libgtk-3-dev liblzma-dev
+      - run: flutter pub get
+        working-directory: client
+      - run: flutter build linux --release
+        working-directory: client
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux
+          path: client/build/linux/x64/release/bundle/
+
+  macos:
+    runs-on: macos-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - run: flutter pub get
+        working-directory: client
+      - name: Build and archive macOS
+        run: |
+          flutter build macos --release 2>&1 || {
+            echo "❌ macOS build failed (see above)"
+            exit 1
+          }
+          cd build/macos/Build/Products/Release
+          app=$(ls -d *.app 2>/dev/null | head -1)
+          if [ -z "$app" ]; then
+            echo "No .app found in build output" >&2
+            ls -la
+            exit 1
+          fi
+          echo "Archiving: $app"
+          zip -r macos.zip "$app"
+        working-directory: client
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos
+          path: client/build/macos/Build/Products/Release/macos.zip
+
+  release:
+    needs: [android]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download APK
+        uses: actions/download-artifact@v4
+        with:
+          name: apk
+
+      - name: Download AAB
+        uses: actions/download-artifact@v4
+        with:
+          name: aab
+
+      - name: Download macOS
+        uses: actions/download-artifact@v4
+        with:
+          name: macos
+        continue-on-error: true
+
+      - name: Create Release
+        run: |
+          files=()
+          files+=("app-release.apk")
+          files+=("app-release.aab")
+          if [ -f macos/macos.zip ]; then files+=("macos/macos.zip"); fi
+          gh release create "$GITHUB_REF_NAME" "${files[@]}" --generate-notes
+        env:
+          GH_TOKEN: ${{ github.token }}
