@@ -1,0 +1,4 @@
+storeFile=release-upload-key.jks
+storePassword=change-me
+keyAlias=deutsche-verb
+keyPassword=change-me
